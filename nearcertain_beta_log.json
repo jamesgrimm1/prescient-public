@@ -1,5 +1,5 @@
 {
-  "bankroll": 916.71,
+  "bankroll": 917.6,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -30483,10 +30483,13 @@
       "potential_payout": 2.3,
       "closes": "2026-05-04T19:00:00+00:00",
       "closes_in_days": 0.936,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-03T20:32:05.034457+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T21:01:14.316297+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260503203205034731",
@@ -30501,10 +30504,13 @@
       "potential_payout": 1.35,
       "closes": "2026-05-04T19:00:00+00:00",
       "closes_in_days": 0.936,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-03T20:32:05.034742+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-04T21:01:14.396079+00:00",
+      "realized_pnl": 0.89
     },
     {
       "id": "NC20260503213244027469",
@@ -32859,10 +32865,13 @@
       "potential_payout": 2.56,
       "closes": "2026-05-04T21:00:00+00:00",
       "closes_in_days": 0.186,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T16:31:58.435357+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T21:01:17.102436+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504163158435772",
@@ -33442,11 +33451,29 @@
       "placed_at": "2026-05-04T20:58:26.775949+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504210127328881",
+      "market_id": "2134156",
+      "market": "Valorant: Evil Geniuses Academy vs Division One - Map 2 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 33,
+      "entry_yes_price": 67,
+      "stake": 0.46,
+      "potential_profit": 0.93,
+      "potential_payout": 1.39,
+      "closes": "2026-05-05T00:00:00+00:00",
+      "closes_in_days": 0.124,
+      "status": "open",
+      "placed_at": "2026-05-04T21:01:27.328900+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 30.89,
+  "daily_loss": 31.81,
   "daily_reset": "2026-05-04",
-  "scan_count": 222,
+  "scan_count": 223,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
