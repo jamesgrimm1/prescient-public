@@ -1,5 +1,5 @@
 {
-  "bankroll": 954.45,
+  "bankroll": 930.59,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -1545,12 +1545,15 @@
       "potential_payout": 138.9,
       "closes": "2026-05-04T20:10:00+00:00",
       "closes_in_days": 0.213,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T15:03:26.166052+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 1111.02
+      "ap_bankroll_at_placement": 1111.02,
+      "won": false,
+      "resolved_at": "2026-05-04T20:58:27.274356+00:00",
+      "realized_pnl": -27.78
     },
     {
       "id": "AP20260504154001057947",
@@ -1568,12 +1571,15 @@
       "potential_payout": 123.09,
       "closes": "2026-05-04T19:00:00+00:00",
       "closes_in_days": 0.139,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T15:40:01.057961+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 1083.24
+      "ap_bankroll_at_placement": 1083.24,
+      "won": false,
+      "resolved_at": "2026-05-04T20:58:27.337543+00:00",
+      "realized_pnl": -27.08
     },
     {
       "id": "AP20260504172134130573",
@@ -1666,11 +1672,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 978.92
+    },
+    {
+      "id": "AP20260504205826246808",
+      "market_id": "2071372",
+      "market": "LoL: Estral Esports vs INTZ e-Sports (BO3) - Circuito Desafiante Playoffs",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_lol",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 23.86,
+      "potential_profit": 125.26,
+      "potential_payout": 149.12,
+      "closes": "2026-05-05T02:00:00+00:00",
+      "closes_in_days": 0.21,
+      "status": "open",
+      "placed_at": "2026-05-04T20:58:26.246823+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 954.45
     }
   ],
-  "daily_loss": 420.81,
+  "daily_loss": 475.67,
   "daily_reset": "2026-05-04",
-  "scan_count": 111,
+  "scan_count": 112,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",

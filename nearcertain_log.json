@@ -1,5 +1,5 @@
 {
-  "bankroll": 691.72,
+  "bankroll": 671.12,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -8500,10 +8500,13 @@
       "potential_payout": 41.5,
       "closes": "2026-05-04T12:00:00+00:00",
       "closes_in_days": 0.425,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T01:47:56.421726+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T20:57:56.888373+00:00",
+      "realized_pnl": -6.64
     },
     {
       "id": "NC20260504014756421881",
@@ -9332,10 +9335,46 @@
       "placed_at": "2026-05-04T19:12:42.632757+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504205806944205",
+      "market_id": "2144561",
+      "market": "Will the lowest temperature in Seoul be 8\u00b0C on May 5?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 10.38,
+      "potential_profit": 162.62,
+      "potential_payout": 173.0,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "closes_in_days": 0.626,
+      "status": "open",
+      "placed_at": "2026-05-04T20:58:06.944224+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504205806944531",
+      "market_id": "2144634",
+      "market": "Will the lowest temperature in Tokyo be 14\u00b0C on May 5?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 8,
+      "entry_yes_price": 92,
+      "stake": 10.22,
+      "potential_profit": 117.53,
+      "potential_payout": 127.75,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "closes_in_days": 0.626,
+      "status": "open",
+      "placed_at": "2026-05-04T20:58:06.944546+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 141.68,
+  "daily_loss": 148.32,
   "daily_reset": "2026-05-04",
-  "scan_count": 276,
+  "scan_count": 277,
   "started": "2026-04-21T00:00:00+00:00"
 }

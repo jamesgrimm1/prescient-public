@@ -1,7 +1,28 @@
 {
-  "bankroll": 27.27,
-  "trades": [],
-  "scan_count": 10,
+  "bankroll": 24.16,
+  "trades": [
+    {
+      "id": "LIVE_1777927760",
+      "paper_trade_id": "T1777689707",
+      "market_id": "2062065",
+      "market": "Will Sweetgreen (SG) beat quarterly earnings?",
+      "position": "NO",
+      "entry_price": 14,
+      "stake": 3.11,
+      "paper_stake": 268.11,
+      "scale_factor": 0.011591,
+      "clob_order_id": "0x6548d2b2a806671ae773e866d07900a80629a261cefbf93784e7da5a1a4b2439",
+      "clob_status": "live",
+      "fill_pct": 0.0,
+      "confidence": 77,
+      "category": "stocks",
+      "closes": "2026-05-07T21:00:00+00:00",
+      "placed_at": "2026-05-04T20:49:20.897666+00:00",
+      "paper": false,
+      "status": "open"
+    }
+  ],
+  "scan_count": 11,
   "started": "2026-05-04T13:35:26.338419+00:00",
   "note": "ClaudeBot live trades. Starting bankroll = total wallet ($42.27) minus AP allocation ($15.00). Scales with real trade outcomes."
 }
