@@ -1,5 +1,5 @@
 {
-  "bankroll": 922.33,
+  "bankroll": 920.95,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -32845,11 +32845,65 @@
       "placed_at": "2026-05-04T16:31:58.437937+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504165130051754",
+      "market_id": "2046290",
+      "market": "UD Almer\u00eda vs. CD Mirand\u00e9s: O/U 2.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 34,
+      "entry_yes_price": 66,
+      "stake": 0.46,
+      "potential_profit": 0.89,
+      "potential_payout": 1.35,
+      "closes": "2026-05-04T18:30:00+00:00",
+      "closes_in_days": 0.069,
+      "status": "open",
+      "placed_at": "2026-05-04T16:51:30.051776+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504165130052541",
+      "market_id": "2153704",
+      "market": "Counter-Strike: Atreides vs Brute (BO3) - CCT Europe Challengers Series Playoffs",
+      "category": "conflict",
+      "position": "NO",
+      "entry_no_price": 28,
+      "entry_yes_price": 72,
+      "stake": 0.46,
+      "potential_profit": 1.18,
+      "potential_payout": 1.64,
+      "closes": "2026-05-04T19:45:00+00:00",
+      "closes_in_days": 0.121,
+      "status": "open",
+      "placed_at": "2026-05-04T16:51:30.052565+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504165130053055",
+      "market_id": "2132117",
+      "market": "S&P 500 (SPY) closes above $715 on May 4?",
+      "category": "economics",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 0.46,
+      "potential_profit": 1.46,
+      "potential_payout": 1.92,
+      "closes": "2026-05-04T20:00:00+00:00",
+      "closes_in_days": 0.131,
+      "status": "open",
+      "placed_at": "2026-05-04T16:51:30.053076+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 21.71,
   "daily_reset": "2026-05-04",
-  "scan_count": 217,
+  "scan_count": 218,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
