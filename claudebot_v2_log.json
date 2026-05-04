@@ -1,5 +1,5 @@
 {
-  "bankroll": 862.49,
+  "bankroll": 707.44,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -130,11 +130,43 @@
       "placed_at": "2026-05-04T06:17:32.672838+00:00",
       "paper": true,
       "model": "claude-opus-4-6"
+    },
+    {
+      "id": "V2_1777909753",
+      "tier": 1,
+      "market_id": "2062026",
+      "market_slug": "ionq-quarterly-earnings-gaap-eps-05-06-2026-neg0pt51",
+      "market": "Will IONQ (IONQ) beat quarterly earnings?",
+      "position": "NO",
+      "entry_price": 11,
+      "stake": 155.05,
+      "potential_return": 1409.55,
+      "potential_profit": 1254.5,
+      "confidence": 77,
+      "true_prob": 57,
+      "market_prob": 89,
+      "category": "stocks",
+      "closes_in_days": 2.2,
+      "closes": "2026-05-06T21:00:00+00:00",
+      "research_summary": "IONQ has only beaten earnings in 2 of its last 4 quarters (50% beat rate). Zacks ESP is exactly 0.00%, indicating zero expected surprise. Market pricing at 89% YES is massively disconnected from both the company-specific 50% beat rate and the neutral ESP signal.",
+      "key_factors": [
+        "50% historical beat rate in last 4 quarters",
+        "0.00% Zacks ESP indicates no expected surprise",
+        "89\u00a2 YES price implies extreme overconfidence vs fundamentals",
+        "Small-cap quantum computing company with volatile earnings"
+      ],
+      "bear_case": "Market volume ($9.9K) suggests some informed money; IONQ may have undisclosed contract wins or revenue beats driving consensus higher than Zacks captures; quantum computing hype could correlate with real business momentum",
+      "kelly_tier": "half-Kelly (100.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-04T15:49:13.957350+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-04",
-  "scan_count": 99,
+  "scan_count": 100,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
