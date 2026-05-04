@@ -1,5 +1,5 @@
 {
-  "bankroll": 12.0,
+  "bankroll": 11.0,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -55,6 +55,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T00:00:00+00:00",
       "placed_at": "2026-05-04T20:49:22.899580+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777929134",
+      "paper_trade_id": "AP20260504205826246808",
+      "market_id": "2071372",
+      "market": "LoL: Estral Esports vs INTZ e-Sports (BO3) - Circuito Desafiante Playoffs",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 16,
+      "stake": 1.0,
+      "paper_stake": 23.86,
+      "scale_factor": 0.012895,
+      "clob_order_id": "0xbf06892bd8affcbb615164005cb157795cece16772c9fcdcc3c3b7a088c85c3f",
+      "clob_status": "live",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T02:00:00+00:00",
+      "placed_at": "2026-05-04T21:12:14.668900+00:00",
       "paper": false,
       "status": "open"
     }
