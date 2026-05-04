@@ -1,5 +1,5 @@
 {
-  "bankroll": 747.8,
+  "bankroll": 731.06,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -9200,10 +9200,46 @@
       "placed_at": "2026-05-04T16:31:34.559508+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504172114640013",
+      "market_id": "2132155",
+      "market": "Will Google (GOOGL) close above $380 on May 4?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 8,
+      "entry_yes_price": 92,
+      "stake": 11.22,
+      "potential_profit": 129.03,
+      "potential_payout": 140.25,
+      "closes": "2026-05-04T20:00:00+00:00",
+      "closes_in_days": 0.11,
+      "status": "open",
+      "placed_at": "2026-05-04T17:21:14.640034+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504172114640458",
+      "market_id": "2152646",
+      "market": "Valorant: Ramboot Club vs KPI Gaming (BO3) - VCL Spain: Rising Phase 2 Playoffs",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 19,
+      "entry_yes_price": 81,
+      "stake": 5.52,
+      "potential_profit": 23.53,
+      "potential_payout": 29.05,
+      "closes": "2026-05-04T21:10:00+00:00",
+      "closes_in_days": 0.159,
+      "status": "open",
+      "placed_at": "2026-05-04T17:21:14.640476+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 122.55,
   "daily_reset": "2026-05-04",
-  "scan_count": 273,
+  "scan_count": 274,
   "started": "2026-04-21T00:00:00+00:00"
 }
