@@ -1,5 +1,5 @@
 {
-  "bankroll": 751.56,
+  "bankroll": 747.8,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -8902,10 +8902,13 @@
       "potential_payout": 27.9,
       "closes": "2026-05-04T14:00:00+00:00",
       "closes_in_days": 0.289,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T07:03:41.010410+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T16:31:24.265175+00:00",
+      "realized_pnl": -5.58
     },
     {
       "id": "NC20260504070341010733",
@@ -9179,10 +9182,28 @@
       "placed_at": "2026-05-04T15:39:43.622479+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504163134559486",
+      "market_id": "2132136",
+      "market": "WTI Crude Oil (WTI) closes above $104 on May 4?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 3.76,
+      "potential_profit": 13.33,
+      "potential_payout": 17.09,
+      "closes": "2026-05-04T21:00:00+00:00",
+      "closes_in_days": 0.187,
+      "status": "open",
+      "placed_at": "2026-05-04T16:31:34.559508+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 116.97,
+  "daily_loss": 122.55,
   "daily_reset": "2026-05-04",
-  "scan_count": 271,
+  "scan_count": 272,
   "started": "2026-04-21T00:00:00+00:00"
 }

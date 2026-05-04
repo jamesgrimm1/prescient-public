@@ -1,5 +1,5 @@
 {
-  "bankroll": 920.15,
+  "bankroll": 922.33,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -29997,10 +29997,13 @@
       "potential_payout": 1.68,
       "closes": "2026-05-04T15:00:00+00:00",
       "closes_in_days": 0.89,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-03T17:38:28.867878+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-04T16:31:43.728268+00:00",
+      "realized_pnl": 1.21
     },
     {
       "id": "NC20260503184229165672",
@@ -31023,10 +31026,13 @@
       "potential_payout": 1.35,
       "closes": "2026-05-04T12:00:00+00:00",
       "closes_in_days": 0.242,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T06:11:48.811853+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T16:31:45.599477+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504061148812229",
@@ -31416,10 +31422,13 @@
       "potential_payout": 2.3,
       "closes": "2026-05-04T14:00:00+00:00",
       "closes_in_days": 0.289,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T07:04:03.825256+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T16:31:46.381593+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504071621227702",
@@ -31539,10 +31548,13 @@
       "potential_payout": 1.39,
       "closes": "2026-05-04T15:00:00+00:00",
       "closes_in_days": 0.313,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T07:29:03.914855+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-04T16:31:46.595409+00:00",
+      "realized_pnl": 0.93
     },
     {
       "id": "NC20260504072903915449",
@@ -32394,10 +32406,13 @@
       "potential_payout": 1.41,
       "closes": "2026-05-04T14:00:00+00:00",
       "closes_in_days": 0.014,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T13:39:36.761795+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-04T16:31:46.913772+00:00",
+      "realized_pnl": 0.96
     },
     {
       "id": "NC20260504133936762596",
@@ -32724,7 +32739,7 @@
       "model": "nearcertain"
     },
     {
-      "id": "NC20260504154405490018",
+      "id": "NC20260504154348479580",
       "market_id": "2116599",
       "market": "Will the price of Ethereum be above $2,300 on May 6?",
       "category": "crypto",
@@ -32737,14 +32752,104 @@
       "closes": "2026-05-06T16:00:00+00:00",
       "closes_in_days": 2.011,
       "status": "open",
-      "placed_at": "2026-05-04T15:44:05.490037+00:00",
+      "placed_at": "2026-05-04T15:43:48.479598+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504163158434447",
+      "market_id": "1895418",
+      "market": "Will FK Bod\u00f8/Glimt win on 2026-05-04?",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 28,
+      "entry_yes_price": 72,
+      "stake": 0.46,
+      "potential_profit": 1.18,
+      "potential_payout": 1.64,
+      "closes": "2026-05-04T17:00:00+00:00",
+      "closes_in_days": 0.02,
+      "status": "open",
+      "placed_at": "2026-05-04T16:31:58.434469+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504163158435341",
+      "market_id": "2095137",
+      "market": "Games Total: O/U 2.5",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 0.46,
+      "potential_profit": 2.1,
+      "potential_payout": 2.56,
+      "closes": "2026-05-04T21:00:00+00:00",
+      "closes_in_days": 0.186,
+      "status": "open",
+      "placed_at": "2026-05-04T16:31:58.435357+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504163158435772",
+      "market_id": "2153256",
+      "market": "Counter-Strike: Crashers vs Alzon (BO3) - CCT South America Series #1 Group Stage",
+      "category": "conflict",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 0.46,
+      "potential_profit": 1.63,
+      "potential_payout": 2.09,
+      "closes": "2026-05-04T22:15:00+00:00",
+      "closes_in_days": 0.238,
+      "status": "open",
+      "placed_at": "2026-05-04T16:31:58.435791+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504163158436152",
+      "market_id": "2153258",
+      "market": "Counter-Strike: Crashers vs Alzon - Map 1 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 33,
+      "entry_yes_price": 67,
+      "stake": 0.46,
+      "potential_profit": 0.93,
+      "potential_payout": 1.39,
+      "closes": "2026-05-04T22:15:00+00:00",
+      "closes_in_days": 0.238,
+      "status": "open",
+      "placed_at": "2026-05-04T16:31:58.436169+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504163158437922",
+      "market_id": "2073774",
+      "market": "Will Ted Cruz post 140-159 posts from April 28 to May 5, 2026?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 32,
+      "entry_yes_price": 68,
+      "stake": 0.46,
+      "potential_profit": 0.98,
+      "potential_payout": 1.44,
+      "closes": "2026-05-05T16:00:00+00:00",
+      "closes_in_days": 0.978,
+      "status": "open",
+      "placed_at": "2026-05-04T16:31:58.437937+00:00",
       "paper": true,
       "model": "nearcertain"
     }
   ],
-  "daily_loss": 20.79,
+  "daily_loss": 21.71,
   "daily_reset": "2026-05-04",
-  "scan_count": 216,
+  "scan_count": 217,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }

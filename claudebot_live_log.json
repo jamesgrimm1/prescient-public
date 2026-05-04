@@ -1,7 +1,7 @@
 {
   "bankroll": 27.27,
   "trades": [],
-  "scan_count": 5,
+  "scan_count": 6,
   "started": "2026-05-04T13:35:26.338419+00:00",
   "note": "ClaudeBot live trades. Starting bankroll = total wallet ($42.27) minus AP allocation ($15.00). Scales with real trade outcomes."
 }
