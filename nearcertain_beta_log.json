@@ -1,5 +1,5 @@
 {
-  "bankroll": 917.73,
+  "bankroll": 916.35,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -33037,11 +33037,65 @@
       "placed_at": "2026-05-04T17:21:34.141654+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504175520051438",
+      "market_id": "2051077",
+      "market": "Sporting CP vs. Vit\u00f3ria SC: O/U 1.5",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 0.46,
+      "potential_profit": 2.42,
+      "potential_payout": 2.88,
+      "closes": "2026-05-04T19:15:00+00:00",
+      "closes_in_days": 0.055,
+      "status": "open",
+      "placed_at": "2026-05-04T17:55:20.051458+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504175520052253",
+      "market_id": "2152651",
+      "market": "Valorant: Be\u015fikta\u015f Esports vs Misa Esports (BO5) - VCL T\u00fcrkiye: Birlik Playoffs",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 26,
+      "entry_yes_price": 74,
+      "stake": 0.46,
+      "potential_profit": 1.31,
+      "potential_payout": 1.77,
+      "closes": "2026-05-04T21:40:00+00:00",
+      "closes_in_days": 0.156,
+      "status": "open",
+      "placed_at": "2026-05-04T17:55:20.052268+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504175520054439",
+      "market_id": "2048147",
+      "market": "Will Cabot (CBT) beat quarterly earnings?",
+      "category": "economics",
+      "position": "NO",
+      "entry_no_price": 17,
+      "entry_yes_price": 83,
+      "stake": 0.46,
+      "potential_profit": 2.25,
+      "potential_payout": 2.71,
+      "closes": "2026-05-05T21:00:00+00:00",
+      "closes_in_days": 1.128,
+      "status": "open",
+      "placed_at": "2026-05-04T17:55:20.054456+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 23.51,
   "daily_reset": "2026-05-04",
-  "scan_count": 219,
+  "scan_count": 220,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }

@@ -1,5 +1,5 @@
 {
-  "bankroll": 731.06,
+  "bankroll": 725.58,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -9236,10 +9236,28 @@
       "placed_at": "2026-05-04T17:21:14.640476+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504175503788254",
+      "market_id": "2073774",
+      "market": "Will Ted Cruz post 140-159 posts from April 28 to May 5, 2026?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 17,
+      "entry_yes_price": 83,
+      "stake": 5.48,
+      "potential_profit": 26.76,
+      "potential_payout": 32.24,
+      "closes": "2026-05-05T16:00:00+00:00",
+      "closes_in_days": 0.92,
+      "status": "open",
+      "placed_at": "2026-05-04T17:55:03.788276+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 122.55,
   "daily_reset": "2026-05-04",
-  "scan_count": 274,
+  "scan_count": 275,
   "started": "2026-04-21T00:00:00+00:00"
 }
