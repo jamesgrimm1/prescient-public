@@ -1,5 +1,5 @@
 {
-  "bankroll": 917.86,
+  "bankroll": 923.08,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -31794,10 +31794,13 @@
       "potential_payout": 1.77,
       "closes": "2026-05-04T20:00:00+00:00",
       "closes_in_days": 0.498,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T08:03:06.774154+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-04T22:49:19.718851+00:00",
+      "realized_pnl": 1.31
     },
     {
       "id": "NC20260504080306775292",
@@ -32238,10 +32241,13 @@
       "potential_payout": 9.0,
       "closes": "2026-05-04T20:00:00+00:00",
       "closes_in_days": 0.378,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T10:55:25.802945+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T22:49:19.846251+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260504105525803431",
@@ -32625,10 +32631,13 @@
       "potential_payout": 3.83,
       "closes": "2026-05-04T20:00:00+00:00",
       "closes_in_days": 0.206,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T15:03:26.164866+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T22:49:20.001620+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504150326165309",
@@ -32724,10 +32733,13 @@
       "potential_payout": 1.35,
       "closes": "2026-05-04T20:30:00+00:00",
       "closes_in_days": 0.201,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T15:40:01.060550+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-04T22:49:20.158995+00:00",
+      "realized_pnl": 0.89
     },
     {
       "id": "NC20260504154001061053",
@@ -32892,10 +32904,13 @@
       "potential_payout": 2.09,
       "closes": "2026-05-04T22:15:00+00:00",
       "closes_in_days": 0.238,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T16:31:58.435791+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-04T22:49:20.471688+00:00",
+      "realized_pnl": 1.63
     },
     {
       "id": "NC20260504163158436152",
@@ -32910,10 +32925,13 @@
       "potential_payout": 1.39,
       "closes": "2026-05-04T22:15:00+00:00",
       "closes_in_days": 0.238,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T16:31:58.436169+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-04T22:49:20.626558+00:00",
+      "realized_pnl": 0.93
     },
     {
       "id": "NC20260504163158437922",
@@ -32988,10 +33006,13 @@
       "potential_payout": 1.92,
       "closes": "2026-05-04T20:00:00+00:00",
       "closes_in_days": 0.131,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T16:51:30.053076+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T22:49:20.670376+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504172134129008",
@@ -33006,10 +33027,13 @@
       "potential_payout": 5.75,
       "closes": "2026-05-04T20:00:00+00:00",
       "closes_in_days": 0.11,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T17:21:34.129028+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-04T22:49:20.715603+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504172134129824",
@@ -33541,11 +33565,65 @@
       "placed_at": "2026-05-04T21:57:10.495794+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504224925070001",
+      "market_id": "2144911",
+      "market": "Will the highest temperature in Milan be 16\u00b0C on May 5?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 26,
+      "entry_yes_price": 74,
+      "stake": 0.46,
+      "potential_profit": 1.31,
+      "potential_payout": 1.77,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "closes_in_days": 0.549,
+      "status": "open",
+      "placed_at": "2026-05-04T22:49:25.070025+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504224925070698",
+      "market_id": "2144648",
+      "market": "Will the lowest temperature in Hong Kong be 20\u00b0C on May 5?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 0.46,
+      "potential_profit": 4.14,
+      "potential_payout": 4.6,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "closes_in_days": 0.549,
+      "status": "open",
+      "placed_at": "2026-05-04T22:49:25.070715+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260504224925072839",
+      "market_id": "2061945",
+      "market": "FC Bayern M\u00fcnchen vs. Paris Saint-Germain FC: O/U 2.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 20,
+      "entry_yes_price": 80,
+      "stake": 0.46,
+      "potential_profit": 1.84,
+      "potential_payout": 2.3,
+      "closes": "2026-05-06T19:00:00+00:00",
+      "closes_in_days": 1.841,
+      "status": "open",
+      "placed_at": "2026-05-04T22:49:25.072855+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 34.11,
+  "daily_loss": 35.94,
   "daily_reset": "2026-05-04",
-  "scan_count": 224,
+  "scan_count": 225,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
