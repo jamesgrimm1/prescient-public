@@ -1,5 +1,5 @@
 {
-  "bankroll": 538.6,
+  "bankroll": 535.91,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -9878,10 +9878,28 @@
       "placed_at": "2026-05-05T08:51:15.728810+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505111004414842",
+      "market_id": "2125227",
+      "market": "Panathinaikos vs. Valencia",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 25,
+      "entry_yes_price": 75,
+      "stake": 2.69,
+      "potential_profit": 8.07,
+      "potential_payout": 10.76,
+      "closes": "2026-05-06T18:15:00+00:00",
+      "closes_in_days": 1.295,
+      "status": "open",
+      "placed_at": "2026-05-05T11:10:04.414865+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 19.02,
   "daily_reset": "2026-05-05",
-  "scan_count": 289,
+  "scan_count": 290,
   "started": "2026-04-21T00:00:00+00:00"
 }
