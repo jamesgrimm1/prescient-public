@@ -1,5 +1,5 @@
 {
-  "bankroll": 8.7,
+  "bankroll": 7.65,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -454,6 +454,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T23:30:00+00:00",
       "placed_at": "2026-05-05T13:20:40.405533+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777989237",
+      "paper_trade_id": "AP20260505134252006817",
+      "market_id": "2151174",
+      "market": "Dota 2: Team Nemesis vs REKONIX - Game 1 Winner",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 12,
+      "stake": 1.05,
+      "paper_stake": 16.36,
+      "scale_factor": 0.013633,
+      "clob_order_id": "0x4f8170a721cea61b6c88e8ad6f026e68eafc47db80d6bdd02475981ff8413e0e",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T18:45:00+00:00",
+      "placed_at": "2026-05-05T13:53:57.210546+00:00",
       "paper": false,
       "status": "open"
     }
