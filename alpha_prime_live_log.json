@@ -1,5 +1,5 @@
 {
-  "bankroll": 10.8,
+  "bankroll": 9.75,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -416,6 +416,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T23:00:00+00:00",
       "placed_at": "2026-05-05T11:19:35.466959+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777983280",
+      "paper_trade_id": "AP20260505111018965218",
+      "market_id": "2145118",
+      "market": "Will the highest temperature in Helsinki be 12\u00b0C on May 5?",
+      "pattern": "A",
+      "position": "NO",
+      "entry_no_price": 22,
+      "stake": 1.05,
+      "paper_stake": 22.52,
+      "scale_factor": 0.016088,
+      "clob_order_id": "0xb858bea3eb31e09def70a28ab64c7188f1e67bb3f2fbe04e6df511605beaa764",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "placed_at": "2026-05-05T12:14:40.604220+00:00",
       "paper": false,
       "status": "open"
     }

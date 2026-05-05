@@ -1,5 +1,5 @@
 {
-  "bankroll": 535.91,
+  "bankroll": 530.55,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -9424,10 +9424,13 @@
       "potential_payout": 14.62,
       "closes": "2026-05-05T12:00:00+00:00",
       "closes_in_days": 0.462,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T00:54:13.770208+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-05T13:08:59.661945+00:00",
+      "realized_pnl": -3.51
     },
     {
       "id": "NC20260505005413770445",
@@ -9896,10 +9899,28 @@
       "placed_at": "2026-05-05T11:10:04.414865+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505130915372437",
+      "market_id": "2105798",
+      "market": "LoL: Forsaken vs Lodis (BO3) - Rift Legends Regular Season",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 5.36,
+      "potential_profit": 32.93,
+      "potential_payout": 38.29,
+      "closes": "2026-05-05T23:30:00+00:00",
+      "closes_in_days": 0.431,
+      "status": "open",
+      "placed_at": "2026-05-05T13:09:15.372459+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 19.02,
+  "daily_loss": 22.53,
   "daily_reset": "2026-05-05",
-  "scan_count": 290,
+  "scan_count": 291,
   "started": "2026-04-21T00:00:00+00:00"
 }
