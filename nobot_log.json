@@ -1,5 +1,5 @@
 {
-  "bankroll": 961.09,
+  "bankroll": 966.1,
   "trades": [
     {
       "id": "NB1776304868",
@@ -10547,10 +10547,13 @@
       "closes_in_days": 0.2,
       "closes": "2026-05-04T12:00:00+00:00",
       "volume": 3033.052861,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T07:15:34.885883+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-05T08:50:18.090671+00:00",
+      "realized_pnl": 2.92
     },
     {
       "id": "NB1777882585",
@@ -10819,10 +10822,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-05T12:00:00+00:00",
       "volume": 3348.867442000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T01:48:04.660413+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-05T08:50:19.097716+00:00",
+      "realized_pnl": 3.06
     },
     {
       "id": "NB1777949264",
@@ -11006,11 +11012,51 @@
       "placed_at": "2026-05-05T07:11:38.086384+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1777971032",
+      "market_id": "2073789",
+      "market_slug": "ted-cruz-of-tweets-april-28-may-5-2026-160-179",
+      "market": "Will Ted Cruz post 160-179 posts from April 28 to May 5, 2026?",
+      "position": "NO",
+      "entry_no_price": 57,
+      "entry_yes_price": 43,
+      "stake": 3.99,
+      "payout_if_wins": 7.0,
+      "profit_if_wins": 3.01,
+      "category": "other",
+      "closes_in_days": 0.3,
+      "closes": "2026-05-05T16:00:00+00:00",
+      "volume": 4067.4838599999994,
+      "status": "open",
+      "placed_at": "2026-05-05T08:50:32.866747+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1777971032",
+      "market_id": "2144774",
+      "market_slug": "highest-temperature-in-atlanta-on-may-5-2026-80-81f",
+      "market": "Will the highest temperature in Atlanta be between 80-81\u00b0F on May 5?",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 3.08,
+      "payout_if_wins": 5.92,
+      "profit_if_wins": 2.84,
+      "category": "weather",
+      "closes_in_days": 0.13,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 3303.0269390000003,
+      "status": "open",
+      "placed_at": "2026-05-05T08:50:32.866794+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 15.79,
   "daily_reset": "2026-05-05",
-  "scan_count": 377,
+  "scan_count": 378,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-04T23:42:32.878521+00:00"
 }

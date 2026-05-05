@@ -1,5 +1,5 @@
 {
-  "bankroll": 7.0,
+  "bankroll": 5.0,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -150,6 +150,44 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T12:00:00+00:00",
       "placed_at": "2026-05-05T07:00:04.112716+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777968003",
+      "paper_trade_id": "AP20260505071217277141",
+      "market_id": "2145212",
+      "market": "Will the highest temperature in Qingdao be 21\u00b0C on May 5?",
+      "pattern": "A",
+      "position": "NO",
+      "entry_no_price": 15,
+      "stake": 1.0,
+      "paper_stake": 30.99,
+      "scale_factor": 0.007201,
+      "clob_order_id": "0x5a840c6da16c5bb14c74d71281879a644a5619425df3e7b507d89a01d1375a63",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "placed_at": "2026-05-05T08:00:03.952071+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777968004",
+      "paper_trade_id": "AP20260505071217928838",
+      "market_id": "2144988",
+      "market": "Will the highest temperature in Chengdu be 31\u00b0C on May 5?",
+      "pattern": "A",
+      "position": "NO",
+      "entry_no_price": 16,
+      "stake": 1.0,
+      "paper_stake": 30.07,
+      "scale_factor": 0.006172,
+      "clob_order_id": "0x28cef4ca57da956d3e5e3f91a48746698ad516edbd365a5a8ea779427732700f",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "placed_at": "2026-05-05T08:00:04.178324+00:00",
       "paper": false,
       "status": "open"
     }
