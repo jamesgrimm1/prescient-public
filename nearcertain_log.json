@@ -1,5 +1,5 @@
 {
-  "bankroll": 655.33,
+  "bankroll": 643.91,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -9551,10 +9551,46 @@
       "placed_at": "2026-05-05T02:48:14.164416+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505045320694724",
+      "market_id": "2145097",
+      "market": "Will the highest temperature in Busan be 21\u00b0C on May 5?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 11,
+      "entry_yes_price": 89,
+      "stake": 6.55,
+      "potential_profit": 53.0,
+      "potential_payout": 59.55,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "closes_in_days": 0.296,
+      "status": "open",
+      "placed_at": "2026-05-05T04:53:20.694745+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505045320695197",
+      "market_id": "2156908",
+      "market": "Will the highest temperature in Lucknow be 34\u00b0C or below on May 6?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 4.87,
+      "potential_profit": 25.57,
+      "potential_payout": 30.44,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "closes_in_days": 1.296,
+      "status": "open",
+      "placed_at": "2026-05-05T04:53:20.695216+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 7.2,
   "daily_reset": "2026-05-05",
-  "scan_count": 284,
+  "scan_count": 285,
   "started": "2026-04-21T00:00:00+00:00"
 }
