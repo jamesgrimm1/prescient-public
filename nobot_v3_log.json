@@ -1,5 +1,5 @@
 {
-  "bankroll": 1210.64,
+  "bankroll": 1231.65,
   "trades": [
     {
       "id": "NB1776304868",
@@ -5919,10 +5919,13 @@
       "closes_in_days": 0.2,
       "closes": "2026-05-04T12:00:00+00:00",
       "volume": 3033.052861,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T07:15:54.374957+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-05T07:21:28.178491+00:00",
+      "realized_pnl": 8.72
     },
     {
       "id": "NB1777882607",
@@ -5939,10 +5942,13 @@
       "closes_in_days": 0.16,
       "closes": "2026-05-04T12:00:00+00:00",
       "volume": 3022.487914000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T08:16:47.846898+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-05T07:21:28.313558+00:00",
+      "realized_pnl": 5.76
     },
     {
       "id": "NB1777883394",
@@ -6105,10 +6111,13 @@
       "closes_in_days": 0.46,
       "closes": "2026-05-05T12:00:00+00:00",
       "volume": 3136.30444,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T00:54:01.027046+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": false,
+      "resolved_at": "2026-05-05T07:21:28.690641+00:00",
+      "realized_pnl": -6.84
     },
     {
       "id": "NB1777944079",
@@ -6229,11 +6238,31 @@
       "placed_at": "2026-05-05T06:15:13.889330+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1777965696",
+      "market_id": "2144995",
+      "market_slug": "highest-temperature-in-shenzhen-on-may-5-2026-23c",
+      "market": "Will the highest temperature in Shenzhen be 23\u00b0C on May 5?",
+      "position": "NO",
+      "entry_no_price": 49,
+      "entry_yes_price": 51,
+      "stake": 9.31,
+      "payout_if_wins": 19.0,
+      "profit_if_wins": 9.69,
+      "category": "weather",
+      "closes_in_days": 0.19,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 3671.0022449999997,
+      "status": "open",
+      "placed_at": "2026-05-05T07:21:36.970345+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
-  "daily_loss": 15.46,
+  "daily_loss": 22.3,
   "daily_reset": "2026-05-05",
-  "scan_count": 537,
+  "scan_count": 538,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-04T21:40:23.115163+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
