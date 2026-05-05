@@ -1,5 +1,5 @@
 {
-  "bankroll": 904.69,
+  "bankroll": 905.11,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -33759,10 +33759,13 @@
       "potential_payout": 1.35,
       "closes": "2026-05-05T22:00:00+00:00",
       "closes_in_days": 1.002,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T21:57:10.495794+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-05T22:45:10.058324+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504224925070001",
@@ -35097,10 +35100,13 @@
       "potential_payout": 1.32,
       "closes": "2026-05-05T12:00:00+00:00",
       "closes_in_days": 0.089,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T09:52:31.465539+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-05T22:45:10.282850+00:00",
+      "realized_pnl": 0.87
     },
     {
       "id": "NC20260505095231466167",
@@ -36292,11 +36298,47 @@
       "placed_at": "2026-05-05T21:53:14.244114+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505224519368454",
+      "market_id": "2125962",
+      "market": "Will the price of Bitcoin be above $78,000 on May 7?",
+      "category": "crypto",
+      "position": "NO",
+      "entry_no_price": 5,
+      "entry_yes_price": 95,
+      "stake": 0.45,
+      "potential_profit": 8.55,
+      "potential_payout": 9.0,
+      "closes": "2026-05-07T16:00:00+00:00",
+      "closes_in_days": 1.719,
+      "status": "open",
+      "placed_at": "2026-05-05T22:45:19.368478+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505224519369053",
+      "market_id": "2065556",
+      "market": "RC Strasbourg Alsace vs. Rayo Vallecano de Madrid: O/U 1.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 0.45,
+      "potential_profit": 1.43,
+      "potential_payout": 1.88,
+      "closes": "2026-05-07T19:00:00+00:00",
+      "closes_in_days": 1.844,
+      "status": "open",
+      "placed_at": "2026-05-05T22:45:19.369072+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 44.41,
+  "daily_loss": 44.87,
   "daily_reset": "2026-05-05",
-  "scan_count": 245,
+  "scan_count": 246,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
