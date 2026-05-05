@@ -1,5 +1,5 @@
 {
-  "bankroll": 729.0,
+  "bankroll": 656.1,
   "trades": [
     {
       "id": "T1777580081",
@@ -62,10 +62,13 @@
       "bear_case": "No official confirmation; celebrities can skip for undisclosed personal reasons; 'rumored' is not 'confirmed'",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-02T07:01:02.801950+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": false,
+      "resolved_at": "2026-05-05T07:20:59.887608+00:00",
+      "realized_pnl": -90.0
     },
     {
       "id": "T1777892820",
@@ -98,11 +101,43 @@
       "placed_at": "2026-05-04T11:07:00.064914+00:00",
       "paper": true,
       "model": "claude-opus-4-6"
+    },
+    {
+      "id": "T1777965884",
+      "tier": 1,
+      "market_id": "1194308",
+      "market_slug": "will-montenegro-advance-through-the-first-eurovision-semi-final",
+      "market": "Will Montenegro advance through the first Eurovision Semi-Final?",
+      "position": "NO",
+      "entry_price": 45,
+      "stake": 72.9,
+      "potential_return": 162.0,
+      "potential_profit": 89.1,
+      "confidence": 75,
+      "true_prob": 33,
+      "market_prob": 55,
+      "category": "other",
+      "closes_in_days": 6.7,
+      "closes": "2026-05-12T00:00:00+00:00",
+      "research_summary": "Montenegro has historically one of the worst Eurovision qualification records (~15-20% rate vs ~63% base rate). Small country with tiny diaspora means weak televote support. Market at 55% YES appears significantly overpriced relative to historical performance.",
+      "key_factors": [
+        "Montenegro qualifies roughly 15-20% historically despite 63% base rate",
+        "Small diaspora severely limits televote support",
+        "Market at 55% implies above-average qualifier which contradicts track record",
+        "10 of ~15-16 countries qualify but Montenegro consistently underperforms"
+      ],
+      "bear_case": "No data on Montenegro's 2026 entry \u2014 could be an exceptionally strong song/artist that justifies higher odds. Market volume ($9.3K) may reflect informed bettors with knowledge of rehearsals/betting odds.",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-05T07:24:44.120758+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6"
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 90.0,
   "daily_reset": "2026-05-05",
-  "scan_count": 101,
+  "scan_count": 102,
   "started": "2026-04-29T15:03:12.099702+00:00",
   "version": "v3",
   "notes": "V3: 500 market pull + newest pass, sports near-resolution enabled, tech/culture categories added",

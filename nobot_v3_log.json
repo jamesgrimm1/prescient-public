@@ -1,5 +1,5 @@
 {
-  "bankroll": 1231.65,
+  "bankroll": 1213.99,
   "trades": [
     {
       "id": "NB1776304868",
@@ -5919,13 +5919,10 @@
       "closes_in_days": 0.2,
       "closes": "2026-05-04T12:00:00+00:00",
       "volume": 3033.052861,
-      "status": "closed",
+      "status": "open",
       "placed_at": "2026-05-04T07:15:54.374957+00:00",
       "paper": true,
-      "model": "nobot-v3-weather",
-      "won": true,
-      "resolved_at": "2026-05-05T07:21:28.178491+00:00",
-      "realized_pnl": 8.72
+      "model": "nobot-v3-weather"
     },
     {
       "id": "NB1777882607",
@@ -5947,7 +5944,7 @@
       "paper": true,
       "model": "nobot-v3-weather",
       "won": true,
-      "resolved_at": "2026-05-05T07:21:28.313558+00:00",
+      "resolved_at": "2026-05-05T07:11:51.106526+00:00",
       "realized_pnl": 5.76
     },
     {
@@ -6116,7 +6113,7 @@
       "paper": true,
       "model": "nobot-v3-weather",
       "won": false,
-      "resolved_at": "2026-05-05T07:21:28.690641+00:00",
+      "resolved_at": "2026-05-05T07:11:51.630513+00:00",
       "realized_pnl": -6.84
     },
     {
@@ -6240,22 +6237,22 @@
       "model": "nobot-v3-weather"
     },
     {
-      "id": "NB1777965696",
+      "id": "NB1777965120",
       "market_id": "2144995",
       "market_slug": "highest-temperature-in-shenzhen-on-may-5-2026-23c",
       "market": "Will the highest temperature in Shenzhen be 23\u00b0C on May 5?",
       "position": "NO",
-      "entry_no_price": 49,
-      "entry_yes_price": 51,
-      "stake": 9.31,
-      "payout_if_wins": 19.0,
-      "profit_if_wins": 9.69,
+      "entry_no_price": 47,
+      "entry_yes_price": 53,
+      "stake": 9.17,
+      "payout_if_wins": 19.51,
+      "profit_if_wins": 10.34,
       "category": "weather",
-      "closes_in_days": 0.19,
+      "closes_in_days": 0.2,
       "closes": "2026-05-05T12:00:00+00:00",
-      "volume": 3671.0022449999997,
+      "volume": 3661.0022449999997,
       "status": "open",
-      "placed_at": "2026-05-05T07:21:36.970345+00:00",
+      "placed_at": "2026-05-05T07:12:00.638895+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     }

@@ -1,5 +1,5 @@
 {
-  "bankroll": 1054.0,
+  "bankroll": 1071.49,
   "trades": [
     {
       "id": "NB1776304868",
@@ -10146,10 +10146,13 @@
       "closes_in_days": 0.48,
       "closes": "2026-05-04T00:00:00+00:00",
       "volume": 96537.1093700001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-03T12:24:58.340123+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-05T07:11:39.880772+00:00",
+      "realized_pnl": 5.19
     },
     {
       "id": "NB1777833717",
@@ -10623,10 +10626,13 @@
       "closes_in_days": 0.16,
       "closes": "2026-05-04T12:00:00+00:00",
       "volume": 3022.487914000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T08:16:37.914066+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-05T07:11:40.055267+00:00",
+      "realized_pnl": 2.78
     },
     {
       "id": "NB1777883385",
@@ -10832,10 +10838,13 @@
       "closes_in_days": 0.46,
       "closes": "2026-05-05T12:00:00+00:00",
       "volume": 3136.30444,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T00:53:52.889374+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-05T07:11:40.658614+00:00",
+      "realized_pnl": -3.3
     },
     {
       "id": "NB1777945695",
@@ -10912,10 +10921,13 @@
       "closes_in_days": 0.38,
       "closes": "2026-05-05T12:00:00+00:00",
       "volume": 6709.1788719999995,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T02:47:53.689862+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-05T07:11:40.997889+00:00",
+      "realized_pnl": 3.53
     },
     {
       "id": "NB1777949273",
@@ -11036,11 +11048,51 @@
       "placed_at": "2026-05-05T06:15:05.623518+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1777965110",
+      "market_id": "2144960",
+      "market_slug": "highest-temperature-in-beijing-on-may-5-2026-30c",
+      "market": "Will the highest temperature in Beijing be 30\u00b0C on May 5?",
+      "position": "NO",
+      "entry_no_price": 55,
+      "entry_yes_price": 45,
+      "stake": 5.02,
+      "payout_if_wins": 9.13,
+      "profit_if_wins": 4.11,
+      "category": "weather",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 5401.078613000006,
+      "status": "open",
+      "placed_at": "2026-05-05T07:11:50.200141+00:00",
+      "paper": true,
+      "model": "nobot-v2"
+    },
+    {
+      "id": "NB1777965110",
+      "market_id": "2144995",
+      "market_slug": "highest-temperature-in-shenzhen-on-may-5-2026-23c",
+      "market": "Will the highest temperature in Shenzhen be 23\u00b0C on May 5?",
+      "position": "NO",
+      "entry_no_price": 47,
+      "entry_yes_price": 53,
+      "stake": 2.25,
+      "payout_if_wins": 4.79,
+      "profit_if_wins": 2.54,
+      "category": "weather",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 3661.0022449999997,
+      "status": "open",
+      "placed_at": "2026-05-05T07:11:50.200212+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
-  "daily_loss": 21.18,
+  "daily_loss": 24.48,
   "daily_reset": "2026-05-05",
-  "scan_count": 380,
+  "scan_count": 381,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-04T23:42:39.669956+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
