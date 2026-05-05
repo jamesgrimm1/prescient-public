@@ -1,5 +1,5 @@
 {
-  "bankroll": 15.0,
+  "bankroll": 13.95,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -340,6 +340,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T14:00:00+00:00",
       "placed_at": "2026-05-05T09:29:29.021739+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777975256",
+      "paper_trade_id": "AP20260505095232024399",
+      "market_id": "2151153",
+      "market": "Dota 2: Yellow Submarine vs Nemiga Gaming - Game 1 Winner",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 18,
+      "stake": 1.05,
+      "paper_stake": 19.24,
+      "scale_factor": 0.019986,
+      "clob_order_id": "0x01d3227c61c9e632e7bc3b8dc9d6d5c47278c2d802cdfe10f554e67598f54af5",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T13:00:00+00:00",
+      "placed_at": "2026-05-05T10:00:56.755045+00:00",
       "paper": false,
       "status": "open"
     }
