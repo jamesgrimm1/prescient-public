@@ -129,10 +129,13 @@
       "bear_case": "Atl\u00e9tico parks the bus under Simeone, plays for 0-0 and extra time/penalties. Arsenal controls possession but can't convert. 0-0 or 1-0 Arsenal are plausible low-scoring outcomes.",
       "kelly_tier": "half-Kelly (100.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T06:17:32.672838+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": false,
+      "resolved_at": "2026-05-05T21:54:43.278807+00:00",
+      "realized_pnl": -75.0
     },
     {
       "id": "V2_1777909753",
@@ -193,15 +196,18 @@
       "bear_case": "Atl\u00e9tico employ ultra-defensive masterclass limiting total goals to 0-1; early red card kills the game",
       "kelly_tier": "half-Kelly (100.0%) [cal-halved]",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T16:36:43.466039+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": false,
+      "resolved_at": "2026-05-05T21:54:44.327062+00:00",
+      "realized_pnl": -54.42
     }
   ],
-  "daily_loss": 141.29,
+  "daily_loss": 270.71,
   "daily_reset": "2026-05-05",
-  "scan_count": 127,
+  "scan_count": 128,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
