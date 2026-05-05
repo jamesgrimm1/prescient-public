@@ -1,6 +1,28 @@
 {
-  "bankroll": 1000.0,
-  "trades": [],
+  "bankroll": 969.25,
+  "trades": [
+    {
+      "id": "V420260505164628289223",
+      "market_id": "2161691",
+      "market": "Will Ethereum reach $2,400 on May 5?",
+      "category": "crypto",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 30.75,
+      "v2_stake": 6.6,
+      "potential_profit": 24.16,
+      "potential_payout": 54.91,
+      "closes": "2026-05-06T04:00:00+00:00",
+      "closes_in_days": 0.47,
+      "volume": 5110.9395159999995,
+      "status": "open",
+      "placed_at": "2026-05-05T16:46:28.289233+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v4_bankroll_at_placement": 1000.0
+    }
+  ],
   "scan_count": 0,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."

@@ -1,5 +1,5 @@
 {
-  "bankroll": 688.89,
+  "bankroll": 671.67,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -2013,12 +2013,15 @@
       "potential_payout": 198.62,
       "closes": "2026-05-05T12:00:00+00:00",
       "closes_in_days": 0.131,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T08:51:14.169330+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 860.59
+      "ap_bankroll_at_placement": 860.59,
+      "won": false,
+      "resolved_at": "2026-05-05T16:47:09.228359+00:00",
+      "realized_pnl": -25.82
     },
     {
       "id": "AP20260505085114951816",
@@ -2313,11 +2316,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 622.2
+    },
+    {
+      "id": "AP20260505164708283104",
+      "market_id": "2153289",
+      "market": "Counter-Strike: UNO MILLE vs Isurus - Map 1 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 17.22,
+      "potential_profit": 78.45,
+      "potential_payout": 95.67,
+      "closes": "2026-05-05T20:00:00+00:00",
+      "closes_in_days": 0.134,
+      "status": "open",
+      "placed_at": "2026-05-05T16:47:08.283118+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 688.89
     }
   ],
-  "daily_loss": 437.32,
+  "daily_loss": 463.14,
   "daily_reset": "2026-05-05",
-  "scan_count": 129,
+  "scan_count": 130,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",

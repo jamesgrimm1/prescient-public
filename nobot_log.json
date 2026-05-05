@@ -1,5 +1,5 @@
 {
-  "bankroll": 959.0,
+  "bankroll": 955.07,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11164,11 +11164,31 @@
       "won": true,
       "resolved_at": "2026-05-05T15:15:07.361348+00:00",
       "realized_pnl": 2.63
+    },
+    {
+      "id": "NB1777999577",
+      "market_id": "2161691",
+      "market_slug": "will-ethereum-reach-2400-on-may-5",
+      "market": "Will Ethereum reach $2,400 on May 5?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 3.93,
+      "payout_if_wins": 7.02,
+      "profit_if_wins": 3.09,
+      "category": "crypto",
+      "closes_in_days": 0.47,
+      "closes": "2026-05-06T04:00:00+00:00",
+      "volume": 5110.9395159999995,
+      "status": "open",
+      "placed_at": "2026-05-05T16:46:17.515778+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 23.7,
   "daily_reset": "2026-05-05",
-  "scan_count": 384,
+  "scan_count": 385,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-05T13:08:22.279859+00:00"
 }
