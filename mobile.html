@@ -498,7 +498,6 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
 .ticker-inner b { color: var(--gold); font-weight: 500; }
 @keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }
 
-
 /* ═══════════════════════════════════════════════
    MOBILE OVERRIDES — full dashboard on small screens
    ═══════════════════════════════════════════════ */
@@ -558,6 +557,8 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
   .chart-wrap { height: 150px; }
 }
 
+
+
 </style>
 </head>
 <body>
@@ -565,8 +566,8 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
 <!-- Ticker -->
 <div class="ticker-wrap">
   <div class="ticker-inner" id="ticker">
-    PRESCIENT AI TRADING &nbsp;·&nbsp; <b id="tk-cb-bank">—</b> CLAUDEBOT BANKROLL &nbsp;·&nbsp; <b id="tk-nb-bank">—</b> NOBOT V1 BANKROLL &nbsp;·&nbsp; <b id="tk-nb2-bank">—</b> NOBOT V2 BANKROLL &nbsp;·&nbsp; <b id="tk-nb3-bank">—</b> NOBOT V3 BANKROLL &nbsp;·&nbsp; <b id="tk-cb-wr">—</b> CLAUDEBOT WIN RATE &nbsp;·&nbsp; <b id="tk-nb-wr">—</b> NOBOT V1 WIN RATE &nbsp;·&nbsp; <b id="tk-nb2-wr">—</b> NOBOT V2 WIN RATE &nbsp;·&nbsp; <b id="tk-nb3-wr">—</b> NOBOT V3 WIN RATE &nbsp;·&nbsp; PAPER TRADING · POLYMARKET · KELLY SIZING &nbsp;·&nbsp; <b id="tk-cblive-bank2">—</b> CB LIVE &nbsp;·&nbsp; <b id="tk-aplive-bank2">—</b> AP LIVE &nbsp;·&nbsp; <b id="tk-cblive-bank">—</b> CB LIVE BANKROLL &nbsp;·&nbsp; <b id="tk-aplive-bank">—</b> AP LIVE BANKROLL &nbsp;·&nbsp;
-    PRESCIENT AI TRADING &nbsp;·&nbsp; <b id="tk-cb-bank2">—</b> CLAUDEBOT BANKROLL &nbsp;·&nbsp; <b id="tk-nb-bank2">—</b> NOBOT V1 BANKROLL &nbsp;·&nbsp; <b id="tk-nb2-bank2">—</b> NOBOT V2 BANKROLL &nbsp;·&nbsp; <b id="tk-nb3-bank2">—</b> NOBOT V3 BANKROLL &nbsp;·&nbsp; <b id="tk-cb-wr2">—</b> CLAUDEBOT WIN RATE &nbsp;·&nbsp; <b id="tk-nb-wr2">—</b> NOBOT V1 WIN RATE &nbsp;·&nbsp; <b id="tk-nb2-wr2">—</b> NOBOT V2 WIN RATE &nbsp;·&nbsp; <b id="tk-nb3-wr2">—</b> NOBOT V3 WIN RATE &nbsp;·&nbsp; PAPER TRADING · POLYMARKET · KELLY SIZING &nbsp;·&nbsp; <b id="tk-cblive-bank2">—</b> CB LIVE &nbsp;·&nbsp; <b id="tk-aplive-bank2">—</b> AP LIVE &nbsp;·&nbsp;
+    PRESCIENT AI TRADING &nbsp;·&nbsp; <b id="tk-cb-bank">—</b> CLAUDEBOT BANKROLL &nbsp;·&nbsp; <b id="tk-nb-bank">—</b> NOBOT V1 BANKROLL &nbsp;·&nbsp; <b id="tk-nb2-bank">—</b> NOBOT V2 BANKROLL &nbsp;·&nbsp; <b id="tk-nb3-bank">—</b> NOBOT V3 BANKROLL &nbsp;·&nbsp; <b id="tk-nb4-bank">—</b> NOBOT V4 BANKROLL &nbsp;·&nbsp; <b id="tk-cb-wr">—</b> CLAUDEBOT WIN RATE &nbsp;·&nbsp; <b id="tk-nb-wr">—</b> NOBOT V1 WIN RATE &nbsp;·&nbsp; <b id="tk-nb2-wr">—</b> NOBOT V2 WIN RATE &nbsp;·&nbsp; <b id="tk-nb3-wr">—</b> NOBOT V3 WIN RATE &nbsp;·&nbsp; PAPER TRADING · POLYMARKET · KELLY SIZING &nbsp;·&nbsp; <b id="tk-cblive-bank2">—</b> CB LIVE &nbsp;·&nbsp; <b id="tk-aplive-bank2">—</b> AP LIVE &nbsp;·&nbsp; <b id="tk-cblive-bank">—</b> CB LIVE BANKROLL &nbsp;·&nbsp; <b id="tk-aplive-bank">—</b> AP LIVE BANKROLL &nbsp;·&nbsp;
+    PRESCIENT AI TRADING &nbsp;·&nbsp; <b id="tk-cb-bank2">—</b> CLAUDEBOT BANKROLL &nbsp;·&nbsp; <b id="tk-nb-bank2">—</b> NOBOT V1 BANKROLL &nbsp;·&nbsp; <b id="tk-nb2-bank2">—</b> NOBOT V2 BANKROLL &nbsp;·&nbsp; <b id="tk-nb3-bank2">—</b> NOBOT V3 BANKROLL &nbsp;·&nbsp; <b id="tk-nb4-bank2">—</b> NOBOT V4 BANKROLL &nbsp;·&nbsp; <b id="tk-cb-wr2">—</b> CLAUDEBOT WIN RATE &nbsp;·&nbsp; <b id="tk-nb-wr2">—</b> NOBOT V1 WIN RATE &nbsp;·&nbsp; <b id="tk-nb2-wr2">—</b> NOBOT V2 WIN RATE &nbsp;·&nbsp; <b id="tk-nb3-wr2">—</b> NOBOT V3 WIN RATE &nbsp;·&nbsp; PAPER TRADING · POLYMARKET · KELLY SIZING &nbsp;·&nbsp; <b id="tk-cblive-bank2">—</b> CB LIVE &nbsp;·&nbsp; <b id="tk-aplive-bank2">—</b> AP LIVE &nbsp;·&nbsp;
   </div>
 </div>
 
@@ -582,6 +583,7 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
     <div class="nav-tab" onclick="setBot('nb',this)">NoBot V1</div>
     <div class="nav-tab" onclick="setBot('nb2',this)">NoBot V2</div>
     <div class="nav-tab" onclick="setBot('nb3',this)">NoBot V3</div>
+    <div class="nav-tab" onclick="setBot('nb4',this)">NoBot V4</div>
     <div class="nav-tab" onclick="setBot('nc',this)">NearCertain</div>
     <div class="nav-tab" onclick="setBot('ncb',this)">NC Beta</div>
     <div class="nav-tab" onclick="setBot('ap',this)">Alpha-Prime</div>
@@ -856,6 +858,67 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
         <span class="pill pill-gray" id="nb3-trade-count">0 closed</span>
       </div>
       <div id="nb3-trade-table"></div>
+    </div>
+  </div>
+
+
+<div id="view-nb4" style="display:none">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
+      <span class="pill pill-gold">V3 — Weather Only · Bigger Stakes</span>
+      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">Weather markets only · Stakes 3× V1 · $25 cap · 83%+ WR historical</span>
+    </div>
+    <div class="hero-strip">
+      <div class="hero-card accent-gold">
+        <div class="hc-label">Bankroll</div>
+        <div class="hc-value gold" id="nb4-bank">—</div>
+        <div class="hc-sub" id="nb4-roi">—</div>
+      </div>
+      <div class="hero-card accent-gold">
+        <div class="hc-label">Realized P&L</div>
+        <div class="hc-value" id="nb4-pnl">—</div>
+        <div class="hc-sub" id="nb4-pnl-sub">—</div>
+      </div>
+      <div class="hero-card accent-gold">
+        <div class="hc-label">Win Rate</div>
+        <div class="hc-value gold" id="nb4-wr">—</div>
+        <div class="hc-sub" id="nb4-rec">—</div>
+        <div class="wr-bar-bg"><div class="wr-bar-fill" id="nb4-wrf" style="width:0"></div></div>
+      </div>
+      <div class="hero-card accent-gold">
+        <div class="hc-label">Open Positions</div>
+        <div class="hc-value gold" id="nb4-open">—</div>
+        <div class="hc-sub" id="nb4-dep">—</div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">P&L history (closed trades)</span>
+          <span class="pill" id="nb4-trend">—</span>
+        </div>
+        <div class="card-body"><div class="chart-wrap"><canvas id="nb4-chart"></canvas></div></div>
+      </div>
+      <div class="card">
+        <div class="card-header"><span class="card-title">Win rate by price bracket</span></div>
+        <div class="card-body"><div class="chart-wrap"><canvas id="nb4-bracket-chart"></canvas></div></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-header">
+        <span class="card-title">Largest open positions</span>
+        <span class="pill pill-gold" id="nb4-open-count">0</span>
+      </div>
+      <div id="nb4-open-table"></div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span class="card-title">Recent closed trades</span>
+        <span class="pill pill-gray" id="nb4-trade-count">0 closed</span>
+      </div>
+      <div id="nb4-trade-table"></div>
     </div>
   </div>
 
@@ -1415,6 +1478,7 @@ var CB3_URL = BASE + 'claudebot_v3_log.json';
 var NB_URL  = BASE + 'nobot_log.json';
 var NB2_URL = BASE + 'nobot_v2_log.json';
 var NB3_URL = BASE + 'nobot_v3_log.json';
+var NB4_URL = BASE + 'nobot_v4_log.json';
 var NC_URL  = BASE + 'nearcertain_log.json';
 var NCB_URL = BASE + 'nearcertain_beta_log.json';
 var AP_URL  = BASE + 'alpha_prime_log.json';
@@ -1423,7 +1487,7 @@ var CBLIVE_URL = BASE + 'claudebot_live_log.json';
 var APLIVE_URL = BASE + 'alpha_prime_live_log.json';
 var START   = 1000;
 var cbChart = null, cbCatChart = null, nbChart = null, nbBracketChart = null, nb2Chart = null, nb2BracketChart = null, nb3Chart = null, nb3BracketChart = null;
-var cbLiveChart = null, apLiveChart = null;
+var cbLiveChart = null, apLiveChart = null, nb4Chart = null, nb4BracketChart = null;
 
 // ── Helpers ──────────────────────────────────────────────
 function money(n) {
@@ -1451,7 +1515,7 @@ function getCategory(q) {
 function setBot(bot, el) {
   document.querySelectorAll('.nav-tab').forEach(function(t){ t.classList.remove('active'); });
   el.classList.add('active');
-  var views = ['cb','cb2','cb3','nb','nb2','nb3','nc','ncb','ap','ab','cblive','aplive','proj'];
+  var views = ['cb','cb2','cb3','nb','nb2','nb3','nb4','nc','ncb','ap','ab','cblive','aplive','proj'];
   views.forEach(function(v){
     document.getElementById('view-'+v).style.display = bot === v ? 'block' : 'none';
   });
@@ -1831,6 +1895,16 @@ function renderNBV3(d) {
 }
 
 // ── NearCertain renderer ──────────────────────────────────
+function renderNBV4(d) {
+  var stats = renderNBGeneric(d, 'nb4', {ref:'nb4Chart'}, {ref:'nb4BracketChart'});
+  document.getElementById('tk-nb3-bank').textContent  = '$'+d.bankroll.toFixed(2);
+  document.getElementById('tk-nb3-bank2').textContent = '$'+d.bankroll.toFixed(2);
+  document.getElementById('tk-nb3-wr').textContent    = stats.wr+'%';
+  document.getElementById('tk-nb3-wr2').textContent   = stats.wr+'%';
+}
+
+// ── NearCertain renderer ──────────────────────────────────
+
 function renderNC(d) {
   if (!d) return;
   var START_NC = 1000;
@@ -2676,6 +2750,10 @@ function renderAB(d) {
 
 
 // ── ClaudeBot Live renderer ───────────────────────────────
+
+
+
+
 function renderCBLive(d) {
   if (!d) {
     document.getElementById('cblive-bank').textContent = 'No live trades yet';
@@ -2934,7 +3012,10 @@ function loadData() {
     fetch(NB3_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
     new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
   ]);
-  var ncFetch = Promise.race([
+  var nb4Fetch = Promise.race([
+    fetch(NB4_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
+    new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
+  ]);var ncFetch = Promise.race([
     fetch(NC_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
     new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
   ]);
@@ -2967,11 +3048,11 @@ function loadData() {
     new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
   ]);
 
-  // results index: 0=CB, 1=NB, 2=NB2, 3=NB3, 4=NC, 5=AP, 6=CB2, 7=CB3, 8=NCB, 9=AB, 10=CBLIVE, 11=APLIVE
+  // results index: 0=CB, 1=NB, 2=NB2, 3=NB3, 4=NC, 5=AP, 6=CB2, 7=CB3, 8=NCB, 9=AB, 10=CBLIVE, 11=APLIVE, 12=NB4
   Promise.all([
     fetch(CB_URL  + bust).then(function(r){ if(!r.ok) throw new Error('ClaudeBot HTTP ' + r.status); return r.json(); }),
     fetch(NB_URL  + bust).then(function(r){ if(!r.ok) throw new Error('NoBot HTTP ' + r.status); return r.json(); }),
-    nb2Fetch, nb3Fetch, ncFetch, apFetch, cb2Fetch, cb3Fetch, ncbFetch, abFetch, cbLiveFetch, apLiveFetch
+    nb2Fetch, nb3Fetch, ncFetch, apFetch, cb2Fetch, cb3Fetch, ncbFetch, abFetch, cbLiveFetch, apLiveFetch, nb4Fetch
   ]).then(function(results) {
     renderCB(results[0]);
     renderNB(results[1]);
@@ -3031,6 +3112,7 @@ function loadData() {
     }
     renderCBLive(results[10]);
     renderAPLive(results[11]);
+    if (results[12]) { renderNBV4(results[12]); }
     renderProjections(results[0], results[1], results[2], results[3], results[4], results[5]);
 
     var now = new Date();
