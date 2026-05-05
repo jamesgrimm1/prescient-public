@@ -1,5 +1,5 @@
 {
-  "bankroll": 5.55,
+  "bankroll": 4.5,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -511,6 +511,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T20:00:00+00:00",
       "placed_at": "2026-05-05T15:25:43.680135+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1778000279",
+      "paper_trade_id": "AP20260505164708283104",
+      "market_id": "2153289",
+      "market": "Counter-Strike: UNO MILLE vs Isurus - Map 1 Winner",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 18,
+      "stake": 1.05,
+      "paper_stake": 17.22,
+      "scale_factor": 0.008263,
+      "clob_order_id": "0x1ca0ed57d21690efa17ae764ae565f5abd6419b46ff62ed0c042d09aa35c98b5",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T20:00:00+00:00",
+      "placed_at": "2026-05-05T16:57:59.456008+00:00",
       "paper": false,
       "status": "open"
     }
