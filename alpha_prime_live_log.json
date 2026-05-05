@@ -1,5 +1,5 @@
 {
-  "bankroll": 9.75,
+  "bankroll": 8.7,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -435,6 +435,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T12:00:00+00:00",
       "placed_at": "2026-05-05T12:14:40.604220+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777987240",
+      "paper_trade_id": "AP20260505130915373332",
+      "market_id": "2105798",
+      "market": "LoL: Forsaken vs Lodis (BO3) - Rift Legends Regular Season",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 14,
+      "stake": 1.05,
+      "paper_stake": 16.78,
+      "scale_factor": 0.014897,
+      "clob_order_id": "0x308a3623a50703e2bebd93958f6076f10a0525c10cd30326a0f1fcc1c77c23e3",
+      "clob_status": "matched",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T23:30:00+00:00",
+      "placed_at": "2026-05-05T13:20:40.405533+00:00",
       "paper": false,
       "status": "open"
     }
