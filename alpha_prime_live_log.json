@@ -1,5 +1,5 @@
 {
-  "bankroll": 4.5,
+  "bankroll": 3.45,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -530,6 +530,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T20:00:00+00:00",
       "placed_at": "2026-05-05T16:57:59.456008+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1778005650",
+      "paper_trade_id": "AP20260505181853804035",
+      "market_id": "2159500",
+      "market": "Counter-Strike: SPARTA vs GenOne - Map 2 Winner",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 12,
+      "stake": 1.05,
+      "paper_stake": 16.79,
+      "scale_factor": 0.006871,
+      "clob_order_id": "0xbb36590d507a402eb29aa8009a04bd389f5baa2b900e421bb4b3b0134b294d89",
+      "clob_status": "live",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T21:00:00+00:00",
+      "placed_at": "2026-05-05T18:27:30.089955+00:00",
       "paper": false,
       "status": "open"
     }
