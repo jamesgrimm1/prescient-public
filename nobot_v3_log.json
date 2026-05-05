@@ -1,5 +1,5 @@
 {
-  "bankroll": 1195.86,
+  "bankroll": 1207.11,
   "trades": [
     {
       "id": "NB1776304868",
@@ -5620,10 +5620,13 @@
       "closes_in_days": 0.5,
       "closes": "2026-05-04T12:00:00+00:00",
       "volume": 6084.643619000006,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T00:05:29.426613+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-05T02:47:54.462926+00:00",
+      "realized_pnl": 9.04
     },
     {
       "id": "NB1777853129",
@@ -6163,11 +6166,31 @@
       "placed_at": "2026-05-05T01:48:26.979400+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1777949282",
+      "market_id": "2144753",
+      "market_slug": "highest-temperature-in-nyc-on-may-5-2026-80-81f",
+      "market": "Will the highest temperature in New York City be between 80-81\u00b0F on May 5?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 6.83,
+      "payout_if_wins": 12.2,
+      "profit_if_wins": 5.37,
+      "category": "weather",
+      "closes_in_days": 0.38,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 3377.700598999998,
+      "status": "open",
+      "placed_at": "2026-05-05T02:48:02.148115+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 15.46,
   "daily_reset": "2026-05-05",
-  "scan_count": 532,
+  "scan_count": 533,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-04T21:40:23.115163+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."

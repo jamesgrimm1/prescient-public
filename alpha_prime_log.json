@@ -1,5 +1,5 @@
 {
-  "bankroll": 1066.53,
+  "bankroll": 1215.65,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -1704,17 +1704,20 @@
       "potential_payout": 149.12,
       "closes": "2026-05-05T02:00:00+00:00",
       "closes_in_days": 0.21,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T20:58:26.246823+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 954.45
+      "ap_bankroll_at_placement": 954.45,
+      "won": true,
+      "resolved_at": "2026-05-05T02:48:30.100563+00:00",
+      "realized_pnl": 125.26
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-05",
-  "scan_count": 118,
+  "scan_count": 119,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",

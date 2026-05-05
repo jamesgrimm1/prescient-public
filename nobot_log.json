@@ -1,5 +1,5 @@
 {
-  "bankroll": 960.68,
+  "bankroll": 956.99,
   "trades": [
     {
       "id": "NB1776304868",
@@ -10173,10 +10173,13 @@
       "closes_in_days": 0.43,
       "closes": "2026-05-04T12:00:00+00:00",
       "volume": 6365.328447000006,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T01:47:20.379097+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-05T02:47:35.678660+00:00",
+      "realized_pnl": 3.12
     },
     {
       "id": "NB1777859240",
@@ -10808,11 +10811,71 @@
       "placed_at": "2026-05-05T01:48:04.660413+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1777949264",
+      "market_id": "2144886",
+      "market_slug": "highest-temperature-in-shanghai-on-may-5-2026-25c",
+      "market": "Will the highest temperature in Shanghai be 25\u00b0C on May 5?",
+      "position": "NO",
+      "entry_no_price": 49,
+      "entry_yes_price": 51,
+      "stake": 2.03,
+      "payout_if_wins": 4.14,
+      "profit_if_wins": 2.11,
+      "category": "weather",
+      "closes_in_days": 0.38,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 6709.1788719999995,
+      "status": "open",
+      "placed_at": "2026-05-05T02:47:44.861370+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1777949264",
+      "market_id": "2144901",
+      "market_slug": "highest-temperature-in-singapore-on-may-5-2026-33c",
+      "market": "Will the highest temperature in Singapore be 33\u00b0C on May 5?",
+      "position": "NO",
+      "entry_no_price": 57,
+      "entry_yes_price": 42,
+      "stake": 3.96,
+      "payout_if_wins": 6.95,
+      "profit_if_wins": 2.99,
+      "category": "weather",
+      "closes_in_days": 0.38,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 5862.280244999995,
+      "status": "open",
+      "placed_at": "2026-05-05T02:47:44.861420+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1777949264",
+      "market_id": "2144753",
+      "market_slug": "highest-temperature-in-nyc-on-may-5-2026-80-81f",
+      "market": "Will the highest temperature in New York City be between 80-81\u00b0F on May 5?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 3.94,
+      "payout_if_wins": 7.04,
+      "profit_if_wins": 3.1,
+      "category": "weather",
+      "closes_in_days": 0.38,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 3377.700598999998,
+      "status": "open",
+      "placed_at": "2026-05-05T02:47:44.861456+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 12.82,
   "daily_reset": "2026-05-05",
-  "scan_count": 373,
+  "scan_count": 374,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-04T23:42:32.878521+00:00"
 }
