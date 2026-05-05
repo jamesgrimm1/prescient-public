@@ -1,5 +1,5 @@
 {
-  "bankroll": 920.94,
+  "bankroll": 918.64,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -32049,10 +32049,13 @@
       "potential_payout": 3.21,
       "closes": "2026-05-05T01:00:00+00:00",
       "closes_in_days": 0.658,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T09:12:59.107910+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-05T01:48:55.085176+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260504105525794221",
@@ -32574,10 +32577,13 @@
       "potential_payout": 2.88,
       "closes": "2026-05-05T01:00:00+00:00",
       "closes_in_days": 0.45,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T14:11:57.492816+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-05T01:48:55.303838+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504141157494869",
@@ -33342,10 +33348,13 @@
       "potential_payout": 3.29,
       "closes": "2026-05-05T01:00:00+00:00",
       "closes_in_days": 0.241,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T19:13:01.606068+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-05T01:48:55.375564+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504191301606778",
@@ -33360,10 +33369,13 @@
       "potential_payout": 1.44,
       "closes": "2026-05-05T01:00:00+00:00",
       "closes_in_days": 0.241,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T19:13:01.606796+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-05T01:48:55.599543+00:00",
+      "realized_pnl": -0.46
     },
     {
       "id": "NC20260504191301607388",
@@ -33979,11 +33991,101 @@
       "placed_at": "2026-05-05T00:54:29.322876+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505014906257292",
+      "market_id": "1912138",
+      "market": "Will Jeonbuk Hyundai Motors FC win on 2026-05-05?",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 0.46,
+      "potential_profit": 1.46,
+      "potential_payout": 1.92,
+      "closes": "2026-05-05T05:00:00+00:00",
+      "closes_in_days": 0.133,
+      "status": "open",
+      "placed_at": "2026-05-05T01:49:06.257329+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505014906260410",
+      "market_id": "2008748",
+      "market": "Will Lutfur Rahman win the 2026 London Borough of Tower Hamlets mayoral election?",
+      "category": "politics",
+      "position": "NO",
+      "entry_no_price": 5,
+      "entry_yes_price": 95,
+      "stake": 0.46,
+      "potential_profit": 8.74,
+      "potential_payout": 9.2,
+      "closes": "2026-05-07T06:00:00+00:00",
+      "closes_in_days": 2.174,
+      "status": "open",
+      "placed_at": "2026-05-05T01:49:06.260429+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505014906260886",
+      "market_id": "2008677",
+      "market": "Will Liam Shrivastava win the 2026 London Borough of Lewisham mayoral election?",
+      "category": "politics",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 0.46,
+      "potential_profit": 2.1,
+      "potential_payout": 2.56,
+      "closes": "2026-05-07T06:00:00+00:00",
+      "closes_in_days": 2.174,
+      "status": "open",
+      "placed_at": "2026-05-05T01:49:06.260908+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505014906261320",
+      "market_id": "1864313",
+      "market": "Will Rowenna Davis win the 2026 London Borough of Croydon mayoral election?",
+      "category": "politics",
+      "position": "NO",
+      "entry_no_price": 32,
+      "entry_yes_price": 68,
+      "stake": 0.46,
+      "potential_profit": 0.98,
+      "potential_payout": 1.44,
+      "closes": "2026-05-07T06:00:00+00:00",
+      "closes_in_days": 2.174,
+      "status": "open",
+      "placed_at": "2026-05-05T01:49:06.261340+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260505014906261766",
+      "market_id": "1849843",
+      "market": "Will the Liberal Democrats win at least 600 council seat elections in the 2026 United Kingdom local elections?",
+      "category": "politics",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 0.46,
+      "potential_profit": 7.21,
+      "potential_payout": 7.67,
+      "closes": "2026-05-07T06:00:00+00:00",
+      "closes_in_days": 2.174,
+      "status": "open",
+      "placed_at": "2026-05-05T01:49:06.261785+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 1.84,
+  "daily_loss": 3.67,
   "daily_reset": "2026-05-05",
-  "scan_count": 227,
+  "scan_count": 228,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }

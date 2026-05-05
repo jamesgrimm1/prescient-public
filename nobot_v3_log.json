@@ -1,5 +1,5 @@
 {
-  "bankroll": 1204.9,
+  "bankroll": 1195.86,
   "trades": [
     {
       "id": "NB1776304868",
@@ -6143,11 +6143,31 @@
       "placed_at": "2026-05-05T01:21:19.620747+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1777945706",
+      "market_id": "2144868",
+      "market_slug": "highest-temperature-in-tokyo-on-may-5-2026-23corhigher",
+      "market": "Will the highest temperature in Tokyo be 23\u00b0C or higher on May 5?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 9.04,
+      "payout_if_wins": 18.83,
+      "profit_if_wins": 9.79,
+      "category": "weather",
+      "closes_in_days": 0.42,
+      "closes": "2026-05-05T12:00:00+00:00",
+      "volume": 7129.907147000003,
+      "status": "open",
+      "placed_at": "2026-05-05T01:48:26.979400+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 15.46,
   "daily_reset": "2026-05-05",
-  "scan_count": 531,
+  "scan_count": 532,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-04T21:40:23.115163+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
