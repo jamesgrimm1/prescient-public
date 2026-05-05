@@ -1,5 +1,5 @@
 {
-  "bankroll": 7.65,
+  "bankroll": 5.55,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -473,6 +473,44 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T18:45:00+00:00",
       "placed_at": "2026-05-05T13:53:57.210546+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777994743",
+      "paper_trade_id": "AP20260505151604633868",
+      "market_id": "2160310",
+      "market": "Counter-Strike: GenOne vs HAVU - Map 2 Winner",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 8,
+      "stake": 1.05,
+      "paper_stake": 15.95,
+      "scale_factor": 0.011105,
+      "clob_order_id": "0x8cec34381251e1eb7fdae36ce42357f9703ebea2b828cf2641f09c993fcc9442",
+      "clob_status": "live",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T18:00:00+00:00",
+      "placed_at": "2026-05-05T15:25:43.455573+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1777994743",
+      "paper_trade_id": "AP20260505151605249288",
+      "market_id": "2159477",
+      "market": "Counter-Strike: Walczaki vs Lavked (BO3) - BC Game Masters Europe Series #1 Group Stage",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 22,
+      "stake": 1.05,
+      "paper_stake": 15.56,
+      "scale_factor": 0.009581,
+      "clob_order_id": "0x41270e382a3e7ad724fcc130c68222f339a398a6da27048b01a218563ac8dd90",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-05T20:00:00+00:00",
+      "placed_at": "2026-05-05T15:25:43.680135+00:00",
       "paper": false,
       "status": "open"
     }
