@@ -1,5 +1,5 @@
 {
-  "bankroll": 885.53,
+  "bankroll": 885.09,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -36498,10 +36498,13 @@
       "potential_payout": 5.62,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.354,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T03:29:44.823871+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T12:24:16.153494+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260506032944824290",
@@ -36534,10 +36537,13 @@
       "potential_payout": 2.81,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.354,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T03:29:44.824715+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T12:24:16.563346+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260506032944828478",
@@ -37792,11 +37798,29 @@
       "placed_at": "2026-05-06T12:07:15.805475+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506122433820196",
+      "market_id": "2164983",
+      "market": "Will Apple (AAPL) close above $265 on May 6?",
+      "category": "economics",
+      "position": "NO",
+      "entry_no_price": 13,
+      "entry_yes_price": 87,
+      "stake": 0.44,
+      "potential_profit": 2.94,
+      "potential_payout": 3.38,
+      "closes": "2026-05-06T20:00:00+00:00",
+      "closes_in_days": 0.316,
+      "status": "open",
+      "placed_at": "2026-05-06T12:24:33.820238+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 6.31,
+  "daily_loss": 7.21,
   "daily_reset": "2026-05-06",
-  "scan_count": 257,
+  "scan_count": 258,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }

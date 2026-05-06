@@ -1,5 +1,5 @@
 {
-  "bankroll": 15.0,
+  "bankroll": 13.95,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -967,6 +967,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-06T12:00:00+00:00",
       "placed_at": "2026-05-06T11:10:31.385523+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1778069857",
+      "paper_trade_id": "AP20260506120714875838",
+      "market_id": "2163239",
+      "market": "Counter-Strike: Misa Esports vs STATE (BO3) - European Pro League Regular Group B",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 6,
+      "stake": 1.05,
+      "paper_stake": 8.29,
+      "scale_factor": 0.033612,
+      "clob_order_id": "0x96992bc56b435e400a271fe5464cfdd23fcf39eea71adc2ece9475d6511ac30c",
+      "clob_status": "live",
+      "fill_pct": 0.0,
+      "closes": "2026-05-06T16:30:00+00:00",
+      "placed_at": "2026-05-06T12:17:37.688022+00:00",
       "paper": false,
       "status": "open"
     }
