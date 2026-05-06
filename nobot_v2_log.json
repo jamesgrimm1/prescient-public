@@ -1,5 +1,5 @@
 {
-  "bankroll": 1091.43,
+  "bankroll": 1115.75,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11408,10 +11408,13 @@
       "closes_in_days": 0.43,
       "closes": "2026-05-06T12:00:00+00:00",
       "volume": 5447.927004999998,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T01:47:07.948580+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-06T18:33:07.692690+00:00",
+      "realized_pnl": -6.84
     },
     {
       "id": "NB1778032027",
@@ -11468,10 +11471,13 @@
       "closes_in_days": 0.43,
       "closes": "2026-05-06T12:00:00+00:00",
       "volume": 3691.5558990000036,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T01:47:07.949837+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-06T18:33:07.853171+00:00",
+      "realized_pnl": 3.22
     },
     {
       "id": "NB1778032027",
@@ -11511,10 +11517,13 @@
       "closes_in_days": 0.35,
       "closes": "2026-05-06T12:00:00+00:00",
       "volume": 7871.820056999998,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T03:29:11.887848+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-06T18:33:07.908430+00:00",
+      "realized_pnl": 4.75
     },
     {
       "id": "NB1778038151",
@@ -11571,10 +11580,13 @@
       "closes_in_days": 0.35,
       "closes": "2026-05-06T12:00:00+00:00",
       "volume": 3306.7000659999994,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T03:29:11.889509+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-06T18:33:08.162867+00:00",
+      "realized_pnl": -3.44
     },
     {
       "id": "NB1778038151",
@@ -11677,10 +11689,13 @@
       "closes_in_days": 0.24,
       "closes": "2026-05-06T16:00:00+00:00",
       "volume": 80902.0582700001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T10:15:57.122677+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-06T18:33:08.379420+00:00",
+      "realized_pnl": 3.94
     },
     {
       "id": "NB1778064931",
@@ -11821,11 +11836,31 @@
       "placed_at": "2026-05-06T16:11:32.672043+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778092400",
+      "market_id": "1509729",
+      "market_slug": "will-bayern-mnchen-reach-the-uefa-champions-league-final",
+      "market": "Will Bayern M\u00fcnchen reach the UEFA Champions League final?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 2.35,
+      "payout_if_wins": 4.9,
+      "profit_if_wins": 2.55,
+      "category": "other",
+      "closes_in_days": 0.23,
+      "closes": "2026-05-07T00:00:00+00:00",
+      "volume": 389187.96442100056,
+      "status": "open",
+      "placed_at": "2026-05-06T18:33:20.066580+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
-  "daily_loss": 19.74,
+  "daily_loss": 30.02,
   "daily_reset": "2026-05-06",
-  "scan_count": 414,
+  "scan_count": 415,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-06T15:09:06.868198+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
