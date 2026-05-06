@@ -1,5 +1,5 @@
 {
-  "bankroll": 458.08,
+  "bankroll": 442.22,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -10472,10 +10472,64 @@
       "placed_at": "2026-05-06T06:22:40.641554+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506071651704073",
+      "market_id": "2152384",
+      "market": "Will the lowest temperature in London be 8\u00b0C on May 6?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 7,
+      "entry_yes_price": 93,
+      "stake": 6.87,
+      "potential_profit": 91.27,
+      "potential_payout": 98.14,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "closes_in_days": 0.197,
+      "status": "open",
+      "placed_at": "2026-05-06T07:16:51.704092+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506071652156622",
+      "market_id": "2152457",
+      "market": "Will the lowest temperature in Paris be 10\u00b0C on May 6?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 7,
+      "entry_yes_price": 93,
+      "stake": 6.77,
+      "potential_profit": 89.94,
+      "potential_payout": 96.71,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "closes_in_days": 0.197,
+      "status": "open",
+      "placed_at": "2026-05-06T07:16:52.156648+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506071652591263",
+      "market_id": "2156967",
+      "market": "Will the highest temperature in Hong Kong be 24\u00b0C on May 6?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 25,
+      "entry_yes_price": 75,
+      "stake": 2.22,
+      "potential_profit": 6.66,
+      "potential_payout": 8.88,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "closes_in_days": 0.197,
+      "status": "open",
+      "placed_at": "2026-05-06T07:16:52.591290+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 5.36,
   "daily_reset": "2026-05-06",
-  "scan_count": 307,
+  "scan_count": 308,
   "started": "2026-04-21T00:00:00+00:00"
 }
