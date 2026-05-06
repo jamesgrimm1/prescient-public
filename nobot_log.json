@@ -1,5 +1,5 @@
 {
-  "bankroll": 958.18,
+  "bankroll": 969.12,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11219,10 +11219,13 @@
       "closes_in_days": 0.47,
       "closes": "2026-05-06T04:00:00+00:00",
       "volume": 5110.9395159999995,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T16:46:17.515778+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-06T05:19:29.669296+00:00",
+      "realized_pnl": 3.09
     },
     {
       "id": "NB1778032019",
@@ -11282,10 +11285,13 @@
       "closes_in_days": 0.43,
       "closes": "2026-05-06T12:00:00+00:00",
       "volume": 6230.535012000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T01:46:59.201015+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-06T05:19:29.976530+00:00",
+      "realized_pnl": 2.84
     },
     {
       "id": "NB1778032019",
@@ -11486,11 +11492,31 @@
       "placed_at": "2026-05-06T03:29:01.283292+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778044783",
+      "market_id": "2157308",
+      "market_slug": "highest-temperature-in-qingdao-on-may-6-2026-24c",
+      "market": "Will the highest temperature in Qingdao be 24\u00b0C on May 6?",
+      "position": "NO",
+      "entry_no_price": 55,
+      "entry_yes_price": 45,
+      "stake": 3.01,
+      "payout_if_wins": 5.47,
+      "profit_if_wins": 2.46,
+      "category": "weather",
+      "closes_in_days": 0.28,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "volume": 9527.672293,
+      "status": "open",
+      "placed_at": "2026-05-06T05:19:43.882377+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 7.04,
   "daily_reset": "2026-05-06",
-  "scan_count": 394,
+  "scan_count": 395,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-06T01:46:45.620649+00:00"
 }
