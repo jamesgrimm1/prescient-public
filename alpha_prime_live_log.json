@@ -1,5 +1,5 @@
 {
-  "bankroll": 3.45,
+  "bankroll": 1.35,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -549,6 +549,44 @@
       "fill_pct": 0.0,
       "closes": "2026-05-05T21:00:00+00:00",
       "placed_at": "2026-05-05T18:27:30.089955+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1778038597",
+      "paper_trade_id": "AP20260506032931617081",
+      "market_id": "2157055",
+      "market": "Will the highest temperature in Beijing be 25\u00b0C on May 6?",
+      "pattern": "A",
+      "position": "NO",
+      "entry_no_price": 16,
+      "stake": 1.05,
+      "paper_stake": 19.65,
+      "scale_factor": 0.00557,
+      "clob_order_id": "0x745260b5cca2afe2f179b2b3da6f80e5aea2292df0e0b98963e23fff7bd1edb1",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "placed_at": "2026-05-06T03:36:37.075763+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1778038597",
+      "paper_trade_id": "AP20260506032944825693",
+      "market_id": "2141852",
+      "market": "LoL: Gen.G vs Nongshim Red Force - Game 1 Winner",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 16,
+      "stake": 1.05,
+      "paper_stake": 15.88,
+      "scale_factor": 0.003875,
+      "clob_order_id": "0x535e771dbb37dbb5c56b5cf14299a17d35c367b3332ad64753cce1734e222ce8",
+      "clob_status": "live",
+      "fill_pct": 0.0,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "placed_at": "2026-05-06T03:36:37.294016+00:00",
       "paper": false,
       "status": "open"
     }
