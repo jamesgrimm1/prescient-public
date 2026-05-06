@@ -1,5 +1,5 @@
 {
-  "bankroll": 438.04,
+  "bankroll": 404.99,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -298,11 +298,42 @@
       "placed_at": "2026-05-06T17:29:44.679638+00:00",
       "paper": true,
       "model": "claude-opus-4-6"
+    },
+    {
+      "id": "V2_1778095643",
+      "tier": 1,
+      "market_id": "2170963",
+      "market_slug": "will-bitcoin-dip-to-81k-on-may-6",
+      "market": "Will Bitcoin dip to $81,000 on May 6?",
+      "position": "YES",
+      "entry_price": 72,
+      "stake": 33.05,
+      "potential_return": 45.9,
+      "potential_profit": 12.85,
+      "confidence": 78,
+      "true_prob": 85,
+      "market_prob": 72,
+      "category": "crypto",
+      "closes_in_days": 0.4,
+      "closes": "2026-05-07T04:00:00+00:00",
+      "research_summary": "BTC opened at $80,900.77 on May 6 per Yahoo Finance, which is below the $81,000 threshold. Standard prediction market resolution for 'dip to X' means price reaches/touches X at any point during the specified day. Since BTC was already below $81K at the daily open, this condition appears already satisfied. Current price $81,342 with -0.22% 24h change. Market at 72\u00a2 has not fully priced in the opening price data.",
+      "key_factors": [
+        "BTC opened at $80,900.77 on May 6 \u2014 already below $81,000 threshold",
+        "Standard 'dip to' resolution = price touches level at any point during day",
+        "Even under alternative interpretation requiring fresh decline, only 0.42% drop needed from $81,342 in ~4.5hrs \u2014 well within BTC intraday volatility"
+      ],
+      "bear_case": "Resolution criteria may differ from standard interpretation (e.g., specific snapshot time, closing price, or require decline FROM above). If resolution requires BTC to close at/below $81K, current price of $81,342 makes this uncertain. Market at 72% rather than 95%+ suggests possible resolution nuance.",
+      "kelly_tier": "half-Kelly (100.0%) [cal-halved]",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-06T19:27:23.071417+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-06",
-  "scan_count": 147,
+  "scan_count": 148,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
