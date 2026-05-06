@@ -1,5 +1,5 @@
 {
-  "bankroll": 1105.82,
+  "bankroll": 1118.37,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11204,10 +11204,13 @@
       "closes_in_days": 0.09,
       "closes": "2026-05-05T12:00:00+00:00",
       "volume": 4833.140160000006,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T09:51:55.543172+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-06T10:55:21.406023+00:00",
+      "realized_pnl": 3.33
     },
     {
       "id": "NB1777974715",
@@ -11247,10 +11250,13 @@
       "closes_in_days": 0.09,
       "closes": "2026-05-05T12:00:00+00:00",
       "volume": 3709.0882609999976,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T09:51:55.543252+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-06T10:55:21.467155+00:00",
+      "realized_pnl": 2.72
     },
     {
       "id": "NB1777974715",
@@ -11669,11 +11675,31 @@
       "placed_at": "2026-05-06T10:15:57.122677+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778064931",
+      "market_id": "2140899",
+      "market_slug": "elon-musk-of-tweets-may-4-may-6-0-39",
+      "market": "Will Elon Musk post <40 tweets from May 4 to May 6, 2026?",
+      "position": "NO",
+      "entry_no_price": 46,
+      "entry_yes_price": 54,
+      "stake": 2.35,
+      "payout_if_wins": 5.11,
+      "profit_if_wins": 2.76,
+      "category": "other",
+      "closes_in_days": 0.21,
+      "closes": "2026-05-06T16:00:00+00:00",
+      "volume": 331733.86273200024,
+      "status": "open",
+      "placed_at": "2026-05-06T10:55:31.024833+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 17.48,
   "daily_reset": "2026-05-06",
-  "scan_count": 404,
+  "scan_count": 405,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-06T01:46:59.929186+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"

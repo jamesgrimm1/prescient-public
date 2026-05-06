@@ -1,5 +1,5 @@
 {
-  "bankroll": 656.1,
+  "bankroll": 623.3,
   "trades": [
     {
       "id": "T1777580081",
@@ -133,11 +133,43 @@
       "placed_at": "2026-05-05T07:24:44.120758+00:00",
       "paper": true,
       "model": "claude-opus-4-6"
+    },
+    {
+      "id": "T1778065813",
+      "tier": 1,
+      "market_id": "2116634",
+      "market_slug": "bitcoin-above-82k-on-may-6",
+      "market": "Will the price of Bitcoin be above $82,000 on May 6?",
+      "position": "YES",
+      "entry_price": 66,
+      "stake": 32.8,
+      "potential_return": 49.7,
+      "potential_profit": 16.9,
+      "confidence": 85,
+      "true_prob": 88,
+      "market_prob": 66,
+      "category": "crypto",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-06T16:00:00+00:00",
+      "research_summary": "LIVE price data shows BTC at $82,422, already $422 (0.5%) above the $82,000 threshold. Market closes today May 6 \u2014 resolution is imminent. 24h momentum is +1.98%. The 66\u00a2 YES price appears to be stale relative to current price reality despite $94K volume.",
+      "key_factors": [
+        "BTC live price $82,422 is ALREADY above $82,000 threshold",
+        "Market closes today (0d remaining) \u2014 resolution imminent or past",
+        "Positive momentum (+1.98% 24h) reduces risk of sudden dip below threshold",
+        "Crypto category has strong track record (62% WR, +$586 P&L)"
+      ],
+      "bear_case": "Market may have already closed at 11:06 UTC (1 min ago) making trade impossible. If resolution is at a later timestamp today, BTC's 0.5% buffer could evaporate on an intraday dip. Resolution mechanics/source could differ from CoinGecko price.",
+      "kelly_tier": "half-Kelly (10.0%) [cal-halved]",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-06T11:10:13.972362+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-06",
-  "scan_count": 125,
+  "scan_count": 126,
   "started": "2026-04-29T15:03:12.099702+00:00",
   "version": "v3",
   "notes": "V3: 500 market pull + newest pass, sports near-resolution enabled, tech/culture categories added",

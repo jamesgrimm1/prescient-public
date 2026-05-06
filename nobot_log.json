@@ -1,5 +1,5 @@
 {
-  "bankroll": 979.81,
+  "bankroll": 991.09,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11122,10 +11122,13 @@
       "closes_in_days": 0.09,
       "closes": "2026-05-05T12:00:00+00:00",
       "volume": 4833.140160000006,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T09:51:46.770140+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-06T10:55:07.348347+00:00",
+      "realized_pnl": 2.99
     },
     {
       "id": "NB1777974706",
@@ -11165,10 +11168,13 @@
       "closes_in_days": 0.09,
       "closes": "2026-05-05T12:00:00+00:00",
       "volume": 3709.0882609999976,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T09:51:46.770223+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-06T10:55:07.410879+00:00",
+      "realized_pnl": 2.44
     },
     {
       "id": "NB1777974706",
@@ -11587,11 +11593,31 @@
       "placed_at": "2026-05-06T10:15:45.708502+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778064920",
+      "market_id": "2140899",
+      "market_slug": "elon-musk-of-tweets-may-4-may-6-0-39",
+      "market": "Will Elon Musk post <40 tweets from May 4 to May 6, 2026?",
+      "position": "NO",
+      "entry_no_price": 46,
+      "entry_yes_price": 54,
+      "stake": 2.09,
+      "payout_if_wins": 4.54,
+      "profit_if_wins": 2.45,
+      "category": "other",
+      "closes_in_days": 0.21,
+      "closes": "2026-05-06T16:00:00+00:00",
+      "volume": 331733.86273200024,
+      "status": "open",
+      "placed_at": "2026-05-06T10:55:20.027037+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 14.11,
   "daily_reset": "2026-05-06",
-  "scan_count": 400,
+  "scan_count": 401,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-06T01:46:45.620649+00:00"
 }
