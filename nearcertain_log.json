@@ -1,5 +1,5 @@
 {
-  "bankroll": 431.23,
+  "bankroll": 454.75,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -10072,10 +10072,13 @@
       "potential_payout": 98.89,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.425,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T01:47:27.737116+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T12:06:27.261621+00:00",
+      "realized_pnl": -8.9
     },
     {
       "id": "NC20260506014727737540",
@@ -10180,10 +10183,13 @@
       "potential_payout": 25.81,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.355,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T03:29:31.616288+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-06T12:06:27.780937+00:00",
+      "realized_pnl": 21.68
     },
     {
       "id": "NC20260506052025741215",
@@ -10216,10 +10222,13 @@
       "potential_payout": 11.7,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.278,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T05:20:25.745074+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T12:06:28.302477+00:00",
+      "realized_pnl": -2.69
     },
     {
       "id": "NC20260506052025745272",
@@ -10562,10 +10571,28 @@
       "placed_at": "2026-05-06T08:25:29.741068+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506120644370503",
+      "market_id": "2162267",
+      "market": "Will the highest temperature in Panama City be 32\u00b0C or higher on May 7?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 2.29,
+      "potential_profit": 7.25,
+      "potential_payout": 9.54,
+      "closes": "2026-05-07T12:00:00+00:00",
+      "closes_in_days": 0.995,
+      "status": "open",
+      "placed_at": "2026-05-06T12:06:44.370524+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 5.36,
+  "daily_loss": 16.95,
   "daily_reset": "2026-05-06",
-  "scan_count": 311,
+  "scan_count": 312,
   "started": "2026-04-21T00:00:00+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "bankroll": 1118.37,
+  "bankroll": 1111.49,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11695,11 +11695,31 @@
       "placed_at": "2026-05-06T10:55:31.024833+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778069167",
+      "market_id": "2149123",
+      "market_slug": "ucl-bay-psg-2026-05-06-ags-khvicha-kvaratskhelia",
+      "market": "Khvicha Kvaratskhelia: Anytime Goalscorer",
+      "position": "NO",
+      "entry_no_price": 57,
+      "entry_yes_price": 42,
+      "stake": 6.88,
+      "payout_if_wins": 12.07,
+      "profit_if_wins": 5.19,
+      "category": "other",
+      "closes_in_days": 0.29,
+      "closes": "2026-05-06T19:00:00+00:00",
+      "volume": 7113.774406,
+      "status": "open",
+      "placed_at": "2026-05-06T12:06:07.595379+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 17.48,
   "daily_reset": "2026-05-06",
-  "scan_count": 405,
+  "scan_count": 406,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-06T01:46:59.929186+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"

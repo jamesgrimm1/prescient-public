@@ -1,5 +1,5 @@
 {
-  "bankroll": 991.09,
+  "bankroll": 987.03,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11613,11 +11613,31 @@
       "placed_at": "2026-05-06T10:55:20.027037+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778069156",
+      "market_id": "2149123",
+      "market_slug": "ucl-bay-psg-2026-05-06-ags-khvicha-kvaratskhelia",
+      "market": "Khvicha Kvaratskhelia: Anytime Goalscorer",
+      "position": "NO",
+      "entry_no_price": 57,
+      "entry_yes_price": 42,
+      "stake": 4.06,
+      "payout_if_wins": 7.12,
+      "profit_if_wins": 3.06,
+      "category": "other",
+      "closes_in_days": 0.29,
+      "closes": "2026-05-06T19:00:00+00:00",
+      "volume": 7113.774406,
+      "status": "open",
+      "placed_at": "2026-05-06T12:05:56.773929+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 14.11,
   "daily_reset": "2026-05-06",
-  "scan_count": 401,
+  "scan_count": 402,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-06T01:46:45.620649+00:00"
 }
