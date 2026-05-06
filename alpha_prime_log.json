@@ -1,5 +1,5 @@
 {
-  "bankroll": 438.45,
+  "bankroll": 427.49,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -2688,11 +2688,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 452.01
+    },
+    {
+      "id": "AP20260506064234058619",
+      "market_id": "2141881",
+      "market": "LoL: Hanwha Life Esports vs DN SOOPers - Game 1 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_lol",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 10.96,
+      "potential_profit": 57.54,
+      "potential_payout": 68.5,
+      "closes": "2026-05-06T14:00:00+00:00",
+      "closes_in_days": 0.304,
+      "status": "open",
+      "placed_at": "2026-05-06T06:42:34.058637+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 438.45
     }
   ],
   "daily_loss": 33.99,
   "daily_reset": "2026-05-06",
-  "scan_count": 141,
+  "scan_count": 142,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
