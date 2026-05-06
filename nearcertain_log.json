@@ -1,5 +1,5 @@
 {
-  "bankroll": 458.68,
+  "bankroll": 461.01,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -9243,7 +9243,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:36.502865+00:00",
+      "resolved_at": "2026-05-06T15:21:25.843405+00:00",
       "realized_pnl": -7.59
     },
     {
@@ -9651,7 +9651,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:36.970488+00:00",
+      "resolved_at": "2026-05-06T15:21:26.122971+00:00",
       "realized_pnl": -4.87
     },
     {
@@ -9987,7 +9987,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:37.048466+00:00",
+      "resolved_at": "2026-05-06T15:21:26.191785+00:00",
       "realized_pnl": -4.07
     },
     {
@@ -10221,7 +10221,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:37.178864+00:00",
+      "resolved_at": "2026-05-06T15:21:26.378794+00:00",
       "realized_pnl": -8.19
     },
     {
@@ -10263,7 +10263,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:37.254789+00:00",
+      "resolved_at": "2026-05-06T15:21:26.425227+00:00",
       "realized_pnl": -8.03
     },
     {
@@ -10302,7 +10302,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": true,
-      "resolved_at": "2026-05-06T15:09:37.700619+00:00",
+      "resolved_at": "2026-05-06T15:21:26.771589+00:00",
       "realized_pnl": 8.3
     },
     {
@@ -10323,7 +10323,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:37.960359+00:00",
+      "resolved_at": "2026-05-06T15:21:26.841424+00:00",
       "realized_pnl": -3.91
     },
     {
@@ -10344,7 +10344,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:38.035790+00:00",
+      "resolved_at": "2026-05-06T15:21:26.887405+00:00",
       "realized_pnl": -7.75
     },
     {
@@ -10365,7 +10365,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:38.122394+00:00",
+      "resolved_at": "2026-05-06T15:21:26.954764+00:00",
       "realized_pnl": -7.64
     },
     {
@@ -10422,7 +10422,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:38.299524+00:00",
+      "resolved_at": "2026-05-06T15:21:26.999438+00:00",
       "realized_pnl": -7.35
     },
     {
@@ -10443,7 +10443,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:38.569037+00:00",
+      "resolved_at": "2026-05-06T15:21:27.042662+00:00",
       "realized_pnl": -2.41
     },
     {
@@ -10464,7 +10464,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:38.707279+00:00",
+      "resolved_at": "2026-05-06T15:21:27.087397+00:00",
       "realized_pnl": -7.21
     },
     {
@@ -10480,10 +10480,13 @@
       "potential_payout": 88.75,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.234,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T06:22:39.273001+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T15:21:27.130313+00:00",
+      "realized_pnl": -7.1
     },
     {
       "id": "NC20260506062239845285",
@@ -10503,7 +10506,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:39.010959+00:00",
+      "resolved_at": "2026-05-06T15:21:27.186576+00:00",
       "realized_pnl": -4.66
     },
     {
@@ -10578,7 +10581,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-06T15:09:39.902968+00:00",
+      "resolved_at": "2026-05-06T15:21:27.661099+00:00",
       "realized_pnl": -2.22
     },
     {
@@ -10636,25 +10639,25 @@
       "model": "nearcertain"
     },
     {
-      "id": "NC20260506150949921644",
+      "id": "NC20260506152136388500",
       "market_id": "2133765",
       "market": "Will \"Drop Dead - Olivia Rodrigo\" be the #1 song on US Spotify this week?",
       "category": "other",
       "position": "NO",
-      "entry_no_price": 8,
-      "entry_yes_price": 92,
-      "stake": 6.99,
-      "potential_profit": 80.39,
-      "potential_payout": 87.38,
+      "entry_no_price": 11,
+      "entry_yes_price": 89,
+      "stake": 4.66,
+      "potential_profit": 37.7,
+      "potential_payout": 42.36,
       "closes": "2026-05-08T00:00:00+00:00",
-      "closes_in_days": 1.368,
+      "closes_in_days": 1.36,
       "status": "open",
-      "placed_at": "2026-05-06T15:09:49.921667+00:00",
+      "placed_at": "2026-05-06T15:21:36.388523+00:00",
       "paper": true,
       "model": "nearcertain"
     }
   ],
-  "daily_loss": 101.23,
+  "daily_loss": 108.33,
   "daily_reset": "2026-05-06",
   "scan_count": 315,
   "started": "2026-04-21T00:00:00+00:00"
