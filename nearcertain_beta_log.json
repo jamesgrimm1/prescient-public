@@ -1,5 +1,5 @@
 {
-  "bankroll": 886.77,
+  "bankroll": 886.09,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -36468,10 +36468,13 @@
       "potential_payout": 1.29,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.514,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T23:39:45.914088+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T16:48:15.040795+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260505233945917048",
@@ -37590,10 +37593,13 @@
       "potential_payout": 2.44,
       "closes": "2026-05-06T16:40:00+00:00",
       "closes_in_days": 0.266,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T10:16:40.047109+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T16:48:18.819586+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260506101640051352",
@@ -37965,10 +37971,13 @@
       "potential_payout": 1.52,
       "closes": "2026-05-06T15:00:00+00:00",
       "closes_in_days": 0.051,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T13:46:04.712670+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-06T16:48:20.320209+00:00",
+      "realized_pnl": 1.08
     },
     {
       "id": "NC20260506134604713273",
@@ -38311,11 +38320,101 @@
       "placed_at": "2026-05-06T16:12:16.195583+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506164831157927",
+      "market_id": "2105825",
+      "market": "Game Handicap: DV1 (-1.5) vs GLORE (+1.5)",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 12,
+      "entry_yes_price": 88,
+      "stake": 0.44,
+      "potential_profit": 3.23,
+      "potential_payout": 3.67,
+      "closes": "2026-05-06T21:10:00+00:00",
+      "closes_in_days": 0.182,
+      "status": "open",
+      "placed_at": "2026-05-06T16:48:31.157946+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506164831158430",
+      "market_id": "2172214",
+      "market": "Counter-Strike: Players vs Alzon (BO3) - CCT South America Series #1 Group Stage",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 12,
+      "entry_yes_price": 88,
+      "stake": 0.44,
+      "potential_profit": 3.23,
+      "potential_payout": 3.67,
+      "closes": "2026-05-06T22:00:00+00:00",
+      "closes_in_days": 0.216,
+      "status": "open",
+      "placed_at": "2026-05-06T16:48:31.158449+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506164831839772",
+      "market_id": "2168041",
+      "market": "Dota 2: MODUS vs Team Nemesis (BO3) - European Pro League Group B",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 32,
+      "entry_yes_price": 68,
+      "stake": 0.44,
+      "potential_profit": 0.94,
+      "potential_payout": 1.38,
+      "closes": "2026-05-06T22:20:00+00:00",
+      "closes_in_days": 0.23,
+      "status": "open",
+      "placed_at": "2026-05-06T16:48:31.839796+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506164831842574",
+      "market_id": "2126009",
+      "market": "Will the price of XRP be between $1.40 and $1.50 on May 7?",
+      "category": "crypto",
+      "position": "NO",
+      "entry_no_price": 32,
+      "entry_yes_price": 68,
+      "stake": 0.44,
+      "potential_profit": 0.94,
+      "potential_payout": 1.38,
+      "closes": "2026-05-07T16:00:00+00:00",
+      "closes_in_days": 0.966,
+      "status": "open",
+      "placed_at": "2026-05-06T16:48:31.842591+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506164831843819",
+      "market_id": "2171531",
+      "market": "Will the highest temperature in Istanbul be 24\u00b0C or higher on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 0.44,
+      "potential_profit": 3.96,
+      "potential_payout": 4.4,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 1.8,
+      "status": "open",
+      "placed_at": "2026-05-06T16:48:31.843835+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 24.75,
+  "daily_loss": 25.64,
   "daily_reset": "2026-05-06",
-  "scan_count": 261,
+  "scan_count": 262,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
