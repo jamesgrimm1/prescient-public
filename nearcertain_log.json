@@ -1,5 +1,5 @@
 {
-  "bankroll": 455.46,
+  "bankroll": 466.29,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -9532,10 +9532,13 @@
       "potential_payout": 14.38,
       "closes": "2026-05-06T00:00:00+00:00",
       "closes_in_days": 0.962,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T00:54:13.770962+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-06T21:02:25.870914+00:00",
+      "realized_pnl": 10.93
     },
     {
       "id": "NC20260505005413771150",
@@ -10003,10 +10006,13 @@
       "potential_payout": 10.76,
       "closes": "2026-05-06T18:15:00+00:00",
       "closes_in_days": 1.295,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T11:10:04.414865+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-06T21:02:26.392733+00:00",
+      "realized_pnl": 8.07
     },
     {
       "id": "NC20260505130915372437",
@@ -10697,10 +10703,46 @@
       "placed_at": "2026-05-06T16:48:05.812907+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506210232614538",
+      "market_id": "2161764",
+      "market": "Will the lowest temperature in Tokyo be 17\u00b0C on May 7?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 5,
+      "entry_yes_price": 95,
+      "stake": 7.21,
+      "potential_profit": 136.99,
+      "potential_payout": 144.2,
+      "closes": "2026-05-07T12:00:00+00:00",
+      "closes_in_days": 0.623,
+      "status": "open",
+      "placed_at": "2026-05-06T21:02:32.614558+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506210232614988",
+      "market_id": "2141954",
+      "market": "LoL: T1 vs DN SOOPers (BO3) - LCK Rounds 1-2",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 9,
+      "entry_yes_price": 91,
+      "stake": 7.1,
+      "potential_profit": 71.79,
+      "potential_payout": 78.89,
+      "closes": "2026-05-08T14:00:00+00:00",
+      "closes_in_days": 1.707,
+      "status": "open",
+      "placed_at": "2026-05-06T21:02:32.615007+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 105.19,
   "daily_reset": "2026-05-06",
-  "scan_count": 320,
+  "scan_count": 321,
   "started": "2026-04-21T00:00:00+00:00"
 }
