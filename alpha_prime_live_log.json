@@ -1,5 +1,5 @@
 {
-  "bankroll": 5.55,
+  "bankroll": 3.45,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -853,6 +853,44 @@
       "fill_pct": 0.0,
       "closes": "2026-05-06T12:00:00+00:00",
       "placed_at": "2026-05-06T07:24:56.211290+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1778056263",
+      "paper_trade_id": "AP20260506082542421809",
+      "market_id": "2141853",
+      "market": "LoL: Gen.G vs Nongshim Red Force - Game 2 Winner",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 16,
+      "stake": 1.05,
+      "paper_stake": 9.75,
+      "scale_factor": 0.014964,
+      "clob_order_id": "0x6f0d4353769468ab36fc9124b25da4e295459ae27557678a6e3d9f5b01433268",
+      "clob_status": "live",
+      "fill_pct": 0.0,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "placed_at": "2026-05-06T08:31:03.315799+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1778056263",
+      "paper_trade_id": "AP20260506082542828419",
+      "market_id": "2169208",
+      "market": "Counter-Strike: Walczaki vs Rebels Gaming (BO3) - NODWIN Clutch Series Play-In",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 18,
+      "stake": 1.05,
+      "paper_stake": 9.51,
+      "scale_factor": 0.012133,
+      "clob_order_id": "0x2cf34ad444fd84895971a224c2c18dc80ecff1937141e93e067525efc349f719",
+      "clob_status": "live",
+      "fill_pct": 0.0,
+      "closes": "2026-05-06T14:00:00+00:00",
+      "placed_at": "2026-05-06T08:31:03.537708+00:00",
       "paper": false,
       "status": "open"
     }
