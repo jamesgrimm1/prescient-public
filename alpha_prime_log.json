@@ -1,5 +1,5 @@
 {
-  "bankroll": 537.79,
+  "bankroll": 599.27,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -2920,12 +2920,15 @@
       "potential_payout": 74.92,
       "closes": "2026-05-06T14:00:00+00:00",
       "closes_in_days": 0.155,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T10:16:40.042219+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 359.77
+      "ap_bankroll_at_placement": 359.77,
+      "won": true,
+      "resolved_at": "2026-05-06T16:12:16.773624+00:00",
+      "realized_pnl": 65.93
     },
     {
       "id": "AP20260506101640048045",
@@ -3067,11 +3070,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 476.88
+    },
+    {
+      "id": "AP20260506161215706159",
+      "market_id": "2169328",
+      "market": "Counter-Strike: Lavked vs UNiTY esports - Map 2 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 13.44,
+      "potential_profit": 210.56,
+      "potential_payout": 224.0,
+      "closes": "2026-05-06T20:15:00+00:00",
+      "closes_in_days": 0.169,
+      "status": "open",
+      "placed_at": "2026-05-06T16:12:15.706172+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 537.79
     }
   ],
   "daily_loss": 252.73,
   "daily_reset": "2026-05-06",
-  "scan_count": 150,
+  "scan_count": 151,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
