@@ -1,5 +1,5 @@
 {
-  "bankroll": 446.27,
+  "bankroll": 489.11,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -2803,12 +2803,15 @@
       "potential_payout": 60.94,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.149,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T08:25:42.421824+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 390.16
+      "ap_bankroll_at_placement": 390.16,
+      "won": false,
+      "resolved_at": "2026-05-06T13:46:07.291023+00:00",
+      "realized_pnl": -9.75
     },
     {
       "id": "AP20260506082542828419",
@@ -2918,12 +2921,15 @@
       "potential_payout": 54.0,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.044,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T10:56:13.537409+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 342.01
+      "ap_bankroll_at_placement": 342.01,
+      "won": true,
+      "resolved_at": "2026-05-06T13:46:07.446383+00:00",
+      "realized_pnl": 43.74
     },
     {
       "id": "AP20260506120714875838",
@@ -2947,11 +2953,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 331.75
+    },
+    {
+      "id": "AP20260506134604714967",
+      "market_id": "2164749",
+      "market": "Dota 2: Team Nemesis vs Zero Tenacity - Game 1 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_dota",
+      "position": "NO",
+      "entry_no_price": 20,
+      "entry_yes_price": 80,
+      "stake": 11.16,
+      "potential_profit": 44.64,
+      "potential_payout": 55.8,
+      "closes": "2026-05-06T18:20:00+00:00",
+      "closes_in_days": 0.19,
+      "status": "open",
+      "placed_at": "2026-05-06T13:46:04.714980+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 446.27
     }
   ],
-  "daily_loss": 49.87,
+  "daily_loss": 59.62,
   "daily_reset": "2026-05-06",
-  "scan_count": 148,
+  "scan_count": 149,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
