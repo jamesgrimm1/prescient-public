@@ -1,5 +1,5 @@
 {
-  "bankroll": 489.11,
+  "bankroll": 537.79,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -2458,12 +2458,15 @@
       "potential_payout": 232.25,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.278,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T05:20:25.742221+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 619.35
+      "ap_bankroll_at_placement": 619.35,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.033111+00:00",
+      "realized_pnl": -18.58
     },
     {
       "id": "AP20260506052025746107",
@@ -2481,12 +2484,15 @@
       "potential_payout": 225.25,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.278,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T05:20:25.746122+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 600.77
+      "ap_bankroll_at_placement": 600.77,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.114669+00:00",
+      "realized_pnl": -18.02
     },
     {
       "id": "AP20260506052025750040",
@@ -2504,12 +2510,15 @@
       "potential_payout": 72.83,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.278,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T05:20:25.750055+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 582.75
+      "ap_bankroll_at_placement": 582.75,
+      "won": true,
+      "resolved_at": "2026-05-06T15:10:17.199140+00:00",
+      "realized_pnl": 55.35
     },
     {
       "id": "AP20260506052025753937",
@@ -2527,12 +2536,15 @@
       "potential_payout": 84.8,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.278,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T05:20:25.753952+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 565.27
+      "ap_bankroll_at_placement": 565.27,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.303907+00:00",
+      "realized_pnl": -16.96
     },
     {
       "id": "AP20260506052025757611",
@@ -2550,12 +2562,15 @@
       "potential_payout": 164.5,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.278,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T05:20:25.757625+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 548.31
+      "ap_bankroll_at_placement": 548.31,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.374592+00:00",
+      "realized_pnl": -16.45
     },
     {
       "id": "AP20260506052025761363",
@@ -2573,12 +2588,15 @@
       "potential_payout": 159.6,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.278,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T05:20:25.761378+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 531.86
+      "ap_bankroll_at_placement": 531.86,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.454891+00:00",
+      "realized_pnl": -15.96
     },
     {
       "id": "AP20260506062237536339",
@@ -2596,12 +2614,15 @@
       "potential_payout": 193.5,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.234,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T06:22:37.536375+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 515.9
+      "ap_bankroll_at_placement": 515.9,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.520310+00:00",
+      "realized_pnl": -15.48
     },
     {
       "id": "AP20260506062238014428",
@@ -2619,12 +2640,15 @@
       "potential_payout": 71.48,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.234,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T06:22:38.014453+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 500.42
+      "ap_bankroll_at_placement": 500.42,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.582850+00:00",
+      "realized_pnl": -15.01
     },
     {
       "id": "AP20260506062238688235",
@@ -2642,12 +2666,15 @@
       "potential_payout": 323.67,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.234,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T06:22:38.688259+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 485.41
+      "ap_bankroll_at_placement": 485.41,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.651967+00:00",
+      "realized_pnl": -19.42
     },
     {
       "id": "AP20260506062239274160",
@@ -2688,12 +2715,15 @@
       "potential_payout": 113.0,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.234,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T06:22:39.846506+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 452.01
+      "ap_bankroll_at_placement": 452.01,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:17.942730+00:00",
+      "realized_pnl": -13.56
     },
     {
       "id": "AP20260506064234058619",
@@ -2711,12 +2741,15 @@
       "potential_payout": 68.5,
       "closes": "2026-05-06T14:00:00+00:00",
       "closes_in_days": 0.304,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T06:42:34.058637+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 438.45
+      "ap_bankroll_at_placement": 438.45,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:18.015059+00:00",
+      "realized_pnl": -10.96
     },
     {
       "id": "AP20260506071651705021",
@@ -2780,12 +2813,15 @@
       "potential_payout": 48.28,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.197,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T07:16:52.592523+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 402.23
+      "ap_bankroll_at_placement": 402.23,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:18.386474+00:00",
+      "realized_pnl": -12.07
     },
     {
       "id": "AP20260506082542421809",
@@ -2829,12 +2865,15 @@
       "potential_payout": 52.83,
       "closes": "2026-05-06T14:00:00+00:00",
       "closes_in_days": 0.232,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T08:25:42.828435+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 380.41
+      "ap_bankroll_at_placement": 380.41,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:18.462716+00:00",
+      "realized_pnl": -9.51
     },
     {
       "id": "AP20260506101639198941",
@@ -2852,12 +2891,15 @@
       "potential_payout": 159.0,
       "closes": "2026-05-06T12:00:00+00:00",
       "closes_in_days": 0.072,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T10:16:39.198954+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 370.9
+      "ap_bankroll_at_placement": 370.9,
+      "won": false,
+      "resolved_at": "2026-05-06T15:10:18.661078+00:00",
+      "realized_pnl": -11.13
     },
     {
       "id": "AP20260506101640042202",
@@ -2976,11 +3018,57 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 446.27
+    },
+    {
+      "id": "AP20260506151015153560",
+      "market_id": "2172170",
+      "market": "Counter-Strike: Donstu Esports vs INFURITY Gaming (BO3) - Exort Series Main Stage",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 9,
+      "entry_yes_price": 91,
+      "stake": 12.23,
+      "potential_profit": 123.66,
+      "potential_payout": 135.89,
+      "closes": "2026-05-06T19:00:00+00:00",
+      "closes_in_days": 0.16,
+      "status": "open",
+      "placed_at": "2026-05-06T15:10:15.153573+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 489.11
+    },
+    {
+      "id": "AP20260506151015981557",
+      "market_id": "2172192",
+      "market": "Counter-Strike: CYBERSHOKE Esports vs ASTRAL (BO3) - BC Game Masters Europe Series #1 Group Stage",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 15,
+      "entry_yes_price": 85,
+      "stake": 11.92,
+      "potential_profit": 67.55,
+      "potential_payout": 79.47,
+      "closes": "2026-05-06T20:00:00+00:00",
+      "closes_in_days": 0.201,
+      "status": "open",
+      "placed_at": "2026-05-06T15:10:15.981573+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 476.88
     }
   ],
-  "daily_loss": 59.62,
+  "daily_loss": 252.73,
   "daily_reset": "2026-05-06",
-  "scan_count": 149,
+  "scan_count": 150,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",

@@ -1,5 +1,5 @@
 {
-  "bankroll": 987.03,
+  "bankroll": 985.4,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11569,10 +11569,13 @@
       "closes_in_days": 0.15,
       "closes": "2026-05-06T12:00:00+00:00",
       "volume": 3581.4706639999986,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T08:24:58.865098+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-06T15:08:55.568702+00:00",
+      "realized_pnl": 2.51
     },
     {
       "id": "NB1778062545",
@@ -11633,11 +11636,51 @@
       "placed_at": "2026-05-06T12:05:56.773929+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778080146",
+      "market_id": "2149119",
+      "market_slug": "ucl-bay-psg-2026-05-06-ags-michael-olise",
+      "market": "Michael Olise: Anytime Goalscorer",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 4.12,
+      "payout_if_wins": 6.87,
+      "profit_if_wins": 2.75,
+      "category": "other",
+      "closes_in_days": 0.16,
+      "closes": "2026-05-06T19:00:00+00:00",
+      "volume": 6551.688581999998,
+      "status": "open",
+      "placed_at": "2026-05-06T15:09:06.141986+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778080146",
+      "market_id": "2149121",
+      "market_slug": "ucl-bay-psg-2026-05-06-ags-ousmane-dembele",
+      "market": "Ousmane Dembele: Anytime Goalscorer",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 4.11,
+      "payout_if_wins": 6.63,
+      "profit_if_wins": 2.52,
+      "category": "other",
+      "closes_in_days": 0.16,
+      "closes": "2026-05-06T19:00:00+00:00",
+      "volume": 4223.786287999999,
+      "status": "open",
+      "placed_at": "2026-05-06T15:09:06.142032+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 14.11,
   "daily_reset": "2026-05-06",
-  "scan_count": 404,
+  "scan_count": 405,
   "started": "2026-04-16T00:00:00+00:00",
-  "last_summary_sent": "2026-05-06T01:46:45.620649+00:00"
+  "last_summary_sent": "2026-05-06T15:08:52.286790+00:00"
 }

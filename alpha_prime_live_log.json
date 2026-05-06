@@ -1,5 +1,5 @@
 {
-  "bankroll": 13.95,
+  "bankroll": 12.9,
   "trades": [
     {
       "id": "APLIVE_1777927762",
@@ -986,6 +986,25 @@
       "fill_pct": 0.0,
       "closes": "2026-05-06T16:30:00+00:00",
       "placed_at": "2026-05-06T12:17:37.688022+00:00",
+      "paper": false,
+      "status": "open"
+    },
+    {
+      "id": "APLIVE_1778075744",
+      "paper_trade_id": "AP20260506134604714967",
+      "market_id": "2164749",
+      "market": "Dota 2: Team Nemesis vs Zero Tenacity - Game 1 Winner",
+      "pattern": "C",
+      "position": "NO",
+      "entry_no_price": 20,
+      "stake": 1.05,
+      "paper_stake": 11.16,
+      "scale_factor": 0.028521,
+      "clob_order_id": "0xa18d7865d0f27f82da390dd321a52231717891de5bd832f6dbe5a1b437c8d522",
+      "clob_status": "delayed",
+      "fill_pct": 0.0,
+      "closes": "2026-05-06T18:20:00+00:00",
+      "placed_at": "2026-05-06T13:55:44.058655+00:00",
       "paper": false,
       "status": "open"
     }
