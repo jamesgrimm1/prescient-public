@@ -1,5 +1,5 @@
 {
-  "bankroll": 484.23,
+  "bankroll": 438.04,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -266,11 +266,43 @@
       "placed_at": "2026-05-06T15:16:40.760576+00:00",
       "paper": true,
       "model": "claude-opus-4-6"
+    },
+    {
+      "id": "V2_1778088584",
+      "tier": 1,
+      "market_id": "1849826",
+      "market_slug": "will-reform-uk-win-at-least-2200-council-seat-elections-in-the-2026-united-kingdom-local-elections-365",
+      "market": "Will Reform UK win at least 2200 council seat elections in the 2026 United Kingdom local elections?",
+      "position": "YES",
+      "entry_price": 8,
+      "stake": 46.19,
+      "potential_return": 577.38,
+      "potential_profit": 531.19,
+      "confidence": 76,
+      "true_prob": 35,
+      "market_prob": 8,
+      "category": "politics",
+      "closes_in_days": 0.3,
+      "closes": "2026-05-07T00:00:00+00:00",
+      "research_summary": "Reform won 804 seats in 2025 with limited candidate coverage. In 2026 they're standing in 95%+ of wards with significantly higher polling. YouGov MRP projects them topping polls in all 13 West Midlands council areas. Near-universal coverage alone could double seats; combined with polling surge, 2200+ threshold is achievable though uncertain.",
+      "key_factors": [
+        "95%+ ward coverage in 2026 vs much less in 2025 \u2014 massively more opportunities",
+        "National polling surge with YouGov MRP showing regional dominance",
+        "804 to 2200 requires 2.7x increase \u2014 large but plausible with coverage + polling gains",
+        "Low volume ($9,872) suggests limited sophisticated pricing"
+      ],
+      "bear_case": "FPTP local elections can be highly inefficient for vote-to-seat conversion; different councils contested in 2026 may be less favorable; no quantitative seat projections available to confirm trajectory; 2.7x jump is historically large",
+      "kelly_tier": "half-Kelly (100.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-06T17:29:44.679638+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-06",
-  "scan_count": 145,
+  "scan_count": 146,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",

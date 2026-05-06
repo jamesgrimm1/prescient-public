@@ -1,5 +1,5 @@
 {
-  "bankroll": 584.29,
+  "bankroll": 569.68,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3119,11 +3119,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 599.27
+    },
+    {
+      "id": "AP20260506172203734313",
+      "market_id": "2164787",
+      "market": "Dota 2: MOUZ vs PlayTime - Game 1 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_dota",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 14.61,
+      "potential_profit": 228.89,
+      "potential_payout": 243.5,
+      "closes": "2026-05-06T22:40:00+00:00",
+      "closes_in_days": 0.221,
+      "status": "open",
+      "placed_at": "2026-05-06T17:22:03.734326+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 584.29
     }
   ],
   "daily_loss": 261.5,
   "daily_reset": "2026-05-06",
-  "scan_count": 152,
+  "scan_count": 153,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
