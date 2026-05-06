@@ -97,10 +97,13 @@
       "bear_case": "Market may reflect information not in research: pre-announcements, lowered analyst bars, or insider confidence. 90% pricing usually reflects informed money.",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-04T11:07:00.064914+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": false,
+      "resolved_at": "2026-05-06T22:39:55.228531+00:00",
+      "realized_pnl": -81.0
     },
     {
       "id": "T1777965884",
@@ -170,9 +173,9 @@
       "realized_pnl": -32.8
     }
   ],
-  "daily_loss": 32.8,
+  "daily_loss": 113.8,
   "daily_reset": "2026-05-06",
-  "scan_count": 136,
+  "scan_count": 137,
   "started": "2026-04-29T15:03:12.099702+00:00",
   "version": "v3",
   "notes": "V3: 500 market pull + newest pass, sports near-resolution enabled, tech/culture categories added",
