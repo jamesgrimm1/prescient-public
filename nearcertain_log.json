@@ -1,5 +1,5 @@
 {
-  "bankroll": 558.79,
+  "bankroll": 546.28,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -10148,10 +10148,46 @@
       "placed_at": "2026-05-06T01:47:27.738275+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506032931615948",
+      "market_id": "2156808",
+      "market": "Will the highest temperature in Seoul be 21\u00b0C or higher on May 6?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 8,
+      "entry_yes_price": 92,
+      "stake": 8.38,
+      "potential_profit": 96.37,
+      "potential_payout": 104.75,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "closes_in_days": 0.355,
+      "status": "open",
+      "placed_at": "2026-05-06T03:29:31.615966+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506032931616270",
+      "market_id": "2157055",
+      "market": "Will the highest temperature in Beijing be 25\u00b0C on May 6?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 4.13,
+      "potential_profit": 21.68,
+      "potential_payout": 25.81,
+      "closes": "2026-05-06T12:00:00+00:00",
+      "closes_in_days": 0.355,
+      "status": "open",
+      "placed_at": "2026-05-06T03:29:31.616288+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 5.36,
   "daily_reset": "2026-05-06",
-  "scan_count": 303,
+  "scan_count": 304,
   "started": "2026-04-21T00:00:00+00:00"
 }
