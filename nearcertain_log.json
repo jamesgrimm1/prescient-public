@@ -1,5 +1,5 @@
 {
-  "bankroll": 442.22,
+  "bankroll": 431.23,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -10526,10 +10526,46 @@
       "placed_at": "2026-05-06T07:16:52.591290+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506082529740706",
+      "market_id": "2162069",
+      "market": "Will the highest temperature in Warsaw be 18\u00b0C or higher on May 7?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 12,
+      "entry_yes_price": 88,
+      "stake": 4.42,
+      "potential_profit": 32.41,
+      "potential_payout": 36.83,
+      "closes": "2026-05-07T12:00:00+00:00",
+      "closes_in_days": 1.149,
+      "status": "open",
+      "placed_at": "2026-05-06T08:25:29.740727+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506082529741051",
+      "market_id": "2162223",
+      "market": "Will the highest temperature in Mexico City be 28\u00b0C or higher on May 7?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 7,
+      "entry_yes_price": 93,
+      "stake": 6.57,
+      "potential_profit": 87.29,
+      "potential_payout": 93.86,
+      "closes": "2026-05-07T12:00:00+00:00",
+      "closes_in_days": 1.149,
+      "status": "open",
+      "placed_at": "2026-05-06T08:25:29.741068+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 5.36,
   "daily_reset": "2026-05-06",
-  "scan_count": 308,
+  "scan_count": 309,
   "started": "2026-04-21T00:00:00+00:00"
 }
