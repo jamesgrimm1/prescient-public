@@ -1,5 +1,5 @@
 {
-  "bankroll": 891.63,
+  "bankroll": 891.43,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -37194,10 +37194,13 @@
       "potential_payout": 2.5,
       "closes": "2026-05-06T21:00:00+00:00",
       "closes_in_days": 0.609,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T06:22:57.752811+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-06T23:40:35.375741+00:00",
+      "realized_pnl": 2.05
     },
     {
       "id": "NC20260506062257754540",
@@ -38577,10 +38580,13 @@
       "potential_payout": 7.33,
       "closes": "2026-05-06T22:40:00+00:00",
       "closes_in_days": 0.221,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T17:22:03.733216+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T23:40:36.659647+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260506172204130482",
@@ -38613,10 +38619,13 @@
       "potential_payout": 1.47,
       "closes": "2026-05-06T23:00:00+00:00",
       "closes_in_days": 0.235,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T17:22:04.131116+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T23:40:36.944582+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260506172204132325",
@@ -38748,10 +38757,13 @@
       "potential_payout": 4.5,
       "closes": "2026-05-06T23:15:00+00:00",
       "closes_in_days": 0.195,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T18:33:57.842367+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T23:40:37.592339+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260506183357842921",
@@ -38802,10 +38814,13 @@
       "potential_payout": 1.61,
       "closes": "2026-05-06T22:00:00+00:00",
       "closes_in_days": 0.111,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T19:20:39.344088+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-06T23:40:37.753821+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260506192039344963",
@@ -39112,11 +39127,119 @@
       "placed_at": "2026-05-06T22:39:07.323158+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506234041527644",
+      "market_id": "2148542",
+      "market": "Ducks vs. Golden Knights: O/U 4.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 0.45,
+      "potential_profit": 1.6,
+      "potential_payout": 2.05,
+      "closes": "2026-05-07T01:30:00+00:00",
+      "closes_in_days": 0.076,
+      "status": "open",
+      "placed_at": "2026-05-06T23:40:41.527668+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506234041528434",
+      "market_id": "2174650",
+      "market": "Valorant: Shopify Rebellion Black vs Division One - Map 4 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 12,
+      "entry_yes_price": 88,
+      "stake": 0.45,
+      "potential_profit": 3.3,
+      "potential_payout": 3.75,
+      "closes": "2026-05-07T02:00:00+00:00",
+      "closes_in_days": 0.097,
+      "status": "open",
+      "placed_at": "2026-05-06T23:40:41.528450+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506234041529701",
+      "market_id": "2161957",
+      "market": "Will the highest temperature in Wellington be 19\u00b0C on May 7?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 8,
+      "entry_yes_price": 92,
+      "stake": 0.45,
+      "potential_profit": 5.17,
+      "potential_payout": 5.62,
+      "closes": "2026-05-07T12:00:00+00:00",
+      "closes_in_days": 0.513,
+      "status": "open",
+      "placed_at": "2026-05-06T23:40:41.529719+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506234041531596",
+      "market_id": "2081415",
+      "market": "LoL: HMBLE vs Colossal Gaming (BO5) - LIT Playoffs",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 0.45,
+      "potential_profit": 7.05,
+      "potential_payout": 7.5,
+      "closes": "2026-05-07T22:00:00+00:00",
+      "closes_in_days": 0.93,
+      "status": "open",
+      "placed_at": "2026-05-06T23:40:41.531612+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506234041532043",
+      "market_id": "2081423",
+      "market": "Game Handicap: HMBLE (-1.5) vs Colossal Gaming (+1.5)",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 0.45,
+      "potential_profit": 2.05,
+      "potential_payout": 2.5,
+      "closes": "2026-05-07T22:00:00+00:00",
+      "closes_in_days": 0.93,
+      "status": "open",
+      "placed_at": "2026-05-06T23:40:41.532060+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260506234041532795",
+      "market_id": "2171266",
+      "market": "Will the highest temperature in Lucknow be 35\u00b0C or below on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 9,
+      "entry_yes_price": 91,
+      "stake": 0.45,
+      "potential_profit": 4.55,
+      "potential_payout": 5.0,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 1.513,
+      "status": "open",
+      "placed_at": "2026-05-06T23:40:41.532814+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 42.18,
+  "daily_loss": 43.96,
   "daily_reset": "2026-05-06",
-  "scan_count": 267,
+  "scan_count": 268,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
