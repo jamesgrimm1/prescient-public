@@ -548,7 +548,7 @@
       "v2_trade_id": "NB1778069167"
     },
     {
-      "id": "V420260506152111163098",
+      "id": "V420260506150918554045",
       "market_id": "2149119",
       "market": "Michael Olise: Anytime Goalscorer",
       "category": "other",
@@ -560,16 +560,16 @@
       "potential_profit": 10.69,
       "potential_payout": 26.72,
       "closes": "2026-05-06T19:00:00+00:00",
-      "closes_in_days": 0.15,
-      "volume": 6822.097604999998,
+      "closes_in_days": 0.16,
+      "volume": 6551.688581999998,
       "status": "open",
-      "placed_at": "2026-05-06T15:21:11.163112+00:00",
+      "placed_at": "2026-05-06T15:09:18.554057+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778080871"
+      "v2_trade_id": "NB1778080158"
     },
     {
-      "id": "V420260506152111164061",
+      "id": "V420260506150918555085",
       "market_id": "2149121",
       "market": "Ousmane Dembele: Anytime Goalscorer",
       "category": "other",
@@ -581,13 +581,13 @@
       "potential_profit": 6.34,
       "potential_payout": 16.69,
       "closes": "2026-05-06T19:00:00+00:00",
-      "closes_in_days": 0.15,
-      "volume": 4228.888851,
+      "closes_in_days": 0.16,
+      "volume": 4223.786287999999,
       "status": "open",
-      "placed_at": "2026-05-06T15:21:11.164073+00:00",
+      "placed_at": "2026-05-06T15:09:18.555097+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778080871"
+      "v2_trade_id": "NB1778080158"
     }
   ],
   "scan_count": 9,

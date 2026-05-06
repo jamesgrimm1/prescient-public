@@ -2465,7 +2465,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 619.35,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:54.972226+00:00",
+      "resolved_at": "2026-05-06T15:10:17.033111+00:00",
       "realized_pnl": -18.58
     },
     {
@@ -2491,7 +2491,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 600.77,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.033591+00:00",
+      "resolved_at": "2026-05-06T15:10:17.114669+00:00",
       "realized_pnl": -18.02
     },
     {
@@ -2517,7 +2517,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 582.75,
       "won": true,
-      "resolved_at": "2026-05-06T15:21:55.091571+00:00",
+      "resolved_at": "2026-05-06T15:10:17.199140+00:00",
       "realized_pnl": 55.35
     },
     {
@@ -2543,7 +2543,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 565.27,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.143166+00:00",
+      "resolved_at": "2026-05-06T15:10:17.303907+00:00",
       "realized_pnl": -16.96
     },
     {
@@ -2569,7 +2569,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 548.31,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.186747+00:00",
+      "resolved_at": "2026-05-06T15:10:17.374592+00:00",
       "realized_pnl": -16.45
     },
     {
@@ -2595,7 +2595,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 531.86,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.241808+00:00",
+      "resolved_at": "2026-05-06T15:10:17.454891+00:00",
       "realized_pnl": -15.96
     },
     {
@@ -2621,7 +2621,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 515.9,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.287737+00:00",
+      "resolved_at": "2026-05-06T15:10:17.520310+00:00",
       "realized_pnl": -15.48
     },
     {
@@ -2647,7 +2647,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 500.42,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.334826+00:00",
+      "resolved_at": "2026-05-06T15:10:17.582850+00:00",
       "realized_pnl": -15.01
     },
     {
@@ -2673,7 +2673,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 485.41,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.382484+00:00",
+      "resolved_at": "2026-05-06T15:10:17.651967+00:00",
       "realized_pnl": -19.42
     },
     {
@@ -2725,7 +2725,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 452.01,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.464963+00:00",
+      "resolved_at": "2026-05-06T15:10:17.942730+00:00",
       "realized_pnl": -13.56
     },
     {
@@ -2751,7 +2751,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 438.45,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.506854+00:00",
+      "resolved_at": "2026-05-06T15:10:18.015059+00:00",
       "realized_pnl": -10.96
     },
     {
@@ -2823,7 +2823,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 402.23,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.829722+00:00",
+      "resolved_at": "2026-05-06T15:10:18.386474+00:00",
       "realized_pnl": -12.07
     },
     {
@@ -2875,7 +2875,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 380.41,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.871081+00:00",
+      "resolved_at": "2026-05-06T15:10:18.462716+00:00",
       "realized_pnl": -9.51
     },
     {
@@ -2901,7 +2901,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 370.9,
       "won": false,
-      "resolved_at": "2026-05-06T15:21:55.916047+00:00",
+      "resolved_at": "2026-05-06T15:10:18.661078+00:00",
       "realized_pnl": -11.13
     },
     {
@@ -3023,30 +3023,30 @@
       "ap_bankroll_at_placement": 446.27
     },
     {
-      "id": "AP20260506152153782629",
-      "market_id": "2172194",
-      "market": "Counter-Strike: CYBERSHOKE Esports vs ASTRAL - Map 2 Winner",
+      "id": "AP20260506151015153560",
+      "market_id": "2172170",
+      "market": "Counter-Strike: Donstu Esports vs INFURITY Gaming (BO3) - Exort Series Main Stage",
       "category": "sports",
       "pattern": "C",
       "pattern_label": "Esports CS/Dota/LoL",
       "pattern_reason": "esports_cs",
       "position": "NO",
-      "entry_no_price": 15,
-      "entry_yes_price": 85,
+      "entry_no_price": 9,
+      "entry_yes_price": 91,
       "stake": 12.23,
-      "potential_profit": 69.3,
-      "potential_payout": 81.53,
-      "closes": "2026-05-06T18:00:00+00:00",
-      "closes_in_days": 0.11,
+      "potential_profit": 123.66,
+      "potential_payout": 135.89,
+      "closes": "2026-05-06T19:00:00+00:00",
+      "closes_in_days": 0.16,
       "status": "open",
-      "placed_at": "2026-05-06T15:21:53.782644+00:00",
+      "placed_at": "2026-05-06T15:10:15.153573+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 489.11
     },
     {
-      "id": "AP20260506152154285191",
+      "id": "AP20260506151015981557",
       "market_id": "2172192",
       "market": "Counter-Strike: CYBERSHOKE Esports vs ASTRAL (BO3) - BC Game Masters Europe Series #1 Group Stage",
       "category": "sports",
@@ -3054,22 +3054,22 @@
       "pattern_label": "Esports CS/Dota/LoL",
       "pattern_reason": "esports_cs",
       "position": "NO",
-      "entry_no_price": 8,
-      "entry_yes_price": 92,
+      "entry_no_price": 15,
+      "entry_yes_price": 85,
       "stake": 11.92,
-      "potential_profit": 137.08,
-      "potential_payout": 149.0,
+      "potential_profit": 67.55,
+      "potential_payout": 79.47,
       "closes": "2026-05-06T20:00:00+00:00",
-      "closes_in_days": 0.193,
+      "closes_in_days": 0.201,
       "status": "open",
-      "placed_at": "2026-05-06T15:21:54.285211+00:00",
+      "placed_at": "2026-05-06T15:10:15.981573+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 476.88
     }
   ],
-  "daily_loss": 266.71,
+  "daily_loss": 252.73,
   "daily_reset": "2026-05-06",
   "scan_count": 150,
   "started": "2026-04-28T00:00:00+00:00",

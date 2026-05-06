@@ -11574,7 +11574,7 @@
       "paper": true,
       "model": "nobot-mechanical",
       "won": true,
-      "resolved_at": "2026-05-06T15:20:54.097618+00:00",
+      "resolved_at": "2026-05-06T15:08:55.568702+00:00",
       "realized_pnl": 2.51
     },
     {
@@ -11638,7 +11638,7 @@
       "model": "nobot-mechanical"
     },
     {
-      "id": "NB1778080861",
+      "id": "NB1778080146",
       "market_id": "2149119",
       "market_slug": "ucl-bay-psg-2026-05-06-ags-michael-olise",
       "market": "Michael Olise: Anytime Goalscorer",
@@ -11649,16 +11649,16 @@
       "payout_if_wins": 6.87,
       "profit_if_wins": 2.75,
       "category": "other",
-      "closes_in_days": 0.15,
+      "closes_in_days": 0.16,
       "closes": "2026-05-06T19:00:00+00:00",
-      "volume": 6822.097604999998,
+      "volume": 6551.688581999998,
       "status": "open",
-      "placed_at": "2026-05-06T15:21:01.866748+00:00",
+      "placed_at": "2026-05-06T15:09:06.141986+00:00",
       "paper": true,
       "model": "nobot-mechanical"
     },
     {
-      "id": "NB1778080861",
+      "id": "NB1778080146",
       "market_id": "2149121",
       "market_slug": "ucl-bay-psg-2026-05-06-ags-ousmane-dembele",
       "market": "Ousmane Dembele: Anytime Goalscorer",
@@ -11669,11 +11669,11 @@
       "payout_if_wins": 6.63,
       "profit_if_wins": 2.52,
       "category": "other",
-      "closes_in_days": 0.15,
+      "closes_in_days": 0.16,
       "closes": "2026-05-06T19:00:00+00:00",
-      "volume": 4228.888851,
+      "volume": 4223.786287999999,
       "status": "open",
-      "placed_at": "2026-05-06T15:21:01.866790+00:00",
+      "placed_at": "2026-05-06T15:09:06.142032+00:00",
       "paper": true,
       "model": "nobot-mechanical"
     }
@@ -11682,5 +11682,5 @@
   "daily_reset": "2026-05-06",
   "scan_count": 405,
   "started": "2026-04-16T00:00:00+00:00",
-  "last_summary_sent": "2026-05-06T15:20:52.032089+00:00"
+  "last_summary_sent": "2026-05-06T15:08:52.286790+00:00"
 }

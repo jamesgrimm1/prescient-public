@@ -1,5 +1,5 @@
 {
-  "bankroll": 562.33,
+  "bankroll": 484.23,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -232,6 +232,38 @@
       "news_triggered": true,
       "status": "open",
       "placed_at": "2026-05-06T01:51:06.875683+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6"
+    },
+    {
+      "id": "V2_1778080600",
+      "tier": 1,
+      "market_id": "2135254",
+      "market_slug": "will-spy-reach-735-by-may-4-2026",
+      "market": "Will S&P 500 (SPY) hit (HIGH) $735 Week of May 4 2026?",
+      "position": "YES",
+      "entry_price": 64,
+      "stake": 78.1,
+      "potential_return": 122.03,
+      "potential_profit": 43.93,
+      "confidence": 76,
+      "true_prob": 74,
+      "market_prob": 64,
+      "category": "stocks",
+      "closes_in_days": 2.2,
+      "closes": "2026-05-08T20:00:00+00:00",
+      "research_summary": "SPY at $731.77, only $3.23 (0.44%) from $735 target. Today's intraday range already $5.35. Need only to TOUCH $735 once across 2.5 remaining trading days. Strong positive momentum today (+1.11%).",
+      "key_factors": [
+        "Only 0.44% gap to target with 2.5 trading days remaining",
+        "Daily intraday range ($5-8) far exceeds distance to target ($3.23)",
+        "Touch condition (not close) makes this substantially easier",
+        "Strong bullish momentum today (+1.11% from previous close)"
+      ],
+      "bear_case": "Unemployment data May 8 could trigger selloff; today's rally may reverse tomorrow; market could consolidate below $735 all week",
+      "kelly_tier": "half-Kelly (100.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-06T15:16:40.760576+00:00",
       "paper": true,
       "model": "claude-opus-4-6"
     }
