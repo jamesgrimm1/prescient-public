@@ -1,5 +1,5 @@
 {
-  "bankroll": 1127.43,
+  "bankroll": 1132.27,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11572,10 +11572,13 @@
       "closes_in_days": 0.35,
       "closes": "2026-05-06T12:00:00+00:00",
       "volume": 3842.624595000003,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T03:29:11.888975+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-07T08:12:36.818912+00:00",
+      "realized_pnl": -3.36
     },
     {
       "id": "NB1778038151",
@@ -12094,10 +12097,13 @@
       "closes_in_days": 0.28,
       "closes": "2026-05-07T12:00:00+00:00",
       "volume": 4061.1642390000006,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:30.861350+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-07T08:12:37.808505+00:00",
+      "realized_pnl": 3.61
     },
     {
       "id": "NB1778131350",
@@ -12118,11 +12124,31 @@
       "placed_at": "2026-05-07T05:22:30.862567+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778141566",
+      "market_id": "2161922",
+      "market_slug": "highest-temperature-in-miami-on-may-7-2026-90-91f",
+      "market": "Will the highest temperature in Miami be between 90-91\u00b0F on May 7?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 2.38,
+      "payout_if_wins": 4.96,
+      "profit_if_wins": 2.58,
+      "category": "weather",
+      "closes_in_days": 0.16,
+      "closes": "2026-05-07T12:00:00+00:00",
+      "volume": 3779.3348150000015,
+      "status": "open",
+      "placed_at": "2026-05-07T08:12:46.517665+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
-  "daily_loss": 27.42,
+  "daily_loss": 30.78,
   "daily_reset": "2026-05-07",
-  "scan_count": 422,
+  "scan_count": 423,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-07T05:22:22.970982+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"

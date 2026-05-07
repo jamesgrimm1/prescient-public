@@ -1,5 +1,5 @@
 {
-  "bankroll": 552.18,
+  "bankroll": 530.09,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3359,11 +3359,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 566.34
+    },
+    {
+      "id": "AP20260507081313083615",
+      "market_id": "2162330",
+      "market": "Will the highest temperature in Guangzhou be 32\u00b0C on May 7?",
+      "category": "weather",
+      "pattern": "D",
+      "pattern_label": "Watchlist City Boost",
+      "pattern_reason": "watchlist_city",
+      "position": "NO",
+      "entry_no_price": 20,
+      "entry_yes_price": 80,
+      "stake": 22.09,
+      "potential_profit": 88.36,
+      "potential_payout": 110.45,
+      "closes": "2026-05-07T12:00:00+00:00",
+      "closes_in_days": 0.158,
+      "status": "open",
+      "placed_at": "2026-05-07T08:13:13.083628+00:00",
+      "source_bot": "nearcertain",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 552.18
     }
   ],
   "daily_loss": 28.13,
   "daily_reset": "2026-05-07",
-  "scan_count": 161,
+  "scan_count": 162,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",

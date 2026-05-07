@@ -1,5 +1,5 @@
 {
-  "bankroll": 994.57,
+  "bankroll": 998.83,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11490,10 +11490,13 @@
       "closes_in_days": 0.35,
       "closes": "2026-05-06T12:00:00+00:00",
       "volume": 3842.624595000003,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T03:29:01.283220+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": false,
+      "resolved_at": "2026-05-07T08:12:24.465510+00:00",
+      "realized_pnl": -3.0
     },
     {
       "id": "NB1778038141",
@@ -11989,10 +11992,13 @@
       "closes_in_days": 0.28,
       "closes": "2026-05-07T12:00:00+00:00",
       "volume": 4061.1642390000006,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:22.259001+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-07T08:12:25.817435+00:00",
+      "realized_pnl": 3.18
     },
     {
       "id": "NB1778131342",
@@ -12013,11 +12019,31 @@
       "placed_at": "2026-05-07T05:22:22.259034+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778141555",
+      "market_id": "2161922",
+      "market_slug": "highest-temperature-in-miami-on-may-7-2026-90-91f",
+      "market": "Will the highest temperature in Miami be between 90-91\u00b0F on May 7?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 2.1,
+      "payout_if_wins": 4.38,
+      "profit_if_wins": 2.28,
+      "category": "weather",
+      "closes_in_days": 0.16,
+      "closes": "2026-05-07T12:00:00+00:00",
+      "volume": 3779.3348150000015,
+      "status": "open",
+      "placed_at": "2026-05-07T08:12:35.341509+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
-  "daily_loss": 17.24,
+  "daily_loss": 20.24,
   "daily_reset": "2026-05-07",
-  "scan_count": 418,
+  "scan_count": 419,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-07T05:22:13.038676+00:00"
 }
