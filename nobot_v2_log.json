@@ -1,5 +1,5 @@
 {
-  "bankroll": 1132.27,
+  "bankroll": 1120.96,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12144,11 +12144,51 @@
       "placed_at": "2026-05-07T08:12:46.517665+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778167503",
+      "market_id": "2174152",
+      "market_slug": "spy-closes-above-735-on-may-7-2026",
+      "market": "S&P 500 (SPY) closes above $735 on May 7?",
+      "position": "NO",
+      "entry_no_price": 49,
+      "entry_yes_price": 51,
+      "stake": 5.94,
+      "payout_if_wins": 12.12,
+      "profit_if_wins": 6.18,
+      "category": "economics",
+      "closes_in_days": 0.19,
+      "closes": "2026-05-07T20:00:00+00:00",
+      "volume": 36549.941846,
+      "status": "open",
+      "placed_at": "2026-05-07T15:25:03.496142+00:00",
+      "paper": true,
+      "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778167503",
+      "market_id": "2174318",
+      "market_slug": "tsla-close-above-410-on-may-7-2026",
+      "market": "Will Tesla (TSLA) close above $410 on May 7?",
+      "position": "NO",
+      "entry_no_price": 50,
+      "entry_yes_price": 50,
+      "stake": 5.37,
+      "payout_if_wins": 10.74,
+      "profit_if_wins": 5.37,
+      "category": "other",
+      "closes_in_days": 0.19,
+      "closes": "2026-05-07T20:00:00+00:00",
+      "volume": 5365.235987,
+      "status": "open",
+      "placed_at": "2026-05-07T15:25:03.496204+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 30.78,
   "daily_reset": "2026-05-07",
-  "scan_count": 425,
+  "scan_count": 426,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-07T05:22:22.970982+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"

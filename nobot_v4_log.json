@@ -1,5 +1,5 @@
 {
-  "bankroll": 831.04,
+  "bankroll": 917.08,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -786,11 +786,14 @@
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.44,
       "volume": 5497.264127999999,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T01:20:24.481747+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778116824"
+      "v2_trade_id": "NB1778116824",
+      "won": false,
+      "realized_pnl": -21.31,
+      "resolved_at": "2026-05-07T15:25:03.918051+00:00"
     },
     {
       "id": "V420260507015129167750",
@@ -807,11 +810,14 @@
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.42,
       "volume": 6320.715868999995,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T01:51:29.167762+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778118689"
+      "v2_trade_id": "NB1778118689",
+      "won": false,
+      "realized_pnl": -27.87,
+      "resolved_at": "2026-05-07T15:25:04.072373+00:00"
     },
     {
       "id": "V420260507015129169011",
@@ -828,11 +834,14 @@
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.42,
       "volume": 3529.491266999999,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T01:51:29.169048+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778118689"
+      "v2_trade_id": "NB1778118689",
+      "won": true,
+      "realized_pnl": 11.51,
+      "resolved_at": "2026-05-07T15:25:04.248630+00:00"
     },
     {
       "id": "V420260507015129170197",
@@ -849,11 +858,14 @@
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.42,
       "volume": 3304.313759,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T01:51:29.170209+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778118689"
+      "v2_trade_id": "NB1778118689",
+      "won": false,
+      "realized_pnl": -13.51,
+      "resolved_at": "2026-05-07T15:25:04.427543+00:00"
     },
     {
       "id": "V420260507052230857835",
@@ -870,11 +882,14 @@
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.28,
       "volume": 6804.915717999998,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:30.857849+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778131350"
+      "v2_trade_id": "NB1778131350",
+      "won": true,
+      "realized_pnl": 15.91,
+      "resolved_at": "2026-05-07T15:25:04.597269+00:00"
     },
     {
       "id": "V420260507052230859140",
@@ -891,11 +906,14 @@
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.28,
       "volume": 6371.840615000003,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:30.859152+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778131350"
+      "v2_trade_id": "NB1778131350",
+      "won": true,
+      "realized_pnl": 15.58,
+      "resolved_at": "2026-05-07T15:25:04.732465+00:00"
     },
     {
       "id": "V420260507052230860364",
@@ -912,11 +930,14 @@
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.28,
       "volume": 4225.918187,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:30.860376+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778131350"
+      "v2_trade_id": "NB1778131350",
+      "won": false,
+      "realized_pnl": -12.26,
+      "resolved_at": "2026-05-07T15:25:04.886661+00:00"
     },
     {
       "id": "V420260507052230861602",
@@ -958,14 +979,38 @@
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.28,
       "volume": 3939.935242999999,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:30.862848+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778131350"
+      "v2_trade_id": "NB1778131350",
+      "won": false,
+      "realized_pnl": -12.19,
+      "resolved_at": "2026-05-07T15:25:05.045723+00:00"
+    },
+    {
+      "id": "V420260507152503496512",
+      "market_id": "2174318",
+      "market": "Will Tesla (TSLA) close above $410 on May 7?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 50,
+      "entry_yes_price": 50,
+      "stake": 19.82,
+      "v2_stake": 5.37,
+      "potential_profit": 19.82,
+      "potential_payout": 39.64,
+      "closes": "2026-05-07T20:00:00+00:00",
+      "closes_in_days": 0.19,
+      "volume": 5365.235987,
+      "status": "open",
+      "placed_at": "2026-05-07T15:25:03.496525+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778167503"
     }
   ],
-  "scan_count": 23,
+  "scan_count": 24,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }

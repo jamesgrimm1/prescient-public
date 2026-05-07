@@ -1,5 +1,5 @@
 {
-  "bankroll": 576.41,
+  "bankroll": 547.95,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3238,12 +3238,15 @@
       "potential_payout": 153.77,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.276,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:51.955301+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 666.38
+      "ap_bankroll_at_placement": 666.38,
+      "won": false,
+      "resolved_at": "2026-05-07T15:25:44.883380+00:00",
+      "realized_pnl": -19.99
     },
     {
       "id": "AP20260507052253125935",
@@ -3261,12 +3264,15 @@
       "potential_payout": 107.72,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.276,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:53.125952+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 646.39
+      "ap_bankroll_at_placement": 646.39,
+      "won": false,
+      "resolved_at": "2026-05-07T15:25:44.934314+00:00",
+      "realized_pnl": -19.39
     },
     {
       "id": "AP20260507052253525784",
@@ -3284,12 +3290,15 @@
       "potential_payout": 156.75,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.276,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:53.525800+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 627.0
+      "ap_bankroll_at_placement": 627.0,
+      "won": false,
+      "resolved_at": "2026-05-07T15:25:45.020527+00:00",
+      "realized_pnl": -18.81
     },
     {
       "id": "AP20260507052253994023",
@@ -3307,12 +3316,15 @@
       "potential_payout": 243.3,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.276,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:53.994040+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 608.19
+      "ap_bankroll_at_placement": 608.19,
+      "won": false,
+      "resolved_at": "2026-05-07T15:25:45.075938+00:00",
+      "realized_pnl": -24.33
     },
     {
       "id": "AP20260507052254479499",
@@ -3382,12 +3394,15 @@
       "potential_payout": 110.45,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.158,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T08:13:13.083628+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 552.18
+      "ap_bankroll_at_placement": 552.18,
+      "won": false,
+      "resolved_at": "2026-05-07T15:25:45.116929+00:00",
+      "realized_pnl": -22.09
     },
     {
       "id": "AP20260507110015125737",
@@ -3405,12 +3420,15 @@
       "potential_payout": 198.75,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.042,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T11:00:15.125751+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 530.09
+      "ap_bankroll_at_placement": 530.09,
+      "won": false,
+      "resolved_at": "2026-05-07T15:25:45.162385+00:00",
+      "realized_pnl": -15.9
     },
     {
       "id": "AP20260507110015852395",
@@ -3457,11 +3475,57 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 501.34
+    },
+    {
+      "id": "AP20260507152543662028",
+      "market_id": "2178313",
+      "market": "Counter-Strike: MOUZ NXT vs Lavked - Map 2 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 20,
+      "entry_yes_price": 80,
+      "stake": 14.41,
+      "potential_profit": 57.64,
+      "potential_payout": 72.05,
+      "closes": "2026-05-07T18:00:00+00:00",
+      "closes_in_days": 0.107,
+      "status": "open",
+      "placed_at": "2026-05-07T15:25:43.662045+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 576.41
+    },
+    {
+      "id": "AP20260507152544098327",
+      "market_id": "2179903",
+      "market": "Counter-Strike: Fake do Biru vs Vasco Esports (BO3) - CCT South America Series #1 Playoffs",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 14.05,
+      "potential_profit": 86.31,
+      "potential_payout": 100.36,
+      "closes": "2026-05-08T01:00:00+00:00",
+      "closes_in_days": 0.399,
+      "status": "open",
+      "placed_at": "2026-05-07T15:25:44.098340+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 562.0
     }
   ],
-  "daily_loss": 42.29,
+  "daily_loss": 162.8,
   "daily_reset": "2026-05-07",
-  "scan_count": 164,
+  "scan_count": 165,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
