@@ -1,5 +1,5 @@
 {
-  "bankroll": 400.21,
+  "bankroll": 398.21,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -9595,10 +9595,13 @@
       "potential_payout": 143.57,
       "closes": "2026-05-07T00:00:00+00:00",
       "closes_in_days": 1.962,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T00:54:13.771555+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-07T19:24:42.272734+00:00",
+      "realized_pnl": -10.05
     },
     {
       "id": "NC20260505024814164394",
@@ -10654,10 +10657,13 @@
       "potential_payout": 93.86,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 1.149,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T08:25:29.741068+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-07T19:24:42.637907+00:00",
+      "realized_pnl": -6.57
     },
     {
       "id": "NC20260506120644370503",
@@ -11294,10 +11300,28 @@
       "placed_at": "2026-05-07T17:31:35.480121+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260507192451840489",
+      "market_id": "2171087",
+      "market": "Will the lowest temperature in Hong Kong be 24\u00b0C on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 2.0,
+      "potential_profit": 6.33,
+      "potential_payout": 8.33,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.691,
+      "status": "open",
+      "placed_at": "2026-05-07T19:24:51.840510+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 93.77,
+  "daily_loss": 110.39,
   "daily_reset": "2026-05-07",
-  "scan_count": 331,
+  "scan_count": 332,
   "started": "2026-04-21T00:00:00+00:00"
 }

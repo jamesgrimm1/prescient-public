@@ -1,5 +1,5 @@
 {
-  "bankroll": 534.25,
+  "bankroll": 520.89,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3498,12 +3498,15 @@
       "potential_payout": 72.05,
       "closes": "2026-05-07T18:00:00+00:00",
       "closes_in_days": 0.107,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T15:25:43.662045+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 576.41
+      "ap_bankroll_at_placement": 576.41,
+      "won": false,
+      "resolved_at": "2026-05-07T19:25:16.754902+00:00",
+      "realized_pnl": -14.41
     },
     {
       "id": "AP20260507152544098327",
@@ -3550,11 +3553,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 547.95
+    },
+    {
+      "id": "AP20260507192515661674",
+      "market_id": "2142739",
+      "market": "LoL: Conviction vs Blue Otter - Game 2 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_lol",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 13.36,
+      "potential_profit": 60.86,
+      "potential_payout": 74.22,
+      "closes": "2026-05-08T00:00:00+00:00",
+      "closes_in_days": 0.191,
+      "status": "open",
+      "placed_at": "2026-05-07T19:25:15.661692+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 534.25
     }
   ],
-  "daily_loss": 188.18,
+  "daily_loss": 202.59,
   "daily_reset": "2026-05-07",
-  "scan_count": 166,
+  "scan_count": 167,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
