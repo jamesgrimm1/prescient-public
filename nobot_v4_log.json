@@ -1003,11 +1003,15 @@
       "closes": "2026-05-07T20:00:00+00:00",
       "closes_in_days": 0.19,
       "volume": 5365.235987,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T15:25:03.496525+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778167503"
+      "v2_trade_id": "NB1778167503",
+      "won": false,
+      "realized_pnl": -19.82,
+      "resolved_at": "2026-05-07T21:48:23.260292+00:00",
+      "resolution_source": "v2_log"
     },
     {
       "id": "V420260507173118466257",
@@ -1052,7 +1056,7 @@
       "v2_trade_id": "NB1778175078"
     }
   ],
-  "scan_count": 27,
+  "scan_count": 28,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
