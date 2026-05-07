@@ -1,5 +1,5 @@
 {
-  "bankroll": 882.45,
+  "bankroll": 886.9,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -36222,10 +36222,13 @@
       "potential_payout": 1.5,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 1.705,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T19:04:32.570790+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-07T12:29:29.676204+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260505190432571209",
@@ -36240,10 +36243,13 @@
       "potential_payout": 1.5,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 1.705,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-05T19:04:32.571227+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-07T12:29:29.711494+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260505205336510009",
@@ -38850,10 +38856,13 @@
       "potential_payout": 1.32,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.727,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T18:33:57.844485+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-07T12:29:30.318166+00:00",
+      "realized_pnl": 0.87
     },
     {
       "id": "NC20260506192039344068",
@@ -39333,10 +39342,13 @@
       "potential_payout": 1.32,
       "closes": "2026-05-07T11:00:00+00:00",
       "closes_in_days": 0.402,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T01:21:03.487727+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-07T12:29:30.821959+00:00",
+      "realized_pnl": 0.87
     },
     {
       "id": "NC20260507012103488202",
@@ -39537,10 +39549,13 @@
       "potential_payout": 1.32,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.276,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:23:09.760953+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-07T12:29:31.681119+00:00",
+      "realized_pnl": 0.87
     },
     {
       "id": "NC20260507052309761467",
@@ -39591,10 +39606,13 @@
       "potential_payout": 2.25,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.276,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:23:09.764067+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-07T12:29:31.865976+00:00",
+      "realized_pnl": 1.8
     },
     {
       "id": "NC20260507052309765389",
@@ -40171,11 +40189,83 @@
       "placed_at": "2026-05-07T11:00:16.413598+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260507122939865714",
+      "market_id": "2177562",
+      "market": "Counter-Strike: HAVU vs FC Famalic\u00e3o Esports (BO3) - CCT Europe Series 1 Group Stage",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 0.44,
+      "potential_profit": 6.89,
+      "potential_payout": 7.33,
+      "closes": "2026-05-07T17:00:00+00:00",
+      "closes_in_days": 0.188,
+      "status": "open",
+      "placed_at": "2026-05-07T12:29:39.865732+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260507122940431036",
+      "market_id": "2179690",
+      "market": "Counter-Strike: Tricked vs AM Gaming (BO3) - BC Game Masters Europe Series #1 Playoffs",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 30,
+      "entry_yes_price": 70,
+      "stake": 0.44,
+      "potential_profit": 1.03,
+      "potential_payout": 1.47,
+      "closes": "2026-05-07T17:00:00+00:00",
+      "closes_in_days": 0.188,
+      "status": "open",
+      "placed_at": "2026-05-07T12:29:40.431059+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260507122940431580",
+      "market_id": "2179849",
+      "market": "Counter-Strike: Benched gods vs m1x (BO3) - CCT Europe Challengers Series Playoffs",
+      "category": "conflict",
+      "position": "NO",
+      "entry_no_price": 34,
+      "entry_yes_price": 66,
+      "stake": 0.44,
+      "potential_profit": 0.85,
+      "potential_payout": 1.29,
+      "closes": "2026-05-07T17:00:00+00:00",
+      "closes_in_days": 0.188,
+      "status": "open",
+      "placed_at": "2026-05-07T12:29:40.431600+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260507122940433758",
+      "market_id": "2172315",
+      "market": "Counter-Strike: Partizan Esport vs Oldboys (BO3) - Exort Series Main Stage",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 32,
+      "entry_yes_price": 68,
+      "stake": 0.44,
+      "potential_profit": 0.94,
+      "potential_payout": 1.38,
+      "closes": "2026-05-07T21:30:00+00:00",
+      "closes_in_days": 0.375,
+      "status": "open",
+      "placed_at": "2026-05-07T12:29:40.433782+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 9.81,
+  "daily_loss": 10.71,
   "daily_reset": "2026-05-07",
-  "scan_count": 273,
+  "scan_count": 274,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }

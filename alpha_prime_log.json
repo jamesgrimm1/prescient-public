@@ -1,5 +1,5 @@
 {
-  "bankroll": 501.34,
+  "bankroll": 576.41,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3330,12 +3330,15 @@
       "potential_payout": 87.6,
       "closes": "2026-05-07T12:00:00+00:00",
       "closes_in_days": 0.276,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T05:22:54.479514+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 583.86
+      "ap_bankroll_at_placement": 583.86,
+      "won": true,
+      "resolved_at": "2026-05-07T12:29:41.216182+00:00",
+      "realized_pnl": 70.08
     },
     {
       "id": "AP20260507052309350247",
@@ -3431,11 +3434,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 514.19
+    },
+    {
+      "id": "AP20260507122939866655",
+      "market_id": "2177562",
+      "market": "Counter-Strike: HAVU vs FC Famalic\u00e3o Esports (BO3) - CCT Europe Series 1 Group Stage",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 12.53,
+      "potential_profit": 196.3,
+      "potential_payout": 208.83,
+      "closes": "2026-05-07T17:00:00+00:00",
+      "closes_in_days": 0.188,
+      "status": "open",
+      "placed_at": "2026-05-07T12:29:39.866668+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 501.34
     }
   ],
   "daily_loss": 42.29,
   "daily_reset": "2026-05-07",
-  "scan_count": 163,
+  "scan_count": 164,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
