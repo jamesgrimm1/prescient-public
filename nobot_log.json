@@ -1,5 +1,5 @@
 {
-  "bankroll": 993.56,
+  "bankroll": 986.29,
   "trades": [
     {
       "id": "NB1776304868",
@@ -11872,10 +11872,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-07T12:00:00+00:00",
       "volume": 6320.715868999995,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T01:51:20.497699+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": false,
+      "resolved_at": "2026-05-07T17:31:00.190131+00:00",
+      "realized_pnl": -4.19
     },
     {
       "id": "NB1778118680",
@@ -12079,11 +12082,51 @@
       "placed_at": "2026-05-07T15:24:53.778909+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778175068",
+      "market_id": "1845944",
+      "market_slug": "will-the-april-2026-unemployment-rate-be-4pt3",
+      "market": "Will the April 2026 unemployment rate be 4.3%?",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 4.12,
+      "payout_if_wins": 6.65,
+      "profit_if_wins": 2.53,
+      "category": "economics",
+      "closes_in_days": 0.27,
+      "closes": "2026-05-08T00:00:00+00:00",
+      "volume": 8753.313858000007,
+      "status": "open",
+      "placed_at": "2026-05-07T17:31:08.939887+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778175068",
+      "market_id": "2174217",
+      "market_slug": "wti-closes-above-96-on-may-7-2026",
+      "market": "WTI Crude Oil (WTI) closes above $96 on May 7?",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 3.15,
+      "payout_if_wins": 6.06,
+      "profit_if_wins": 2.91,
+      "category": "other",
+      "closes_in_days": 0.15,
+      "closes": "2026-05-07T21:00:00+00:00",
+      "volume": 8136.761354000002,
+      "status": "open",
+      "placed_at": "2026-05-07T17:31:08.939936+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
-  "daily_loss": 20.24,
+  "daily_loss": 24.43,
   "daily_reset": "2026-05-07",
-  "scan_count": 422,
+  "scan_count": 423,
   "started": "2026-04-16T00:00:00+00:00",
-  "last_summary_sent": "2026-05-07T05:22:13.038676+00:00"
+  "last_summary_sent": "2026-05-07T17:30:58.538130+00:00"
 }

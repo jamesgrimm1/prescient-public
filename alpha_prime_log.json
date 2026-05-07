@@ -1,5 +1,5 @@
 {
-  "bankroll": 547.95,
+  "bankroll": 534.25,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3446,12 +3446,15 @@
       "potential_payout": 128.5,
       "closes": "2026-05-07T16:30:00+00:00",
       "closes_in_days": 0.229,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T11:00:15.852411+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 514.19
+      "ap_bankroll_at_placement": 514.19,
+      "won": false,
+      "resolved_at": "2026-05-07T17:31:54.734033+00:00",
+      "realized_pnl": -12.85
     },
     {
       "id": "AP20260507122939866655",
@@ -3469,12 +3472,15 @@
       "potential_payout": 208.83,
       "closes": "2026-05-07T17:00:00+00:00",
       "closes_in_days": 0.188,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T12:29:39.866668+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 501.34
+      "ap_bankroll_at_placement": 501.34,
+      "won": false,
+      "resolved_at": "2026-05-07T17:31:54.782260+00:00",
+      "realized_pnl": -12.53
     },
     {
       "id": "AP20260507152543662028",
@@ -3521,11 +3527,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 562.0
+    },
+    {
+      "id": "AP20260507173153764871",
+      "market_id": "2179894",
+      "market": "Counter-Strike: Turma do Pagode vs BESTIA Academy - Map 2 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 13.7,
+      "potential_profit": 123.3,
+      "potential_payout": 137.0,
+      "closes": "2026-05-07T20:00:00+00:00",
+      "closes_in_days": 0.103,
+      "status": "open",
+      "placed_at": "2026-05-07T17:31:53.764889+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 547.95
     }
   ],
-  "daily_loss": 162.8,
+  "daily_loss": 188.18,
   "daily_reset": "2026-05-07",
-  "scan_count": 165,
+  "scan_count": 166,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",

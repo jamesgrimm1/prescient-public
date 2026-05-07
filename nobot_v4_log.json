@@ -1,5 +1,5 @@
 {
-  "bankroll": 917.08,
+  "bankroll": 867.35,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -1008,9 +1008,51 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1778167503"
+    },
+    {
+      "id": "V420260507173118466257",
+      "market_id": "1845944",
+      "market": "Will the April 2026 unemployment rate be 4.3%?",
+      "category": "economics",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 28.54,
+      "v2_stake": 6.98,
+      "potential_profit": 17.49,
+      "potential_payout": 46.03,
+      "closes": "2026-05-08T00:00:00+00:00",
+      "closes_in_days": 0.27,
+      "volume": 8753.313858000007,
+      "status": "open",
+      "placed_at": "2026-05-07T17:31:18.466270+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778175078"
+    },
+    {
+      "id": "V420260507173118467815",
+      "market_id": "2174217",
+      "market": "WTI Crude Oil (WTI) closes above $96 on May 7?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 21.19,
+      "v2_stake": 5.31,
+      "potential_profit": 19.56,
+      "potential_payout": 40.75,
+      "closes": "2026-05-07T21:00:00+00:00",
+      "closes_in_days": 0.14,
+      "volume": 8136.761354000002,
+      "status": "open",
+      "placed_at": "2026-05-07T17:31:18.467828+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778175078"
     }
   ],
-  "scan_count": 24,
+  "scan_count": 25,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
