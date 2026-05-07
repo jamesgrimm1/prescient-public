@@ -10882,8 +10882,8 @@
       "model": "nearcertain"
     }
   ],
-  "daily_loss": 129.12,
-  "daily_reset": "2026-05-06",
-  "scan_count": 323,
+  "daily_loss": 0.0,
+  "daily_reset": "2026-05-07",
+  "scan_count": 324,
   "started": "2026-04-21T00:00:00+00:00"
 }
