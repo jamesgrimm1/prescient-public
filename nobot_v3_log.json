@@ -6769,7 +6769,7 @@
       "paper": true,
       "model": "nobot-v3-weather",
       "won": true,
-      "resolved_at": "2026-05-07T05:24:29.776586+00:00",
+      "resolved_at": "2026-05-07T05:22:33.496883+00:00",
       "realized_pnl": 5.16
     },
     {
@@ -6933,22 +6933,22 @@
       "model": "nobot-v3-weather"
     },
     {
-      "id": "NB1778131477",
+      "id": "NB1778131360",
       "market_id": "2162091",
       "market_slug": "highest-temperature-in-chongqing-on-may-7-2026-26corhigher",
       "market": "Will the highest temperature in Chongqing be 26\u00b0C or higher on May 7?",
       "position": "NO",
-      "entry_no_price": 56,
-      "entry_yes_price": 44,
+      "entry_no_price": 55,
+      "entry_yes_price": 45,
       "stake": 6.92,
-      "payout_if_wins": 12.36,
-      "profit_if_wins": 5.44,
+      "payout_if_wins": 12.58,
+      "profit_if_wins": 5.66,
       "category": "weather",
-      "closes_in_days": 0.27,
+      "closes_in_days": 0.28,
       "closes": "2026-05-07T12:00:00+00:00",
       "volume": 6804.915717999998,
       "status": "open",
-      "placed_at": "2026-05-07T05:24:37.308104+00:00",
+      "placed_at": "2026-05-07T05:22:40.370808+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     }

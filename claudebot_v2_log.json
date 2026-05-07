@@ -1,5 +1,5 @@
 {
-  "bankroll": 404.99,
+  "bankroll": 450.89,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -328,15 +328,18 @@
       "bear_case": "Resolution criteria may differ from standard interpretation (e.g., specific snapshot time, closing price, or require decline FROM above). If resolution requires BTC to close at/below $81K, current price of $81,342 makes this uncertain. Market at 72% rather than 95%+ suggests possible resolution nuance.",
       "kelly_tier": "half-Kelly (100.0%) [cal-halved]",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T19:27:23.071417+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": true,
+      "resolved_at": "2026-05-07T05:24:52.697519+00:00",
+      "realized_pnl": 12.85
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-07",
-  "scan_count": 153,
+  "scan_count": 154,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
