@@ -1236,10 +1236,13 @@
       "bear_case": "Analysts may have dramatically lowered Q1 estimates post-miss, making a beat mechanically easier. $9,831 volume suggests informed traders may have better consensus data.",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-02T02:41:47.978218+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": false,
+      "resolved_at": "2026-05-07T23:44:22.780588+00:00",
+      "realized_pnl": -268.11
     },
     {
       "id": "T1777817322",
@@ -1273,9 +1276,9 @@
       "model": "claude-opus-4-6"
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 268.11,
   "daily_reset": "2026-05-07",
-  "scan_count": 468,
+  "scan_count": 469,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-05",
   "last_tier2_scan": "2026-05-03",
