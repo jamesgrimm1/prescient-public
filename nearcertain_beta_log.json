@@ -1,5 +1,5 @@
 {
-  "bankroll": 892.01,
+  "bankroll": 891.11,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -39051,10 +39051,13 @@
       "potential_payout": 3.0,
       "closes": "2026-05-07T01:00:00+00:00",
       "closes_in_days": 0.098,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T22:39:06.893886+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-07T01:52:01.246975+00:00",
+      "realized_pnl": -0.45
     },
     {
       "id": "NC20260506223906894547",
@@ -39361,11 +39364,47 @@
       "placed_at": "2026-05-07T01:21:03.491364+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260507015209562971",
+      "market_id": "2137011",
+      "market": "Spurs vs. Timberwolves",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 34,
+      "entry_yes_price": 66,
+      "stake": 0.45,
+      "potential_profit": 0.87,
+      "potential_payout": 1.32,
+      "closes": "2026-05-08T04:00:00+00:00",
+      "closes_in_days": 1.089,
+      "status": "open",
+      "placed_at": "2026-05-07T01:52:09.562991+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260507015209563815",
+      "market_id": "2073756",
+      "market": "Will Racing Club de Lens win on 2026-05-08?",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 32,
+      "entry_yes_price": 68,
+      "stake": 0.45,
+      "potential_profit": 0.96,
+      "potential_payout": 1.41,
+      "closes": "2026-05-08T18:45:00+00:00",
+      "closes_in_days": 1.703,
+      "status": "open",
+      "placed_at": "2026-05-07T01:52:09.563832+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 4.45,
+  "daily_loss": 4.9,
   "daily_reset": "2026-05-07",
-  "scan_count": 269,
+  "scan_count": 270,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
