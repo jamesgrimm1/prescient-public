@@ -1,5 +1,5 @@
 {
-  "bankroll": 308.25,
+  "bankroll": 297.58,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -11858,10 +11858,64 @@
       "placed_at": "2026-05-08T06:27:57.303790+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508070629394811",
+      "market_id": "2171437",
+      "market": "Will the highest temperature in Chengdu be 24\u00b0C on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 7,
+      "entry_yes_price": 93,
+      "stake": 4.62,
+      "potential_profit": 61.38,
+      "potential_payout": 66.0,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.204,
+      "status": "open",
+      "placed_at": "2026-05-08T07:06:29.394830+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508070629395092",
+      "market_id": "2171602",
+      "market": "Will the highest temperature in Jakarta be 32\u00b0C on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 3.04,
+      "potential_profit": 18.67,
+      "potential_payout": 21.71,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.204,
+      "status": "open",
+      "placed_at": "2026-05-08T07:06:29.395108+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508070629395351",
+      "market_id": "2171715",
+      "market": "Will the highest temperature in Karachi be 34\u00b0C on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 3.01,
+      "potential_profit": 18.49,
+      "potential_payout": 21.5,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.204,
+      "status": "open",
+      "placed_at": "2026-05-08T07:06:29.395364+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 3.97,
   "daily_reset": "2026-05-08",
-  "scan_count": 341,
+  "scan_count": 342,
   "started": "2026-04-21T00:00:00+00:00"
 }

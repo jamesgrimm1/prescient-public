@@ -1,5 +1,5 @@
 {
-  "bankroll": 1233.95,
+  "bankroll": 1224.7,
   "trades": [
     {
       "id": "NB1776304868",
@@ -6954,10 +6954,13 @@
       "closes_in_days": 0.33,
       "closes": "2026-05-07T12:00:00+00:00",
       "volume": 3524.8652429999984,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T04:07:37.953438+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": false,
+      "resolved_at": "2026-05-08T07:06:09.765158+00:00",
+      "realized_pnl": -9.2
     },
     {
       "id": "NB1778131477",
@@ -7227,11 +7230,31 @@
       "placed_at": "2026-05-08T04:42:20.285756+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778223976",
+      "market_id": "2171283",
+      "market_slug": "highest-temperature-in-munich-on-may-8-2026-19c",
+      "market": "Will the highest temperature in Munich be 19\u00b0C on May 8?",
+      "position": "NO",
+      "entry_no_price": 46,
+      "entry_yes_price": 54,
+      "stake": 9.25,
+      "payout_if_wins": 20.11,
+      "profit_if_wins": 10.86,
+      "category": "weather",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "volume": 3391.767285,
+      "status": "open",
+      "placed_at": "2026-05-08T07:06:16.429913+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
-  "daily_loss": 6.83,
+  "daily_loss": 16.03,
   "daily_reset": "2026-05-08",
-  "scan_count": 628,
+  "scan_count": 629,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-07T23:38:42.640497+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."

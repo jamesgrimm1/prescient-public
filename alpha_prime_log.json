@@ -1,5 +1,5 @@
 {
-  "bankroll": 506.1,
+  "bankroll": 493.45,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3729,11 +3729,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 521.75
+    },
+    {
+      "id": "AP20260508070646870384",
+      "market_id": "2141956",
+      "market": "LoL: T1 vs DN SOOPers - Game 2 Winner",
+      "category": "sports",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_lol",
+      "position": "NO",
+      "entry_no_price": 21,
+      "entry_yes_price": 79,
+      "stake": 12.65,
+      "potential_profit": 47.59,
+      "potential_payout": 60.24,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.204,
+      "status": "open",
+      "placed_at": "2026-05-08T07:06:46.870394+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 506.1
     }
   ],
   "daily_loss": 39.77,
   "daily_reset": "2026-05-08",
-  "scan_count": 176,
+  "scan_count": 177,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
