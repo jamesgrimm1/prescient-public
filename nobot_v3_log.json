@@ -1,5 +1,5 @@
 {
-  "bankroll": 1250.6,
+  "bankroll": 1245.91,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7256,11 +7256,31 @@
       "placed_at": "2026-05-08T07:06:16.429913+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778234228",
+      "market_id": "2171293",
+      "market_slug": "highest-temperature-in-tel-aviv-on-may-8-2026-25c",
+      "market": "Will the highest temperature in Tel Aviv be 25\u00b0C on May 8?",
+      "position": "NO",
+      "entry_no_price": 59,
+      "entry_yes_price": 41,
+      "stake": 4.69,
+      "payout_if_wins": 7.95,
+      "profit_if_wins": 3.26,
+      "category": "weather",
+      "closes_in_days": 0.09,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "volume": 3633.356143000002,
+      "status": "open",
+      "placed_at": "2026-05-08T09:57:08.043405+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 16.03,
   "daily_reset": "2026-05-08",
-  "scan_count": 631,
+  "scan_count": 632,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-07T23:38:42.640497+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
