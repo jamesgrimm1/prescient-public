@@ -1,5 +1,5 @@
 {
-  "bankroll": 2352.68,
+  "bankroll": 2192.5,
   "trades": [
     {
       "id": "T1775098669",
@@ -1274,11 +1274,45 @@
       "placed_at": "2026-05-03T14:08:42.142860+00:00",
       "paper": true,
       "model": "claude-opus-4-6"
+    },
+    {
+      "id": "T1778221843",
+      "tier": 1,
+      "market_id": "2140909",
+      "market_slug": "ethereum-above-2200-on-may-9",
+      "market": "Will the price of Ethereum be above $2,200 on May 9?",
+      "position": "NO",
+      "entry_price": 6,
+      "stake": 160.18,
+      "potential_return": 2669.67,
+      "potential_profit": 2509.49,
+      "confidence": 78,
+      "true_prob": 78,
+      "market_prob": 94,
+      "category": "crypto",
+      "closes_in_days": 1.4,
+      "closes": "2026-05-09T16:00:00+00:00",
+      "research_summary": "ETH at ~$2,276, only 3.3% above $2,200 threshold with ~24hrs remaining. Daily volatility of 4-5% puts a breach within 0.7-0.8 standard deviations. Already trending down -1.94% in 24h. Market at 94% YES significantly underprices the ~22% tail risk of dropping below $2,200. Crypto fat tails and potential liquidation cascades further increase downside probability.",
+      "key_factors": [
+        "ETH only 3.3% above threshold - within 1 daily standard deviation of normal moves",
+        "Negative 24h momentum of -1.94% shows existing selling pressure",
+        "Crypto fat tails and liquidation cascade risk underpriced by market",
+        "NO trades historically 64% WR with strong P&L vs 47% for YES",
+        "12-24hr hold duration is strongest performing timeframe"
+      ],
+      "bear_case": "ETH realized volatility may be lower than historical average currently; $2,200 psychological support could act as strong floor; sophisticated market makers may have better real-time volatility data justifying 94% pricing",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": true,
+      "status": "open",
+      "placed_at": "2026-05-08T06:30:43.591843+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6",
+      "paper_bankroll_at_placement": 2352.68
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-08",
-  "scan_count": 473,
+  "scan_count": 474,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-05",
   "last_tier2_scan": "2026-05-03",

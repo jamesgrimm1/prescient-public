@@ -12164,10 +12164,13 @@
       "closes_in_days": 0.16,
       "closes": "2026-05-07T12:00:00+00:00",
       "volume": 3779.3348150000015,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T08:12:46.517665+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-08T06:27:23.931184+00:00",
+      "realized_pnl": -2.38
     },
     {
       "id": "NB1778167503",
@@ -12479,9 +12482,9 @@
       "model": "nobot-v2"
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 2.38,
   "daily_reset": "2026-05-08",
-  "scan_count": 436,
+  "scan_count": 437,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-08T05:35:52.392538+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
