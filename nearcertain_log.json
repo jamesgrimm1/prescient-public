@@ -1,5 +1,5 @@
 {
-  "bankroll": 368.88,
+  "bankroll": 412.56,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -11638,10 +11638,13 @@
       "potential_payout": 16.88,
       "closes": "2026-05-08T18:45:00+00:00",
       "closes_in_days": 0.588,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T04:38:27.788500+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-08T21:48:46.237017+00:00",
+      "realized_pnl": 14.18
     },
     {
       "id": "NC20260508053634666300",
@@ -11803,10 +11806,13 @@
       "potential_payout": 27.5,
       "closes": "2026-05-08T18:30:00+00:00",
       "closes_in_days": 0.537,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T05:36:34.667772+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T21:48:46.444939+00:00",
+      "realized_pnl": -3.3
     },
     {
       "id": "NC20260508053634668018",
@@ -12028,10 +12034,13 @@
       "potential_payout": 49.2,
       "closes": "2026-05-08T19:00:00+00:00",
       "closes_in_days": 0.288,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T12:05:18.562554+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-08T21:48:46.509442+00:00",
+      "realized_pnl": 44.28
     },
     {
       "id": "NC20260508143109836679",
@@ -12100,10 +12109,13 @@
       "potential_payout": 58.3,
       "closes": "2026-05-08T20:00:00+00:00",
       "closes_in_days": 0.212,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T14:54:21.412377+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T21:48:47.613897+00:00",
+      "realized_pnl": -5.83
     },
     {
       "id": "NC20260508160907249648",
@@ -12176,10 +12188,82 @@
       "placed_at": "2026-05-08T20:04:05.476502+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508214858754005",
+      "market_id": "2163429",
+      "market": "Map Handicap: G2 (-1.5) vs Fisher College (+1.5)",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 3.26,
+      "potential_profit": 17.12,
+      "potential_payout": 20.38,
+      "closes": "2026-05-09T11:00:00+00:00",
+      "closes_in_days": 0.549,
+      "status": "open",
+      "placed_at": "2026-05-08T21:48:58.754027+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508214858754342",
+      "market_id": "2179054",
+      "market": "Will the lowest temperature in Shanghai be 13\u00b0C on May 9?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 7,
+      "entry_yes_price": 93,
+      "stake": 6.48,
+      "potential_profit": 86.09,
+      "potential_payout": 92.57,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "closes_in_days": 0.591,
+      "status": "open",
+      "placed_at": "2026-05-08T21:48:58.754360+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508214858754604",
+      "market_id": "2178976",
+      "market": "Will the lowest temperature in Seoul be 10\u00b0C on May 9?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 8,
+      "entry_yes_price": 92,
+      "stake": 6.38,
+      "potential_profit": 73.37,
+      "potential_payout": 79.75,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "closes_in_days": 0.591,
+      "status": "open",
+      "placed_at": "2026-05-08T21:48:58.754621+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508214858754851",
+      "market_id": "2125289",
+      "market": "Rams Ba\u015fak\u015fehir FK vs. Samsunspor: O/U 0.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 6.28,
+      "potential_profit": 98.39,
+      "potential_payout": 104.67,
+      "closes": "2026-05-09T17:00:00+00:00",
+      "closes_in_days": 0.799,
+      "status": "open",
+      "placed_at": "2026-05-08T21:48:58.754866+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 132.25,
+  "daily_loss": 141.38,
   "daily_reset": "2026-05-08",
-  "scan_count": 351,
+  "scan_count": 352,
   "started": "2026-04-21T00:00:00+00:00"
 }
