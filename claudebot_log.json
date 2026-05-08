@@ -1,5 +1,5 @@
 {
-  "bankroll": 2192.5,
+  "bankroll": 1973.25,
   "trades": [
     {
       "id": "T1775098669",
@@ -1308,11 +1308,44 @@
       "paper": true,
       "model": "claude-opus-4-6",
       "paper_bankroll_at_placement": 2352.68
+    },
+    {
+      "id": "T1778270817",
+      "tier": 1,
+      "market_id": "2099029",
+      "market_slug": "us-x-iran-permanent-peace-deal-by-may-15-2026-144-885-839",
+      "market": "US x Iran permanent peace deal by May 15, 2026?",
+      "position": "NO",
+      "entry_price": 83,
+      "stake": 219.25,
+      "potential_return": 264.16,
+      "potential_profit": 44.91,
+      "confidence": 84,
+      "true_prob": 2,
+      "market_prob": 17,
+      "category": "geopolitics",
+      "closes_in_days": 6.2,
+      "closes": "2026-05-15T00:00:00+00:00",
+      "research_summary": "Negotiations active but only at 'one-page memo framework' stage. Core issues unresolved: enrichment duration gap (5yr vs 12-15yr), security guarantees, reparations. No diplomatic relations since 1979. JCPOA (nuclear-only) took 2+ years. Senate failed 6x on related legislation. 'Permanent peace deal' in 7 days is historically unprecedented.",
+      "key_factors": [
+        "Permanent peace deals between longstanding adversaries never materialize in 7 days - JCPOA took 2+ years for just nuclear issues",
+        "Core substantive gaps remain: enrichment duration, security guarantees, reparations, Strait of Hormuz",
+        "Current progress is a one-page memo framework, not remotely close to a comprehensive permanent deal",
+        "Senate has failed 6 times to advance Iran War Powers Resolution, showing domestic political barriers"
+      ],
+      "bear_case": "Trump could stage a dramatic announcement marketing an interim framework as a 'permanent peace deal' for political purposes, similar to North Korea summits",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-08T20:06:57.137287+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6",
+      "paper_bankroll_at_placement": 2192.5
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-08",
-  "scan_count": 483,
+  "scan_count": 484,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-05",
   "last_tier2_scan": "2026-05-03",

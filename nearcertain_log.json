@@ -1,5 +1,5 @@
 {
-  "bankroll": 371.67,
+  "bankroll": 368.88,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -11125,10 +11125,13 @@
       "potential_payout": 80.88,
       "closes": "2026-05-08T20:00:00+00:00",
       "closes_in_days": 1.491,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T08:13:13.704753+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T20:03:53.594589+00:00",
+      "realized_pnl": -6.47
     },
     {
       "id": "NC20260507105953274968",
@@ -11206,10 +11209,13 @@
       "potential_payout": 9.27,
       "closes": "2026-05-08T12:00:00+00:00",
       "closes_in_days": 1.042,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T10:59:53.275923+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T20:03:53.666581+00:00",
+      "realized_pnl": -2.04
     },
     {
       "id": "NC20260507105953276208",
@@ -12152,10 +12158,28 @@
       "placed_at": "2026-05-08T16:09:07.250478+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508200405476480",
+      "market_id": "2179548",
+      "market": "Will the highest temperature in Jakarta be 33\u00b0C on May 9?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 2.79,
+      "potential_profit": 12.71,
+      "potential_payout": 15.5,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "closes_in_days": 0.664,
+      "status": "open",
+      "placed_at": "2026-05-08T20:04:05.476502+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 123.74,
+  "daily_loss": 132.25,
   "daily_reset": "2026-05-08",
-  "scan_count": 350,
+  "scan_count": 351,
   "started": "2026-04-21T00:00:00+00:00"
 }
