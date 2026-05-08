@@ -1,5 +1,5 @@
 {
-  "bankroll": 878.46,
+  "bankroll": 880.9,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -40446,10 +40446,13 @@
       "potential_payout": 1.76,
       "closes": "2026-05-08T20:00:00+00:00",
       "closes_in_days": 1.375,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T11:00:16.413171+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-08T22:44:37.957951+00:00",
+      "realized_pnl": 1.32
     },
     {
       "id": "NC20260507110016413582",
@@ -42438,10 +42441,13 @@
       "potential_payout": 2.44,
       "closes": "2026-05-08T21:00:00+00:00",
       "closes_in_days": 0.529,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T08:18:05.488945+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-08T22:44:38.628687+00:00",
+      "realized_pnl": 2.0
     },
     {
       "id": "NC20260508081805489506",
@@ -42867,10 +42873,13 @@
       "potential_payout": 4.4,
       "closes": "2026-05-08T20:00:00+00:00",
       "closes_in_days": 0.228,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T14:31:23.751741+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T22:44:38.822532+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260508143123752183",
@@ -43377,10 +43386,13 @@
       "potential_payout": 1.29,
       "closes": "2026-05-08T21:00:00+00:00",
       "closes_in_days": 0.122,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T18:04:38.796933+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T22:44:39.419772+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260508180438797859",
@@ -43903,11 +43915,83 @@
       "placed_at": "2026-05-08T21:49:22.071702+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508224447883829",
+      "market_id": "2180641",
+      "market": "Counter-Strike: Galorys vs paiN Academy - Map 1 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 17,
+      "entry_yes_price": 83,
+      "stake": 0.44,
+      "potential_profit": 2.15,
+      "potential_payout": 2.59,
+      "closes": "2026-05-09T02:00:00+00:00",
+      "closes_in_days": 0.136,
+      "status": "open",
+      "placed_at": "2026-05-08T22:44:47.883855+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508224447885118",
+      "market_id": "2158594",
+      "market": "Counter-Strike: TheMongolz vs magic - Map 2 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 32,
+      "entry_yes_price": 68,
+      "stake": 0.44,
+      "potential_profit": 0.94,
+      "potential_payout": 1.38,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "closes_in_days": 0.552,
+      "status": "open",
+      "placed_at": "2026-05-08T22:44:47.885136+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508224447886883",
+      "market_id": "2187777",
+      "market": "Counter-Strike: INOX Division vs Brute (BO3) - CCT Europe Challengers Series Playoffs",
+      "category": "conflict",
+      "position": "NO",
+      "entry_no_price": 28,
+      "entry_yes_price": 72,
+      "stake": 0.44,
+      "potential_profit": 1.13,
+      "potential_payout": 1.57,
+      "closes": "2026-05-09T17:00:00+00:00",
+      "closes_in_days": 0.761,
+      "status": "open",
+      "placed_at": "2026-05-08T22:44:47.886899+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508224447887587",
+      "market_id": "2116825",
+      "market": "Will Galatasaray SK win on 2026-05-09?",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 0.44,
+      "potential_profit": 2.31,
+      "potential_payout": 2.75,
+      "closes": "2026-05-09T17:00:00+00:00",
+      "closes_in_days": 0.761,
+      "status": "open",
+      "placed_at": "2026-05-08T22:44:47.887604+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 45.2,
+  "daily_loss": 46.08,
   "daily_reset": "2026-05-08",
-  "scan_count": 297,
+  "scan_count": 298,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
