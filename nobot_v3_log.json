@@ -1,5 +1,5 @@
 {
-  "bankroll": 1243.27,
+  "bankroll": 1233.95,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7204,11 +7204,31 @@
       "placed_at": "2026-05-08T03:39:57.683534+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778215340",
+      "market_id": "2171415",
+      "market_slug": "highest-temperature-in-beijing-on-may-8-2026-27c",
+      "market": "Will the highest temperature in Beijing be 27\u00b0C on May 8?",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 9.32,
+      "payout_if_wins": 17.92,
+      "profit_if_wins": 8.6,
+      "category": "weather",
+      "closes_in_days": 0.3,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "volume": 3403.5698189999976,
+      "status": "open",
+      "placed_at": "2026-05-08T04:42:20.285756+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-08",
-  "scan_count": 623,
+  "scan_count": 624,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-07T23:38:42.640497+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
