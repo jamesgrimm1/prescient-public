@@ -300,10 +300,13 @@
       "bear_case": "FPTP local elections can be highly inefficient for vote-to-seat conversion; different councils contested in 2026 may be less favorable; no quantitative seat projections available to confirm trajectory; 2.7x jump is historically large",
       "kelly_tier": "half-Kelly (100.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-06T17:29:44.679638+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": false,
+      "resolved_at": "2026-05-08T10:21:15.229064+00:00",
+      "realized_pnl": -46.19
     },
     {
       "id": "V2_1778095643",
@@ -487,9 +490,9 @@
       "paper_bankroll_at_placement": 402.55
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 46.19,
   "daily_reset": "2026-05-08",
-  "scan_count": 171,
+  "scan_count": 172,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
