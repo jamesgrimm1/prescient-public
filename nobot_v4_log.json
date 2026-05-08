@@ -1,5 +1,5 @@
 {
-  "bankroll": 694.13,
+  "bankroll": 690.89,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -1231,25 +1231,25 @@
       "v2_trade_id": "NB1778211589"
     },
     {
-      "id": "V420260508043800979612",
+      "id": "V420260508044822743049",
       "market_id": "2171415",
       "market": "Will the highest temperature in Beijing be 27\u00b0C on May 8?",
       "category": "weather",
       "position": "NO",
-      "entry_no_price": 52,
-      "entry_yes_price": 48,
-      "stake": 11.22,
-      "v2_stake": 3.54,
-      "potential_profit": 10.36,
-      "potential_payout": 21.58,
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 14.46,
+      "v2_stake": 4.57,
+      "potential_profit": 11.36,
+      "potential_payout": 25.82,
       "closes": "2026-05-08T12:00:00+00:00",
-      "closes_in_days": 0.31,
-      "volume": 3392.5085969999977,
+      "closes_in_days": 0.3,
+      "volume": 3450.8502519999975,
       "status": "open",
-      "placed_at": "2026-05-08T04:38:00.979624+00:00",
+      "placed_at": "2026-05-08T04:48:22.743062+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778215080"
+      "v2_trade_id": "NB1778215702"
     }
   ],
   "scan_count": 33,
