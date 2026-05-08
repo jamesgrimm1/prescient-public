@@ -1,5 +1,5 @@
 {
-  "bankroll": 976.95,
+  "bankroll": 973.84,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12547,11 +12547,31 @@
       "placed_at": "2026-05-08T12:04:31.961187+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778250643",
+      "market_id": "2135029",
+      "market_slug": "will-tsla-reach-435-by-may-4-2026",
+      "market": "Will Tesla, Inc. (TSLA) hit (HIGH) $435 Week of May 4 2026?",
+      "position": "NO",
+      "entry_no_price": 50,
+      "entry_yes_price": 50,
+      "stake": 3.11,
+      "payout_if_wins": 6.22,
+      "profit_if_wins": 3.11,
+      "category": "other",
+      "closes_in_days": 0.23,
+      "closes": "2026-05-08T20:00:00+00:00",
+      "volume": 5380.743312999999,
+      "status": "open",
+      "placed_at": "2026-05-08T14:30:43.889987+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 5.27,
   "daily_reset": "2026-05-08",
-  "scan_count": 437,
+  "scan_count": 438,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-08T05:35:35.290350+00:00"
 }
