@@ -1,5 +1,5 @@
 {
-  "bankroll": 1241.03,
+  "bankroll": 1224.79,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7161,11 +7161,51 @@
       "placed_at": "2026-05-08T01:27:39.371972+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778211409",
+      "market_id": "2171117",
+      "market_slug": "highest-temperature-in-london-on-may-8-2026-18c",
+      "market": "Will the highest temperature in London be 18\u00b0C on May 8?",
+      "position": "NO",
+      "entry_no_price": 46,
+      "entry_yes_price": 55,
+      "stake": 9.31,
+      "payout_if_wins": 20.24,
+      "profit_if_wins": 10.93,
+      "category": "weather",
+      "closes_in_days": 0.35,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "volume": 5321.068462000003,
+      "status": "open",
+      "placed_at": "2026-05-08T03:36:49.682494+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778211409",
+      "market_id": "2171194",
+      "market_slug": "highest-temperature-in-nyc-on-may-8-2026-64-65f",
+      "market": "Will the highest temperature in New York City be between 64-65\u00b0F on May 8?",
+      "position": "NO",
+      "entry_no_price": 53,
+      "entry_yes_price": 47,
+      "stake": 6.93,
+      "payout_if_wins": 13.08,
+      "profit_if_wins": 6.15,
+      "category": "weather",
+      "closes_in_days": 0.35,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "volume": 3326.373063999999,
+      "status": "open",
+      "placed_at": "2026-05-08T03:36:49.682539+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-08",
-  "scan_count": 622,
+  "scan_count": 623,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-07T23:38:42.640497+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."

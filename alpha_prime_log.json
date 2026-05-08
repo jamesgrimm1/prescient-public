@@ -1,5 +1,5 @@
 {
-  "bankroll": 554.53,
+  "bankroll": 537.89,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3602,12 +3602,15 @@
       "potential_payout": 54.25,
       "closes": "2026-05-08T03:00:00+00:00",
       "closes_in_days": 0.252,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T20:57:20.288260+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 520.89
+      "ap_bankroll_at_placement": 520.89,
+      "won": false,
+      "resolved_at": "2026-05-08T03:37:23.751800+00:00",
+      "realized_pnl": -13.02
     },
     {
       "id": "AP20260507214905954028",
@@ -3625,12 +3628,15 @@
       "potential_payout": 57.73,
       "closes": "2026-05-08T02:00:00+00:00",
       "closes_in_days": 0.174,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T21:49:05.954041+00:00",
       "source_bot": "nearcertain_beta",
       "paper": true,
       "model": "alpha-prime-signal",
-      "ap_bankroll_at_placement": 507.87
+      "ap_bankroll_at_placement": 507.87,
+      "won": false,
+      "resolved_at": "2026-05-08T03:37:23.818815+00:00",
+      "realized_pnl": -12.7
     },
     {
       "id": "AP20260508015531204966",
@@ -3654,11 +3660,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 495.17
+    },
+    {
+      "id": "AP20260508033701932315",
+      "market_id": "2171308",
+      "market": "Will the highest temperature in Tokyo be 26\u00b0C on May 8?",
+      "category": "weather",
+      "pattern": "A",
+      "pattern_label": "Weather Exact-Temp",
+      "pattern_reason": "weather_exact",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 16.64,
+      "potential_profit": 260.69,
+      "potential_payout": 277.33,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.349,
+      "status": "open",
+      "placed_at": "2026-05-08T03:37:01.932331+00:00",
+      "source_bot": "nearcertain",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 554.53
     }
   ],
-  "daily_loss": 14.05,
+  "daily_loss": 39.77,
   "daily_reset": "2026-05-08",
-  "scan_count": 172,
+  "scan_count": 173,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",

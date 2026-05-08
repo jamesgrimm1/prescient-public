@@ -1,5 +1,5 @@
 {
-  "bankroll": 379.77,
+  "bankroll": 365.69,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -11362,10 +11362,13 @@
       "potential_payout": 9.05,
       "closes": "2026-05-08T02:00:00+00:00",
       "closes_in_days": 0.21,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T20:57:20.286644+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T03:36:54.219377+00:00",
+      "realized_pnl": -1.99
     },
     {
       "id": "NC20260507205720286952",
@@ -11380,10 +11383,13 @@
       "potential_payout": 8.25,
       "closes": "2026-05-08T03:00:00+00:00",
       "closes_in_days": 0.252,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T20:57:20.286971+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T03:36:54.538807+00:00",
+      "realized_pnl": -1.98
     },
     {
       "id": "NC20260507205720934391",
@@ -11492,10 +11498,64 @@
       "placed_at": "2026-05-08T01:55:31.203543+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508033701930925",
+      "market_id": "2171308",
+      "market": "Will the highest temperature in Tokyo be 26\u00b0C on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 5.7,
+      "potential_profit": 89.3,
+      "potential_payout": 95.0,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.349,
+      "status": "open",
+      "placed_at": "2026-05-08T03:37:01.930943+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508033702551721",
+      "market_id": "2101849",
+      "market": "Will White House post 140-159 posts from May 1 to May 8, 2026?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 2.81,
+      "potential_profit": 14.75,
+      "potential_payout": 17.56,
+      "closes": "2026-05-08T16:00:00+00:00",
+      "closes_in_days": 0.516,
+      "status": "open",
+      "placed_at": "2026-05-08T03:37:02.551751+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508033702552122",
+      "market_id": "2179224",
+      "market": "Will the highest temperature in Lucknow be 35\u00b0C or below on May 9?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 5,
+      "entry_yes_price": 95,
+      "stake": 5.57,
+      "potential_profit": 105.83,
+      "potential_payout": 111.4,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "closes_in_days": 1.349,
+      "status": "open",
+      "placed_at": "2026-05-08T03:37:02.552139+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 3.97,
   "daily_reset": "2026-05-08",
-  "scan_count": 337,
+  "scan_count": 338,
   "started": "2026-04-21T00:00:00+00:00"
 }
