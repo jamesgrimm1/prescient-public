@@ -1,5 +1,5 @@
 {
-  "bankroll": 388.88,
+  "bankroll": 383.05,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -12065,10 +12065,28 @@
       "placed_at": "2026-05-08T14:31:09.837334+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508145421412355",
+      "market_id": "2181322",
+      "market": "Will Google (GOOGL) close above $395 on May 8?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 5.83,
+      "potential_profit": 52.47,
+      "potential_payout": 58.3,
+      "closes": "2026-05-08T20:00:00+00:00",
+      "closes_in_days": 0.212,
+      "status": "open",
+      "placed_at": "2026-05-08T14:54:21.412377+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 103.27,
   "daily_reset": "2026-05-08",
-  "scan_count": 346,
+  "scan_count": 347,
   "started": "2026-04-21T00:00:00+00:00"
 }
