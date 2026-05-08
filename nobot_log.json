@@ -1,5 +1,5 @@
 {
-  "bankroll": 973.84,
+  "bankroll": 969.8,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12570,11 +12570,31 @@
       "placed_at": "2026-05-08T14:30:43.889987+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778256519",
+      "market_id": "2181288",
+      "market_slug": "wti-closes-above-96-on-may-8-2026",
+      "market": "WTI Crude Oil (WTI) closes above $96 on May 8?",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 4.04,
+      "payout_if_wins": 6.73,
+      "profit_if_wins": 2.69,
+      "category": "other",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-08T21:00:00+00:00",
+      "volume": 9096.857736999998,
+      "status": "open",
+      "placed_at": "2026-05-08T16:08:39.040549+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 9.39,
   "daily_reset": "2026-05-08",
-  "scan_count": 439,
+  "scan_count": 440,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-08T05:35:35.290350+00:00"
 }

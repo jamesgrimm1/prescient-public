@@ -1,5 +1,5 @@
 {
-  "bankroll": 383.05,
+  "bankroll": 371.67,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -11821,10 +11821,13 @@
       "potential_payout": 12.15,
       "closes": "2026-05-08T12:00:00+00:00",
       "closes_in_days": 0.231,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T06:27:55.404143+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-08T16:08:59.791360+00:00",
+      "realized_pnl": -2.43
     },
     {
       "id": "NC20260508062755404973",
@@ -12083,10 +12086,64 @@
       "placed_at": "2026-05-08T14:54:21.412377+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508160907249648",
+      "market_id": "2181291",
+      "market": "WTI Crude Oil (WTI) closes above $94 on May 8?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 2.87,
+      "potential_profit": 13.07,
+      "potential_payout": 15.94,
+      "closes": "2026-05-08T21:00:00+00:00",
+      "closes_in_days": 0.202,
+      "status": "open",
+      "placed_at": "2026-05-08T16:09:07.249672+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508160907250118",
+      "market_id": "2179277",
+      "market": "Will the highest temperature in Hong Kong be 26\u00b0C on May 9?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 2.85,
+      "potential_profit": 14.96,
+      "potential_payout": 17.81,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "closes_in_days": 0.827,
+      "status": "open",
+      "placed_at": "2026-05-08T16:09:07.250139+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508160907250461",
+      "market_id": "2083946",
+      "market": "Joventut vs. Unicaja",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 7,
+      "entry_yes_price": 93,
+      "stake": 5.66,
+      "potential_profit": 75.2,
+      "potential_payout": 80.86,
+      "closes": "2026-05-09T16:00:00+00:00",
+      "closes_in_days": 0.994,
+      "status": "open",
+      "placed_at": "2026-05-08T16:09:07.250478+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 103.27,
+  "daily_loss": 105.7,
   "daily_reset": "2026-05-08",
-  "scan_count": 347,
+  "scan_count": 348,
   "started": "2026-04-21T00:00:00+00:00"
 }
