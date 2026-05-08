@@ -1,5 +1,5 @@
 {
-  "bankroll": 383.61,
+  "bankroll": 379.77,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -11474,10 +11474,28 @@
       "placed_at": "2026-05-07T21:48:45.717955+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508015531203519",
+      "market_id": "2171262",
+      "market": "Will the highest temperature in Wellington be 19\u00b0C on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 3.84,
+      "potential_profit": 23.59,
+      "potential_payout": 27.43,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.42,
+      "status": "open",
+      "placed_at": "2026-05-08T01:55:31.203543+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 154.63,
-  "daily_reset": "2026-05-07",
-  "scan_count": 336,
+  "daily_loss": 0.0,
+  "daily_reset": "2026-05-08",
+  "scan_count": 337,
   "started": "2026-04-21T00:00:00+00:00"
 }
