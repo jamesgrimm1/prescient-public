@@ -7206,7 +7206,7 @@
       "model": "nobot-v3-weather"
     },
     {
-      "id": "NB1778215093",
+      "id": "NB1778215340",
       "market_id": "2171415",
       "market_slug": "highest-temperature-in-beijing-on-may-8-2026-27c",
       "market": "Will the highest temperature in Beijing be 27\u00b0C on May 8?",
@@ -7217,18 +7217,18 @@
       "payout_if_wins": 17.92,
       "profit_if_wins": 8.6,
       "category": "weather",
-      "closes_in_days": 0.31,
+      "closes_in_days": 0.3,
       "closes": "2026-05-08T12:00:00+00:00",
-      "volume": 3392.5085969999977,
+      "volume": 3403.5698189999976,
       "status": "open",
-      "placed_at": "2026-05-08T04:38:13.430960+00:00",
+      "placed_at": "2026-05-08T04:42:20.285756+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-08",
-  "scan_count": 624,
+  "scan_count": 625,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-07T23:38:42.640497+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
