@@ -1035,7 +1035,7 @@
       "v2_trade_id": "NB1778175078",
       "won": false,
       "realized_pnl": -28.54,
-      "resolved_at": "2026-05-08T03:36:38.859491+00:00"
+      "resolved_at": "2026-05-08T03:39:49.621684+00:00"
     },
     {
       "id": "V420260507173118467815",
@@ -1189,7 +1189,7 @@
       "v2_trade_id": "NB1778205309"
     },
     {
-      "id": "V420260508033638418938",
+      "id": "V420260508033949308879",
       "market_id": "2171318",
       "market": "Will the highest temperature in Hong Kong be 29\u00b0C on May 8?",
       "category": "weather",
@@ -1197,20 +1197,20 @@
       "entry_no_price": 56,
       "entry_yes_price": 44,
       "stake": 22.73,
-      "v2_stake": 6.89,
+      "v2_stake": 6.93,
       "potential_profit": 17.86,
       "potential_payout": 40.59,
       "closes": "2026-05-08T12:00:00+00:00",
       "closes_in_days": 0.35,
       "volume": 9553.277780999982,
       "status": "open",
-      "placed_at": "2026-05-08T03:36:38.418950+00:00",
+      "placed_at": "2026-05-08T03:39:49.308893+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778211398"
+      "v2_trade_id": "NB1778211589"
     },
     {
-      "id": "V420260508033638420831",
+      "id": "V420260508033949310595",
       "market_id": "2171194",
       "market": "Will the highest temperature in New York City be between 64-65\u00b0F on May 8?",
       "category": "weather",
@@ -1218,17 +1218,17 @@
       "entry_no_price": 53,
       "entry_yes_price": 47,
       "stake": 11.1,
-      "v2_stake": 3.44,
+      "v2_stake": 3.46,
       "potential_profit": 9.84,
       "potential_payout": 20.94,
       "closes": "2026-05-08T12:00:00+00:00",
       "closes_in_days": 0.35,
       "volume": 3326.373063999999,
       "status": "open",
-      "placed_at": "2026-05-08T03:36:38.420843+00:00",
+      "placed_at": "2026-05-08T03:39:49.310607+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778211398"
+      "v2_trade_id": "NB1778211589"
     }
   ],
   "scan_count": 32,

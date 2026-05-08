@@ -3609,7 +3609,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 520.89,
       "won": false,
-      "resolved_at": "2026-05-08T03:37:23.751800+00:00",
+      "resolved_at": "2026-05-08T03:40:23.180033+00:00",
       "realized_pnl": -13.02
     },
     {
@@ -3635,7 +3635,7 @@
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 507.87,
       "won": false,
-      "resolved_at": "2026-05-08T03:37:23.818815+00:00",
+      "resolved_at": "2026-05-08T03:40:23.217052+00:00",
       "realized_pnl": -12.7
     },
     {
@@ -3662,7 +3662,7 @@
       "ap_bankroll_at_placement": 495.17
     },
     {
-      "id": "AP20260508033701932315",
+      "id": "AP20260508034008384859",
       "market_id": "2171308",
       "market": "Will the highest temperature in Tokyo be 26\u00b0C on May 8?",
       "category": "weather",
@@ -3676,9 +3676,9 @@
       "potential_profit": 260.69,
       "potential_payout": 277.33,
       "closes": "2026-05-08T12:00:00+00:00",
-      "closes_in_days": 0.349,
+      "closes_in_days": 0.347,
       "status": "open",
-      "placed_at": "2026-05-08T03:37:01.932331+00:00",
+      "placed_at": "2026-05-08T03:40:08.384874+00:00",
       "source_bot": "nearcertain",
       "paper": true,
       "model": "alpha-prime-signal",

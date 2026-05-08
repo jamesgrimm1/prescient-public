@@ -1,5 +1,5 @@
 {
-  "bankroll": 450.89,
+  "bankroll": 419.33,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -338,6 +338,43 @@
       "won": true,
       "resolved_at": "2026-05-07T05:24:52.697519+00:00",
       "realized_pnl": 12.85
+    },
+    {
+      "id": "V2_1778211896",
+      "tier": 1,
+      "market_id": "2181291",
+      "market_slug": "wti-closes-above-94-on-may-8-2026",
+      "market": "WTI Crude Oil (WTI) closes above $94 on May 8?",
+      "position": "NO",
+      "entry_price": 28.0,
+      "stake": 31.56,
+      "potential_return": 112.71,
+      "potential_profit": 81.15,
+      "confidence": 80.0,
+      "true_prob": 18.9,
+      "market_prob": 72.0,
+      "side_win_probability": 81.1,
+      "edge_pct": 53.1,
+      "category": "commodities",
+      "closes_in_days": 0.72,
+      "closes": "2026-05-08T21:00:00+00:00",
+      "research_summary": "WTI at ~$90.50 needs a +3.8% single-session rally to close above $94. This magnitude of daily move occurs <5% of sessions historically. Market at 72\u00a2 YES is wildly mispriced \u2014 likely stale or reflecting pre-decline positioning. NO at 28\u00a2 offers massive edge (~60pts).",
+      "key_factors": [
+        "$3.50 gap to threshold from current price",
+        "Sharp decline trend on May 7",
+        "3.8% daily move is a 2+ sigma event for WTI",
+        "Market odds appear severely stale/mispriced"
+      ],
+      "bear_case": "Research price could be stale; WTI may have rebounded overnight. US unemployment data at 12:30 UTC could trigger a supply-disruption narrative or dollar weakness rally. OPEC+ surprise announcements possible.",
+      "decision_reason": "TRADE_EDGE_AND_CONF_PASS",
+      "openai_used": true,
+      "red_team_veto": false,
+      "status": "open",
+      "placed_at": "2026-05-08T03:44:56.647061+00:00",
+      "paper": true,
+      "live_trading_disabled": true,
+      "model": "claude-opus-4-6+gpt-4.1-mini",
+      "paper_bankroll_at_placement": 450.89
     }
   ],
   "daily_loss": 0.0,

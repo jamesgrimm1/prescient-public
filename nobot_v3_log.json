@@ -1,5 +1,5 @@
 {
-  "bankroll": 1224.79,
+  "bankroll": 1243.27,
   "trades": [
     {
       "id": "NB1776304868",
@@ -6816,10 +6816,13 @@
       "closes_in_days": 0.49,
       "closes": "2026-05-07T12:00:00+00:00",
       "volume": 5135.449522000003,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T00:08:12.759459+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-08T03:39:51.256647+00:00",
+      "realized_pnl": 9.36
     },
     {
       "id": "NB1778118700",
@@ -7163,42 +7166,42 @@
       "model": "nobot-v3-weather"
     },
     {
-      "id": "NB1778211409",
+      "id": "NB1778211597",
       "market_id": "2171117",
       "market_slug": "highest-temperature-in-london-on-may-8-2026-18c",
       "market": "Will the highest temperature in London be 18\u00b0C on May 8?",
       "position": "NO",
       "entry_no_price": 46,
       "entry_yes_price": 55,
-      "stake": 9.31,
-      "payout_if_wins": 20.24,
-      "profit_if_wins": 10.93,
+      "stake": 9.45,
+      "payout_if_wins": 20.54,
+      "profit_if_wins": 11.09,
       "category": "weather",
       "closes_in_days": 0.35,
       "closes": "2026-05-08T12:00:00+00:00",
       "volume": 5321.068462000003,
       "status": "open",
-      "placed_at": "2026-05-08T03:36:49.682494+00:00",
+      "placed_at": "2026-05-08T03:39:57.683475+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     },
     {
-      "id": "NB1778211409",
+      "id": "NB1778211597",
       "market_id": "2171194",
       "market_slug": "highest-temperature-in-nyc-on-may-8-2026-64-65f",
       "market": "Will the highest temperature in New York City be between 64-65\u00b0F on May 8?",
       "position": "NO",
       "entry_no_price": 53,
       "entry_yes_price": 47,
-      "stake": 6.93,
-      "payout_if_wins": 13.08,
-      "profit_if_wins": 6.15,
+      "stake": 7.03,
+      "payout_if_wins": 13.26,
+      "profit_if_wins": 6.23,
       "category": "weather",
       "closes_in_days": 0.35,
       "closes": "2026-05-08T12:00:00+00:00",
       "volume": 3326.373063999999,
       "status": "open",
-      "placed_at": "2026-05-08T03:36:49.682539+00:00",
+      "placed_at": "2026-05-08T03:39:57.683534+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     }

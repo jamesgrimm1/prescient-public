@@ -11367,7 +11367,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-08T03:36:54.219377+00:00",
+      "resolved_at": "2026-05-08T03:40:01.370995+00:00",
       "realized_pnl": -1.99
     },
     {
@@ -11388,7 +11388,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-08T03:36:54.538807+00:00",
+      "resolved_at": "2026-05-08T03:40:01.503362+00:00",
       "realized_pnl": -1.98
     },
     {
@@ -11500,7 +11500,7 @@
       "model": "nearcertain"
     },
     {
-      "id": "NC20260508033701930925",
+      "id": "NC20260508034008383586",
       "market_id": "2171308",
       "market": "Will the highest temperature in Tokyo be 26\u00b0C on May 8?",
       "category": "weather",
@@ -11511,14 +11511,14 @@
       "potential_profit": 89.3,
       "potential_payout": 95.0,
       "closes": "2026-05-08T12:00:00+00:00",
-      "closes_in_days": 0.349,
+      "closes_in_days": 0.347,
       "status": "open",
-      "placed_at": "2026-05-08T03:37:01.930943+00:00",
+      "placed_at": "2026-05-08T03:40:08.383606+00:00",
       "paper": true,
       "model": "nearcertain"
     },
     {
-      "id": "NC20260508033702551721",
+      "id": "NC20260508034008746852",
       "market_id": "2101849",
       "market": "Will White House post 140-159 posts from May 1 to May 8, 2026?",
       "category": "other",
@@ -11529,14 +11529,14 @@
       "potential_profit": 14.75,
       "potential_payout": 17.56,
       "closes": "2026-05-08T16:00:00+00:00",
-      "closes_in_days": 0.516,
+      "closes_in_days": 0.514,
       "status": "open",
-      "placed_at": "2026-05-08T03:37:02.551751+00:00",
+      "placed_at": "2026-05-08T03:40:08.746883+00:00",
       "paper": true,
       "model": "nearcertain"
     },
     {
-      "id": "NC20260508033702552122",
+      "id": "NC20260508034008747226",
       "market_id": "2179224",
       "market": "Will the highest temperature in Lucknow be 35\u00b0C or below on May 9?",
       "category": "weather",
@@ -11547,9 +11547,9 @@
       "potential_profit": 105.83,
       "potential_payout": 111.4,
       "closes": "2026-05-09T12:00:00+00:00",
-      "closes_in_days": 1.349,
+      "closes_in_days": 1.347,
       "status": "open",
-      "placed_at": "2026-05-08T03:37:02.552139+00:00",
+      "placed_at": "2026-05-08T03:40:08.747243+00:00",
       "paper": true,
       "model": "nearcertain"
     }

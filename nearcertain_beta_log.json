@@ -40943,7 +40943,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-08T03:37:16.745854+00:00",
+      "resolved_at": "2026-05-08T03:40:15.207640+00:00",
       "realized_pnl": -0.44
     },
     {
@@ -41120,7 +41120,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-08T03:37:16.936915+00:00",
+      "resolved_at": "2026-05-08T03:40:15.242298+00:00",
       "realized_pnl": -0.44
     },
     {
@@ -41231,7 +41231,7 @@
       "paper": true,
       "model": "nearcertain",
       "won": false,
-      "resolved_at": "2026-05-08T03:37:17.107629+00:00",
+      "resolved_at": "2026-05-08T03:40:15.362841+00:00",
       "realized_pnl": -0.44
     },
     {
@@ -41436,7 +41436,7 @@
       "model": "nearcertain"
     },
     {
-      "id": "NC20260508033723374809",
+      "id": "NC20260508034022815660",
       "market_id": "2101849",
       "market": "Will White House post 140-159 posts from May 1 to May 8, 2026?",
       "category": "other",
@@ -41447,14 +41447,14 @@
       "potential_profit": 2.31,
       "potential_payout": 2.75,
       "closes": "2026-05-08T16:00:00+00:00",
-      "closes_in_days": 0.516,
+      "closes_in_days": 0.514,
       "status": "open",
-      "placed_at": "2026-05-08T03:37:23.374829+00:00",
+      "placed_at": "2026-05-08T03:40:22.815681+00:00",
       "paper": true,
       "model": "nearcertain"
     },
     {
-      "id": "NC20260508033723375334",
+      "id": "NC20260508034022816141",
       "market_id": "2101850",
       "market": "Will Donald Trump post 140-159 Truth Social posts from May 1 to May 8, 2026?",
       "category": "politics",
@@ -41465,14 +41465,14 @@
       "potential_profit": 1.13,
       "potential_payout": 1.57,
       "closes": "2026-05-08T16:00:00+00:00",
-      "closes_in_days": 0.516,
+      "closes_in_days": 0.514,
       "status": "open",
-      "placed_at": "2026-05-08T03:37:23.375352+00:00",
+      "placed_at": "2026-05-08T03:40:22.816157+00:00",
       "paper": true,
       "model": "nearcertain"
     },
     {
-      "id": "NC20260508033723375873",
+      "id": "NC20260508034022816705",
       "market_id": "2133303",
       "market": "Will the price of Ethereum be between $2,200 and $2,300 on May 8?",
       "category": "crypto",
@@ -41483,9 +41483,9 @@
       "potential_profit": 0.94,
       "potential_payout": 1.38,
       "closes": "2026-05-08T16:00:00+00:00",
-      "closes_in_days": 0.516,
+      "closes_in_days": 0.514,
       "status": "open",
-      "placed_at": "2026-05-08T03:37:23.375891+00:00",
+      "placed_at": "2026-05-08T03:40:22.816722+00:00",
       "paper": true,
       "model": "nearcertain"
     }
