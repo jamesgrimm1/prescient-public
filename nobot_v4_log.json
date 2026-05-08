@@ -1,5 +1,5 @@
 {
-  "bankroll": 705.35,
+  "bankroll": 694.13,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -1229,9 +1229,30 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1778211589"
+    },
+    {
+      "id": "V420260508043800979612",
+      "market_id": "2171415",
+      "market": "Will the highest temperature in Beijing be 27\u00b0C on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 11.22,
+      "v2_stake": 3.54,
+      "potential_profit": 10.36,
+      "potential_payout": 21.58,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.31,
+      "volume": 3392.5085969999977,
+      "status": "open",
+      "placed_at": "2026-05-08T04:38:00.979624+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778215080"
     }
   ],
-  "scan_count": 32,
+  "scan_count": 33,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }

@@ -1,5 +1,5 @@
 {
-  "bankroll": 365.69,
+  "bankroll": 357.5,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -11552,10 +11552,46 @@
       "placed_at": "2026-05-08T03:40:08.747243+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508043827163443",
+      "market_id": "2171337",
+      "market": "Will the highest temperature in Singapore be 30\u00b0C on May 8?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 7,
+      "entry_yes_price": 93,
+      "stake": 5.49,
+      "potential_profit": 72.94,
+      "potential_payout": 78.43,
+      "closes": "2026-05-08T12:00:00+00:00",
+      "closes_in_days": 0.307,
+      "status": "open",
+      "placed_at": "2026-05-08T04:38:27.163463+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260508043827788465",
+      "market_id": "2075069",
+      "market": "Racing Club de Lens vs. FC Nantes: O/U 1.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 16,
+      "entry_yes_price": 84,
+      "stake": 2.7,
+      "potential_profit": 14.18,
+      "potential_payout": 16.88,
+      "closes": "2026-05-08T18:45:00+00:00",
+      "closes_in_days": 0.588,
+      "status": "open",
+      "placed_at": "2026-05-08T04:38:27.788500+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 3.97,
   "daily_reset": "2026-05-08",
-  "scan_count": 338,
+  "scan_count": 339,
   "started": "2026-04-21T00:00:00+00:00"
 }
