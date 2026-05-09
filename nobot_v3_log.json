@@ -1,5 +1,5 @@
 {
-  "bankroll": 1253.37,
+  "bankroll": 1246.32,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7461,6 +7461,26 @@
       "volume": 3357.3820859999996,
       "status": "open",
       "placed_at": "2026-05-09T07:12:20.741512+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778316874",
+      "market_id": "2179316",
+      "market_slug": "highest-temperature-in-madrid-on-may-9-2026-18c",
+      "market": "Will the highest temperature in Madrid be 18\u00b0C on May 9?",
+      "position": "NO",
+      "entry_no_price": 54,
+      "entry_yes_price": 46,
+      "stake": 7.05,
+      "payout_if_wins": 13.06,
+      "profit_if_wins": 6.01,
+      "category": "weather",
+      "closes_in_days": 0.13,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "volume": 4011.4715170000018,
+      "status": "open",
+      "placed_at": "2026-05-09T08:54:34.588611+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     }
