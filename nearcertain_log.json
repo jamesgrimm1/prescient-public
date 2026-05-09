@@ -1,5 +1,5 @@
 {
-  "bankroll": 356.3,
+  "bankroll": 347.45,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -12217,10 +12217,13 @@
       "potential_payout": 20.38,
       "closes": "2026-05-09T11:00:00+00:00",
       "closes_in_days": 0.549,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T21:48:58.754027+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-09T11:40:45.222962+00:00",
+      "realized_pnl": -3.26
     },
     {
       "id": "NC20260508214858754342",
@@ -12545,10 +12548,46 @@
       "placed_at": "2026-05-09T07:09:47.792767+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509114054940050",
+      "market_id": "2190419",
+      "market": "Valorant: XLG Gaming vs Dragon Ranger Gaming (BO5) - VCT China Playoffs",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 3.56,
+      "potential_profit": 21.87,
+      "potential_payout": 25.43,
+      "closes": "2026-05-09T15:00:00+00:00",
+      "closes_in_days": 0.138,
+      "status": "open",
+      "placed_at": "2026-05-09T11:40:54.940074+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509114054940459",
+      "market_id": "2158619",
+      "market": "Map Handicap: FAL (-1.5) vs K27 (+1.5)",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 5,
+      "entry_yes_price": 95,
+      "stake": 5.29,
+      "potential_profit": 100.51,
+      "potential_payout": 105.8,
+      "closes": "2026-05-09T16:25:00+00:00",
+      "closes_in_days": 0.197,
+      "status": "open",
+      "placed_at": "2026-05-09T11:40:54.940477+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 4.04,
+  "daily_loss": 7.3,
   "daily_reset": "2026-05-09",
-  "scan_count": 357,
+  "scan_count": 358,
   "started": "2026-04-21T00:00:00+00:00"
 }
