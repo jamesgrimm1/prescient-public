@@ -1,5 +1,5 @@
 {
-  "bankroll": 1131.91,
+  "bankroll": 1123.66,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12814,11 +12814,51 @@
       "placed_at": "2026-05-09T01:50:26.891186+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778302840",
+      "market_id": "2179357",
+      "market_slug": "highest-temperature-in-beijing-on-may-9-2026-23c",
+      "market": "Will the highest temperature in Beijing be 23\u00b0C on May 9?",
+      "position": "NO",
+      "entry_no_price": 47,
+      "entry_yes_price": 53,
+      "stake": 3.57,
+      "payout_if_wins": 7.6,
+      "profit_if_wins": 4.03,
+      "category": "weather",
+      "closes_in_days": 0.29,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "volume": 8751.518215000002,
+      "status": "open",
+      "placed_at": "2026-05-09T05:00:40.611540+00:00",
+      "paper": true,
+      "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778302840",
+      "market_id": "2179086",
+      "market_slug": "highest-temperature-in-paris-on-may-9-2026-23c",
+      "market": "Will the highest temperature in Paris be 23\u00b0C on May 9?",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 4.68,
+      "payout_if_wins": 7.8,
+      "profit_if_wins": 3.12,
+      "category": "weather",
+      "closes_in_days": 0.29,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "volume": 3959.8706390000007,
+      "status": "open",
+      "placed_at": "2026-05-09T05:00:40.611600+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 10.47,
   "daily_reset": "2026-05-09",
-  "scan_count": 451,
+  "scan_count": 452,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-08T18:03:57.794814+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
