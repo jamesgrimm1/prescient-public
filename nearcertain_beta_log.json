@@ -1,5 +1,5 @@
 {
-  "bankroll": 878.52,
+  "bankroll": 878.08,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -44004,10 +44004,13 @@
       "potential_payout": 7.33,
       "closes": "2026-05-09T17:00:00+00:00",
       "closes_in_days": 0.799,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T21:49:22.069448+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-09T19:50:25.615103+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260508214922070087",
@@ -44160,10 +44163,13 @@
       "potential_payout": 2.75,
       "closes": "2026-05-09T17:00:00+00:00",
       "closes_in_days": 0.761,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T22:44:47.887604+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-09T19:50:25.691955+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260508234529595356",
@@ -45226,11 +45232,29 @@
       "placed_at": "2026-05-09T18:43:45.636246+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509195035555359",
+      "market_id": "2154232",
+      "market": "Call of Duty: Los Angeles Thieves vs Carolina Royal Ravens (BO5) - Call of Duty League Stage 3 Major Qualifiers Qualifiers",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 0.44,
+      "potential_profit": 2.0,
+      "potential_payout": 2.44,
+      "closes": "2026-05-10T01:00:00+00:00",
+      "closes_in_days": 0.215,
+      "status": "open",
+      "placed_at": "2026-05-09T19:50:35.555378+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 30.32,
+  "daily_loss": 31.2,
   "daily_reset": "2026-05-09",
-  "scan_count": 304,
+  "scan_count": 305,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
