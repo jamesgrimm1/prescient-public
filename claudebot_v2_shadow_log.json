@@ -951,14 +951,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260509203858284377",
+      "market_id": "2148564",
+      "market_slug": "nhl-col-min-2026-05-09",
+      "market": "Avalanche vs. Wild",
+      "category": "other",
+      "position": "NO",
+      "entry_price": 44.5,
+      "market_yes_price": 55.5,
+      "market_no_price": 44.5,
+      "final_yes_probability": 49.7,
+      "preferred_edge": 3.5,
+      "confidence": 40.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 22.47,
+      "closes": "2026-05-10T01:00:00+00:00",
+      "closes_in_days": 0.18,
+      "created_at": "2026-05-09T20:38:58.284392+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 39,
+    "total_shadow": 40,
     "would_have_won": 2,
     "would_have_lost": 2,
     "missed_profit": 25.12,
     "correct_rejections": 20.0
   },
-  "last_updated": "2026-05-09T19:54:45.970676+00:00"
+  "last_updated": "2026-05-09T20:38:58.284398+00:00"
 }
