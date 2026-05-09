@@ -1,5 +1,5 @@
 {
-  "bankroll": 560.97,
+  "bankroll": 504.87,
   "trades": [
     {
       "id": "T1777580081",
@@ -206,11 +206,43 @@
       "won": false,
       "resolved_at": "2026-05-09T18:07:48.069604+00:00",
       "realized_pnl": -62.33
+    },
+    {
+      "id": "T1778370159",
+      "tier": 1,
+      "market_id": "2154992",
+      "market_slug": "confirmed-case-of-hantavirus-in-us-by-may-15",
+      "market": "Confirmed case of Hantavirus in US by May 15?",
+      "position": "YES",
+      "entry_price": 46,
+      "stake": 56.1,
+      "potential_return": 121.96,
+      "potential_profit": 65.86,
+      "confidence": 77,
+      "true_prob": 64,
+      "market_prob": 46,
+      "category": "health",
+      "closes_in_days": 5.0,
+      "closes": "2026-05-15T00:00:00+00:00",
+      "research_summary": "23+ exposed cruise passengers returned to US by May 6, at least 1 symptomatic. Lab confirmation window (3-7 days from ~May 6) falls squarely within May 9-13, with 5 days remaining before close. High-profile outbreak ensures expedited testing. Market at 46% underprices documented symptomatic cases already present in US.",
+      "key_factors": [
+        "At least 1 symptomatic returnee already documented in US as of May 6",
+        "Lab confirmation window (3-7 days) puts results between now and May 13 \u2014 well before May 15 close",
+        "23+ returned passengers increases probability that at least one confirms positive",
+        "High-profile cruise outbreak ensures prioritized CDC/state lab testing"
+      ],
+      "bear_case": "Lab turnaround could exceed 7 days; symptomatic returnee could test negative; bureaucratic delays in official 'confirmation' designation; health category is 0W/1L in history",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": true,
+      "status": "open",
+      "placed_at": "2026-05-09T23:42:39.458195+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6"
     }
   ],
   "daily_loss": 62.33,
   "daily_reset": "2026-05-09",
-  "scan_count": 178,
+  "scan_count": 179,
   "started": "2026-04-29T15:03:12.099702+00:00",
   "version": "v3",
   "notes": "V3: 500 market pull + newest pass, sports near-resolution enabled, tech/culture categories added",

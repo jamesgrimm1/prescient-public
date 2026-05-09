@@ -1,5 +1,5 @@
 {
-  "bankroll": 427.4,
+  "bankroll": 419.95,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -12665,10 +12665,46 @@
       "placed_at": "2026-05-09T22:32:42.518887+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509233657383207",
+      "market_id": "2186733",
+      "market": "Will the highest temperature in Wellington be 18\u00b0C on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 19,
+      "entry_yes_price": 81,
+      "stake": 3.21,
+      "potential_profit": 13.68,
+      "potential_payout": 16.89,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.516,
+      "status": "open",
+      "placed_at": "2026-05-09T23:36:57.383230+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509233657383499",
+      "market_id": "2186956",
+      "market": "Will the highest temperature in Houston be 86\u00b0F or higher on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 4.24,
+      "potential_profit": 26.05,
+      "potential_payout": 30.29,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.516,
+      "status": "open",
+      "placed_at": "2026-05-09T23:36:57.383516+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 92.79,
   "daily_reset": "2026-05-09",
-  "scan_count": 363,
+  "scan_count": 364,
   "started": "2026-04-21T00:00:00+00:00"
 }
