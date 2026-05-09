@@ -1,5 +1,5 @@
 {
-  "bankroll": 623.3,
+  "bankroll": 560.97,
   "trades": [
     {
       "id": "T1777580081",
@@ -171,11 +171,43 @@
       "won": false,
       "resolved_at": "2026-05-06T18:40:29.121937+00:00",
       "realized_pnl": -32.8
+    },
+    {
+      "id": "T1778291967",
+      "tier": 1,
+      "market_id": "2141003",
+      "market_slug": "bitcoin-above-80k-on-may-9",
+      "market": "Will the price of Bitcoin be above $80,000 on May 9?",
+      "position": "NO",
+      "entry_price": 22,
+      "stake": 62.33,
+      "potential_return": 283.32,
+      "potential_profit": 220.99,
+      "confidence": 78,
+      "true_prob": 39,
+      "market_prob": 78,
+      "category": "crypto",
+      "closes_in_days": 0.6,
+      "closes": "2026-05-09T16:00:00+00:00",
+      "research_summary": "LIVE BTC price is $80,421 \u2014 only $421 (0.52%) above $80K threshold with ~22 hours remaining. BTC daily volatility of 2-3% (~$1,500-2,000) makes a sub-$80K touch statistically probable. Normal distribution model with \u03c3\u2248$1,800 yields P(above at close)\u224859%. Research brief also shows lower prices ($76-77K) from other sources, suggesting possible further weakness. Whale dumps of $760M recently noted.",
+      "key_factors": [
+        "BTC at $80,421 \u2014 razor-thin 0.52% buffer above $80K threshold",
+        "Daily BTC volatility (~2-3%) far exceeds the buffer, giving ~40% chance of dropping below",
+        "12-24hr hold duration matches historical sweet spot (100% WR)",
+        "Recent whale selling ($760M) suggests bearish pressure"
+      ],
+      "bear_case": "Bullish momentum (+0.87% 24h) could push BTC higher; weekend low-liquidity could amplify moves in either direction; conflicting price data means actual price might differ from live feed",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-09T01:59:27.071782+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6"
     }
   ],
   "daily_loss": 0.0,
-  "daily_reset": "2026-05-08",
-  "scan_count": 169,
+  "daily_reset": "2026-05-09",
+  "scan_count": 170,
   "started": "2026-04-29T15:03:12.099702+00:00",
   "version": "v3",
   "notes": "V3: 500 market pull + newest pass, sports near-resolution enabled, tech/culture categories added",
