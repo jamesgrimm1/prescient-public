@@ -1,5 +1,5 @@
 {
-  "bankroll": 372.01,
+  "bankroll": 370.15,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -12605,10 +12605,28 @@
       "won": false,
       "resolved_at": "2026-05-09T18:01:58.478394+00:00",
       "realized_pnl": -5.43
+    },
+    {
+      "id": "NC20260509213406456761",
+      "market_id": "2113828",
+      "market": "CF Cruz Azul vs. Atlas FC: O/U 1.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 1.86,
+      "potential_profit": 5.89,
+      "potential_payout": 7.75,
+      "closes": "2026-05-10T03:15:00+00:00",
+      "closes_in_days": 0.237,
+      "status": "open",
+      "placed_at": "2026-05-09T21:34:06.456805+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 86.95,
   "daily_reset": "2026-05-09",
-  "scan_count": 361,
+  "scan_count": 362,
   "started": "2026-04-21T00:00:00+00:00"
 }

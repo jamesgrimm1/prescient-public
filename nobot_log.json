@@ -1,5 +1,5 @@
 {
-  "bankroll": 999.79,
+  "bankroll": 996.61,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12870,11 +12870,31 @@
       "placed_at": "2026-05-09T18:01:37.494285+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778362420",
+      "market_id": "2159656",
+      "market_slug": "will-trump-be-photographed-every-day-this-week-511-517",
+      "market": "Will Trump be photographed every day this week? (5/11-5/17)",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 3.18,
+      "payout_if_wins": 6.12,
+      "profit_if_wins": 2.94,
+      "category": "politics",
+      "closes_in_days": 0.1,
+      "closes": "2026-05-10T00:00:00+00:00",
+      "volume": 3926.3678000000004,
+      "status": "open",
+      "placed_at": "2026-05-09T21:33:40.434269+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 16.38,
   "daily_reset": "2026-05-09",
-  "scan_count": 453,
+  "scan_count": 454,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-09T19:49:33.666601+00:00"
 }
