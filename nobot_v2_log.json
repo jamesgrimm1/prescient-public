@@ -1,5 +1,5 @@
 {
-  "bankroll": 1113.9,
+  "bankroll": 1130.09,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12624,10 +12624,13 @@
       "closes_in_days": 0.5,
       "closes": "2026-05-09T00:00:00+00:00",
       "volume": 8588.963028000002,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T12:04:44.471842+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-09T17:40:55.511312+00:00",
+      "realized_pnl": 5.0
     },
     {
       "id": "NB1778241884",
@@ -12856,10 +12859,13 @@
       "closes_in_days": 0.29,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 3959.8706390000007,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T05:00:40.611600+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-09T17:40:55.888698+00:00",
+      "realized_pnl": 3.12
     },
     {
       "id": "NB1778310559",
@@ -12920,11 +12926,31 @@
       "placed_at": "2026-05-09T07:09:19.023976+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778348466",
+      "market_id": "2205630",
+      "market_slug": "will-ethereum-reach-2350-on-may-9",
+      "market": "Will Ethereum reach $2,350 on May 9?",
+      "position": "NO",
+      "entry_no_price": 55,
+      "entry_yes_price": 46,
+      "stake": 3.51,
+      "payout_if_wins": 6.38,
+      "profit_if_wins": 2.87,
+      "category": "crypto",
+      "closes_in_days": 0.43,
+      "closes": "2026-05-10T04:00:00+00:00",
+      "volume": 4786.848436,
+      "status": "open",
+      "placed_at": "2026-05-09T17:41:06.353695+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 15.06,
   "daily_reset": "2026-05-09",
-  "scan_count": 453,
+  "scan_count": 454,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-09T07:09:08.262459+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
