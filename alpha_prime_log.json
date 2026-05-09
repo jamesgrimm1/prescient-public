@@ -1,5 +1,5 @@
 {
-  "bankroll": 481.11,
+  "bankroll": 466.68,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3793,11 +3793,34 @@
       "won": false,
       "resolved_at": "2026-05-09T01:51:19.350871+00:00",
       "realized_pnl": -12.34
+    },
+    {
+      "id": "AP20260509070947149709",
+      "market_id": "2179385",
+      "market": "Will the highest temperature in Chengdu be 28\u00b0C on May 9?",
+      "category": "weather",
+      "pattern": "A",
+      "pattern_label": "Weather Exact-Temp",
+      "pattern_reason": "weather_exact",
+      "position": "NO",
+      "entry_no_price": 23,
+      "entry_yes_price": 77,
+      "stake": 14.43,
+      "potential_profit": 48.31,
+      "potential_payout": 62.74,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "closes_in_days": 0.202,
+      "status": "open",
+      "placed_at": "2026-05-09T07:09:47.149723+00:00",
+      "source_bot": "nearcertain",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 481.11
     }
   ],
   "daily_loss": 12.34,
   "daily_reset": "2026-05-09",
-  "scan_count": 191,
+  "scan_count": 192,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
