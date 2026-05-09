@@ -1,0 +1,81 @@
+{
+  "version": "1.0",
+  "n_trades_basis": 36,
+  "prior_weight": 5,
+  "method": "Beta-shrinkage with band-midpoint prior",
+  "prob_band_calibration": {
+    "0-49": {
+      "stated_prob_low": 0,
+      "stated_prob_high": 49,
+      "n_trades": 20,
+      "raw_wr": 0.75,
+      "calibrated_wr": 0.649,
+      "shift_points": 40.4
+    },
+    "50-59": {
+      "stated_prob_low": 50,
+      "stated_prob_high": 59,
+      "n_trades": 3,
+      "raw_wr": 0.333,
+      "calibrated_wr": 0.466,
+      "shift_points": -7.9
+    },
+    "70-79": {
+      "stated_prob_low": 70,
+      "stated_prob_high": 79,
+      "n_trades": 5,
+      "raw_wr": 0.6,
+      "calibrated_wr": 0.672,
+      "shift_points": -7.2
+    },
+    "80-89": {
+      "stated_prob_low": 80,
+      "stated_prob_high": 89,
+      "n_trades": 6,
+      "raw_wr": 0.333,
+      "calibrated_wr": 0.566,
+      "shift_points": -27.9
+    },
+    "90-100": {
+      "stated_prob_low": 90,
+      "stated_prob_high": 100,
+      "n_trades": 2,
+      "raw_wr": 0.5,
+      "calibrated_wr": 0.821,
+      "shift_points": -12.9
+    }
+  },
+  "category_multipliers": {
+    "crypto": {
+      "n": 7,
+      "raw_wr": 0.714,
+      "calibrated_wr": 0.625,
+      "mult": 1.25
+    },
+    "economics": {
+      "n": 3,
+      "raw_wr": 0.333,
+      "calibrated_wr": 0.438,
+      "mult": 0.88
+    },
+    "other": {
+      "n": 4,
+      "raw_wr": 0.75,
+      "calibrated_wr": 0.611,
+      "mult": 1.22
+    },
+    "politics": {
+      "n": 5,
+      "raw_wr": 0.6,
+      "calibrated_wr": 0.55,
+      "mult": 1.1
+    },
+    "weather": {
+      "n": 9,
+      "raw_wr": 0.667,
+      "calibrated_wr": 0.607,
+      "mult": 1.21
+    }
+  },
+  "notes": "Apply prob_band_calibration first to shrink Opus probability. Then optionally apply category multiplier. Sample is small (36 trades) \u2014 calibration weight should reduce as sample grows."
+}

@@ -1,5 +1,5 @@
 {
-  "bankroll": 994.18,
+  "bankroll": 983.39,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12519,13 +12519,10 @@
       "closes_in_days": 0.5,
       "closes": "2026-05-09T00:00:00+00:00",
       "volume": 8588.963028000002,
-      "status": "closed",
+      "status": "open",
       "placed_at": "2026-05-08T12:04:31.961072+00:00",
       "paper": true,
-      "model": "nobot-mechanical",
-      "won": true,
-      "resolved_at": "2026-05-09T17:40:42.182290+00:00",
-      "realized_pnl": 2.94
+      "model": "nobot-mechanical"
     },
     {
       "id": "NB1778241871",
@@ -12777,13 +12774,10 @@
       "closes_in_days": 0.29,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 3959.8706390000007,
-      "status": "closed",
+      "status": "open",
       "placed_at": "2026-05-09T05:00:30.135728+00:00",
       "paper": true,
-      "model": "nobot-mechanical",
-      "won": true,
-      "resolved_at": "2026-05-09T17:40:42.615583+00:00",
-      "realized_pnl": 2.75
+      "model": "nobot-mechanical"
     },
     {
       "id": "NB1778310547",
@@ -12844,31 +12838,11 @@
       "placed_at": "2026-05-09T07:09:07.530253+00:00",
       "paper": true,
       "model": "nobot-mechanical"
-    },
-    {
-      "id": "NB1778348454",
-      "market_id": "2205630",
-      "market_slug": "will-ethereum-reach-2350-on-may-9",
-      "market": "Will Ethereum reach $2,350 on May 9?",
-      "position": "NO",
-      "entry_no_price": 55,
-      "entry_yes_price": 46,
-      "stake": 3.09,
-      "payout_if_wins": 5.62,
-      "profit_if_wins": 2.53,
-      "category": "crypto",
-      "closes_in_days": 0.43,
-      "closes": "2026-05-10T04:00:00+00:00",
-      "volume": 4786.848436,
-      "status": "open",
-      "placed_at": "2026-05-09T17:40:54.085848+00:00",
-      "paper": true,
-      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 12.28,
   "daily_reset": "2026-05-09",
-  "scan_count": 450,
+  "scan_count": 449,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-09T07:08:54.298955+00:00"
 }
