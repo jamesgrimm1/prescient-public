@@ -7232,7 +7232,7 @@
       "paper": true,
       "model": "nobot-v3-weather",
       "won": true,
-      "resolved_at": "2026-05-09T07:09:22.091248+00:00",
+      "resolved_at": "2026-05-09T07:12:11.775552+00:00",
       "realized_pnl": 6.23
     },
     {
@@ -7405,7 +7405,7 @@
       "model": "nobot-v3-weather"
     },
     {
-      "id": "NB1778310572",
+      "id": "NB1778310740",
       "market_id": "2179153",
       "market_slug": "highest-temperature-in-nyc-on-may-9-2026-62-63f",
       "market": "Will the highest temperature in New York City be between 62-63\u00b0F on May 9?",
@@ -7420,12 +7420,12 @@
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 5119.388174999995,
       "status": "open",
-      "placed_at": "2026-05-09T07:09:32.526241+00:00",
+      "placed_at": "2026-05-09T07:12:20.741420+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     },
     {
-      "id": "NB1778310572",
+      "id": "NB1778310740",
       "market_id": "2179242",
       "market_slug": "highest-temperature-in-munich-on-may-9-2026-22c",
       "market": "Will the highest temperature in Munich be 22\u00b0C on May 9?",
@@ -7440,12 +7440,12 @@
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 3362.7665280000006,
       "status": "open",
-      "placed_at": "2026-05-09T07:09:32.526339+00:00",
+      "placed_at": "2026-05-09T07:12:20.741479+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     },
     {
-      "id": "NB1778310572",
+      "id": "NB1778310740",
       "market_id": "2179503",
       "market_slug": "highest-temperature-in-amsterdam-on-may-9-2026-19c",
       "market": "Will the highest temperature in Amsterdam be 19\u00b0C on May 9?",
@@ -7460,14 +7460,14 @@
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 3357.3820859999996,
       "status": "open",
-      "placed_at": "2026-05-09T07:09:32.526373+00:00",
+      "placed_at": "2026-05-09T07:12:20.741512+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 23.39,
   "daily_reset": "2026-05-09",
-  "scan_count": 659,
+  "scan_count": 660,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-09T01:24:44.954722+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."

@@ -1,5 +1,5 @@
 {
-  "bankroll": 1113.9,
+  "bankroll": 1111.56,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12920,11 +12920,31 @@
       "placed_at": "2026-05-09T07:09:19.023976+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778313586",
+      "market_id": "2179241",
+      "market_slug": "highest-temperature-in-munich-on-may-9-2026-21c",
+      "market": "Will the highest temperature in Munich be 21\u00b0C on May 9?",
+      "position": "NO",
+      "entry_no_price": 45,
+      "entry_yes_price": 55,
+      "stake": 2.34,
+      "payout_if_wins": 5.2,
+      "profit_if_wins": 2.86,
+      "category": "weather",
+      "closes_in_days": 0.17,
+      "closes": "2026-05-09T12:00:00+00:00",
+      "volume": 3618.3174710000035,
+      "status": "open",
+      "placed_at": "2026-05-09T07:59:46.690969+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 15.06,
   "daily_reset": "2026-05-09",
-  "scan_count": 453,
+  "scan_count": 454,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-09T07:09:08.262459+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
