@@ -1,5 +1,5 @@
 {
-  "bankroll": 370.15,
+  "bankroll": 427.4,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -11524,10 +11524,13 @@
       "potential_payout": 58.4,
       "closes": "2026-05-09T12:00:00+00:00",
       "closes_in_days": 1.591,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T21:48:45.717955+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-09T22:32:32.436389+00:00",
+      "realized_pnl": -5.84
     },
     {
       "id": "NC20260508015531203519",
@@ -12559,10 +12562,13 @@
       "potential_payout": 61.56,
       "closes": "2026-05-09T12:00:00+00:00",
       "closes_in_days": 0.202,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T07:09:47.147992+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-09T22:32:32.803525+00:00",
+      "realized_pnl": 56.02
     },
     {
       "id": "NC20260509070947148347",
@@ -12623,10 +12629,46 @@
       "placed_at": "2026-05-09T21:34:06.456805+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509223241842977",
+      "market_id": "2155668",
+      "market": "LoL: Disguised vs Dignitas (BO3) - LCS Regular Season",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 2.16,
+      "potential_profit": 7.66,
+      "potential_payout": 9.82,
+      "closes": "2026-05-10T04:00:00+00:00",
+      "closes_in_days": 0.227,
+      "status": "open",
+      "placed_at": "2026-05-09T22:32:41.842999+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509223242518856",
+      "market_id": "2187076",
+      "market": "Will the highest temperature in Panama City be 33\u00b0C or higher on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 2.15,
+      "potential_profit": 6.81,
+      "potential_payout": 8.96,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.561,
+      "status": "open",
+      "placed_at": "2026-05-09T22:32:42.518887+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 86.95,
+  "daily_loss": 92.79,
   "daily_reset": "2026-05-09",
-  "scan_count": 362,
+  "scan_count": 363,
   "started": "2026-04-21T00:00:00+00:00"
 }

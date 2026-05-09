@@ -1,5 +1,5 @@
 {
-  "bankroll": 878.2,
+  "bankroll": 877.74,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -41415,10 +41415,13 @@
       "potential_payout": 4.4,
       "closes": "2026-05-09T12:00:00+00:00",
       "closes_in_days": 1.591,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-07T21:49:06.541096+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-09T22:32:50.959693+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260507225132274343",
@@ -43281,10 +43284,13 @@
       "potential_payout": 1.3,
       "closes": "2026-05-09T12:00:00+00:00",
       "closes_in_days": 0.827,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T16:09:39.426652+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-09T22:32:51.021900+00:00",
+      "realized_pnl": 0.87
     },
     {
       "id": "NC20260508160939427972",
@@ -44094,10 +44100,13 @@
       "potential_payout": 2.0,
       "closes": "2026-05-09T20:00:00+00:00",
       "closes_in_days": 0.924,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T21:49:22.071702+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-09T22:32:51.212250+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260508224447883829",
@@ -44973,10 +44982,13 @@
       "potential_payout": 5.5,
       "closes": "2026-05-09T20:30:00+00:00",
       "closes_in_days": 0.103,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T18:02:27.966118+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-09T22:32:52.132559+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260509180227966565",
@@ -45009,10 +45021,13 @@
       "potential_payout": 2.75,
       "closes": "2026-05-09T22:20:00+00:00",
       "closes_in_days": 0.179,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T18:02:27.967063+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-09T22:32:52.562176+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260509180227967493",
@@ -45376,11 +45391,83 @@
       "placed_at": "2026-05-09T21:34:19.883133+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509223301297370",
+      "market_id": "2055101",
+      "market": "UFC 328: Pat Sabatini vs. William Gomis (Featherweight, Early Prelims)",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 26,
+      "entry_yes_price": 74,
+      "stake": 0.44,
+      "potential_profit": 1.25,
+      "potential_payout": 1.69,
+      "closes": "2026-05-10T03:59:59.999000+00:00",
+      "closes_in_days": 0.227,
+      "status": "open",
+      "placed_at": "2026-05-09T22:33:01.297394+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509223301297915",
+      "market_id": "2155668",
+      "market": "LoL: Disguised vs Dignitas (BO3) - LCS Regular Season",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 0.44,
+      "potential_profit": 1.56,
+      "potential_payout": 2.0,
+      "closes": "2026-05-10T04:00:00+00:00",
+      "closes_in_days": 0.227,
+      "status": "open",
+      "placed_at": "2026-05-09T22:33:01.297933+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509223301299399",
+      "market_id": "1970532",
+      "market": "Liaoning Tieren FC vs. Yunnan Yukun FC: Both Teams to Score",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 35,
+      "entry_yes_price": 65,
+      "stake": 0.44,
+      "potential_profit": 0.82,
+      "potential_payout": 1.26,
+      "closes": "2026-05-10T11:00:00+00:00",
+      "closes_in_days": 0.519,
+      "status": "open",
+      "placed_at": "2026-05-09T22:33:01.299414+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509223301299873",
+      "market_id": "2187076",
+      "market": "Will the highest temperature in Panama City be 33\u00b0C or higher on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 0.44,
+      "potential_profit": 1.39,
+      "potential_payout": 1.83,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.56,
+      "status": "open",
+      "placed_at": "2026-05-09T22:33:01.299893+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 32.96,
+  "daily_loss": 34.72,
   "daily_reset": "2026-05-09",
-  "scan_count": 307,
+  "scan_count": 308,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
