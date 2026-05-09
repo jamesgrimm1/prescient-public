@@ -1,5 +1,5 @@
 {
-  "bankroll": 356.3,
+  "bankroll": 351.86,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -12545,10 +12545,46 @@
       "placed_at": "2026-05-09T07:09:47.792767+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509104558923969",
+      "market_id": "2181528",
+      "market": "Valorant: Rex Regum Qeon vs DetonatioN FocusMe (BO3) - VCT Pacific Playoffs",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 1.78,
+      "potential_profit": 6.31,
+      "potential_payout": 8.09,
+      "closes": "2026-05-09T14:00:00+00:00",
+      "closes_in_days": 0.135,
+      "status": "open",
+      "placed_at": "2026-05-09T10:45:58.923991+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260509104558925091",
+      "market_id": "2155802",
+      "market": "Will Elon Musk post <40 tweets from May 7 to May 9, 2026?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 20,
+      "entry_yes_price": 80,
+      "stake": 2.66,
+      "potential_profit": 10.64,
+      "potential_payout": 13.3,
+      "closes": "2026-05-09T16:00:00+00:00",
+      "closes_in_days": 0.218,
+      "status": "open",
+      "placed_at": "2026-05-09T10:45:58.925110+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 4.04,
   "daily_reset": "2026-05-09",
-  "scan_count": 357,
+  "scan_count": 358,
   "started": "2026-04-21T00:00:00+00:00"
 }
