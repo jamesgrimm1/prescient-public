@@ -199,15 +199,18 @@
       "bear_case": "Bullish momentum (+0.87% 24h) could push BTC higher; weekend low-liquidity could amplify moves in either direction; conflicting price data means actual price might differ from live feed",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T01:59:27.071782+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": false,
+      "resolved_at": "2026-05-09T18:07:48.069604+00:00",
+      "realized_pnl": -62.33
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 62.33,
   "daily_reset": "2026-05-09",
-  "scan_count": 172,
+  "scan_count": 173,
   "started": "2026-04-29T15:03:12.099702+00:00",
   "version": "v3",
   "notes": "V3: 500 market pull + newest pass, sports near-resolution enabled, tech/culture categories added",

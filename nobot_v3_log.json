@@ -1,5 +1,5 @@
 {
-  "bankroll": 1254.0,
+  "bankroll": 1246.32,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7379,13 +7379,10 @@
       "closes_in_days": 0.44,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 3731.053973000001,
-      "status": "closed",
+      "status": "open",
       "placed_at": "2026-05-09T01:24:56.977446+00:00",
       "paper": true,
-      "model": "nobot-v3-weather",
-      "won": false,
-      "resolved_at": "2026-05-09T18:08:50.243185+00:00",
-      "realized_pnl": -4.77
+      "model": "nobot-v3-weather"
     },
     {
       "id": "NB1778302386",
@@ -7422,13 +7419,10 @@
       "closes_in_days": 0.2,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 5119.388174999995,
-      "status": "closed",
+      "status": "open",
       "placed_at": "2026-05-09T07:12:20.741420+00:00",
       "paper": true,
-      "model": "nobot-v3-weather",
-      "won": true,
-      "resolved_at": "2026-05-09T18:08:50.383508+00:00",
-      "realized_pnl": 2.92
+      "model": "nobot-v3-weather"
     },
     {
       "id": "NB1778310740",
@@ -7491,7 +7485,7 @@
       "model": "nobot-v3-weather"
     }
   ],
-  "daily_loss": 28.16,
+  "daily_loss": 23.39,
   "daily_reset": "2026-05-09",
   "scan_count": 668,
   "started": "2026-04-16T02:01:08.863467+00:00",

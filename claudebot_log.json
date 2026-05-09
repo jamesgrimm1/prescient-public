@@ -1303,11 +1303,14 @@
       "bear_case": "ETH realized volatility may be lower than historical average currently; $2,200 psychological support could act as strong floor; sophisticated market makers may have better real-time volatility data justifying 94% pricing",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": true,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T06:30:43.591843+00:00",
       "paper": true,
       "model": "claude-opus-4-6",
-      "paper_bankroll_at_placement": 2352.68
+      "paper_bankroll_at_placement": 2352.68,
+      "won": false,
+      "resolved_at": "2026-05-09T18:02:52.320146+00:00",
+      "realized_pnl": -160.18
     },
     {
       "id": "T1778270817",
@@ -1343,9 +1346,9 @@
       "paper_bankroll_at_placement": 2192.5
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 160.18,
   "daily_reset": "2026-05-09",
-  "scan_count": 490,
+  "scan_count": 491,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-05",
   "last_tier2_scan": "2026-05-03",
