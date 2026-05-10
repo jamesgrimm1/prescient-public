@@ -1890,7 +1890,7 @@
       "v2_trade_id": "NB1778404885"
     }
   ],
-  "scan_count": 65,
+  "scan_count": 66,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
