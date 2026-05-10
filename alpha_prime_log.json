@@ -1,5 +1,5 @@
 {
-  "bankroll": 464.07,
+  "bankroll": 452.47,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3940,11 +3940,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 475.97
+    },
+    {
+      "id": "AP20260510164158930572",
+      "market_id": "2220876",
+      "market": "Counter-Strike: NeverPlay vs Younglings (BO3) - Exort Series Main Stage",
+      "category": "conflict",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 25,
+      "entry_yes_price": 75,
+      "stake": 11.6,
+      "potential_profit": 34.8,
+      "potential_payout": 46.4,
+      "closes": "2026-05-10T21:40:00+00:00",
+      "closes_in_days": 0.207,
+      "status": "open",
+      "placed_at": "2026-05-10T16:41:58.930585+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 464.07
     }
   ],
   "daily_loss": 28.73,
   "daily_reset": "2026-05-10",
-  "scan_count": 209,
+  "scan_count": 210,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",
