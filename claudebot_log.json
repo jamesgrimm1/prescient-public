@@ -1346,9 +1346,9 @@
       "paper_bankroll_at_placement": 2192.5
     }
   ],
-  "daily_loss": 160.18,
-  "daily_reset": "2026-05-09",
-  "scan_count": 497,
+  "daily_loss": 0.0,
+  "daily_reset": "2026-05-10",
+  "scan_count": 498,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-05",
   "last_tier2_scan": "2026-05-03",

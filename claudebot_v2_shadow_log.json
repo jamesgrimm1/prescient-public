@@ -608,9 +608,13 @@
       "closes": "2026-05-09T22:00:00+00:00",
       "closes_in_days": 0.97,
       "created_at": "2026-05-08T22:49:08.801348+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-10T01:52:08.045243+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2141003_NO",
@@ -1052,9 +1056,9 @@
   "stats": {
     "total_shadow": 43,
     "would_have_won": 2,
-    "would_have_lost": 2,
+    "would_have_lost": 3,
     "missed_profit": 25.12,
-    "correct_rejections": 20.0
+    "correct_rejections": 30.0
   },
-  "last_updated": "2026-05-09T23:38:24.675550+00:00"
+  "last_updated": "2026-05-10T01:52:09.864283+00:00"
 }

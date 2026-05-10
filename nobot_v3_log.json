@@ -1,5 +1,5 @@
 {
-  "bankroll": 1242.63,
+  "bankroll": 1235.64,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7575,11 +7575,31 @@
       "placed_at": "2026-05-10T00:07:11.361307+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778377829",
+      "market_id": "2186827",
+      "market_slug": "highest-temperature-in-madrid-on-may-10-2026-16c",
+      "market": "Will the highest temperature in Madrid be 16\u00b0C on May 10?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 6.99,
+      "payout_if_wins": 12.48,
+      "profit_if_wins": 5.49,
+      "category": "weather",
+      "closes_in_days": 0.42,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 3625.970126,
+      "status": "open",
+      "placed_at": "2026-05-10T01:50:29.821979+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 4.81,
   "daily_reset": "2026-05-10",
-  "scan_count": 680,
+  "scan_count": 681,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-09T13:54:47.890670+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."

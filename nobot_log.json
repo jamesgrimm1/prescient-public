@@ -1,5 +1,5 @@
 {
-  "bankroll": 996.61,
+  "bankroll": 998.53,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12657,10 +12657,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 5688.565072000002,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T01:50:15.897271+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-10T01:50:05.735294+00:00",
+      "realized_pnl": 2.69
     },
     {
       "id": "NB1778291415",
@@ -12697,10 +12700,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 4636.809396,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T01:50:15.897355+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": false,
+      "resolved_at": "2026-05-10T01:50:05.929145+00:00",
+      "realized_pnl": -4.18
     },
     {
       "id": "NB1778291415",
@@ -12760,10 +12766,13 @@
       "closes_in_days": 0.29,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 8751.518215000002,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T05:00:30.135645+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-10T01:50:06.088711+00:00",
+      "realized_pnl": 2.36
     },
     {
       "id": "NB1778302830",
@@ -12890,11 +12899,71 @@
       "placed_at": "2026-05-09T21:33:40.434269+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778377814",
+      "market_id": "2186787",
+      "market_slug": "highest-temperature-in-hong-kong-on-may-10-2026-26c",
+      "market": "Will the highest temperature in Hong Kong be 26\u00b0C on May 10?",
+      "position": "NO",
+      "entry_no_price": 50,
+      "entry_yes_price": 50,
+      "stake": 3.21,
+      "payout_if_wins": 6.42,
+      "profit_if_wins": 3.21,
+      "category": "weather",
+      "closes_in_days": 0.42,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 8978.244480000001,
+      "status": "open",
+      "placed_at": "2026-05-10T01:50:14.196252+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778377814",
+      "market_id": "2186587",
+      "market_slug": "highest-temperature-in-london-on-may-10-2026-15c",
+      "market": "Will the highest temperature in London be 15\u00b0C on May 10?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 2.11,
+      "payout_if_wins": 4.4,
+      "profit_if_wins": 2.29,
+      "category": "weather",
+      "closes_in_days": 0.42,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 6628.331547000011,
+      "status": "open",
+      "placed_at": "2026-05-10T01:50:14.196303+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778377814",
+      "market_id": "2186827",
+      "market_slug": "highest-temperature-in-madrid-on-may-10-2026-16c",
+      "market": "Will the highest temperature in Madrid be 16\u00b0C on May 10?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 4.11,
+      "payout_if_wins": 7.34,
+      "profit_if_wins": 3.23,
+      "category": "weather",
+      "closes_in_days": 0.42,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 3625.970126,
+      "status": "open",
+      "placed_at": "2026-05-10T01:50:14.196338+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
-  "daily_loss": 16.38,
-  "daily_reset": "2026-05-09",
-  "scan_count": 456,
+  "daily_loss": 4.18,
+  "daily_reset": "2026-05-10",
+  "scan_count": 457,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-09T19:49:33.666601+00:00"
 }
