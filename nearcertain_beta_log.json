@@ -1,5 +1,5 @@
 {
-  "bankroll": 866.71,
+  "bankroll": 868.87,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -46395,10 +46395,13 @@
       "potential_payout": 1.57,
       "closes": "2026-05-10T17:00:00+00:00",
       "closes_in_days": 0.48,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:36.009520+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T19:52:30.573886+00:00",
+      "realized_pnl": 1.13
     },
     {
       "id": "NC20260510052936009872",
@@ -46602,10 +46605,13 @@
       "potential_payout": 1.38,
       "closes": "2026-05-10T18:00:00+00:00",
       "closes_in_days": 0.42,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T07:56:02.193497+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T19:52:30.752330+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510075602193982",
@@ -46641,10 +46647,13 @@
       "potential_payout": 2.44,
       "closes": "2026-05-10T19:00:00+00:00",
       "closes_in_days": 0.461,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T07:56:02.194507+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T19:52:30.791026+00:00",
+      "realized_pnl": 2.0
     },
     {
       "id": "NC20260510075602194984",
@@ -47472,10 +47481,13 @@
       "potential_payout": 1.65,
       "closes": "2026-05-10T17:55:00+00:00",
       "closes_in_days": 0.21,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T12:52:57.818585+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T19:52:32.087389+00:00",
+      "realized_pnl": -0.43
     },
     {
       "id": "NC20260510125257819111",
@@ -47568,10 +47580,13 @@
       "potential_payout": 1.65,
       "closes": "2026-05-10T19:10:00+00:00",
       "closes_in_days": 0.204,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T14:16:36.701174+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T19:52:33.193451+00:00",
+      "realized_pnl": -0.43
     },
     {
       "id": "NC20260510141636701695",
@@ -47586,10 +47601,13 @@
       "potential_payout": 1.65,
       "closes": "2026-05-10T19:10:00+00:00",
       "closes_in_days": 0.204,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T14:16:36.701715+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T19:52:33.405282+00:00",
+      "realized_pnl": -0.43
     },
     {
       "id": "NC20260510141636702181",
@@ -47604,10 +47622,13 @@
       "potential_payout": 1.79,
       "closes": "2026-05-10T19:30:00+00:00",
       "closes_in_days": 0.218,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T14:16:36.702199+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T19:52:33.618851+00:00",
+      "realized_pnl": -0.43
     },
     {
       "id": "NC20260510141637165258",
@@ -47622,10 +47643,13 @@
       "potential_payout": 1.48,
       "closes": "2026-05-10T19:40:00+00:00",
       "closes_in_days": 0.225,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T14:16:37.165289+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T19:52:33.812246+00:00",
+      "realized_pnl": -0.43
     },
     {
       "id": "NC20260510154231991804",
@@ -47694,10 +47718,13 @@
       "potential_payout": 1.65,
       "closes": "2026-05-10T17:00:00+00:00",
       "closes_in_days": 0.013,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T16:41:58.926859+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T19:52:34.152337+00:00",
+      "realized_pnl": 1.22
     },
     {
       "id": "NC20260510164158927735",
@@ -47950,11 +47977,155 @@
       "placed_at": "2026-05-10T18:44:54.869239+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195241500935",
+      "market_id": "2223870",
+      "market": "Dota 2: PlayTime vs Nigma Galaxy (BO3) - 1win Essence Playoffs",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 21,
+      "entry_yes_price": 79,
+      "stake": 0.44,
+      "potential_profit": 1.66,
+      "potential_payout": 2.1,
+      "closes": "2026-05-11T00:20:00+00:00",
+      "closes_in_days": 0.186,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:41.500956+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195242072760",
+      "market_id": "2217457",
+      "market": "Valorant: Eternal Fire vs Gentle Mates (BO3) - VCT EMEA Playoffs",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 0.44,
+      "potential_profit": 3.96,
+      "potential_payout": 4.4,
+      "closes": "2026-05-11T00:35:00+00:00",
+      "closes_in_days": 0.196,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:42.072791+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195242073354",
+      "market_id": "2217463",
+      "market": "Valorant: Eternal Fire vs Gentle Mates - Map 2 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 17,
+      "entry_yes_price": 83,
+      "stake": 0.44,
+      "potential_profit": 2.15,
+      "potential_payout": 2.59,
+      "closes": "2026-05-11T00:35:00+00:00",
+      "closes_in_days": 0.196,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:42.073376+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195242074061",
+      "market_id": "2181964",
+      "market": "Counter-Strike: TYLOO vs Ground Zero (BO3) - Asian Champions League Group A",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 0.44,
+      "potential_profit": 6.89,
+      "potential_payout": 7.33,
+      "closes": "2026-05-11T11:00:00+00:00",
+      "closes_in_days": 0.63,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:42.074083+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195242074558",
+      "market_id": "2205968",
+      "market": "Will the highest temperature in Seattle be 68\u00b0F or higher on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 25,
+      "entry_yes_price": 75,
+      "stake": 0.44,
+      "potential_profit": 1.32,
+      "potential_payout": 1.76,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.672,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:42.074577+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195242075036",
+      "market_id": "2167111",
+      "market": "Will \"Michael\" 2nd Weekend Box Office be between 35m and 38m?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 34,
+      "entry_yes_price": 66,
+      "stake": 0.44,
+      "potential_profit": 0.85,
+      "potential_payout": 1.29,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.672,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:42.075057+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195242075543",
+      "market_id": "2167080",
+      "market": "Will \"The Sheep Detectives\" Opening Weekend Box Office be between 15m and 18m?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 0.43,
+      "potential_profit": 6.74,
+      "potential_payout": 7.17,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.672,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:42.075560+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195242076019",
+      "market_id": "2160457",
+      "market": "Will \"Mortal Kombat II\" Opening Weekend Box Office be between 35m and 40m?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 0.43,
+      "potential_profit": 3.87,
+      "potential_payout": 4.3,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.672,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:42.076035+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 37.57,
+  "daily_loss": 40.16,
   "daily_reset": "2026-05-10",
-  "scan_count": 322,
+  "scan_count": 323,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }

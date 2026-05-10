@@ -1,5 +1,5 @@
 {
-  "bankroll": 383.22,
+  "bankroll": 379.39,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -13045,10 +13045,13 @@
       "potential_payout": 15.78,
       "closes": "2026-05-10T19:00:00+00:00",
       "closes_in_days": 0.461,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T07:55:41.003595+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T19:52:13.532668+00:00",
+      "realized_pnl": 12.94
     },
     {
       "id": "NC20260510075541003795",
@@ -13261,10 +13264,13 @@
       "potential_payout": 7.04,
       "closes": "2026-05-10T17:30:00+00:00",
       "closes_in_days": 0.242,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T11:41:24.072169+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T19:52:14.651035+00:00",
+      "realized_pnl": -1.69
     },
     {
       "id": "NC20260510125235481555",
@@ -13304,10 +13310,82 @@
       "placed_at": "2026-05-10T17:42:25.004170+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195221961056",
+      "market_id": "2217457",
+      "market": "Valorant: Eternal Fire vs Gentle Mates (BO3) - VCT EMEA Playoffs",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 5.99,
+      "potential_profit": 53.91,
+      "potential_payout": 59.9,
+      "closes": "2026-05-11T00:35:00+00:00",
+      "closes_in_days": 0.196,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:21.961078+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195221961401",
+      "market_id": "2205968",
+      "market": "Will the highest temperature in Seattle be 68\u00b0F or higher on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 25,
+      "entry_yes_price": 75,
+      "stake": 1.97,
+      "potential_profit": 5.91,
+      "potential_payout": 7.88,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.672,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:21.961427+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195221961659",
+      "market_id": "2167080",
+      "market": "Will \"The Sheep Detectives\" Opening Weekend Box Office be between 15m and 18m?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 5.87,
+      "potential_profit": 91.96,
+      "potential_payout": 97.83,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.672,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:21.961676+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510195221961880",
+      "market_id": "2160457",
+      "market": "Will \"Mortal Kombat II\" Opening Weekend Box Office be between 35m and 40m?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 5.78,
+      "potential_profit": 52.02,
+      "potential_payout": 57.8,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.672,
+      "status": "open",
+      "placed_at": "2026-05-10T19:52:21.961896+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 78.68,
+  "daily_loss": 80.37,
   "daily_reset": "2026-05-10",
-  "scan_count": 377,
+  "scan_count": 378,
   "started": "2026-04-21T00:00:00+00:00"
 }
