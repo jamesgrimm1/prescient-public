@@ -1,5 +1,5 @@
 {
-  "bankroll": 1242.98,
+  "bankroll": 1250.93,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7629,10 +7629,13 @@
       "closes_in_days": 0.32,
       "closes": "2026-05-10T12:00:00+00:00",
       "volume": 3899.251491000002,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T04:18:03.895742+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-10T07:55:15.493487+00:00",
+      "realized_pnl": 5.57
     },
     {
       "id": "NB1778391052",
@@ -7693,11 +7696,31 @@
       "placed_at": "2026-05-10T05:30:52.209598+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778399724",
+      "market_id": "2186919",
+      "market_slug": "highest-temperature-in-shenzhen-on-may-10-2026-26c",
+      "market": "Will the highest temperature in Shenzhen be 26\u00b0C on May 10?",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 4.71,
+      "payout_if_wins": 7.6,
+      "profit_if_wins": 2.89,
+      "category": "weather",
+      "closes_in_days": 0.17,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 4255.031602,
+      "status": "open",
+      "placed_at": "2026-05-10T07:55:24.169066+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 26.44,
   "daily_reset": "2026-05-10",
-  "scan_count": 684,
+  "scan_count": 685,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-10T04:17:54.151209+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
