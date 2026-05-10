@@ -1,5 +1,5 @@
 {
-  "bankroll": 373.93,
+  "bankroll": 357.36,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -13451,10 +13451,64 @@
       "placed_at": "2026-05-10T21:38:12.627536+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510223604204505",
+      "market_id": "2206278",
+      "market": "Will the highest temperature in San Francisco be 66\u00b0F or higher on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 5.61,
+      "potential_profit": 87.89,
+      "potential_payout": 93.5,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.558,
+      "status": "open",
+      "placed_at": "2026-05-10T22:36:04.204528+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510223604204857",
+      "market_id": "2205868",
+      "market": "Will the lowest temperature in Hong Kong be 23\u00b0C on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 10,
+      "entry_yes_price": 90,
+      "stake": 5.52,
+      "potential_profit": 49.68,
+      "potential_payout": 55.2,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.558,
+      "status": "open",
+      "placed_at": "2026-05-10T22:36:04.204873+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510223604205099",
+      "market_id": "2205880",
+      "market": "Will the lowest temperature in Shanghai be 18\u00b0C on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 6,
+      "entry_yes_price": 94,
+      "stake": 5.44,
+      "potential_profit": 85.23,
+      "potential_payout": 90.67,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.558,
+      "status": "open",
+      "placed_at": "2026-05-10T22:36:04.205112+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 95.28,
   "daily_reset": "2026-05-10",
-  "scan_count": 380,
+  "scan_count": 381,
   "started": "2026-04-21T00:00:00+00:00"
 }

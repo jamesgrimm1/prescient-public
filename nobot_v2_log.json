@@ -1,5 +1,5 @@
 {
-  "bankroll": 1144.86,
+  "bankroll": 1141.25,
   "trades": [
     {
       "id": "NB1776304868",
@@ -13231,11 +13231,31 @@
       "placed_at": "2026-05-10T09:21:25.984293+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778452546",
+      "market_id": "2219466",
+      "market_slug": "will-bitcoin-reach-82k-on-may-10",
+      "market": "Will Bitcoin reach $82,000 on May 10?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 3.61,
+      "payout_if_wins": 7.52,
+      "profit_if_wins": 3.91,
+      "category": "crypto",
+      "closes_in_days": 0.23,
+      "closes": "2026-05-11T04:00:00+00:00",
+      "volume": 70786.29598499989,
+      "status": "open",
+      "placed_at": "2026-05-10T22:35:46.980187+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 27.87,
   "daily_reset": "2026-05-10",
-  "scan_count": 476,
+  "scan_count": 477,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-10T20:36:47.148700+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
