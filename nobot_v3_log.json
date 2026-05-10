@@ -1,5 +1,5 @@
 {
-  "bankroll": 1235.64,
+  "bankroll": 1254.05,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7319,10 +7319,13 @@
       "closes_in_days": 0.44,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 5168.707977,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T01:24:56.977339+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": false,
+      "resolved_at": "2026-05-10T04:17:55.400696+00:00",
+      "realized_pnl": -9.7
     },
     {
       "id": "NB1778289896",
@@ -7362,10 +7365,13 @@
       "closes_in_days": 0.44,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 4001.220727000002,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T01:24:56.977418+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": false,
+      "resolved_at": "2026-05-10T04:17:55.531496+00:00",
+      "realized_pnl": -7.19
     },
     {
       "id": "NB1778289896",
@@ -7451,10 +7457,13 @@
       "closes_in_days": 0.2,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 3362.7665280000006,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T07:12:20.741479+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": false,
+      "resolved_at": "2026-05-10T04:17:55.652801+00:00",
+      "realized_pnl": -4.74
     },
     {
       "id": "NB1778310740",
@@ -7471,10 +7480,13 @@
       "closes_in_days": 0.2,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 3357.3820859999996,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T07:12:20.741512+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-10T04:17:55.690709+00:00",
+      "realized_pnl": 5.35
     },
     {
       "id": "NB1778316874",
@@ -7491,10 +7503,13 @@
       "closes_in_days": 0.13,
       "closes": "2026-05-09T12:00:00+00:00",
       "volume": 4011.4715170000018,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T08:54:34.588611+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-10T04:17:55.825985+00:00",
+      "realized_pnl": 6.01
     },
     {
       "id": "NB1778371631",
@@ -7595,12 +7610,32 @@
       "placed_at": "2026-05-10T01:50:29.821979+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778386683",
+      "market_id": "2186776",
+      "market_slug": "highest-temperature-in-tokyo-on-may-10-2026-22c",
+      "market": "Will the highest temperature in Tokyo be 22\u00b0C on May 10?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 7.09,
+      "payout_if_wins": 12.66,
+      "profit_if_wins": 5.57,
+      "category": "weather",
+      "closes_in_days": 0.32,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 3899.251491000002,
+      "status": "open",
+      "placed_at": "2026-05-10T04:18:03.895742+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
-  "daily_loss": 4.81,
+  "daily_loss": 26.44,
   "daily_reset": "2026-05-10",
-  "scan_count": 681,
+  "scan_count": 682,
   "started": "2026-04-16T02:01:08.863467+00:00",
-  "last_summary_sent": "2026-05-09T13:54:47.890670+00:00",
+  "last_summary_sent": "2026-05-10T04:17:54.151209+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
 }
