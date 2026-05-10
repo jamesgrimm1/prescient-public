@@ -1,5 +1,5 @@
 {
-  "bankroll": 993.78,
+  "bankroll": 988.49,
   "trades": [
     {
       "id": "NB1776304868",
@@ -13030,10 +13030,13 @@
       "closes_in_days": 0.27,
       "closes": "2026-05-10T12:00:00+00:00",
       "volume": 5267.868735999999,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:28:46.244510+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-10T09:21:08.987867+00:00",
+      "realized_pnl": 2.88
     },
     {
       "id": "NB1778390926",
@@ -13074,11 +13077,71 @@
       "placed_at": "2026-05-10T07:54:59.487331+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778404878",
+      "market_id": "2186826",
+      "market_slug": "highest-temperature-in-madrid-on-may-10-2026-15c",
+      "market": "Will the highest temperature in Madrid be 15\u00b0C on May 10?",
+      "position": "NO",
+      "entry_no_price": 59,
+      "entry_yes_price": 41,
+      "stake": 4.15,
+      "payout_if_wins": 7.03,
+      "profit_if_wins": 2.88,
+      "category": "weather",
+      "closes_in_days": 0.11,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 5519.210411999996,
+      "status": "open",
+      "placed_at": "2026-05-10T09:21:18.847320+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778404878",
+      "market_id": "2186756",
+      "market_slug": "highest-temperature-in-munich-on-may-10-2026-24c",
+      "market": "Will the highest temperature in Munich be 24\u00b0C on May 10?",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 4.09,
+      "payout_if_wins": 7.05,
+      "profit_if_wins": 2.96,
+      "category": "weather",
+      "closes_in_days": 0.11,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 3587.4597149999995,
+      "status": "open",
+      "placed_at": "2026-05-10T09:21:18.847370+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778404878",
+      "market_id": "2186698",
+      "market_slug": "highest-temperature-in-miami-on-may-10-2026-90-91f",
+      "market": "Will the highest temperature in Miami be between 90-91\u00b0F on May 10?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 4.07,
+      "payout_if_wins": 7.27,
+      "profit_if_wins": 3.2,
+      "category": "weather",
+      "closes_in_days": 0.11,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "volume": 3400.431808000004,
+      "status": "open",
+      "placed_at": "2026-05-10T09:21:18.847408+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 14.61,
   "daily_reset": "2026-05-10",
-  "scan_count": 459,
+  "scan_count": 460,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-10T07:54:43.079280+00:00"
 }

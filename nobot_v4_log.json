@@ -1,5 +1,5 @@
 {
-  "bankroll": 729.73,
+  "bankroll": 717.53,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -1791,11 +1791,15 @@
       "closes": "2026-05-10T12:00:00+00:00",
       "closes_in_days": 0.27,
       "volume": 5267.868735999999,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:28:54.988873+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778390934"
+      "v2_trade_id": "NB1778390934",
+      "won": true,
+      "realized_pnl": 16.07,
+      "resolved_at": "2026-05-10T09:21:20.215966+00:00",
+      "resolution_source": "v2_log"
     },
     {
       "id": "V420260510075511442766",
@@ -1817,9 +1821,72 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1778399711"
+    },
+    {
+      "id": "V420260510092125980146",
+      "market_id": "2186826",
+      "market": "Will the highest temperature in Madrid be 15\u00b0C on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 59,
+      "entry_yes_price": 41,
+      "stake": 22.71,
+      "v2_stake": 7.11,
+      "potential_profit": 15.78,
+      "potential_payout": 38.49,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.11,
+      "volume": 5519.210411999996,
+      "status": "open",
+      "placed_at": "2026-05-10T09:21:25.980160+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778404885"
+    },
+    {
+      "id": "V420260510092125982501",
+      "market_id": "2186756",
+      "market": "Will the highest temperature in Munich be 24\u00b0C on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 14.49,
+      "v2_stake": 4.65,
+      "potential_profit": 10.49,
+      "potential_payout": 24.98,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.11,
+      "volume": 3587.4597149999995,
+      "status": "open",
+      "placed_at": "2026-05-10T09:21:25.982515+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778404885"
+    },
+    {
+      "id": "V420260510092125984711",
+      "market_id": "2186698",
+      "market": "Will the highest temperature in Miami be between 90-91\u00b0F on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 14.2,
+      "v2_stake": 4.63,
+      "potential_profit": 11.16,
+      "potential_payout": 25.36,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.11,
+      "volume": 3400.431808000004,
+      "status": "open",
+      "placed_at": "2026-05-10T09:21:25.984722+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778404885"
     }
   ],
-  "scan_count": 61,
+  "scan_count": 62,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
