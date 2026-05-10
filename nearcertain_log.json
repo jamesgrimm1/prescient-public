@@ -1,5 +1,5 @@
 {
-  "bankroll": 337.83,
+  "bankroll": 336.14,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -13178,10 +13178,28 @@
       "placed_at": "2026-05-10T10:54:08.387003+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510114124072146",
+      "market_id": "2216481",
+      "market": "Valorant: Paper Rex vs DRX (BO3) - VCT Pacific Playoffs",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 1.69,
+      "potential_profit": 5.35,
+      "potential_payout": 7.04,
+      "closes": "2026-05-10T17:30:00+00:00",
+      "closes_in_days": 0.242,
+      "status": "open",
+      "placed_at": "2026-05-10T11:41:24.072169+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 4.07,
   "daily_reset": "2026-05-10",
-  "scan_count": 370,
+  "scan_count": 371,
   "started": "2026-04-21T00:00:00+00:00"
 }
