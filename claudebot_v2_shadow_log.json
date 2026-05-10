@@ -276,9 +276,13 @@
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 2.04,
       "created_at": "2026-05-08T14:58:54.368624+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-10T18:46:52.977893+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2177512_NO",
@@ -348,9 +352,13 @@
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 1.99,
       "created_at": "2026-05-08T16:15:36.198642+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "YES",
+      "would_have_won": true,
+      "hypothetical_pnl": 13.26,
+      "resolved_at": "2026-05-10T18:46:53.551289+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2175551_YES",
@@ -692,9 +700,13 @@
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 1.46,
       "created_at": "2026-05-09T05:05:06.112242+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-10T18:46:55.029191+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2166430_YES",
@@ -956,9 +968,13 @@
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 0.84,
       "created_at": "2026-05-09T19:54:45.970670+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-10T18:46:56.532560+00:00"
     },
     {
       "shadow_id": "SH20260509203858284377",
@@ -1375,14 +1391,86 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260510185007994250",
+      "market_id": "2154334",
+      "market_slug": "codmw-par-mh-2026-05-10",
+      "market": "Call of Duty: Paris Gentle Mates vs Miami Heretics (BO5) - Call of Duty League Stage 3 Major Qualifiers Qualifiers",
+      "category": "other",
+      "position": "NO",
+      "entry_price": 48.5,
+      "market_yes_price": 51.5,
+      "market_no_price": 48.5,
+      "final_yes_probability": 69.2,
+      "preferred_edge": 4.5,
+      "confidence": 25.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 20.62,
+      "closes": "2026-05-11T01:00:00+00:00",
+      "closes_in_days": 0.26,
+      "created_at": "2026-05-10T18:50:07.994266+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260510185007996168",
+      "market_id": "2159455",
+      "market_slug": "microstrategy-announces-1000-btc-purchase-may-5-11",
+      "market": "MicroStrategy announces >1000 BTC purchase May 5-11?",
+      "category": "crypto",
+      "position": "NO",
+      "entry_price": 80.0,
+      "market_yes_price": 20.0,
+      "market_no_price": 80.0,
+      "final_yes_probability": 69.8,
+      "preferred_edge": 2.0,
+      "confidence": 35.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 12.5,
+      "closes": "2026-05-12T04:00:00+00:00",
+      "closes_in_days": 1.38,
+      "created_at": "2026-05-10T18:50:07.996183+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260510185011982181",
+      "market_id": "2159865",
+      "market_slug": "will-trump-say-friend-of-mine-during-events-with-xi-jinping",
+      "market": "Will Trump say 'Friend of mine' during events with Xi Jinping?",
+      "category": "politics",
+      "position": "YES",
+      "entry_price": 59.5,
+      "market_yes_price": 59.5,
+      "market_no_price": 40.5,
+      "final_yes_probability": 62.6,
+      "preferred_edge": 3.1,
+      "confidence": 55.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_LIQUIDITY_RISK_HIGH",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 16.81,
+      "closes": "2026-05-15T00:00:00+00:00",
+      "closes_in_days": 4.22,
+      "created_at": "2026-05-10T18:50:11.982202+00:00",
+      "status": "open_shadow",
+      "openai_used": true,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 56,
-    "would_have_won": 3,
-    "would_have_lost": 5,
-    "missed_profit": 37.59,
-    "correct_rejections": 50.0
+    "total_shadow": 59,
+    "would_have_won": 4,
+    "would_have_lost": 8,
+    "missed_profit": 50.85,
+    "correct_rejections": 80.0
   },
-  "last_updated": "2026-05-10T17:47:42.193345+00:00"
+  "last_updated": "2026-05-10T18:50:11.982208+00:00"
 }

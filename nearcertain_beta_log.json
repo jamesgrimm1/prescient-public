@@ -1,5 +1,5 @@
 {
-  "bankroll": 861.25,
+  "bankroll": 866.71,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -46206,10 +46206,13 @@
       "potential_payout": 5.5,
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 0.438,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:36.000784+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T18:44:46.168399+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510052936001217",
@@ -46224,10 +46227,13 @@
       "potential_payout": 4.4,
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 0.438,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:36.001234+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T18:44:46.310392+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510052936001675",
@@ -46242,10 +46248,13 @@
       "potential_payout": 1.63,
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 0.438,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:36.001692+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T18:44:46.382826+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510052936002112",
@@ -46260,10 +46269,13 @@
       "potential_payout": 1.38,
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 0.438,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:36.002128+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T18:44:46.424794+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510052936002565",
@@ -46278,10 +46290,13 @@
       "potential_payout": 1.29,
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 0.438,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:36.002581+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T18:44:46.469900+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510052936005397",
@@ -46296,10 +46311,13 @@
       "potential_payout": 4.4,
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 0.438,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:36.005440+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T18:44:46.513270+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510052936005905",
@@ -46314,10 +46332,13 @@
       "potential_payout": 5.5,
       "closes": "2026-05-10T16:00:00+00:00",
       "closes_in_days": 0.438,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:36.005921+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T18:44:46.556018+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510052936007095",
@@ -46599,10 +46620,13 @@
       "potential_payout": 1.47,
       "closes": "2026-05-10T18:00:00+00:00",
       "closes_in_days": 0.42,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T07:56:02.194001+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T18:44:47.139180+00:00",
+      "realized_pnl": 1.03
     },
     {
       "id": "NC20260510075602194486",
@@ -47466,10 +47490,13 @@
       "potential_payout": 5.38,
       "closes": "2026-05-10T17:55:00+00:00",
       "closes_in_days": 0.21,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T12:52:57.819129+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T18:44:47.539541+00:00",
+      "realized_pnl": -0.43
     },
     {
       "id": "NC20260510141636698907",
@@ -47484,10 +47511,13 @@
       "potential_payout": 6.14,
       "closes": "2026-05-10T18:00:00+00:00",
       "closes_in_days": 0.155,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T14:16:36.698925+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T18:44:47.579460+00:00",
+      "realized_pnl": 5.71
     },
     {
       "id": "NC20260510141636699707",
@@ -47830,11 +47860,101 @@
       "placed_at": "2026-05-10T17:42:43.372720+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510184454866210",
+      "market_id": "2092351",
+      "market": "AC Milan vs. Atalanta BC: O/U 1.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 0.43,
+      "potential_profit": 1.36,
+      "potential_payout": 1.79,
+      "closes": "2026-05-10T18:45:00+00:00",
+      "closes_in_days": 0.0,
+      "status": "open",
+      "placed_at": "2026-05-10T18:44:54.866234+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510184454866821",
+      "market_id": "2092450",
+      "market": "AJ Auxerre vs. OGC Nice: O/U 1.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 26,
+      "entry_yes_price": 74,
+      "stake": 0.43,
+      "potential_profit": 1.22,
+      "potential_payout": 1.65,
+      "closes": "2026-05-10T19:00:00+00:00",
+      "closes_in_days": 0.011,
+      "status": "open",
+      "placed_at": "2026-05-10T18:44:54.866841+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510184454867567",
+      "market_id": "2092343",
+      "market": "Stade Rennais FC 1901 vs. Paris FC: O/U 2.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 32,
+      "entry_yes_price": 68,
+      "stake": 0.43,
+      "potential_profit": 0.91,
+      "potential_payout": 1.34,
+      "closes": "2026-05-10T19:00:00+00:00",
+      "closes_in_days": 0.011,
+      "status": "open",
+      "placed_at": "2026-05-10T18:44:54.867586+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510184454868575",
+      "market_id": "2207558",
+      "market": "Counter-Strike: ex-RUBY vs INOX Division - Map 2 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 30,
+      "entry_yes_price": 70,
+      "stake": 0.43,
+      "potential_profit": 1.0,
+      "potential_payout": 1.43,
+      "closes": "2026-05-10T23:10:00+00:00",
+      "closes_in_days": 0.184,
+      "status": "open",
+      "placed_at": "2026-05-10T18:44:54.868602+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510184454869221",
+      "market_id": "2221044",
+      "market": "Counter-Strike: Imperial vs largadosypelados - Map 1 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 18,
+      "entry_yes_price": 82,
+      "stake": 0.43,
+      "potential_profit": 1.96,
+      "potential_payout": 2.39,
+      "closes": "2026-05-11T00:00:00+00:00",
+      "closes_in_days": 0.219,
+      "status": "open",
+      "placed_at": "2026-05-10T18:44:54.869239+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 34.06,
+  "daily_loss": 37.57,
   "daily_reset": "2026-05-10",
-  "scan_count": 321,
+  "scan_count": 322,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
