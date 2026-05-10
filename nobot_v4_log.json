@@ -1,5 +1,5 @@
 {
-  "bankroll": 791.48,
+  "bankroll": 720.13,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -1679,11 +1679,14 @@
       "closes": "2026-05-10T00:00:00+00:00",
       "closes_in_days": 0.1,
       "volume": 3926.3678000000004,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T21:33:48.556434+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778362428"
+      "v2_trade_id": "NB1778362428",
+      "won": false,
+      "realized_pnl": -13.37,
+      "resolved_at": "2026-05-10T05:28:55.650942+00:00"
     },
     {
       "id": "V420260510015021769739",
@@ -1726,9 +1729,72 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1778377821"
+    },
+    {
+      "id": "V420260510052854984479",
+      "market_id": "2187094",
+      "market": "Will the highest temperature in Jakarta be 34\u00b0C on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 24.34,
+      "v2_stake": 7.07,
+      "potential_profit": 17.63,
+      "potential_payout": 41.97,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.27,
+      "volume": 5382.5025239999995,
+      "status": "open",
+      "placed_at": "2026-05-10T05:28:54.984493+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778390934"
+    },
+    {
+      "id": "V420260510052854986741",
+      "market_id": "2186755",
+      "market": "Will the highest temperature in Munich be 23\u00b0C on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 23.88,
+      "v2_stake": 7.12,
+      "potential_profit": 14.64,
+      "potential_payout": 38.52,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.27,
+      "volume": 5346.663533999993,
+      "status": "open",
+      "placed_at": "2026-05-10T05:28:54.986754+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778390934"
+    },
+    {
+      "id": "V420260510052854988860",
+      "market_id": "2186810",
+      "market": "Will the highest temperature in Singapore be 32\u00b0C on May 10?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 59,
+      "entry_yes_price": 41,
+      "stake": 23.13,
+      "v2_stake": 7.07,
+      "potential_profit": 16.07,
+      "potential_payout": 39.2,
+      "closes": "2026-05-10T12:00:00+00:00",
+      "closes_in_days": 0.27,
+      "volume": 5267.868735999999,
+      "status": "open",
+      "placed_at": "2026-05-10T05:28:54.988873+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778390934"
     }
   ],
-  "scan_count": 59,
+  "scan_count": 60,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
