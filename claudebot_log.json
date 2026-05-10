@@ -1,5 +1,5 @@
 {
-  "bankroll": 1973.25,
+  "bankroll": 2161.61,
   "trades": [
     {
       "id": "T1775098669",
@@ -1270,10 +1270,13 @@
       "bear_case": "Research flagged data quality concern \u2014 possible ATP results are cached from different match/year, or match was suspended mid-play and hasn't actually concluded",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-03T14:08:42.142860+00:00",
       "paper": true,
-      "model": "claude-opus-4-6"
+      "model": "claude-opus-4-6",
+      "won": true,
+      "resolved_at": "2026-05-10T14:17:03.434137+00:00",
+      "realized_pnl": 167.13
     },
     {
       "id": "T1778221843",
@@ -1344,11 +1347,43 @@
       "paper": true,
       "model": "claude-opus-4-6",
       "paper_bankroll_at_placement": 2192.5
+    },
+    {
+      "id": "T1778422743",
+      "tier": 1,
+      "market_id": "2154437",
+      "market_slug": "lol-los-fxw7-2026-05-09-game-handicap-away-1pt5",
+      "market": "Game Handicap: LOS (-1.5) vs Fluxo W7M (+1.5)",
+      "position": "YES",
+      "entry_price": 50,
+      "stake": 240.18,
+      "potential_return": 480.36,
+      "potential_profit": 240.18,
+      "confidence": 84,
+      "true_prob": 90,
+      "market_prob": 50,
+      "category": "health",
+      "closes_in_days": 0.3,
+      "closes": "2026-05-10T22:00:00+00:00",
+      "research_summary": "Match already played on May 9. Verified result: Fluxo W7M won 2-1 in CBLOL 2026 Split 1 Playoffs. With +1.5 handicap, Fluxo W7M easily covers (adjusted 3.5 to 1). Market at 50/50 has not updated for the confirmed result \u2014 classic stale pricing on a resolved event.",
+      "key_factors": [
+        "Match result confirmed: Fluxo W7M 2 - LOS 1 (series concluded)",
+        "Fluxo W7M +1.5 covers regardless of whether they win or lose by only 1 game \u2014 they won outright",
+        "Market at exactly 50\u00a2/50\u00a2 signals stale odds not reflecting completed match"
+      ],
+      "bear_case": "Conflicting info about match format (BO3 vs BO5) \u2014 if BO5 and series not concluded, result may differ. Resolution mechanics could interpret YES/NO differently than expected. Market may already be frozen/non-tradeable given same-day close.",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-10T14:19:03.160649+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6",
+      "paper_bankroll_at_placement": 2401.79
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-10",
-  "scan_count": 505,
+  "scan_count": 506,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-10",
   "last_tier2_scan": "2026-05-03",
