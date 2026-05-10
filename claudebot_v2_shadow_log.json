@@ -1279,14 +1279,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260510154819850484",
+      "market_id": "2182250",
+      "market_slug": "us-x-iran-permanent-peace-deal-by-may-13-2026",
+      "market": "US x Iran permanent peace deal by May 13, 2026?",
+      "category": "geopolitics",
+      "position": "NO",
+      "entry_price": 90.5,
+      "market_yes_price": 9.5,
+      "market_no_price": 90.5,
+      "final_yes_probability": 64.9,
+      "preferred_edge": 6.5,
+      "confidence": 88.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 11.05,
+      "closes": "2026-05-13T00:00:00+00:00",
+      "closes_in_days": 2.34,
+      "created_at": "2026-05-10T15:48:19.850501+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 52,
+    "total_shadow": 53,
     "would_have_won": 3,
     "would_have_lost": 5,
     "missed_profit": 37.59,
     "correct_rejections": 50.0
   },
-  "last_updated": "2026-05-10T14:19:12.070997+00:00"
+  "last_updated": "2026-05-10T15:48:19.850507+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "bankroll": 2161.61,
+  "bankroll": 1971.58,
   "trades": [
     {
       "id": "T1775098669",
@@ -1379,11 +1379,44 @@
       "paper": true,
       "model": "claude-opus-4-6",
       "paper_bankroll_at_placement": 2401.79
+    },
+    {
+      "id": "T1778427926",
+      "tier": 1,
+      "market_id": "1194324",
+      "market_slug": "will-azerbaijan-advance-through-the-second-eurovision-semi-final",
+      "market": "Will Azerbaijan advance through the second Eurovision Semi-Final?",
+      "position": "YES",
+      "entry_price": 9,
+      "stake": 190.03,
+      "potential_return": 2111.44,
+      "potential_profit": 1921.41,
+      "confidence": 76,
+      "true_prob": 25,
+      "market_prob": 9,
+      "category": "other",
+      "closes_in_days": 3.3,
+      "closes": "2026-05-14T00:00:00+00:00",
+      "research_summary": "Eurovision semi-finals qualify ~10 of ~17 entries (55-60% base rate). Azerbaijan has historically been competitive (consistent qualifier 2008-2017, qualified 2019). Recent non-qualifications in 2018/2023/2024 justify a discount but not to single digits. At 9%, market prices Azerbaijan as near-certain elimination, which overstates the weakness even accounting for a poor recent streak.",
+      "key_factors": [
+        "Base rate of ~55-60% qualification strongly contradicts 9% market price",
+        "Azerbaijan historically competitive with infrastructure and diaspora voting support",
+        "Even weak entries rarely fall below 20% qualification probability when 10/17 qualify",
+        "Best-performing category in my trading history (67% WR)"
+      ],
+      "bear_case": "Song/performance may be genuinely among the weakest; $10K volume suggests informed Eurovision prediction community has priced in rehearsal quality and betting odds I cannot verify",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-10T15:45:26.328808+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6",
+      "paper_bankroll_at_placement": 2161.61
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-10",
-  "scan_count": 506,
+  "scan_count": 507,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-10",
   "last_tier2_scan": "2026-05-03",
