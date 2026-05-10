@@ -1,5 +1,5 @@
 {
-  "bankroll": 441.16,
+  "bankroll": 430.13,
   "trades": [
     {
       "id": "AP1777455821046",
@@ -3995,11 +3995,34 @@
       "paper": true,
       "model": "alpha-prime-signal",
       "ap_bankroll_at_placement": 452.47
+    },
+    {
+      "id": "AP20260510213831929705",
+      "market_id": "2224820",
+      "market": "Counter-Strike: largadosypelados vs Isurus (BO3) - CCT South America Series #1 Playoffs",
+      "category": "conflict",
+      "pattern": "C",
+      "pattern_label": "Esports CS/Dota/LoL",
+      "pattern_reason": "esports_cs",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 11.03,
+      "potential_profit": 39.11,
+      "potential_payout": 50.14,
+      "closes": "2026-05-11T03:00:00+00:00",
+      "closes_in_days": 0.223,
+      "status": "open",
+      "placed_at": "2026-05-10T21:38:31.929718+00:00",
+      "source_bot": "nearcertain_beta",
+      "paper": true,
+      "model": "alpha-prime-signal",
+      "ap_bankroll_at_placement": 441.16
     }
   ],
   "daily_loss": 65.35,
   "daily_reset": "2026-05-10",
-  "scan_count": 214,
+  "scan_count": 215,
   "started": "2026-04-28T00:00:00+00:00",
   "version": "V2-2026-04-28",
   "note": "FRESH RESET 2026-04-28: V2 rebuild after audit confirmed killer pattern compression. New patterns: A (weather NO 20-25 at 6-24h), B (sports O/U <6h), G (crypto NO 20-25 at 12-24h micro). Old patterns C/D/F removed. Starting bankroll $1000.",

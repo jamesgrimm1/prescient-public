@@ -1,5 +1,5 @@
 {
-  "bankroll": 373.7,
+  "bankroll": 373.93,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -12880,10 +12880,13 @@
       "potential_payout": 8.12,
       "closes": "2026-05-10T12:00:00+00:00",
       "closes_in_days": 0.271,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:20.625248+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T21:38:05.143775+00:00",
+      "realized_pnl": -2.03
     },
     {
       "id": "NC20260510052920625461",
@@ -13066,10 +13069,13 @@
       "potential_payout": 7.83,
       "closes": "2026-05-10T19:00:00+00:00",
       "closes_in_days": 0.461,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T07:55:41.003807+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T21:38:05.320665+00:00",
+      "realized_pnl": 5.95
     },
     {
       "id": "NC20260510075541004003",
@@ -13084,10 +13090,13 @@
       "potential_payout": 56.0,
       "closes": "2026-05-10T19:00:00+00:00",
       "closes_in_days": 0.461,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T07:55:41.004015+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T21:38:05.356959+00:00",
+      "realized_pnl": -5.6
     },
     {
       "id": "NC20260510092148983145",
@@ -13406,10 +13415,46 @@
       "placed_at": "2026-05-10T20:37:10.467150+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510213812627188",
+      "market_id": "2205781",
+      "market": "Will the lowest temperature in Seoul be 13\u00b0C on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 3.82,
+      "potential_profit": 23.47,
+      "potential_payout": 27.29,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.599,
+      "status": "open",
+      "placed_at": "2026-05-10T21:38:12.627214+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510213812627518",
+      "market_id": "2205858",
+      "market": "Will the lowest temperature in Tokyo be 18\u00b0C on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 15,
+      "entry_yes_price": 85,
+      "stake": 3.78,
+      "potential_profit": 21.42,
+      "potential_payout": 25.2,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.599,
+      "status": "open",
+      "placed_at": "2026-05-10T21:38:12.627536+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 87.65,
+  "daily_loss": 95.28,
   "daily_reset": "2026-05-10",
-  "scan_count": 379,
+  "scan_count": 380,
   "started": "2026-04-21T00:00:00+00:00"
 }
