@@ -1,5 +1,5 @@
 {
-  "bankroll": 339.53,
+  "bankroll": 337.83,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -13160,10 +13160,28 @@
       "placed_at": "2026-05-10T10:33:07.147336+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510105408386987",
+      "market_id": "2092348",
+      "market": "West Ham United FC vs. Arsenal FC: O/U 1.5",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 1.7,
+      "potential_profit": 6.03,
+      "potential_payout": 7.73,
+      "closes": "2026-05-10T15:30:00+00:00",
+      "closes_in_days": 0.192,
+      "status": "open",
+      "placed_at": "2026-05-10T10:54:08.387003+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
   "daily_loss": 4.07,
   "daily_reset": "2026-05-10",
-  "scan_count": 369,
+  "scan_count": 370,
   "started": "2026-04-21T00:00:00+00:00"
 }
