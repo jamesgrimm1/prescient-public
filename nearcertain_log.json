@@ -1,5 +1,5 @@
 {
-  "bankroll": 379.39,
+  "bankroll": 373.7,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -13102,10 +13102,13 @@
       "potential_payout": 110.4,
       "closes": "2026-05-10T12:00:00+00:00",
       "closes_in_days": 0.11,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T09:21:48.983166+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T20:37:02.910282+00:00",
+      "realized_pnl": -5.52
     },
     {
       "id": "NC20260510092148983512",
@@ -13162,10 +13165,13 @@
       "potential_payout": 7.33,
       "closes": "2026-05-10T12:00:00+00:00",
       "closes_in_days": 0.11,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T09:21:48.984079+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T20:37:02.950435+00:00",
+      "realized_pnl": -1.76
     },
     {
       "id": "NC20260510092148984357",
@@ -13382,10 +13388,28 @@
       "placed_at": "2026-05-10T19:52:21.961896+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510203710467127",
+      "market_id": "2206002",
+      "market": "Will the highest temperature in Atlanta be 76\u00b0F or higher on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 8,
+      "entry_yes_price": 92,
+      "stake": 5.69,
+      "potential_profit": 65.44,
+      "potential_payout": 71.12,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.641,
+      "status": "open",
+      "placed_at": "2026-05-10T20:37:10.467150+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 80.37,
+  "daily_loss": 87.65,
   "daily_reset": "2026-05-10",
-  "scan_count": 378,
+  "scan_count": 379,
   "started": "2026-04-21T00:00:00+00:00"
 }

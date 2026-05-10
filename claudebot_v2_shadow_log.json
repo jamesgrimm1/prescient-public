@@ -1463,14 +1463,38 @@
       "status": "open_shadow",
       "openai_used": true,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260510204412006640",
+      "market_id": "2168619",
+      "market_slug": "will-applied-materials-semiconductor-systems-revenue-be-above-5pt9b-in-q2",
+      "market": "Will Applied Materials' Semiconductor Systems revenue be above $5.9B in Q2?",
+      "category": "other",
+      "position": "NO",
+      "entry_price": 28.0,
+      "market_yes_price": 72.0,
+      "market_no_price": 28.0,
+      "final_yes_probability": 68.0,
+      "preferred_edge": 4.0,
+      "confidence": 35.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 35.71,
+      "closes": "2026-05-14T00:00:00+00:00",
+      "closes_in_days": 3.14,
+      "created_at": "2026-05-10T20:44:12.006655+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 59,
+    "total_shadow": 60,
     "would_have_won": 4,
     "would_have_lost": 8,
     "missed_profit": 50.85,
     "correct_rejections": 80.0
   },
-  "last_updated": "2026-05-10T19:56:49.170071+00:00"
+  "last_updated": "2026-05-10T20:44:12.006661+00:00"
 }

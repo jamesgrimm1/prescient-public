@@ -1,5 +1,5 @@
 {
-  "bankroll": 868.87,
+  "bankroll": 875.14,
   "trades": [
     {
       "id": "NC20260421152114730540",
@@ -44334,10 +44334,13 @@
       "potential_payout": 1.38,
       "closes": "2026-05-09T22:00:00+00:00",
       "closes_in_days": 0.927,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T23:45:29.600332+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T20:37:18.319438+00:00",
+      "realized_pnl": 0.94
     },
     {
       "id": "NC20260509015118908575",
@@ -46041,10 +46044,13 @@
       "potential_payout": 1.38,
       "closes": "2026-05-10T12:00:00+00:00",
       "closes_in_days": 0.271,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T05:29:35.995069+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T20:37:18.857122+00:00",
+      "realized_pnl": -0.44
     },
     {
       "id": "NC20260510052935995527",
@@ -46761,10 +46767,13 @@
       "potential_payout": 8.6,
       "closes": "2026-05-10T12:00:00+00:00",
       "closes_in_days": 0.11,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T09:22:03.828637+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T20:37:19.534193+00:00",
+      "realized_pnl": -0.43
     },
     {
       "id": "NC20260510092203829393",
@@ -46905,10 +46914,13 @@
       "potential_payout": 1.26,
       "closes": "2026-05-10T20:00:00+00:00",
       "closes_in_days": 0.443,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T09:22:03.835259+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T20:37:19.586906+00:00",
+      "realized_pnl": 0.83
     },
     {
       "id": "NC20260510092203835758",
@@ -46923,10 +46935,13 @@
       "potential_payout": 2.69,
       "closes": "2026-05-10T20:00:00+00:00",
       "closes_in_days": 0.443,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T09:22:03.835776+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T20:37:19.791856+00:00",
+      "realized_pnl": 2.26
     },
     {
       "id": "NC20260510103321879852",
@@ -47544,10 +47559,13 @@
       "potential_payout": 3.58,
       "closes": "2026-05-10T19:00:00+00:00",
       "closes_in_days": 0.197,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T14:16:36.699728+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": true,
+      "resolved_at": "2026-05-10T20:37:20.248213+00:00",
+      "realized_pnl": 3.15
     },
     {
       "id": "NC20260510141636700444",
@@ -47682,10 +47700,13 @@
       "potential_payout": 5.38,
       "closes": "2026-05-10T20:35:00+00:00",
       "closes_in_days": 0.203,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T15:42:31.992404+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-10T20:37:20.800977+00:00",
+      "realized_pnl": -0.43
     },
     {
       "id": "NC20260510154231993106",
@@ -48121,11 +48142,119 @@
       "placed_at": "2026-05-10T19:52:42.076035+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510203727762792",
+      "market_id": "2155692",
+      "market": "LoL: Cloud9 vs FlyQuest - Game 1 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 27,
+      "entry_yes_price": 73,
+      "stake": 0.44,
+      "potential_profit": 1.19,
+      "potential_payout": 1.63,
+      "closes": "2026-05-11T00:00:00+00:00",
+      "closes_in_days": 0.141,
+      "status": "open",
+      "placed_at": "2026-05-10T20:37:27.762817+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510203727763501",
+      "market_id": "2223872",
+      "market": "Dota 2: PlayTime vs Nigma Galaxy - Game 2 Winner",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 34,
+      "entry_yes_price": 66,
+      "stake": 0.44,
+      "potential_profit": 0.85,
+      "potential_payout": 1.29,
+      "closes": "2026-05-11T00:20:00+00:00",
+      "closes_in_days": 0.155,
+      "status": "open",
+      "placed_at": "2026-05-10T20:37:27.763518+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510203727764291",
+      "market_id": "2154365",
+      "market": "Call of Duty: Los Angeles Thieves vs G2 Minnesota (BO5) - Call of Duty League Stage 3 Major Qualifiers Qualifiers",
+      "category": "sports",
+      "position": "NO",
+      "entry_no_price": 20,
+      "entry_yes_price": 80,
+      "stake": 0.44,
+      "potential_profit": 1.76,
+      "potential_payout": 2.2,
+      "closes": "2026-05-11T03:00:00+00:00",
+      "closes_in_days": 0.266,
+      "status": "open",
+      "placed_at": "2026-05-10T20:37:27.764312+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510203727765390",
+      "market_id": "2205868",
+      "market": "Will the lowest temperature in Hong Kong be 23\u00b0C on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 33,
+      "entry_yes_price": 67,
+      "stake": 0.44,
+      "potential_profit": 0.89,
+      "potential_payout": 1.33,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.641,
+      "status": "open",
+      "placed_at": "2026-05-10T20:37:27.765406+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510203727765932",
+      "market_id": "2206002",
+      "market": "Will the highest temperature in Atlanta be 76\u00b0F or higher on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 8,
+      "entry_yes_price": 92,
+      "stake": 0.44,
+      "potential_profit": 5.06,
+      "potential_payout": 5.5,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.641,
+      "status": "open",
+      "placed_at": "2026-05-10T20:37:27.765952+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260510203727766441",
+      "market_id": "2205781",
+      "market": "Will the lowest temperature in Seoul be 13\u00b0C on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 30,
+      "entry_yes_price": 70,
+      "stake": 0.44,
+      "potential_profit": 1.03,
+      "potential_payout": 1.47,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.641,
+      "status": "open",
+      "placed_at": "2026-05-10T20:37:27.766459+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 40.16,
+  "daily_loss": 41.46,
   "daily_reset": "2026-05-10",
-  "scan_count": 323,
+  "scan_count": 324,
   "started": "2026-04-21T00:00:00+00:00",
   "note": "Beta data collector \u2014 seeded with closed trades from main log. YES 65-95\u00a2, all categories, all time frames, $0.50 stakes."
 }
