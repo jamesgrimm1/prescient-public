@@ -1572,9 +1572,13 @@
       "closes": "2026-05-11T21:00:00+00:00",
       "closes_in_days": 0.93,
       "created_at": "2026-05-10T22:43:47.197896+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-11T23:50:12.555743+00:00"
     },
     {
       "shadow_id": "SH20260510224347199721",
@@ -1668,9 +1672,13 @@
       "closes": "2026-05-11T21:00:00+00:00",
       "closes_in_days": 0.89,
       "created_at": "2026-05-10T23:46:54.873816+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": true,
+      "hypothetical_pnl": 0.58,
+      "resolved_at": "2026-05-11T23:50:13.109171+00:00"
     },
     {
       "shadow_id": "SH20260510234654876413",
@@ -1716,9 +1724,13 @@
       "closes": "2026-05-11T21:00:00+00:00",
       "closes_in_days": 0.79,
       "created_at": "2026-05-11T02:05:54.513477+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-11T23:50:13.293244+00:00"
     },
     {
       "shadow_id": "SH20260511020558809650",
@@ -1908,9 +1920,13 @@
       "closes": "2026-05-11T21:00:00+00:00",
       "closes_in_days": 0.36,
       "created_at": "2026-05-11T12:19:11.972113+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-11T23:50:14.416847+00:00"
     },
     {
       "shadow_id": "SH20260511121911974622",
@@ -2028,9 +2044,13 @@
       "closes": "2026-05-11T21:00:00+00:00",
       "closes_in_days": 0.22,
       "created_at": "2026-05-11T15:42:56.549611+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": true,
+      "hypothetical_pnl": 2.12,
+      "resolved_at": "2026-05-11T23:50:15.216166+00:00"
     },
     {
       "shadow_id": "SH20260511154256552119",
@@ -2052,9 +2072,13 @@
       "closes": "2026-05-11T21:00:00+00:00",
       "closes_in_days": 0.22,
       "created_at": "2026-05-11T15:42:56.552134+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": true,
+      "hypothetical_pnl": 1.49,
+      "resolved_at": "2026-05-11T23:50:15.257453+00:00"
     },
     {
       "shadow_id": "SH20260511154301125450",
@@ -2199,14 +2223,62 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260511235310711425",
+      "market_id": "2166434",
+      "market_slug": "bitcoin-above-80k-on-may-12",
+      "market": "Will the price of Bitcoin be above $80,000 on May 12?",
+      "category": "crypto",
+      "position": "YES",
+      "entry_price": 91.5,
+      "market_yes_price": 91.5,
+      "market_no_price": 8.5,
+      "final_yes_probability": 88.3,
+      "preferred_edge": 0.5,
+      "confidence": 82.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 10.93,
+      "closes": "2026-05-12T16:00:00+00:00",
+      "closes_in_days": 0.67,
+      "created_at": "2026-05-11T23:53:10.711449+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260511235314332179",
+      "market_id": "2203021",
+      "market_slug": "nvda-above-215-on-may-15-2026",
+      "market": "Will NVIDIA (NVDA) finish week of May 11 above $215?",
+      "category": "stocks",
+      "position": "YES",
+      "entry_price": 71.5,
+      "market_yes_price": 71.5,
+      "market_no_price": 28.5,
+      "final_yes_probability": 67.2,
+      "preferred_edge": 1.5,
+      "confidence": 48.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 13.99,
+      "closes": "2026-05-15T20:00:00+00:00",
+      "closes_in_days": 3.84,
+      "created_at": "2026-05-11T23:53:14.332198+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 89,
-    "would_have_won": 5,
-    "would_have_lost": 11,
-    "missed_profit": 51.23,
-    "correct_rejections": 110.0
+    "total_shadow": 91,
+    "would_have_won": 8,
+    "would_have_lost": 14,
+    "missed_profit": 55.42,
+    "correct_rejections": 140.0
   },
-  "last_updated": "2026-05-11T22:51:47.919644+00:00"
+  "last_updated": "2026-05-11T23:53:14.332204+00:00"
 }
