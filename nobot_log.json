@@ -1,5 +1,5 @@
 {
-  "bankroll": 975.76,
+  "bankroll": 978.4,
   "trades": [
     {
       "id": "NB1776304868",
@@ -13441,10 +13441,13 @@
       "closes_in_days": 0.25,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 3583.655134,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T05:56:11.992119+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-11T15:34:10.750648+00:00",
+      "realized_pnl": 2.48
     },
     {
       "id": "NB1778478971",
@@ -13481,10 +13484,13 @@
       "closes_in_days": 0.13,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 5782.649894999998,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T08:59:16.332448+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-11T15:34:10.828825+00:00",
+      "realized_pnl": 2.23
     },
     {
       "id": "NB1778489956",
@@ -13565,11 +13571,51 @@
       "placed_at": "2026-05-11T12:10:13.472149+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778513664",
+      "market_id": "2188923",
+      "market_slug": "spy-closes-above-740-on-may-11-2026",
+      "market": "S&P 500 (SPY) closes above $740 on May 11?",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 4.09,
+      "payout_if_wins": 6.6,
+      "profit_if_wins": 2.51,
+      "category": "economics",
+      "closes_in_days": 0.18,
+      "closes": "2026-05-11T20:00:00+00:00",
+      "volume": 9196.042483000001,
+      "status": "open",
+      "placed_at": "2026-05-11T15:34:24.673870+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778513664",
+      "market_id": "2188940",
+      "market_slug": "wti-closes-above-98-on-may-11-2026",
+      "market": "WTI Crude Oil (WTI) closes above $98 on May 11?",
+      "position": "NO",
+      "entry_no_price": 61,
+      "entry_yes_price": 39,
+      "stake": 4.08,
+      "payout_if_wins": 6.69,
+      "profit_if_wins": 2.61,
+      "category": "other",
+      "closes_in_days": 0.23,
+      "closes": "2026-05-11T21:00:00+00:00",
+      "volume": 6685.000626,
+      "status": "open",
+      "placed_at": "2026-05-11T15:34:24.673920+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 21.79,
   "daily_reset": "2026-05-11",
-  "scan_count": 478,
+  "scan_count": 479,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-11T08:59:04.225916+00:00"
 }

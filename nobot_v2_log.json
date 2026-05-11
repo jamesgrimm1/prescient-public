@@ -1,5 +1,5 @@
 {
-  "bankroll": 1108.91,
+  "bankroll": 1109.67,
   "trades": [
     {
       "id": "NB1776304868",
@@ -13523,10 +13523,13 @@
       "closes_in_days": 0.25,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 3583.655134,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T05:56:20.215224+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-11T15:34:26.442729+00:00",
+      "realized_pnl": 2.8
     },
     {
       "id": "NB1778478980",
@@ -13563,10 +13566,13 @@
       "closes_in_days": 0.13,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 5782.649894999998,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T08:59:25.437694+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-11T15:34:26.521989+00:00",
+      "realized_pnl": 3.81
     },
     {
       "id": "NB1778489965",
@@ -13647,11 +13653,51 @@
       "placed_at": "2026-05-11T12:10:24.118997+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778513674",
+      "market_id": "2188923",
+      "market_slug": "spy-closes-above-740-on-may-11-2026",
+      "market": "S&P 500 (SPY) closes above $740 on May 11?",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 6.99,
+      "payout_if_wins": 11.27,
+      "profit_if_wins": 4.28,
+      "category": "economics",
+      "closes_in_days": 0.18,
+      "closes": "2026-05-11T20:00:00+00:00",
+      "volume": 9196.042483000001,
+      "status": "open",
+      "placed_at": "2026-05-11T15:34:34.586896+00:00",
+      "paper": true,
+      "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778513674",
+      "market_id": "2188940",
+      "market_slug": "wti-closes-above-98-on-may-11-2026",
+      "market": "WTI Crude Oil (WTI) closes above $98 on May 11?",
+      "position": "NO",
+      "entry_no_price": 61,
+      "entry_yes_price": 39,
+      "stake": 6.95,
+      "payout_if_wins": 11.39,
+      "profit_if_wins": 4.44,
+      "category": "other",
+      "closes_in_days": 0.23,
+      "closes": "2026-05-11T21:00:00+00:00",
+      "volume": 6685.000626,
+      "status": "open",
+      "placed_at": "2026-05-11T15:34:34.589799+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 32.6,
   "daily_reset": "2026-05-11",
-  "scan_count": 482,
+  "scan_count": 483,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-11T08:59:16.900276+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
