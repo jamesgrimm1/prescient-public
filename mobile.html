@@ -579,17 +579,12 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
   <div class="header-center">
     <div class="nav-tab active" onclick="setBot('cb',this)">ClaudeBot</div>
     <div class="nav-tab" onclick="setBot('cb2',this)">ClaudeBot V2</div>
-    <div class="nav-tab" onclick="setBot('cb3',this)">ClaudeBot V3</div>
     <div class="nav-tab" onclick="setBot('nb',this)">NoBot V1</div>
     <div class="nav-tab" onclick="setBot('nb2',this)">NoBot V2</div>
     <div class="nav-tab" onclick="setBot('nb3',this)">NoBot V3</div>
     <div class="nav-tab" onclick="setBot('nb4',this)">NoBot V4</div>
-    <div class="nav-tab" onclick="setBot('nc',this)">NearCertain</div>
-    <div class="nav-tab" onclick="setBot('ncb',this)">NC Beta</div>
-    <div class="nav-tab" onclick="setBot('ap',this)">Alpha-Prime</div>
     <div class="nav-tab" onclick="setBot('ab',this)">AssetBot</div>
     <div class="nav-tab nav-tab-live" onclick="setBot('cblive',this)">CB Live 🔴</div>
-    <div class="nav-tab nav-tab-live" onclick="setBot('aplive',this)">AP Live 🔴</div>
     <div class="nav-tab" onclick="setBot('proj',this)">Projections</div>
   </div>
   <div class="header-right">
@@ -922,302 +917,6 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
     </div>
   </div>
 
-  <!-- ── NearCertain view ── -->
-  <div id="view-nc" style="display:none">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-      <span class="pill pill-gold">NearCertain — "Almost Sure? Think Again."</span>
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">Buy NO when YES 75-95¢ · Backtest: 70% WR · 1-7 day holds · Sports + Crypto blocked</span>
-    </div>
-    <div class="hero-strip">
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Bankroll</div>
-        <div class="hc-value gold" id="nc-bank">—</div>
-        <div class="hc-sub" id="nc-roi">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Realized P&L</div>
-        <div class="hc-value" id="nc-pnl">—</div>
-        <div class="hc-sub" id="nc-pnl-sub">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Win Rate</div>
-        <div class="hc-value gold" id="nc-wr">—</div>
-        <div class="hc-sub" id="nc-rec">—</div>
-        <div class="wr-bar-bg"><div class="wr-bar-fill" id="nc-wrf" style="width:0"></div></div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Open Positions</div>
-        <div class="hc-value gold" id="nc-open">—</div>
-        <div class="hc-sub" id="nc-dep">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Potential Profit</div>
-        <div class="hc-value gold" id="nc-potential">—</div>
-        <div class="hc-sub">if all open positions win</div>
-      </div>
-    </div>
-
-    <div class="two-col">
-      <div class="card">
-        <div class="card-header">
-          <span class="card-title">P&L history (closed trades)</span>
-          <span class="pill" id="nc-trend">—</span>
-        </div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="nc-chart"></canvas></div></div>
-      </div>
-      <div class="card">
-        <div class="card-header"><span class="card-title">Win rate by NO entry price</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="nc-bracket-chart"></canvas></div></div>
-      </div>
-    </div>
-
-    <div class="card" style="margin-bottom:16px">
-      <div class="card-header">
-        <span class="card-title">Open positions</span>
-        <span class="pill pill-gold" id="nc-open-count">0</span>
-      </div>
-      <div id="nc-open-table"></div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">Recent closed trades</span>
-        <span class="pill pill-gray" id="nc-trade-count">0 closed</span>
-      </div>
-      <div id="nc-trade-table"></div>
-    </div>
-  </div>
-
-
-  <!-- ── ClaudeBot V2 view ── -->
-  <div id="view-cb2" style="display:none">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-      <span class="pill pill-gold">ClaudeBot V2 — Aggressive Companion</span>
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">Higher Kelly · Full tier system · Shared reflections with V1</span>
-    </div>
-    <div class="hero-strip">
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Bankroll</div>
-        <div class="hc-value gold" id="cb2-bank">—</div>
-        <div class="hc-sub" id="cb2-roi">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Realized P&amp;L</div>
-        <div class="hc-value" id="cb2-pnl">—</div>
-        <div class="hc-sub" id="cb2-pnl-sub">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Win Rate</div>
-        <div class="hc-value gold" id="cb2-wr">—</div>
-        <div class="hc-sub" id="cb2-rec">—</div>
-        <div class="wr-bar-bg"><div class="wr-bar-fill" id="cb2-wrf" style="width:0"></div></div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Open Positions</div>
-        <div class="hc-value gold" id="cb2-open">—</div>
-        <div class="hc-sub" id="cb2-dep">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Potential Profit</div>
-        <div class="hc-value gold" id="cb2-potential">—</div>
-        <div class="hc-sub">if all open win</div>
-      </div>
-    </div>
-    <div class="two-col">
-      <div class="card">
-        <div class="card-header"><span class="card-title">P&amp;L history (closed trades)</span><span class="pill" id="cb2-trend">—</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="cb2-chart"></canvas></div></div>
-      </div>
-      <div class="card">
-        <div class="card-header"><span class="card-title">Performance by category</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="cb2-cat-chart"></canvas></div></div>
-      </div>
-    </div>
-    <div class="card" style="margin-bottom:16px">
-      <div class="card-header"><span class="card-title">Open positions</span><span class="pill pill-gold" id="cb2-open-count">0</span></div>
-      <div id="cb2-open-table"></div>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-title">Recent closed trades</span><span class="pill pill-gray" id="cb2-trade-count">0 closed</span></div>
-      <div id="cb2-trade-table"></div>
-    </div>
-  </div>
-
-  <!-- ── ClaudeBot V3 view ── -->
-  <div id="view-cb3" style="display:none">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-      <span class="pill pill-gold">ClaudeBot V3 — Data Collector</span>
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">500 markets + newest pass · Sports near-resolution · Tech &amp; culture categories</span>
-    </div>
-    <div class="hero-strip">
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Bankroll</div>
-        <div class="hc-value gold" id="cb3-bank">—</div>
-        <div class="hc-sub" id="cb3-roi">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Realized P&amp;L</div>
-        <div class="hc-value" id="cb3-pnl">—</div>
-        <div class="hc-sub" id="cb3-pnl-sub">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Win Rate</div>
-        <div class="hc-value gold" id="cb3-wr">—</div>
-        <div class="hc-sub" id="cb3-rec">—</div>
-        <div class="wr-bar-bg"><div class="wr-bar-fill" id="cb3-wrf" style="width:0"></div></div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Open Positions</div>
-        <div class="hc-value gold" id="cb3-open">—</div>
-        <div class="hc-sub" id="cb3-dep">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Potential Profit</div>
-        <div class="hc-value gold" id="cb3-potential">—</div>
-        <div class="hc-sub">if all open win</div>
-      </div>
-    </div>
-    <div class="two-col">
-      <div class="card">
-        <div class="card-header"><span class="card-title">P&amp;L history (closed trades)</span><span class="pill" id="cb3-trend">—</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="cb3-chart"></canvas></div></div>
-      </div>
-      <div class="card">
-        <div class="card-header"><span class="card-title">Performance by category</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="cb3-cat-chart"></canvas></div></div>
-      </div>
-    </div>
-    <div class="card" style="margin-bottom:16px">
-      <div class="card-header"><span class="card-title">Open positions</span><span class="pill pill-gold" id="cb3-open-count">0</span></div>
-      <div id="cb3-open-table"></div>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-title">Recent closed trades</span><span class="pill pill-gray" id="cb3-trade-count">0 closed</span></div>
-      <div id="cb3-trade-table"></div>
-    </div>
-  </div>
-
-  <!-- ── NearCertain Beta view ── -->
-  <div id="view-ncb" style="display:none">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-      <span class="pill pill-gold">NearCertain Beta — Broad Data Collector</span>
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">YES 65–95c · All categories · $0.50 micro stakes · Signals Alpha-Prime</span>
-    </div>
-    <div class="hero-strip">
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Bankroll</div>
-        <div class="hc-value gold" id="ncb-bank">—</div>
-        <div class="hc-sub" id="ncb-roi">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Realized P&amp;L</div>
-        <div class="hc-value" id="ncb-pnl">—</div>
-        <div class="hc-sub" id="ncb-pnl-sub">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Win Rate</div>
-        <div class="hc-value gold" id="ncb-wr">—</div>
-        <div class="hc-sub" id="ncb-rec">—</div>
-        <div class="wr-bar-bg"><div class="wr-bar-fill" id="ncb-wrf" style="width:0"></div></div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Open Positions</div>
-        <div class="hc-value gold" id="ncb-open">—</div>
-        <div class="hc-sub" id="ncb-dep">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">AP Signals Sent</div>
-        <div class="hc-value gold" id="ncb-ap-signals">—</div>
-        <div class="hc-sub">trades forwarded to Alpha-Prime</div>
-      </div>
-    </div>
-    <div class="two-col">
-      <div class="card">
-        <div class="card-header"><span class="card-title">P&amp;L history (closed trades)</span><span class="pill" id="ncb-trend">—</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="ncb-chart"></canvas></div></div>
-      </div>
-      <div class="card">
-        <div class="card-header"><span class="card-title">Win rate by category</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="ncb-cat-chart"></canvas></div></div>
-      </div>
-    </div>
-    <div class="card" style="margin-bottom:16px">
-      <div class="card-header"><span class="card-title">Open positions</span><span class="pill pill-gold" id="ncb-open-count">0</span></div>
-      <div id="ncb-open-table"></div>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-title">Recent closed trades</span><span class="pill pill-gray" id="ncb-trade-count">0 closed</span></div>
-      <div id="ncb-trade-table"></div>
-    </div>
-  </div>
-
-  <!-- ── Alpha-Prime view ── -->
-  <div id="view-ap" style="display:none">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-      <span class="pill pill-gold">Alpha-Prime — Focused NearCertain Variant</span>
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">Signal-driven · Receives trades from NearCertain + Beta · Daily Opus audit · Resolution-only scan</span>
-    </div>
-    <div class="hero-strip">
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Bankroll</div>
-        <div class="hc-value gold" id="ap-bank">—</div>
-        <div class="hc-sub" id="ap-roi">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Realized P&L</div>
-        <div class="hc-value" id="ap-pnl">—</div>
-        <div class="hc-sub" id="ap-pnl-sub">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Win Rate</div>
-        <div class="hc-value gold" id="ap-wr">—</div>
-        <div class="hc-sub" id="ap-rec">—</div>
-        <div class="wr-bar-bg"><div class="wr-bar-fill" id="ap-wrf" style="width:0"></div></div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Open Positions</div>
-        <div class="hc-value gold" id="ap-open">—</div>
-        <div class="hc-sub" id="ap-dep">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Potential Profit</div>
-        <div class="hc-value gold" id="ap-potential">—</div>
-        <div class="hc-sub">if all open positions win</div>
-      </div>
-    </div>
-
-    <div class="two-col">
-      <div class="card">
-        <div class="card-header">
-          <span class="card-title">P&L history (closed trades)</span>
-          <span class="pill" id="ap-trend">—</span>
-        </div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="ap-chart"></canvas></div></div>
-      </div>
-      <div class="card">
-        <div class="card-header"><span class="card-title">Performance by pattern</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="ap-pattern-chart"></canvas></div></div>
-      </div>
-    </div>
-
-    <div class="card" style="margin-bottom:16px">
-      <div class="card-header">
-        <span class="card-title">Open positions</span>
-        <span class="pill pill-gold" id="ap-open-count">0</span>
-      </div>
-      <div id="ap-open-table"></div>
-    </div>
-
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">Recent closed trades</span>
-        <span class="pill pill-gray" id="ap-trade-count">0 closed</span>
-      </div>
-      <div id="ap-trade-table"></div>
-    </div>
-  </div>
-
-
   <!-- ── AssetBot view ── -->
   <div id="view-ab" style="display:none">
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
@@ -1280,7 +979,7 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
 
   <!-- ── Projections view ── -->
   <div id="view-proj" style="display:none">
-    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;gap:12px;margin-bottom:20px">
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;margin-bottom:20px">
       <div class="hero-card accent-gold">
         <div class="hc-label">ClaudeBot — Live WR</div>
         <div class="hc-value gold" id="proj-cb-wr">—</div>
@@ -1300,16 +999,6 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
         <div class="hc-label">NoBot V3 — Live WR</div>
         <div class="hc-value gold" id="proj-nb3-wr">—</div>
         <div class="hc-sub" id="proj-nb3-sub">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">NearCertain — Live WR</div>
-        <div class="hc-value gold" id="proj-nc-wr">—</div>
-        <div class="hc-sub" id="proj-nc-sub">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Alpha-Prime — Live WR</div>
-        <div class="hc-value gold" id="proj-ap-wr">—</div>
-        <div class="hc-sub" id="proj-ap-sub">—</div>
       </div>
     </div>
     <div class="card" style="margin-bottom:16px">
@@ -1340,22 +1029,8 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
       </div>
       <div id="proj-nb3-table"></div>
     </div>
-    <div class="card" style="margin-bottom:16px">
-      <div class="card-header">
-        <span class="card-title">NearCertain — Fade the Overconfident — 12 month projections</span>
-        <span class="pill pill-gold" id="proj-nc-badge">—</span>
-      </div>
-      <div id="proj-nc-table"></div>
-    </div>
-    <div class="card" style="margin-bottom:16px">
-      <div class="card-header">
-        <span class="card-title">Alpha-Prime — Focused NearCertain — 12 month projections</span>
-        <span class="pill pill-gold" id="proj-ap-badge">—</span>
-      </div>
-      <div id="proj-ap-table"></div>
-    </div>
     <div style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text3);padding:0 4px 24px;line-height:1.8">
-      Projections compound daily using live avg win/loss and trades/day from each bot's resolved trade history · Liquidity ceiling at $18,981 (NoBot V1/V2) / $25,000 (NoBot V3 weather) / $50,000 (ClaudeBot / NearCertain / Alpha-Prime) · Live WR highlighted · Paper trade estimates only
+      Projections compound daily using live avg win/loss and trades/day from each bot's resolved trade history · Liquidity ceiling at $18,981 (NoBot V1/V2) / $25,000 (NoBot V3 weather) / $50,000 (ClaudeBot) · Live WR highlighted · Paper trade estimates only
     </div>
   </div>
 
@@ -1414,80 +1089,20 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
       <div id="cblive-trade-table"></div>
     </div>
   </div>
-
-  <!-- ── Alpha Prime LIVE view ── -->
-  <div id="view-aplive" style="display:none">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-      <span class="live-badge"><span class="live-dot"></span>LIVE TRADING</span>
-      <span class="pill pill-gold">Alpha Prime Live — $15 allocation · Signals from NearCertain</span>
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">live_stake = paper_stake × (15.00 / paper_bankroll) · grows with wins</span>
-    </div>
-    <div class="hero-strip">
-      <div class="hero-card accent-gold">
-        <div class="hc-label">AP Live Bankroll</div>
-        <div class="hc-value gold" id="aplive-bank">—</div>
-        <div class="hc-sub" id="aplive-roi">started at $15.00</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Live P&amp;L</div>
-        <div class="hc-value" id="aplive-pnl">—</div>
-        <div class="hc-sub" id="aplive-pnl-sub">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Win Rate</div>
-        <div class="hc-value gold" id="aplive-wr">—</div>
-        <div class="hc-sub" id="aplive-rec">—</div>
-        <div class="wr-bar-bg"><div class="wr-bar-fill" id="aplive-wrf" style="width:0"></div></div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Open Positions</div>
-        <div class="hc-value gold" id="aplive-open">—</div>
-        <div class="hc-sub" id="aplive-dep">—</div>
-      </div>
-      <div class="hero-card accent-gold">
-        <div class="hc-label">Patterns Traded</div>
-        <div class="hc-value gold" id="aplive-patterns">—</div>
-        <div class="hc-sub">A/B/C/D/E pattern breakdown</div>
-      </div>
-    </div>
-    <div class="two-col">
-      <div class="card">
-        <div class="card-header"><span class="card-title">AP Live P&amp;L history</span><span class="pill" id="aplive-trend">—</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="aplive-chart"></canvas></div></div>
-      </div>
-      <div class="card">
-        <div class="card-header"><span class="card-title">Win rate by pattern</span></div>
-        <div class="card-body"><div class="chart-wrap"><canvas id="aplive-pattern-chart"></canvas></div></div>
-      </div>
-    </div>
-    <div class="card" style="margin-bottom:16px">
-      <div class="card-header"><span class="card-title">Open live positions</span><span class="pill pill-gold" id="aplive-open-count">0</span></div>
-      <div id="aplive-open-table"></div>
-    </div>
-    <div class="card">
-      <div class="card-header"><span class="card-title">Live trade history</span><span class="pill pill-gray" id="aplive-trade-count">0</span></div>
-      <div id="aplive-trade-table"></div>
-    </div>
-  </div>
 </div>
 <script>
 var BASE    = 'https://raw.githubusercontent.com/jamesgrimm1/prescient-public/main/';
 var CB_URL  = BASE + 'claudebot_log.json';
 var CB2_URL = BASE + 'claudebot_v2_log.json';
-var CB3_URL = BASE + 'claudebot_v3_log.json';
 var NB_URL  = BASE + 'nobot_log.json';
 var NB2_URL = BASE + 'nobot_v2_log.json';
 var NB3_URL = BASE + 'nobot_v3_log.json';
 var NB4_URL = BASE + 'nobot_v4_log.json';
-var NC_URL  = BASE + 'nearcertain_log.json';
-var NCB_URL = BASE + 'nearcertain_beta_log.json';
-var AP_URL  = BASE + 'alpha_prime_log.json';
 var AB_URL  = BASE + 'assetbot_log.json';
 var CBLIVE_URL = BASE + 'claudebot_live_log.json';
-var APLIVE_URL = BASE + 'alpha_prime_live_log.json';
 var START   = 1000;
 var cbChart = null, cbCatChart = null, nbChart = null, nbBracketChart = null, nb2Chart = null, nb2BracketChart = null, nb3Chart = null, nb3BracketChart = null;
-var cbLiveChart = null, apLiveChart = null, nb4Chart = null, nb4BracketChart = null;
+var cbLiveChart = null, nb4Chart = null, nb4BracketChart = null;
 
 // ── Helpers ──────────────────────────────────────────────
 function money(n) {
@@ -1515,7 +1130,7 @@ function getCategory(q) {
 function setBot(bot, el) {
   document.querySelectorAll('.nav-tab').forEach(function(t){ t.classList.remove('active'); });
   el.classList.add('active');
-  var views = ['cb','cb2','cb3','nb','nb2','nb3','nb4','nc','ncb','ap','ab','cblive','aplive','proj'];
+  var views = ['cb','cb2','nb','nb2','nb3','nb4','ab','cblive','proj'];
   views.forEach(function(v){
     document.getElementById('view-'+v).style.display = bot === v ? 'block' : 'none';
   });
@@ -1894,263 +1509,13 @@ function renderNBV3(d) {
   document.getElementById('tk-nb3-wr2').textContent   = stats.wr+'%';
 }
 
-// ── NearCertain renderer ──────────────────────────────────
+// ── NoBot V4 renderer ──────────────────────────────────
 function renderNBV4(d) {
   var stats = renderNBGeneric(d, 'nb4', {ref:'nb4Chart'}, {ref:'nb4BracketChart'});
   document.getElementById('tk-nb3-bank').textContent  = '$'+d.bankroll.toFixed(2);
   document.getElementById('tk-nb3-bank2').textContent = '$'+d.bankroll.toFixed(2);
   document.getElementById('tk-nb3-wr').textContent    = stats.wr+'%';
   document.getElementById('tk-nb3-wr2').textContent   = stats.wr+'%';
-}
-
-// ── NearCertain renderer ──────────────────────────────────
-
-function renderNC(d) {
-  if (!d) return;
-  var START_NC = 1000;
-  var trades  = d.trades || [];
-  var closed  = trades.filter(function(t){ return t.status === 'closed'; });
-  var open    = trades.filter(function(t){ return t.status === 'open'; });
-  var won     = closed.filter(function(t){ return t.won; });
-  var realized = closed.reduce(function(s,t){ return s + (t.realized_pnl||0); }, 0);
-  var deployed = open.reduce(function(s,t){ return s + (t.stake||0); }, 0);
-  var potential = open.reduce(function(s,t){ return s + (t.potential_profit||0); }, 0);
-  var wr = closed.length ? won.length / closed.length : 0;
-  var roi = (d.bankroll - START_NC) / START_NC * 100;
-
-  document.getElementById('nc-bank').textContent    = '$' + d.bankroll.toFixed(2);
-  document.getElementById('nc-roi').textContent     = '$' + d.bankroll.toFixed(2) + ' current · ' + (d.scan_count||0) + ' scans';
-  document.getElementById('nc-pnl').textContent     = (realized >= 0 ? '+' : '') + '$' + realized.toFixed(2);
-  document.getElementById('nc-pnl-sub').textContent = roi.toFixed(1) + '% ROI · ' + closed.length + ' resolved';
-  document.getElementById('nc-wr').textContent      = closed.length ? Math.round(wr * 100) + '%' : '—';
-  document.getElementById('nc-rec').textContent     = won.length + 'W / ' + (closed.length - won.length) + 'L';
-  document.getElementById('nc-wrf').style.width     = Math.round(wr * 100) + '%';
-  document.getElementById('nc-open').textContent    = open.length;
-  document.getElementById('nc-dep').textContent     = '$' + deployed.toFixed(2) + ' deployed';
-  document.getElementById('nc-potential').textContent = '+$' + potential.toFixed(2);
-  document.getElementById('nc-open-count').textContent = open.length + ' open';
-  document.getElementById('nc-trade-count').textContent = closed.length + ' closed';
-
-  // Open positions table
-  var opEl = document.getElementById('nc-open-table');
-  if (!open.length) {
-    opEl.innerHTML = '<div class="empty">No open positions</div>';
-  } else {
-    var sorted = open.slice().sort(function(a,b){ return (a.closes_in_days||0) - (b.closes_in_days||0); });
-    opEl.innerHTML = '<table><thead><tr><th>Market</th><th>Cat</th><th>NO@</th><th>Stake</th><th>If win</th><th>Closes</th></tr></thead><tbody>' +
-      sorted.map(function(t){
-        var pot = t.potential_profit || 0;
-        return '<tr>' +
-          '<td>' + (t.market||'').substring(0,55) + '</td>' +
-          '<td><span class="pill pill-gray">' + (t.category||'?') + '</span></td>' +
-          '<td class="mono">' + t.entry_no_price + '¢</td>' +
-          '<td class="mono">$' + (t.stake||0).toFixed(2) + '</td>' +
-          '<td class="mono" style="color:var(--gold)">+$' + pot.toFixed(2) + '</td>' +
-          '<td class="mono">' + (t.closes_in_days||0).toFixed(1) + 'd</td>' +
-          '</tr>';
-      }).join('') + '</tbody></table>';
-  }
-
-  // Closed trades table
-  var clEl = document.getElementById('nc-trade-table');
-  if (!closed.length) {
-    clEl.innerHTML = '<div class="empty">No resolved trades yet</div>';
-  } else {
-    var recent = closed.slice().reverse().slice(0,20);
-    clEl.innerHTML = '<table><thead><tr><th>Market</th><th>Cat</th><th>NO@</th><th>P&L</th><th>Result</th></tr></thead><tbody>' +
-      recent.map(function(t){
-        var pnl = t.realized_pnl || 0;
-        var col = t.won ? 'color:var(--gold)' : 'color:#666';
-        return '<tr>' +
-          '<td>' + (t.market||'').substring(0,55) + '</td>' +
-          '<td><span class="pill pill-gray">' + (t.category||'?') + '</span></td>' +
-          '<td class="mono">' + t.entry_no_price + '¢</td>' +
-          '<td class="mono" style="' + col + '">' + (pnl>=0?'+':'') + '$' + pnl.toFixed(2) + '</td>' +
-          '<td>' + (t.won ? '✅' : '❌') + '</td>' +
-          '</tr>';
-      }).join('') + '</tbody></table>';
-  }
-
-  // P&L chart
-  if (closed.length) {
-    var cumPnl = 0;
-    var labels = []; var data = [];
-    closed.forEach(function(t, i){
-      cumPnl += (t.realized_pnl||0);
-      labels.push(i+1);
-      data.push(parseFloat(cumPnl.toFixed(2)));
-    });
-    var isUp = data[data.length-1] >= 0;
-    var ctx = document.getElementById('nc-chart').getContext('2d');
-    if (window.ncChartInst) window.ncChartInst.destroy();
-    window.ncChartInst = new Chart(ctx, {
-      type: 'line',
-      data: { labels: labels, datasets: [{
-        data: data, borderColor: isUp ? '#c9922a' : '#888',
-        borderWidth: 2, pointRadius: 0, fill: false, tension: 0.3
-      }]},
-      options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}},
-        scales:{ x:{display:false}, y:{grid:{color:'rgba(255,255,255,0.05)'}} } }
-    });
-  }
-
-  // NO price bracket chart
-  var bands = [
-    {label:'5-10¢', lo:5,  hi:10},
-    {label:'10-15¢',lo:10, hi:15},
-    {label:'15-20¢',lo:15, hi:20},
-    {label:'20-25¢',lo:20, hi:25},
-  ];
-  var bLabels = []; var bWR = []; var bN = [];
-  bands.forEach(function(b){
-    var g = closed.filter(function(t){ return t.entry_no_price >= b.lo && t.entry_no_price < b.hi; });
-    if (g.length) {
-      bLabels.push(b.label);
-      bWR.push(Math.round(g.filter(function(t){ return t.won; }).length / g.length * 100));
-      bN.push(g.length);
-    }
-  });
-  if (bLabels.length) {
-    var ctx2 = document.getElementById('nc-bracket-chart').getContext('2d');
-    if (window.ncBracketInst) window.ncBracketInst.destroy();
-    window.ncBracketInst = new Chart(ctx2, {
-      type: 'bar',
-      data: { labels: bLabels, datasets: [{
-        label: 'Win rate %', data: bWR,
-        backgroundColor: '#c9922a', borderRadius: 4
-      }]},
-      options: { responsive:true, maintainAspectRatio:false,
-        plugins:{legend:{display:false}},
-        scales:{ y:{min:0, max:100, ticks:{callback:function(v){ return v+'%'; }},
-          grid:{color:'rgba(255,255,255,0.05)'}},
-          x:{grid:{display:false}} } }
-    });
-  }
-}
-function renderAP(d) {
-  if (!d) return;
-  var START_AP = 1000;
-  var trades  = d.trades || [];
-  var closed  = trades.filter(function(t){ return t.status === 'closed'; });
-  var open    = trades.filter(function(t){ return t.status === 'open'; });
-  var won     = closed.filter(function(t){ return t.won; });
-  var realized = closed.reduce(function(s,t){ return s + (t.realized_pnl||0); }, 0);
-  var deployed = open.reduce(function(s,t){ return s + (t.stake||0); }, 0);
-  var potential = open.reduce(function(s,t){ return s + (t.potential_profit||0); }, 0);
-  var wr = closed.length ? won.length / closed.length : 0;
-  var roi = (d.bankroll - START_AP) / START_AP * 100;
-
-  document.getElementById('ap-bank').textContent    = '$' + d.bankroll.toFixed(2);
-  document.getElementById('ap-roi').textContent     = '$' + d.bankroll.toFixed(2) + ' current · ' + (d.scan_count||0) + ' scans';
-  document.getElementById('ap-pnl').textContent     = (realized >= 0 ? '+' : '') + '$' + realized.toFixed(2);
-  document.getElementById('ap-pnl-sub').textContent = roi.toFixed(1) + '% ROI · ' + closed.length + ' resolved';
-  document.getElementById('ap-wr').textContent      = closed.length ? Math.round(wr * 100) + '%' : '—';
-  document.getElementById('ap-rec').textContent     = won.length + 'W / ' + (closed.length - won.length) + 'L';
-  document.getElementById('ap-wrf').style.width     = Math.round(wr * 100) + '%';
-  document.getElementById('ap-open').textContent    = open.length;
-  document.getElementById('ap-dep').textContent     = '$' + deployed.toFixed(2) + ' deployed';
-  document.getElementById('ap-potential').textContent = '+$' + potential.toFixed(2);
-  document.getElementById('ap-open-count').textContent = open.length + ' open';
-  document.getElementById('ap-trade-count').textContent = closed.length + ' closed';
-
-  // Open positions table
-  var opEl = document.getElementById('ap-open-table');
-  if (!open.length) {
-    opEl.innerHTML = '<div class="empty">No open positions</div>';
-  } else {
-    var sorted = open.slice().sort(function(a,b){ return (a.closes_in_days||0) - (b.closes_in_days||0); });
-    opEl.innerHTML = '<table><thead><tr><th>Market</th><th>Pat</th><th>Source</th><th>NO@</th><th>Stake</th><th>If win</th><th>Closes</th></tr></thead><tbody>' +
-      sorted.map(function(t){
-        var pot = t.potential_profit || 0;
-        return '<tr>' +
-          '<td>' + (t.market||'').substring(0,55) + '</td>' +
-          '<td><span class="pill pill-gold">' + (t.pattern||'?') + '</span></td>' +
-          '<td style="font-size:10px;color:var(--text2)">' + (t.source_bot||'nc').replace('nearcertain_','nc') + '</td>' +
-          '<td class="mono">' + t.entry_no_price + '¢</td>' +
-          '<td class="mono">$' + (t.stake||0).toFixed(2) + '</td>' +
-          '<td class="mono" style="color:var(--gold)">+$' + pot.toFixed(2) + '</td>' +
-          '<td class="mono">' + (t.closes_in_days||0).toFixed(1) + 'd</td>' +
-          '</tr>';
-      }).join('') + '</tbody></table>';
-  }
-
-  // Closed trades table
-  var clEl = document.getElementById('ap-trade-table');
-  if (!closed.length) {
-    clEl.innerHTML = '<div class="empty">No resolved trades yet</div>';
-  } else {
-    var recent = closed.slice().reverse().slice(0,20);
-    clEl.innerHTML = '<table><thead><tr><th>Market</th><th>Pat</th><th>Source</th><th>NO@</th><th>Stake</th><th>P&L</th><th>Result</th></tr></thead><tbody>' +
-      recent.map(function(t){
-        var pnl = t.realized_pnl || 0;
-        var col = t.won ? 'color:var(--gold)' : 'color:#666';
-        return '<tr>' +
-          '<td>' + (t.market||'').substring(0,55) + '</td>' +
-          '<td><span class="pill pill-gold">' + (t.pattern||'?') + '</span></td>' +
-          '<td style="font-size:10px;color:var(--text2)">' + (t.source_bot||'nc').replace('nearcertain_','nc') + '</td>' +
-          '<td class="mono">' + t.entry_no_price + '¢</td>' +
-          '<td class="mono">$' + (t.stake||0).toFixed(2) + '</td>' +
-          '<td class="mono" style="' + col + '">' + (pnl>=0?'+':'') + '$' + pnl.toFixed(2) + '</td>' +
-          '<td>' + (t.won ? 'W' : 'L') + '</td>' +
-          '</tr>';
-      }).join('') + '</tbody></table>';
-  }
-
-  // P&L chart
-  if (closed.length) {
-    var cumPnl = 0;
-    var labels = []; var data = [];
-    closed.forEach(function(t, i){
-      cumPnl += (t.realized_pnl||0);
-      labels.push(i+1);
-      data.push(parseFloat(cumPnl.toFixed(2)));
-    });
-    var isUp = data[data.length-1] >= 0;
-    var ctx = document.getElementById('ap-chart').getContext('2d');
-    if (window.apChartInst) window.apChartInst.destroy();
-    window.apChartInst = new Chart(ctx, {
-      type: 'line',
-      data: { labels: labels, datasets: [{
-        data: data, borderColor: isUp ? '#c9922a' : '#888',
-        borderWidth: 2, pointRadius: 0, fill: false, tension: 0.3
-      }]},
-      options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}},
-        scales:{ x:{display:false}, y:{grid:{color:'rgba(255,255,255,0.05)'}} } }
-    });
-  }
-
-  // Pattern performance chart
-  var patStats = {};
-  closed.forEach(function(t){
-    var p = t.pattern || '?';
-    if (!patStats[p]) patStats[p] = {n:0, w:0, pnl:0};
-    patStats[p].n++;
-    if (t.won) patStats[p].w++;
-    patStats[p].pnl += (t.realized_pnl||0);
-  });
-  var patKeys = Object.keys(patStats).sort();
-  if (patKeys.length) {
-    var pLabels = []; var pPnL = []; var pCol = [];
-    patKeys.forEach(function(k){
-      pLabels.push(k + ' (' + patStats[k].n + ')');
-      pPnL.push(parseFloat(patStats[k].pnl.toFixed(2)));
-      pCol.push(patStats[k].pnl >= 0 ? '#c9922a' : '#888');
-    });
-    var ctx2 = document.getElementById('ap-pattern-chart').getContext('2d');
-    if (window.apPatternInst) window.apPatternInst.destroy();
-    window.apPatternInst = new Chart(ctx2, {
-      type: 'bar',
-      data: { labels: pLabels, datasets: [{
-        label: 'P&L ($)', data: pPnL,
-        backgroundColor: pCol, borderRadius: 4
-      }]},
-      options: { responsive:true, maintainAspectRatio:false,
-        plugins:{legend:{display:false}},
-        scales:{ y:{ticks:{callback:function(v){ return '$'+v; }},
-          grid:{color:'rgba(255,255,255,0.05)'}},
-          x:{grid:{display:false}} } }
-    });
-  }
 }
 
 function compound(start, wr, aw, al, dt, days, ceiling) {
@@ -2160,163 +1525,6 @@ function compound(start, wr, aw, al, dt, days, ceiling) {
     b += (wr * aw - (1 - wr) * al) * dt * scale;
   }
   return b;
-}
-
-function ncProjTable(closed, ceiling, startBankroll) {
-  if (!closed || !closed.length) {
-    document.getElementById('proj-nc-table').innerHTML = '<div class="empty">No resolved trades yet</div>';
-    return;
-  }
-  var won  = closed.filter(function(t){ return t.won; });
-  var lost = closed.filter(function(t){ return !t.won; });
-  if (!won.length || !lost.length) return;
-
-  var liveWr  = won.length / closed.length;
-  var avgWin  = won.reduce(function(s,t){ return s + (t.realized_pnl||0); }, 0) / won.length;
-  var avgLoss = Math.abs(lost.reduce(function(s,t){ return s + (t.realized_pnl||0); }, 0) / lost.length);
-
-  var dates      = closed.map(function(t){ return new Date(t.resolved_at||t.placed_at); });
-  var minDate    = new Date(Math.min.apply(null, dates));
-  var daysSince  = Math.max(1, (Date.now() - minDate) / 86400000);
-  var tradesPerDay = closed.length / daysSince;
-
-  var liveWrPct = Math.round(liveWr * 100);
-  document.getElementById('proj-nc-wr').textContent = liveWrPct + '%';
-  document.getElementById('proj-nc-sub').textContent =
-    won.length + 'W / ' + lost.length + 'L · ' +
-    tradesPerDay.toFixed(1) + ' trades/day · ' +
-    'avg win $' + avgWin.toFixed(2) + ' / avg loss $' + avgLoss.toFixed(2);
-
-  document.getElementById('proj-nc-badge').textContent =
-    'Live ' + liveWrPct + '% WR · ' + tradesPerDay.toFixed(1) + ' trades/day';
-
-  // Build scenarios: fixed bands + exact live WR inserted in the right place
-  var baseBands = [5, 10, 15, 20, 25, 30];
-  var liveWrRounded = Math.round(liveWr * 100);
-  var scenarios = [];
-  var liveInserted = false;
-  for (var si = 0; si < baseBands.length; si++) {
-    // Insert live WR before the next band if it falls between current and next
-    if (!liveInserted && liveWrRounded > (baseBands[si-1]||0) && liveWrRounded < baseBands[si]) {
-      scenarios.push(liveWrRounded);
-      liveInserted = true;
-    }
-    scenarios.push(baseBands[si]);
-    if (!liveInserted && liveWrRounded === baseBands[si]) {
-      liveInserted = true; // exact match with a band, no need to insert
-    }
-  }
-  if (!liveInserted && liveWrRounded > baseBands[baseBands.length-1]) {
-    scenarios.push(liveWrRounded);
-  }
-  var months    = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-  var sb        = startBankroll || 1000;
-
-  var hdrs = months.map(function(m){ return '<th>' + m + 'mo</th>'; }).join('');
-  var rows = scenarios.map(function(wrPct) {
-    var wr     = wrPct / 100;
-    var isLive = (wrPct === liveWrRounded);
-    var rowStyle  = isLive ? ' style="background:rgba(201,146,42,0.06)"' : '';
-    var labelStyle = isLive ? ' style="color:var(--gold);font-weight:600"' : '';
-    var vals = months.map(function(m) {
-      var v = compound(sb, wr, avgWin, avgLoss, tradesPerDay, m * 30, ceiling);
-      var isProfit = v >= sb;
-      var style = isLive
-        ? 'color:var(--gold)'
-        : (isProfit ? 'color:var(--text)' : 'color:#666666');
-      return '<td class="mono" style="' + style + '">$' + Math.round(v).toLocaleString() + '</td>';
-    });
-    var ev = (wr * avgWin - (1 - wr) * avgLoss) * tradesPerDay;
-    var evStyle = ev >= 0 ? 'color:var(--green)' : 'color:var(--red)';
-    return '<tr' + rowStyle + '>' +
-      '<td class="mono"' + labelStyle + '>' + wrPct + '%' + (isLive ? ' ◀' : '') + '</td>' +
-      '<td class="mono" style="' + evStyle + '">$' + ev.toFixed(2) + '/day</td>' +
-      vals.join('') +
-      '</tr>';
-  }).join('');
-
-  document.getElementById('proj-nc-table').innerHTML =
-    '<table><thead><tr>' +
-      '<th>WR scenario</th><th>Daily EV</th>' + hdrs +
-    '</tr></thead><tbody>' + rows + '</tbody></table>';
-}
-
-function apProjTable(closed, ceiling, startBankroll) {
-  if (!closed || !closed.length) {
-    document.getElementById('proj-ap-table').innerHTML = '<div class="empty">No resolved trades yet</div>';
-    return;
-  }
-  var won  = closed.filter(function(t){ return t.won; });
-  var lost = closed.filter(function(t){ return !t.won; });
-  if (!won.length || !lost.length) return;
-
-  var liveWr  = won.length / closed.length;
-  var avgWin  = won.reduce(function(s,t){ return s + (t.realized_pnl||0); }, 0) / won.length;
-  var avgLoss = Math.abs(lost.reduce(function(s,t){ return s + (t.realized_pnl||0); }, 0) / lost.length);
-
-  var dates      = closed.map(function(t){ return new Date(t.resolved_at||t.placed_at); });
-  var minDate    = new Date(Math.min.apply(null, dates));
-  var daysSince  = Math.max(1, (Date.now() - minDate) / 86400000);
-  var tradesPerDay = closed.length / daysSince;
-
-  var liveWrPct = Math.round(liveWr * 100);
-  document.getElementById('proj-ap-wr').textContent = liveWrPct + '%';
-  document.getElementById('proj-ap-sub').textContent =
-    won.length + 'W / ' + lost.length + 'L · ' +
-    tradesPerDay.toFixed(1) + ' trades/day · ' +
-    'avg win $' + avgWin.toFixed(2) + ' / avg loss $' + avgLoss.toFixed(2);
-
-  document.getElementById('proj-ap-badge').textContent =
-    'Live ' + liveWrPct + '% WR · ' + tradesPerDay.toFixed(1) + ' trades/day';
-
-  // Low-WR / high-payout strategy: use NC-style 5-30% bands
-  var baseBands = [5, 10, 15, 20, 25, 30];
-  var liveWrRounded = Math.round(liveWr * 100);
-  var scenarios = [];
-  var liveInserted = false;
-  for (var si = 0; si < baseBands.length; si++) {
-    if (!liveInserted && liveWrRounded > (baseBands[si-1]||0) && liveWrRounded < baseBands[si]) {
-      scenarios.push(liveWrRounded);
-      liveInserted = true;
-    }
-    scenarios.push(baseBands[si]);
-    if (!liveInserted && liveWrRounded === baseBands[si]) {
-      liveInserted = true;
-    }
-  }
-  if (!liveInserted && liveWrRounded > baseBands[baseBands.length-1]) {
-    scenarios.push(liveWrRounded);
-  }
-  var months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-  var sb     = startBankroll || 1000;
-
-  var hdrs = months.map(function(m){ return '<th>' + m + 'mo</th>'; }).join('');
-  var rows = scenarios.map(function(wrPct) {
-    var wr     = wrPct / 100;
-    var isLive = (wrPct === liveWrRounded);
-    var rowStyle  = isLive ? ' style="background:rgba(201,146,42,0.06)"' : '';
-    var labelStyle = isLive ? ' style="color:var(--gold);font-weight:600"' : '';
-    var vals = months.map(function(m) {
-      var v = compound(sb, wr, avgWin, avgLoss, tradesPerDay, m * 30, ceiling);
-      var isProfit = v >= sb;
-      var style = isLive
-        ? 'color:var(--gold)'
-        : (isProfit ? 'color:var(--text)' : 'color:#666666');
-      return '<td class="mono" style="' + style + '">$' + Math.round(v).toLocaleString() + '</td>';
-    });
-    var ev = (wr * avgWin - (1 - wr) * avgLoss) * tradesPerDay;
-    var evStyle = ev >= 0 ? 'color:var(--green)' : 'color:var(--red)';
-    return '<tr' + rowStyle + '>' +
-      '<td class="mono"' + labelStyle + '>' + wrPct + '%' + (isLive ? ' ◀' : '') + '</td>' +
-      '<td class="mono" style="' + evStyle + '">$' + ev.toFixed(2) + '/day</td>' +
-      vals.join('') +
-      '</tr>';
-  }).join('');
-
-  document.getElementById('proj-ap-table').innerHTML =
-    '<table><thead><tr>' +
-      '<th>WR scenario</th><th>Daily EV</th>' + hdrs +
-    '</tr></thead><tbody>' + rows + '</tbody></table>';
 }
 
 function projTable(pfxBadge, pfxTable, pfxWr, pfxSub, closed, ceiling, startBankroll) {
@@ -2391,7 +1599,7 @@ function projTable(pfxBadge, pfxTable, pfxWr, pfxSub, closed, ceiling, startBank
     '</tr></thead><tbody>' + rows + '</tbody></table>';
 }
 
-function renderProjections(cbData, nbData, nb2Data, nb3Data, ncData, apData) {
+function renderProjections(cbData, nbData, nb2Data, nb3Data) {
   var cbClosed  = cbData  ? (cbData.trades||[]).filter(function(t){ return t.status==='closed'; }) : [];
   var nbClosed  = nbData  ? (nbData.trades||[]).filter(function(t){ return t.status==='closed'; }) : [];
   var nb2Closed = nb2Data ? (nb2Data.trades||[]).filter(function(t){ return t.status==='closed'; }) : [];
@@ -2407,24 +1615,6 @@ function renderProjections(cbData, nbData, nb2Data, nb3Data, ncData, apData) {
   projTable('proj-nb2-badge', 'proj-nb2-table', 'proj-nb2-wr', 'proj-nb2-sub', nb2Closed, 18981, nb2Start);
   projTable('proj-nb3-badge', 'proj-nb3-table', 'proj-nb3-wr', 'proj-nb3-sub', nb3Closed, 25000, nb3Start);
 
-  var ncClosed = ncData  ? (ncData.trades||[]).filter(function(t){ return t.status==='closed'; }) : [];
-  var ncStart  = ncData  ? ncData.bankroll  : 1000;
-  ncProjTable(ncClosed, 50000, ncStart);
-
-  var apClosed = apData  ? (apData.trades||[]).filter(function(t){ return t.status==='closed'; }) : [];
-  var apStart  = apData  ? apData.bankroll  : 1000;
-  apProjTable(apClosed, 50000, apStart);
-
-  if (!ncData) {
-    document.getElementById('proj-nc-wr').textContent  = '—';
-    document.getElementById('proj-nc-sub').textContent = 'Push nearcertain_log.json to enable';
-    document.getElementById('proj-nc-table').innerHTML = '<div class="empty">NearCertain log not in repo yet</div>';
-  }
-  if (!apData) {
-    document.getElementById('proj-ap-wr').textContent  = '—';
-    document.getElementById('proj-ap-sub').textContent = 'Push alpha_prime_log.json to enable';
-    document.getElementById('proj-ap-table').innerHTML = '<div class="empty">Alpha-Prime log not in repo yet</div>';
-  }
   if (!nb2Data) {
     document.getElementById('proj-nb2-wr').textContent = '—';
     document.getElementById('proj-nb2-sub').textContent = 'Push nobot_v2_log.json to enable';
@@ -2546,110 +1736,7 @@ function renderGenericBot(d, prefix, startBankroll, label) {
 }
 
 function renderCB2(d) { renderGenericBot(d, 'cb2', 1000, 'ClaudeBot V2'); }
-function renderCB3(d) { renderGenericBot(d, 'cb3', 1000, 'ClaudeBot V3'); }
 
-// ── NearCertain Beta renderer ─────────────────────────────────────────────
-function renderNCB(d) {
-  if (!d) return;
-  var trades   = d.trades || [];
-  var closed   = trades.filter(function(t){ return t.status === 'closed'; });
-  var open     = trades.filter(function(t){ return t.status === 'open'; });
-  var won      = closed.filter(function(t){ return t.won; });
-  var realized = closed.reduce(function(s,t){ return s + (t.realized_pnl||0); }, 0);
-  var deployed = open.reduce(function(s,t){ return s + (t.stake||0); }, 0);
-  var wr       = closed.length ? won.length / closed.length : 0;
-  var roi      = (d.bankroll - 1000) / 1000 * 100;
-
-  document.getElementById('ncb-bank').textContent     = '$' + d.bankroll.toFixed(2);
-  document.getElementById('ncb-roi').textContent      = (roi>=0?'+':'')+roi.toFixed(1)+'% ROI · '+(d.scan_count||0)+' scans';
-  document.getElementById('ncb-pnl').textContent      = (realized>=0?'+':'')+' $'+realized.toFixed(2);
-  document.getElementById('ncb-pnl-sub').textContent  = closed.length+' resolved trades';
-  document.getElementById('ncb-wr').textContent       = closed.length ? Math.round(wr*100)+'%' : '—';
-  document.getElementById('ncb-rec').textContent      = won.length+'W / '+(closed.length-won.length)+'L';
-  document.getElementById('ncb-wrf').style.width      = Math.round(wr*100)+'%';
-  document.getElementById('ncb-open').textContent     = open.length;
-  document.getElementById('ncb-dep').textContent      = '$'+deployed.toFixed(2)+' deployed';
-  document.getElementById('ncb-open-count').textContent = open.length+' open';
-  document.getElementById('ncb-trade-count').textContent = closed.length+' closed';
-
-  // Count how many NCB trades appear in AP log (approximate via source_bot field)
-  // We just show total closed as a proxy — AP log has source_bot field
-  document.getElementById('ncb-ap-signals').textContent = '—';
-
-  // Category WR chart
-  var cats = {};
-  closed.forEach(function(t){
-    var c = t.category||'other';
-    if (!cats[c]) cats[c] = {w:0,l:0,pnl:0};
-    t.won ? cats[c].w++ : cats[c].l++;
-    cats[c].pnl += (t.realized_pnl||0);
-  });
-  var catLabels = Object.keys(cats).sort(function(a,b){ return cats[b].pnl - cats[a].pnl; });
-  var catWR     = catLabels.map(function(c){ var v=cats[c]; return v.w/(v.w+v.l)*100; });
-  var catCtx    = document.getElementById('ncb-cat-chart').getContext('2d');
-  if (window.ncbCatChart) window.ncbCatChart.destroy();
-  window.ncbCatChart = new Chart(catCtx, {
-    type:'bar',
-    data:{ labels:catLabels, datasets:[{label:'Win Rate %', data:catWR,
-      backgroundColor:'rgba(201,146,42,0.5)', borderColor:'#C9922A', borderWidth:1}]},
-    options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}},
-      scales:{ y:{ min:0,max:100, grid:{color:'rgba(255,255,255,0.04)'}, ticks:{color:'#666',callback:function(v){return v+'%';}}},
-               x:{ grid:{color:'rgba(255,255,255,0.04)'}, ticks:{color:'#666',font:{size:10}}}}}
-  });
-
-  // P&L chart
-  if (closed.length) {
-    var cumPnl=0; var labs=[]; var dat=[];
-    closed.forEach(function(t,i){ cumPnl+=(t.realized_pnl||0); labs.push(i+1); dat.push(parseFloat(cumPnl.toFixed(2))); });
-    var isUp = dat[dat.length-1] >= 0;
-    var pCtx = document.getElementById('ncb-chart').getContext('2d');
-    if (window.ncbChartInst) window.ncbChartInst.destroy();
-    window.ncbChartInst = new Chart(pCtx, {
-      type:'line',
-      data:{ labels:labs, datasets:[{data:dat, borderColor:isUp?'#C9922A':'#666',
-        backgroundColor:isUp?'rgba(201,146,42,0.08)':'rgba(100,100,100,0.08)',
-        borderWidth:2, pointRadius:0, fill:true, tension:0.3}]},
-      options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}},
-        scales:{ y:{grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#666',callback:function(v){return '$'+v;}}},
-                 x:{display:false}}}
-    });
-    var trend = dat[dat.length-1];
-    document.getElementById('ncb-trend').textContent = (trend>=0?'+':'')+'$'+trend.toFixed(2);
-    document.getElementById('ncb-trend').className = 'pill '+(trend>=0?'pill-gold':'pill-gray');
-  }
-
-  // Open table
-  var opEl = document.getElementById('ncb-open-table');
-  if (!open.length) { opEl.innerHTML = '<div class="empty">No open positions</div>'; }
-  else {
-    opEl.innerHTML = '<table><thead><tr><th>Market</th><th>Cat</th><th>NO@</th><th>Stake</th><th>Closes</th></tr></thead><tbody>' +
-      open.slice().sort(function(a,b){ return (a.closes_in_days||0)-(b.closes_in_days||0); }).map(function(t){
-        return '<tr><td>'+(t.market||'').substring(0,55)+'</td>' +
-          '<td style="font-size:10px">'+(t.category||'—')+'</td>' +
-          '<td class="mono">'+(t.entry_no_price||'?')+'c</td>' +
-          '<td class="mono">$'+(t.stake||0).toFixed(2)+'</td>' +
-          '<td class="mono">'+(t.closes_in_days||0).toFixed(1)+'d</td></tr>';
-      }).join('')+'</tbody></table>';
-  }
-
-  // Closed table
-  var clEl = document.getElementById('ncb-trade-table');
-  if (!closed.length) { clEl.innerHTML = '<div class="empty">No resolved trades yet</div>'; }
-  else {
-    clEl.innerHTML = '<table><thead><tr><th>Market</th><th>Cat</th><th>NO@</th><th>Stake</th><th>P&L</th><th>R</th></tr></thead><tbody>' +
-      closed.slice().reverse().slice(0,20).map(function(t){
-        var pnl=t.realized_pnl||0; var col=t.won?'color:var(--gold)':'color:#666';
-        return '<tr><td>'+(t.market||'').substring(0,50)+'</td>' +
-          '<td style="font-size:10px">'+(t.category||'—')+'</td>' +
-          '<td class="mono">'+(t.entry_no_price||'?')+'c</td>' +
-          '<td class="mono">$'+(t.stake||0).toFixed(2)+'</td>' +
-          '<td class="mono" style="'+col+'">'+(pnl>=0?'+':'')+'$'+pnl.toFixed(2)+'</td>' +
-          '<td>'+(t.won?'W':'L')+'</td></tr>';
-      }).join('')+'</tbody></table>';
-  }
-}
-
-// ── AssetBot renderer ─────────────────────────────────────────────────────
 function renderAB(d) {
   if (!d) return;
   var trades   = d.trades || [];
@@ -2875,121 +1962,6 @@ function renderCBLive(d) {
   }
 }
 
-// ── Alpha Prime Live renderer ─────────────────────────────
-function renderAPLive(d) {
-  if (!d) {
-    document.getElementById('aplive-bank').textContent = 'No live trades yet';
-    return;
-  }
-  var trades  = (d.trades || []).filter(function(t){ return !t.paper; });
-  var closed  = trades.filter(function(t){ return t.status === 'closed'; });
-  var open    = trades.filter(function(t){ return t.status === 'open'; });
-  var won     = closed.filter(function(t){ return t.won; });
-  var realized = closed.reduce(function(s,t){ return s + (t.realized_pnl||0); }, 0);
-  var wr   = closed.length ? Math.round(won.length/closed.length*100) : 0;
-  var dep  = open.reduce(function(s,t){ return s + (t.stake||0); }, 0);
-  var bank = d.bankroll || 0;
-  var startBank = 15.00;
-  var roi  = (bank - startBank) / startBank * 100;
-
-  document.getElementById('aplive-bank').textContent    = '$'+bank.toFixed(2)+' pUSD';
-  document.getElementById('aplive-roi').textContent     = 'started $15.00 · '+(roi>=0?'+':'')+roi.toFixed(1)+'% ROI';
-  var pe = document.getElementById('aplive-pnl');
-  pe.textContent = (realized>=0?'+$':'-$')+Math.abs(realized).toFixed(2);
-  pe.className   = 'hc-value '+(realized>=0?'green':'red');
-  document.getElementById('aplive-pnl-sub').textContent = won.length+'W / '+(closed.length-won.length)+'L closed';
-  var we = document.getElementById('aplive-wr');
-  we.textContent = closed.length ? wr+'%' : '—';
-  we.className   = 'hc-value '+wrCls(wr);
-  document.getElementById('aplive-rec').textContent  = closed.length+' live trades closed';
-  document.getElementById('aplive-wrf').style.width  = wr+'%';
-  document.getElementById('aplive-wrf').style.background = wrCol(wr);
-  document.getElementById('aplive-open').textContent = open.length;
-  document.getElementById('aplive-dep').textContent  = '$'+dep.toFixed(2)+' deployed';
-  var patterns = {};
-  trades.forEach(function(t){ var p=t.pattern||'?'; if(!patterns[p]) patterns[p]={n:0,w:0}; patterns[p].n++; if(t.won) patterns[p].w++; });
-  document.getElementById('aplive-patterns').textContent = Object.keys(patterns).map(function(p){ return p+'('+patterns[p].n+')'; }).join(' ');
-
-  // Ticker
-  document.getElementById('tk-aplive-bank').textContent  = '$'+bank.toFixed(2);
-  document.getElementById('tk-aplive-bank2').textContent = '$'+bank.toFixed(2);
-
-  // P&L chart
-  var ctx = document.getElementById('aplive-chart').getContext('2d');
-  if (apLiveChart) apLiveChart.destroy();
-  var sorted = trades.slice().sort(function(a,b){ return new Date(a.placed_at)-new Date(b.placed_at); });
-  var running = startBank; var labels = ['Start']; var vals = [startBank];
-  sorted.forEach(function(t){ if(t.status==='closed'){ running+=(t.realized_pnl||0); labels.push(fmtDate(t.resolved_at||t.placed_at)); vals.push(parseFloat(running.toFixed(2))); } });
-  if(labels.length>1){ labels.push('Now'); vals.push(parseFloat(running.toFixed(2))); }
-  var isUp = vals[vals.length-1] >= startBank;
-  document.getElementById('aplive-trend').textContent = isUp?'▲ profitable':'▼ in drawdown';
-  document.getElementById('aplive-trend').className   = 'pill '+(isUp?'pill-green':'pill-red');
-  apLiveChart = new Chart(ctx, {
-    type:'line', data:{ labels:labels, datasets:[{data:vals, borderColor:isUp?'#C9922A':'#555',
-      backgroundColor:isUp?'rgba(201,146,42,0.08)':'rgba(100,100,100,0.08)',
-      borderWidth:2, pointRadius:0, fill:true, tension:0.3}]},
-    options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}},
-      scales:{ y:{grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#666',callback:function(v){return '$'+v;}}},
-               x:{grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#666',maxTicksLimit:8}}}}
-  });
-
-  // Pattern WR chart
-  var pCtx = document.getElementById('aplive-pattern-chart').getContext('2d');
-  if (window.apPatternChartInst) window.apPatternChartInst.destroy();
-  var pLabels = Object.keys(patterns).sort();
-  var pData   = pLabels.map(function(p){ return patterns[p].n ? Math.round(patterns[p].w/patterns[p].n*100) : 0; });
-  if (pLabels.length) {
-    window.apPatternChartInst = new Chart(pCtx, {
-      type:'bar',
-      data:{ labels:pLabels, datasets:[{label:'Win Rate %', data:pData,
-        backgroundColor:pData.map(function(v){ return v>=50?'rgba(201,146,42,0.7)':'rgba(136,136,136,0.5)'; }), borderWidth:0}]},
-      options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}},
-        scales:{ y:{min:0,max:100,grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#666',callback:function(v){return v+'%';}}},
-                 x:{ticks:{color:'#666'}}}}
-    });
-  }
-
-  // Open table
-  document.getElementById('aplive-open-count').textContent = open.length;
-  var ot = document.getElementById('aplive-open-table');
-  if (!open.length) { ot.innerHTML = '<div class="empty">No open AP live positions</div>'; }
-  else {
-    ot.innerHTML = '<table><thead><tr><th>Market</th><th>Pattern</th><th>Live Stake</th><th>Paper Stake</th><th>NO@</th><th>Closes</th></tr></thead><tbody>' +
-      open.map(function(t){
-        return '<tr><td class="td-market">'+(t.market||'').slice(0,55)+'</td>' +
-          '<td><span class="pill pill-gold">'+(t.pattern||'?')+'</span></td>' +
-          '<td class="mono" style="color:var(--gold)">$'+(t.stake||0).toFixed(2)+'</td>' +
-          '<td class="mono" style="color:var(--text2)">$'+(t.paper_stake||0).toFixed(2)+'</td>' +
-          '<td class="mono">'+(t.entry_no_price||'?')+'¢</td>' +
-          '<td class="mono">'+(t.closes?dLeft(t.closes):'?')+'</td></tr>';
-      }).join('')+'</tbody></table>';
-  }
-
-  // Trade log
-  document.getElementById('aplive-trade-count').textContent = trades.length + ' AP live trades';
-  var cl = document.getElementById('aplive-trade-table');
-  if (!trades.length) { cl.innerHTML = '<div class="empty">No AP live trades yet — fires when NearCertain signals a qualifying trade to Alpha Prime</div>'; }
-  else {
-    var sorted2 = trades.slice().sort(function(a,b){ return new Date(b.placed_at)-new Date(a.placed_at); });
-    cl.innerHTML = '<table><thead><tr><th>Market</th><th>Pattern</th><th>Live Stake</th><th>Paper Stake</th><th>NO@</th><th>Status</th><th>P&L</th><th>Date</th></tr></thead><tbody>' +
-      sorted2.map(function(t){
-        var pnl = t.realized_pnl||0;
-        var scls = t.status==='open'?'pill-gold':(t.won?'pill-green':'pill-red');
-        var slabel = t.status==='open'?'open':(t.won?'won':'lost');
-        return '<tr>' +
-          '<td class="td-market">'+(t.market||'').slice(0,50)+'</td>' +
-          '<td><span class="pill pill-gold">'+(t.pattern||'?')+'</span></td>' +
-          '<td class="mono" style="color:var(--gold)">$'+(t.stake||0).toFixed(2)+'</td>' +
-          '<td class="mono" style="color:var(--text2)">$'+(t.paper_stake||0).toFixed(2)+'</td>' +
-          '<td class="mono">'+(t.entry_no_price||'?')+'¢</td>' +
-          '<td><span class="pill '+scls+'">'+slabel+'</span></td>' +
-          '<td class="mono" style="color:'+(t.status==='open'?'var(--text2)':pnl>=0?'var(--gold)':'#888')+'">'+
-            (t.status==='open'?'—':(pnl>=0?'+$':'-$')+Math.abs(pnl).toFixed(2))+'</td>' +
-          '<td class="mono" style="color:var(--text2)">'+fmtDate(t.placed_at)+'</td></tr>';
-      }).join('')+'</tbody></table>';
-  }
-}
-
 function loadData() {
   var dot = document.getElementById('status-dot');
   var txt = document.getElementById('status-text');
@@ -3015,24 +1987,9 @@ function loadData() {
   var nb4Fetch = Promise.race([
     fetch(NB4_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
     new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
-  ]);var ncFetch = Promise.race([
-    fetch(NC_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
-    new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
-  ]);
-  var apFetch = Promise.race([
-    fetch(AP_URL  + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
-    new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
   ]);
   var cb2Fetch = Promise.race([
     fetch(CB2_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
-    new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
-  ]);
-  var cb3Fetch = Promise.race([
-    fetch(CB3_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
-    new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
-  ]);
-  var ncbFetch = Promise.race([
-    fetch(NCB_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
     new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
   ]);
   var abFetch = Promise.race([
@@ -3043,16 +2000,12 @@ function loadData() {
     fetch(CBLIVE_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
     new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
   ]);
-  var apLiveFetch = Promise.race([
-    fetch(APLIVE_URL + bust).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }),
-    new Promise(function(resolve){ setTimeout(function(){ resolve(null); }, 4000); })
-  ]);
 
-  // results index: 0=CB, 1=NB, 2=NB2, 3=NB3, 4=NC, 5=AP, 6=CB2, 7=CB3, 8=NCB, 9=AB, 10=CBLIVE, 11=APLIVE, 12=NB4
+  // results index: 0=CB, 1=NB, 2=NB2, 3=NB3, 4=CB2, 5=AB, 6=CBLIVE, 7=NB4
   Promise.all([
     fetch(CB_URL  + bust).then(function(r){ if(!r.ok) throw new Error('ClaudeBot HTTP ' + r.status); return r.json(); }),
     fetch(NB_URL  + bust).then(function(r){ if(!r.ok) throw new Error('NoBot HTTP ' + r.status); return r.json(); }),
-    nb2Fetch, nb3Fetch, ncFetch, apFetch, cb2Fetch, cb3Fetch, ncbFetch, abFetch, cbLiveFetch, apLiveFetch, nb4Fetch
+    nb2Fetch, nb3Fetch, cb2Fetch, abFetch, cbLiveFetch, nb4Fetch
   ]).then(function(results) {
     renderCB(results[0]);
     renderNB(results[1]);
@@ -3073,47 +2026,18 @@ function loadData() {
       document.getElementById('nb3-wr').textContent   = '—';
       document.getElementById('nb3-open').textContent = '—';
     }
-    if (results[4]) {
-      renderNC(results[4]);
-    } else {
-      document.getElementById('nc-bank').textContent      = 'Not live yet';
-      document.getElementById('nc-pnl').textContent       = '—';
-      document.getElementById('nc-wr').textContent        = '—';
-      document.getElementById('nc-open').textContent      = '—';
-      document.getElementById('nc-potential').textContent = '—';
-      document.getElementById('nc-open-table').innerHTML  = '<div class="empty">Push nearcertain_log.json to the repo to enable tracking</div>';
-    }
-    if (results[5]) {
-      renderAP(results[5]);
-    } else {
-      document.getElementById('ap-bank').textContent      = 'Not live yet';
-      document.getElementById('ap-pnl').textContent       = '—';
-      document.getElementById('ap-wr').textContent        = '—';
-      document.getElementById('ap-open').textContent      = '—';
-      document.getElementById('ap-potential').textContent = '—';
-      document.getElementById('ap-open-table').innerHTML  = '<div class="empty">Signals arrive from NearCertain — push alpha_prime_log.json to enable</div>';
-    }
-    if (results[6]) { renderCB2(results[6]); } else {
+    if (results[4]) { renderCB2(results[4]); } else {
       document.getElementById('cb2-bank').textContent = 'Not live yet';
       document.getElementById('cb2-pnl').textContent  = '—'; document.getElementById('cb2-wr').textContent = '—';
     }
-    if (results[7]) { renderCB3(results[7]); } else {
-      document.getElementById('cb3-bank').textContent = 'Not live yet';
-      document.getElementById('cb3-pnl').textContent  = '—'; document.getElementById('cb3-wr').textContent = '—';
-    }
-    if (results[8]) { renderNCB(results[8]); } else {
-      document.getElementById('ncb-bank').textContent = 'Not live yet';
-      document.getElementById('ncb-pnl').textContent  = '—'; document.getElementById('ncb-wr').textContent = '—';
-    }
-    if (results[9]) { renderAB(results[9]); } else {
+    if (results[5]) { renderAB(results[5]); } else {
       document.getElementById('ab-bank').textContent  = 'Not live yet';
       document.getElementById('ab-pnl').textContent   = '—'; document.getElementById('ab-wr').textContent = '—';
       document.getElementById('ab-open-table').innerHTML = '<div class="empty">Push assetbot_log.json to the repo to enable tracking</div>';
     }
-    renderCBLive(results[10]);
-    renderAPLive(results[11]);
-    if (results[12]) { renderNBV4(results[12]); }
-    renderProjections(results[0], results[1], results[2], results[3], results[4], results[5]);
+    renderCBLive(results[6]);
+    if (results[7]) { renderNBV4(results[7]); }
+    renderProjections(results[0], results[1], results[2], results[3]);
 
     var now = new Date();
     dot.className    = 'status-dot';
