@@ -1,5 +1,5 @@
 {
-  "bankroll": 1214.36,
+  "bankroll": 1205.25,
   "trades": [
     {
       "id": "NB1776304868",
@@ -8000,11 +8000,31 @@
       "placed_at": "2026-05-11T05:52:11.893659+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778478991",
+      "market_id": "2206328",
+      "market_slug": "highest-temperature-in-amsterdam-on-may-11-2026-11c",
+      "market": "Will the highest temperature in Amsterdam be 11\u00b0C on May 11?",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 9.11,
+      "payout_if_wins": 17.52,
+      "profit_if_wins": 8.41,
+      "category": "weather",
+      "closes_in_days": 0.25,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "volume": 3200.2022890000003,
+      "status": "open",
+      "placed_at": "2026-05-11T05:56:31.484652+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
   "daily_loss": 21.28,
   "daily_reset": "2026-05-11",
-  "scan_count": 717,
+  "scan_count": 718,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-11T04:38:24.537751+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
