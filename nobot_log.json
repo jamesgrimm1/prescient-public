@@ -1,5 +1,5 @@
 {
-  "bankroll": 965.59,
+  "bankroll": 965.86,
   "trades": [
     {
       "id": "NB1776304868",
@@ -12226,10 +12226,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-08T12:00:00+00:00",
       "volume": 5761.2484620000005,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T01:55:00.410273+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": false,
+      "resolved_at": "2026-05-11T08:59:06.437783+00:00",
+      "realized_pnl": -4.14
     },
     {
       "id": "NB1778205300",
@@ -12315,10 +12318,13 @@
       "closes_in_days": 0.35,
       "closes": "2026-05-08T12:00:00+00:00",
       "volume": 9553.277780999982,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T03:39:41.563435+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-11T08:59:06.645113+00:00",
+      "realized_pnl": 3.21
     },
     {
       "id": "NB1778211581",
@@ -12930,10 +12936,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-10T12:00:00+00:00",
       "volume": 8978.244480000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T01:50:14.196252+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": false,
+      "resolved_at": "2026-05-11T08:59:07.028865+00:00",
+      "realized_pnl": -3.21
     },
     {
       "id": "NB1778377814",
@@ -13157,10 +13166,13 @@
       "closes_in_days": 0.11,
       "closes": "2026-05-10T12:00:00+00:00",
       "volume": 3400.431808000004,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T09:21:18.847408+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": false,
+      "resolved_at": "2026-05-11T08:59:07.205520+00:00",
+      "realized_pnl": -4.07
     },
     {
       "id": "NB1778452537",
@@ -13200,10 +13212,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 7766.111445000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T01:58:06.562449+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-11T08:59:07.236410+00:00",
+      "realized_pnl": 2.94
     },
     {
       "id": "NB1778464686",
@@ -13444,11 +13459,91 @@
       "placed_at": "2026-05-11T05:56:11.992159+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778489956",
+      "market_id": "2206029",
+      "market_slug": "highest-temperature-in-ankara-on-may-11-2026-21c",
+      "market": "Will the highest temperature in Ankara be 21\u00b0C on May 11?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 2.06,
+      "payout_if_wins": 4.29,
+      "profit_if_wins": 2.23,
+      "category": "weather",
+      "closes_in_days": 0.13,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "volume": 5782.649894999998,
+      "status": "open",
+      "placed_at": "2026-05-11T08:59:16.332448+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778489956",
+      "market_id": "2206265",
+      "market_slug": "highest-temperature-in-los-angeles-on-may-11-2026-68-69f",
+      "market": "Will the highest temperature in Los Angeles be between 68-69\u00b0F on May 11?",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 4.05,
+      "payout_if_wins": 6.53,
+      "profit_if_wins": 2.48,
+      "category": "weather",
+      "closes_in_days": 0.13,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "volume": 4648.806847000001,
+      "status": "open",
+      "placed_at": "2026-05-11T08:59:16.332507+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778489956",
+      "market_id": "2206030",
+      "market_slug": "highest-temperature-in-ankara-on-may-11-2026-22c",
+      "market": "Will the highest temperature in Ankara be 22\u00b0C on May 11?",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 4.04,
+      "payout_if_wins": 6.73,
+      "profit_if_wins": 2.69,
+      "category": "weather",
+      "closes_in_days": 0.13,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "volume": 4001.3326210000037,
+      "status": "open",
+      "placed_at": "2026-05-11T08:59:16.332535+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778489956",
+      "market_id": "2206231",
+      "market_slug": "highest-temperature-in-austin-on-may-11-2026-78-79f",
+      "market": "Will the highest temperature in Austin be between 78-79\u00b0F on May 11?",
+      "position": "NO",
+      "entry_no_price": 55,
+      "entry_yes_price": 45,
+      "stake": 3.0,
+      "payout_if_wins": 5.45,
+      "profit_if_wins": 2.45,
+      "category": "weather",
+      "closes_in_days": 0.13,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "volume": 3911.1168759999996,
+      "status": "open",
+      "placed_at": "2026-05-11T08:59:16.332563+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
-  "daily_loss": 10.37,
+  "daily_loss": 21.79,
   "daily_reset": "2026-05-11",
-  "scan_count": 476,
+  "scan_count": 477,
   "started": "2026-04-16T00:00:00+00:00",
-  "last_summary_sent": "2026-05-10T20:36:38.043229+00:00"
+  "last_summary_sent": "2026-05-11T08:59:04.225916+00:00"
 }

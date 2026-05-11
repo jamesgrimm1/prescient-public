@@ -1,5 +1,5 @@
 {
-  "bankroll": 564.22,
+  "bankroll": 566.68,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -1925,11 +1925,15 @@
       "closes": "2026-05-11T12:00:00+00:00",
       "closes_in_days": 0.42,
       "volume": 7766.111445000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T01:58:15.260718+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778464695"
+      "v2_trade_id": "NB1778464695",
+      "won": true,
+      "realized_pnl": 16.33,
+      "resolved_at": "2026-05-11T08:59:18.013222+00:00",
+      "resolution_source": "v2_log"
     },
     {
       "id": "V420260511015815263389",
@@ -2161,9 +2165,72 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1778478980"
+    },
+    {
+      "id": "V420260511085925438196",
+      "market_id": "2206265",
+      "market": "Will the highest temperature in Los Angeles be between 68-69\u00b0F on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 11.71,
+      "v2_stake": 4.62,
+      "potential_profit": 7.18,
+      "potential_payout": 18.89,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.13,
+      "volume": 4648.806847000001,
+      "status": "open",
+      "placed_at": "2026-05-11T08:59:25.438210+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778489965"
+    },
+    {
+      "id": "V420260511085925440338",
+      "market_id": "2206030",
+      "market": "Will the highest temperature in Ankara be 22\u00b0C on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 11.46,
+      "v2_stake": 4.6,
+      "potential_profit": 7.64,
+      "potential_payout": 19.1,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.13,
+      "volume": 4001.3326210000037,
+      "status": "open",
+      "placed_at": "2026-05-11T08:59:25.440349+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778489965"
+    },
+    {
+      "id": "V420260511085925442339",
+      "market_id": "2206231",
+      "market": "Will the highest temperature in Austin be between 78-79\u00b0F on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 55,
+      "entry_yes_price": 45,
+      "stake": 8.39,
+      "v2_stake": 3.42,
+      "potential_profit": 6.86,
+      "potential_payout": 15.25,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.13,
+      "volume": 3911.1168759999996,
+      "status": "open",
+      "placed_at": "2026-05-11T08:59:25.442348+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778489965"
     }
   ],
-  "scan_count": 78,
+  "scan_count": 79,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
