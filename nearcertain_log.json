@@ -1,5 +1,5 @@
 {
-  "bankroll": 357.36,
+  "bankroll": 350.26,
   "trades": [
     {
       "id": "NC20260421112916998448",
@@ -13339,10 +13339,13 @@
       "potential_payout": 59.9,
       "closes": "2026-05-11T00:35:00+00:00",
       "closes_in_days": 0.196,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T19:52:21.961078+00:00",
       "paper": true,
-      "model": "nearcertain"
+      "model": "nearcertain",
+      "won": false,
+      "resolved_at": "2026-05-11T01:58:29.703032+00:00",
+      "realized_pnl": -5.99
     },
     {
       "id": "NC20260510195221961401",
@@ -13505,10 +13508,64 @@
       "placed_at": "2026-05-10T22:36:04.205112+00:00",
       "paper": true,
       "model": "nearcertain"
+    },
+    {
+      "id": "NC20260511015837809936",
+      "market_id": "2206042",
+      "market": "Will the highest temperature in Wellington be 12\u00b0C on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 14,
+      "entry_yes_price": 86,
+      "stake": 3.57,
+      "potential_profit": 21.93,
+      "potential_payout": 25.5,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.418,
+      "status": "open",
+      "placed_at": "2026-05-11T01:58:37.809962+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260511015837810505",
+      "market_id": "2206090",
+      "market": "Will the highest temperature in Tokyo be 25\u00b0C or higher on May 11?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 22,
+      "entry_yes_price": 78,
+      "stake": 1.77,
+      "potential_profit": 6.28,
+      "potential_payout": 8.05,
+      "closes": "2026-05-11T12:00:00+00:00",
+      "closes_in_days": 0.418,
+      "status": "open",
+      "placed_at": "2026-05-11T01:58:37.810528+00:00",
+      "paper": true,
+      "model": "nearcertain"
+    },
+    {
+      "id": "NC20260511015837810814",
+      "market_id": "2182330",
+      "market": "Will Elon Musk post <40 tweets from May 9 to May 11, 2026?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 24,
+      "entry_yes_price": 76,
+      "stake": 1.76,
+      "potential_profit": 5.57,
+      "potential_payout": 7.33,
+      "closes": "2026-05-11T16:00:00+00:00",
+      "closes_in_days": 0.584,
+      "status": "open",
+      "placed_at": "2026-05-11T01:58:37.810833+00:00",
+      "paper": true,
+      "model": "nearcertain"
     }
   ],
-  "daily_loss": 95.28,
-  "daily_reset": "2026-05-10",
-  "scan_count": 382,
+  "daily_loss": 5.99,
+  "daily_reset": "2026-05-11",
+  "scan_count": 383,
   "started": "2026-04-21T00:00:00+00:00"
 }
