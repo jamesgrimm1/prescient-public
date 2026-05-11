@@ -1,5 +1,5 @@
 {
-  "bankroll": 1109.67,
+  "bankroll": 1116.1,
   "trades": [
     {
       "id": "NB1776304868",
@@ -13317,10 +13317,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 7261.477945999996,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T01:58:15.262886+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": true,
+      "resolved_at": "2026-05-11T17:48:37.525343+00:00",
+      "realized_pnl": 4.71
     },
     {
       "id": "NB1778464695",
@@ -13337,10 +13340,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 6250.757927000004,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T01:58:15.265362+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-11T17:48:37.584427+00:00",
+      "realized_pnl": -6.94
     },
     {
       "id": "NB1778464695",
@@ -13420,10 +13426,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 4003.1455640000017,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T01:58:15.275418+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-11T17:48:37.730187+00:00",
+      "realized_pnl": -3.43
     },
     {
       "id": "NB1778464695",
@@ -13440,10 +13449,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 3629.3119860000006,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T01:58:15.277946+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-11T17:48:37.776037+00:00",
+      "realized_pnl": -2.31
     },
     {
       "id": "NB1778478980",
@@ -13693,11 +13705,31 @@
       "placed_at": "2026-05-11T15:34:34.589799+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778521726",
+      "market_id": "2188938",
+      "market_slug": "wti-closes-above-99-on-may-11-2026",
+      "market": "WTI Crude Oil (WTI) closes above $99 on May 11?",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 5.35,
+      "payout_if_wins": 10.29,
+      "profit_if_wins": 4.94,
+      "category": "other",
+      "closes_in_days": 0.13,
+      "closes": "2026-05-11T21:00:00+00:00",
+      "volume": 56435.58836299999,
+      "status": "open",
+      "placed_at": "2026-05-11T17:48:46.452989+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
-  "daily_loss": 32.6,
+  "daily_loss": 45.28,
   "daily_reset": "2026-05-11",
-  "scan_count": 484,
+  "scan_count": 485,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-11T08:59:16.900276+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
