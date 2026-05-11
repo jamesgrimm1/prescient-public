@@ -2175,14 +2175,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260511225147919619",
+      "market_id": "2203021",
+      "market_slug": "nvda-above-215-on-may-15-2026",
+      "market": "Will NVIDIA (NVDA) finish week of May 11 above $215?",
+      "category": "stocks",
+      "position": "NO",
+      "entry_price": 30.0,
+      "market_yes_price": 70.0,
+      "market_no_price": 30.0,
+      "final_yes_probability": 67.0,
+      "preferred_edge": 3.0,
+      "confidence": 45.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 33.33,
+      "closes": "2026-05-15T20:00:00+00:00",
+      "closes_in_days": 3.88,
+      "created_at": "2026-05-11T22:51:47.919639+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 88,
+    "total_shadow": 89,
     "would_have_won": 5,
     "would_have_lost": 11,
     "missed_profit": 51.23,
     "correct_rejections": 110.0
   },
-  "last_updated": "2026-05-11T21:16:53.721253+00:00"
+  "last_updated": "2026-05-11T22:51:47.919644+00:00"
 }
