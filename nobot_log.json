@@ -1,5 +1,5 @@
 {
-  "bankroll": 965.86,
+  "bankroll": 975.76,
   "trades": [
     {
       "id": "NB1776304868",
@@ -13275,10 +13275,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 5537.591820999999,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T01:58:06.562609+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-11T12:10:02.974384+00:00",
+      "realized_pnl": 2.62
     },
     {
       "id": "NB1778464686",
@@ -13375,10 +13378,13 @@
       "closes_in_days": 0.25,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 4503.408961999998,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T05:56:11.991962+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-11T12:10:03.214912+00:00",
+      "realized_pnl": 3.17
     },
     {
       "id": "NB1778478971",
@@ -13539,11 +13545,31 @@
       "placed_at": "2026-05-11T08:59:16.332563+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778501413",
+      "market_id": "1194310",
+      "market_slug": "will-portugal-advance-through-the-first-eurovision-semi-final",
+      "market": "Will Portugal advance through the first Eurovision Semi-Final?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 4.02,
+      "payout_if_wins": 7.18,
+      "profit_if_wins": 3.16,
+      "category": "other",
+      "closes_in_days": 0.49,
+      "closes": "2026-05-12T00:00:00+00:00",
+      "volume": 40254.00764100003,
+      "status": "open",
+      "placed_at": "2026-05-11T12:10:13.472149+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 21.79,
   "daily_reset": "2026-05-11",
-  "scan_count": 477,
+  "scan_count": 478,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-11T08:59:04.225916+00:00"
 }
