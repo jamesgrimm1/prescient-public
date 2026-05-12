@@ -1,5 +1,5 @@
 {
-  "bankroll": 975.55,
+  "bankroll": 997.58,
   "trades": [
     {
       "id": "NB1776304868",
@@ -587,10 +587,13 @@
       "closes": "2026-04-30T00:00:00+00:00",
       "volume": 64820.05231299994,
       "exit_target": 90,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-04-16T10:08:54.456180+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-12T16:12:42.505929+00:00",
+      "realized_pnl": 4.72
     },
     {
       "id": "NB1776340403",
@@ -1493,10 +1496,13 @@
       "closes": "2026-04-30T00:00:00+00:00",
       "volume": 36681.961842000004,
       "exit_target": 90,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-04-17T18:45:06.243157+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-12T16:12:42.932591+00:00",
+      "realized_pnl": 1.4
     },
     {
       "id": "NB1776455579",
@@ -1586,10 +1592,13 @@
       "closes": "2026-04-30T00:00:00+00:00",
       "volume": 99185.98060199995,
       "exit_target": 90,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-04-17T23:31:48.925539+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-12T16:12:43.077061+00:00",
+      "realized_pnl": 4.25
     },
     {
       "id": "NB1776468708",
@@ -13841,10 +13850,13 @@
       "closes_in_days": 0.27,
       "closes": "2026-05-12T12:00:00+00:00",
       "volume": 8705.706101999995,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T05:30:37.530761+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-12T16:12:44.127946+00:00",
+      "realized_pnl": 2.49
     },
     {
       "id": "NB1778563837",
@@ -14114,11 +14126,31 @@
       "placed_at": "2026-05-12T08:48:35.322446+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778602389",
+      "market_id": "2229842",
+      "market_slug": "wti-closes-above-102-on-may-12-2026",
+      "market": "WTI Crude Oil (WTI) closes above $102 on May 12?",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 4.16,
+      "payout_if_wins": 6.93,
+      "profit_if_wins": 2.77,
+      "category": "other",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-12T21:00:00+00:00",
+      "volume": 3570.5386980000003,
+      "status": "open",
+      "placed_at": "2026-05-12T16:13:09.667900+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 19.49,
   "daily_reset": "2026-05-12",
-  "scan_count": 492,
+  "scan_count": 493,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-12T11:02:47.665765+00:00"
 }
