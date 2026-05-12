@@ -2371,14 +2371,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260512085810572266",
+      "market_id": "2227244",
+      "market_slug": "will-ethereum-reach-2400-may-11-17",
+      "market": "Will Ethereum reach $2,400 May 11-17?",
+      "category": "crypto",
+      "position": "NO",
+      "entry_price": 60.5,
+      "market_yes_price": 39.5,
+      "market_no_price": 60.5,
+      "final_yes_probability": 69.8,
+      "preferred_edge": 1.5,
+      "confidence": 35.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 16.53,
+      "closes": "2026-05-18T04:00:00+00:00",
+      "closes_in_days": 5.8,
+      "created_at": "2026-05-12T08:58:10.572299+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 95,
+    "total_shadow": 96,
     "would_have_won": 8,
     "would_have_lost": 15,
     "missed_profit": 55.42,
     "correct_rejections": 150.0
   },
-  "last_updated": "2026-05-12T08:29:58.478145+00:00"
+  "last_updated": "2026-05-12T08:58:10.572305+00:00"
 }
