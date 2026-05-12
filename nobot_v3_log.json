@@ -1,5 +1,5 @@
 {
-  "bankroll": 1193.35,
+  "bankroll": 1202.56,
   "trades": [
     {
       "id": "NB1776304868",
@@ -7989,10 +7989,13 @@
       "closes_in_days": 0.31,
       "closes": "2026-05-11T12:00:00+00:00",
       "volume": 3865.033067999997,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-11T04:38:34.761431+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-12T07:17:34.542059+00:00",
+      "realized_pnl": 2.83
     },
     {
       "id": "NB1778474314",
@@ -8184,10 +8187,13 @@
       "closes_in_days": 0.49,
       "closes": "2026-05-12T12:00:00+00:00",
       "volume": 5289.958227000003,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T00:14:26.801206+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-12T07:17:34.756285+00:00",
+      "realized_pnl": 2.86
     },
     {
       "id": "NB1778544866",
@@ -8244,10 +8250,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-12T12:00:00+00:00",
       "volume": 3992.665763,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T01:55:27.269489+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": false,
+      "resolved_at": "2026-05-12T07:17:34.901188+00:00",
+      "realized_pnl": -9.22
     },
     {
       "id": "NB1778550927",
@@ -8264,10 +8273,13 @@
       "closes_in_days": 0.42,
       "closes": "2026-05-12T12:00:00+00:00",
       "volume": 3420.9754809999995,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T01:55:27.269519+00:00",
       "paper": true,
-      "model": "nobot-v3-weather"
+      "model": "nobot-v3-weather",
+      "won": true,
+      "resolved_at": "2026-05-12T07:17:34.973761+00:00",
+      "realized_pnl": 5.62
     },
     {
       "id": "NB1778550927",
@@ -8348,11 +8360,51 @@
       "placed_at": "2026-05-12T05:30:52.692650+00:00",
       "paper": true,
       "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778570261",
+      "market_id": "2219821",
+      "market_slug": "highest-temperature-in-tel-aviv-on-may-12-2026-34corhigher",
+      "market": "Will the highest temperature in Tel Aviv be 34\u00b0C or higher on May 12?",
+      "position": "NO",
+      "entry_no_price": 46,
+      "entry_yes_price": 54,
+      "stake": 9.16,
+      "payout_if_wins": 19.91,
+      "profit_if_wins": 10.75,
+      "category": "weather",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-12T12:00:00+00:00",
+      "volume": 4031.619403000001,
+      "status": "open",
+      "placed_at": "2026-05-12T07:17:41.672903+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
+    },
+    {
+      "id": "NB1778570261",
+      "market_id": "2219749",
+      "market_slug": "highest-temperature-in-miami-on-may-12-2026-88-89f",
+      "market": "Will the highest temperature in Miami be between 88-89\u00b0F on May 12?",
+      "position": "NO",
+      "entry_no_price": 52,
+      "entry_yes_price": 48,
+      "stake": 9.09,
+      "payout_if_wins": 17.48,
+      "profit_if_wins": 8.39,
+      "category": "weather",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-12T12:00:00+00:00",
+      "volume": 3875.3056390000056,
+      "status": "open",
+      "placed_at": "2026-05-12T07:17:41.672950+00:00",
+      "paper": true,
+      "model": "nobot-v3-weather"
     }
   ],
-  "daily_loss": 27.6,
+  "daily_loss": 36.82,
   "daily_reset": "2026-05-12",
-  "scan_count": 739,
+  "scan_count": 740,
   "started": "2026-04-16T02:01:08.863467+00:00",
   "last_summary_sent": "2026-05-12T05:30:46.360278+00:00",
   "note": "V3 weather-only. Stakes recalculated at V3 tiers from original V1 weather trades."
