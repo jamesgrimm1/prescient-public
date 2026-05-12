@@ -13539,7 +13539,7 @@
       "paper": true,
       "model": "nobot-mechanical",
       "won": true,
-      "resolved_at": "2026-05-12T11:10:45.289818+00:00",
+      "resolved_at": "2026-05-12T11:02:50.551533+00:00",
       "realized_pnl": 2.48
     },
     {
@@ -14115,7 +14115,7 @@
   ],
   "daily_loss": 19.49,
   "daily_reset": "2026-05-12",
-  "scan_count": 490,
+  "scan_count": 491,
   "started": "2026-04-16T00:00:00+00:00",
-  "last_summary_sent": "2026-05-12T11:10:43.449208+00:00"
+  "last_summary_sent": "2026-05-12T11:02:47.665765+00:00"
 }

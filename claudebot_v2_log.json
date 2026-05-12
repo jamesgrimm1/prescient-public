@@ -1,5 +1,5 @@
 {
-  "bankroll": 474.3,
+  "bankroll": 464.81,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -649,11 +649,48 @@
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
       "paper_bankroll_at_placement": 484.18
+    },
+    {
+      "id": "V2_1778588079",
+      "tier": 1,
+      "market_id": "2229844",
+      "market_slug": "wti-closes-above-100-on-may-12-2026",
+      "market": "WTI Crude Oil (WTI) closes above $100 on May 12?",
+      "position": "NO",
+      "entry_price": 25.0,
+      "stake": 9.49,
+      "potential_return": 37.96,
+      "potential_profit": 28.47,
+      "confidence": 68.0,
+      "true_prob": 54.62,
+      "market_prob": 75.0,
+      "side_win_probability": 45.38,
+      "edge_pct": 20.38,
+      "category": "commodities",
+      "closes_in_days": 0.37,
+      "closes": "2026-05-12T21:00:00+00:00",
+      "research_summary": "WTI at $101.35, already 1.35% above threshold with ~12hrs remaining. Geopolitical support from drone attacks/ceasefire risk. 75\u00a2 underprices ~83% true probability.",
+      "key_factors": [
+        "Current price $1.35 above threshold",
+        "CPI data imminent at 12:30 UTC \u2014 major event risk",
+        "Geopolitical tailwinds from Middle East tensions",
+        "Short hold duration in AVOID zone"
+      ],
+      "bear_case": "CPI release in 18 minutes could trigger sharp dollar rally on hot inflation print, pushing oil below $100. 6-12hr hold duration has 33% WR historically.",
+      "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
+      "openai_used": true,
+      "red_team_veto": false,
+      "status": "open",
+      "placed_at": "2026-05-12T12:14:39.485036+00:00",
+      "paper": true,
+      "live_trading_disabled": true,
+      "model": "claude-opus-4-6+gpt-4.1-mini",
+      "paper_bankroll_at_placement": 474.3
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-12",
-  "scan_count": 226,
+  "scan_count": 227,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
