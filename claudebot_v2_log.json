@@ -1,5 +1,5 @@
 {
-  "bankroll": 423.62,
+  "bankroll": 415.15,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -680,12 +680,15 @@
       "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
       "openai_used": true,
       "red_team_veto": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T12:14:39.485036+00:00",
       "paper": true,
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
-      "paper_bankroll_at_placement": 474.3
+      "paper_bankroll_at_placement": 474.3,
+      "won": false,
+      "resolved_at": "2026-05-12T23:51:16.032701+00:00",
+      "realized_pnl": -9.49
     },
     {
       "id": "V2_1778594242",
@@ -759,11 +762,48 @@
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
       "paper_bankroll_at_placement": 432.27
+    },
+    {
+      "id": "V2_1778630089",
+      "tier": 1,
+      "market_id": "2168917",
+      "market_slug": "will-melania-trump-attend-trumps-xi-summit",
+      "market": "Will Melania Trump attend Trump's Xi summit?",
+      "position": "YES",
+      "entry_price": 3.05,
+      "stake": 8.47,
+      "potential_return": 277.7,
+      "potential_profit": 269.23,
+      "confidence": 68.0,
+      "true_prob": 57.31,
+      "market_prob": 3.05,
+      "side_win_probability": 57.31,
+      "edge_pct": 54.26,
+      "category": "politics",
+      "closes_in_days": 4.01,
+      "closes": "2026-05-17T00:00:00+00:00",
+      "research_summary": "Wikipedia (updated 2 hours ago) explicitly states Melania is on the May 12-15 state visit to China. The trip is currently underway. Market at 3.05\u00a2 YES is extraordinarily mispriced if the Wikipedia sourcing is accurate. Even with significant resolution-criteria uncertainty, this represents massive potential edge.",
+      "key_factors": [
+        "Wikipedia confirms she is on the trip (2hr ago)",
+        "Trip already underway May 12-15",
+        "3\u00a2 YES implies ~97% NO which conflicts with evidence",
+        "Resolution criteria ambiguity is the main risk"
+      ],
+      "bear_case": "Resolution criteria may require specific photographic/video evidence of Melania at a formal meeting WITH Xi, not just being on the trip. She could be present in China but skip the actual summit meetings due to health, scheduling, or preference. Wikipedia could be citing scheduled plans that changed.",
+      "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
+      "openai_used": true,
+      "red_team_veto": false,
+      "status": "open",
+      "placed_at": "2026-05-12T23:54:49.860172+00:00",
+      "paper": true,
+      "live_trading_disabled": true,
+      "model": "claude-opus-4-6+gpt-4.1-mini",
+      "paper_bankroll_at_placement": 423.62
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 9.49,
   "daily_reset": "2026-05-12",
-  "scan_count": 232,
+  "scan_count": 233,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
