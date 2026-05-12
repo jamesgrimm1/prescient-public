@@ -1,5 +1,5 @@
 {
-  "bankroll": 464.81,
+  "bankroll": 432.27,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -686,11 +686,47 @@
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
       "paper_bankroll_at_placement": 474.3
+    },
+    {
+      "id": "V2_1778594242",
+      "tier": 1,
+      "market_id": "2240479",
+      "market_slug": "meta-close-above-590-on-may-13-2026",
+      "market": "Will Meta (META) close above $590 on May 13?",
+      "position": "NO",
+      "entry_price": 25.0,
+      "stake": 32.54,
+      "potential_return": 130.16,
+      "potential_profit": 97.62,
+      "confidence": 75.0,
+      "true_prob": 54.62,
+      "market_prob": 75.0,
+      "side_win_probability": 45.38,
+      "edge_pct": 20.38,
+      "category": "stocks",
+      "closes_in_days": 1.25,
+      "closes": "2026-05-13T20:00:00+00:00",
+      "research_summary": "META at $600.18, ~1.7% above threshold. Today's low was $592.60 (still above $590). CPI data already reflected in price. Market at 75\u00a2 underprices YES by ~10\u00a2.",
+      "key_factors": [
+        "$10.18 buffer above threshold",
+        "CPI already priced in",
+        "Full trading day tomorrow adds volatility risk"
+      ],
+      "bear_case": "Tomorrow could bring negative news, sector rotation, or broader selloff; today's intraday dip to $592.60 shows $590 is reachable.",
+      "decision_reason": "TRADE_EDGE_AND_CONF_PASS",
+      "openai_used": true,
+      "red_team_veto": false,
+      "status": "open",
+      "placed_at": "2026-05-12T13:57:22.026035+00:00",
+      "paper": true,
+      "live_trading_disabled": true,
+      "model": "claude-opus-4-6+gpt-4.1-mini",
+      "paper_bankroll_at_placement": 464.81
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-12",
-  "scan_count": 227,
+  "scan_count": 228,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
