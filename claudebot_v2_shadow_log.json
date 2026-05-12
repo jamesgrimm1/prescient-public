@@ -2271,14 +2271,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260512020252709702",
+      "market_id": "1390374",
+      "market_slug": "will-finland-be-in-the-top-5-at-eurovision-2026",
+      "market": "Will Finland be in the top 5 at Eurovision 2026?",
+      "category": "other",
+      "position": "NO",
+      "entry_price": 12.0,
+      "market_yes_price": 88.0,
+      "market_no_price": 12.0,
+      "final_yes_probability": 60.3,
+      "preferred_edge": 6.0,
+      "confidence": 40.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 83.33,
+      "closes": "2026-05-16T00:00:00+00:00",
+      "closes_in_days": 3.92,
+      "created_at": "2026-05-12T02:02:52.709741+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 91,
+    "total_shadow": 92,
     "would_have_won": 8,
     "would_have_lost": 14,
     "missed_profit": 55.42,
     "correct_rejections": 140.0
   },
-  "last_updated": "2026-05-11T23:53:14.332204+00:00"
+  "last_updated": "2026-05-12T02:02:52.709746+00:00"
 }
