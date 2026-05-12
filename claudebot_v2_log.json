@@ -1,5 +1,5 @@
 {
-  "bankroll": 432.27,
+  "bankroll": 423.62,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -722,11 +722,48 @@
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
       "paper_bankroll_at_placement": 464.81
+    },
+    {
+      "id": "V2_1778610980",
+      "tier": 1,
+      "market_id": "2159866",
+      "market_slug": "will-trump-say-tariff-during-events-with-xi-jinping",
+      "market": "Will Trump say \"Tariff\" during events with Xi Jinping?",
+      "position": "NO",
+      "entry_price": 29.5,
+      "stake": 8.65,
+      "potential_return": 29.32,
+      "potential_profit": 20.67,
+      "confidence": 68.0,
+      "true_prob": 55.81,
+      "market_prob": 70.5,
+      "side_win_probability": 44.19,
+      "edge_pct": 14.69,
+      "category": "politics",
+      "closes_in_days": 2.23,
+      "closes": "2026-05-15T00:00:00+00:00",
+      "research_summary": "Market at 70.5\u00a2 appears underpriced. Tariffs are THE central issue of US-China relations; Trump uses the word obsessively; multiple sources confirm tariffs are an explicit agenda item. Xi's own team referenced 'tariff levels.' ~17 cent potential edge.",
+      "key_factors": [
+        "Tariffs confirmed as central agenda item",
+        "Trump's documented pattern of using the word 'tariff' constantly",
+        "Resolution definition of 'events' is key risk",
+        "Politics category 60% WR \u2014 moderate"
+      ],
+      "bear_case": "Resolution criteria may narrowly define 'events with Xi Jinping' \u2014 if only formal ceremonies with no press availability, Trump might not use the exact word. Summit could be highly scripted to project harmony. Definition of 'events' is a resolution risk trap.",
+      "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
+      "openai_used": true,
+      "red_team_veto": false,
+      "status": "open",
+      "placed_at": "2026-05-12T18:36:20.855414+00:00",
+      "paper": true,
+      "live_trading_disabled": true,
+      "model": "claude-opus-4-6+gpt-4.1-mini",
+      "paper_bankroll_at_placement": 432.27
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-12",
-  "scan_count": 229,
+  "scan_count": 230,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",

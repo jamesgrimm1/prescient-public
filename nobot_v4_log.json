@@ -1,5 +1,5 @@
 {
-  "bankroll": 625.15,
+  "bankroll": 639.6,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -2707,11 +2707,14 @@
       "closes": "2026-05-12T16:00:00+00:00",
       "closes_in_days": 0.32,
       "volume": 4110.987172000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T08:23:00.660653+00:00",
       "paper": true,
       "model": "nobot-v4",
-      "v2_trade_id": "NB1778574180"
+      "v2_trade_id": "NB1778574180",
+      "won": true,
+      "realized_pnl": 6.79,
+      "resolved_at": "2026-05-12T18:30:03.966265+00:00"
     },
     {
       "id": "V420260512082300663772",
@@ -2831,7 +2834,7 @@
       "v2_trade_id": "NB1778602402"
     }
   ],
-  "scan_count": 95,
+  "scan_count": 96,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
