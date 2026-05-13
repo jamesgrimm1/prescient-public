@@ -1,5 +1,5 @@
 {
-  "bankroll": 406.85,
+  "bankroll": 398.71,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -838,11 +838,48 @@
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
       "paper_bankroll_at_placement": 415.15
+    },
+    {
+      "id": "V2_1778716685",
+      "tier": 1,
+      "market_id": "2242130",
+      "market_slug": "wta-parry-paquet-2026-05-13",
+      "market": "Paris: Diane Parry vs Chloe Paquet",
+      "position": "YES",
+      "entry_price": 59.5,
+      "stake": 8.14,
+      "potential_return": 13.68,
+      "potential_profit": 5.54,
+      "confidence": 73.0,
+      "true_prob": 76.25,
+      "market_prob": 59.5,
+      "side_win_probability": 76.25,
+      "edge_pct": 16.75,
+      "category": "other",
+      "closes_in_days": 6.46,
+      "closes": "2026-05-20T11:00:00+00:00",
+      "research_summary": "Match was scheduled for May 13 at 11:15 UTC \u2014 it's now 23:55 UTC, so the match has almost certainly been completed. Parry was a 97% pre-match favorite (WTA 108 vs 277), was leading 3-0 in Set 1 when last checked. Market at 59.5\u00a2 YES is drastically underpriced if Parry won, which is overwhelmingly likely.",
+      "key_factors": [
+        "Match almost certainly completed (12+ hours ago)",
+        "97% pre-match consensus for Parry",
+        "Massive ranking differential (108 vs 277)",
+        "No final result confirmed in data"
+      ],
+      "bear_case": "No confirmed final result in search data. Upsets happen in tennis. If Paquet rallied from 0-3 down (rare but possible), or if the match was suspended/walkover, resolution could differ. Resolution-risk trap without confirmed outcome.",
+      "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
+      "openai_used": true,
+      "red_team_veto": false,
+      "status": "open",
+      "placed_at": "2026-05-13T23:58:05.858314+00:00",
+      "paper": true,
+      "live_trading_disabled": true,
+      "model": "claude-opus-4-6+gpt-4.1-mini",
+      "paper_bankroll_at_placement": 406.85
     }
   ],
   "daily_loss": 32.54,
   "daily_reset": "2026-05-13",
-  "scan_count": 245,
+  "scan_count": 246,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",

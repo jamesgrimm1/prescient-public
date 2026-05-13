@@ -1,5 +1,5 @@
 {
-  "bankroll": 1018.33,
+  "bankroll": 1029.63,
   "trades": [
     {
       "id": "NB1776304868",
@@ -14471,10 +14471,13 @@
       "closes_in_days": 0.4,
       "closes": "2026-05-13T21:00:00+00:00",
       "volume": 5508.064966000001,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-13T11:25:02.828181+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-13T23:49:25.311084+00:00",
+      "realized_pnl": 2.3
     },
     {
       "id": "NB1778680017",
@@ -14551,15 +14554,18 @@
       "closes_in_days": 0.3,
       "closes": "2026-05-13T21:00:00+00:00",
       "volume": 3594.142537,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-13T13:46:57.424824+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": true,
+      "resolved_at": "2026-05-13T23:49:25.607146+00:00",
+      "realized_pnl": 2.75
     }
   ],
   "daily_loss": 24.76,
   "daily_reset": "2026-05-13",
-  "scan_count": 509,
+  "scan_count": 510,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-13T13:46:47.385618+00:00"
 }
