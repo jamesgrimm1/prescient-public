@@ -1,5 +1,5 @@
 {
-  "bankroll": 489.81,
+  "bankroll": 464.9,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -3088,9 +3088,51 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1778671511"
+    },
+    {
+      "id": "V420260513134708039927",
+      "market_id": "2204606",
+      "market": "Will EagleRock's market cap be between $2.0B and $2.5B at market close on IPO day?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 15.06,
+      "v2_stake": 7.12,
+      "potential_profit": 10.91,
+      "potential_payout": 25.97,
+      "closes": "2026-05-14T00:00:00+00:00",
+      "closes_in_days": 0.43,
+      "volume": 7172.610537,
+      "status": "open",
+      "placed_at": "2026-05-13T13:47:08.039941+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778680028"
+    },
+    {
+      "id": "V420260513134708043599",
+      "market_id": "2240406",
+      "market": "WTI Crude Oil (WTI) closes above $103 on May 13?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 9.85,
+      "v2_stake": 4.78,
+      "potential_profit": 6.57,
+      "potential_payout": 16.42,
+      "closes": "2026-05-13T21:00:00+00:00",
+      "closes_in_days": 0.3,
+      "volume": 3594.142537,
+      "status": "open",
+      "placed_at": "2026-05-13T13:47:08.043612+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778680028"
     }
   ],
-  "scan_count": 104,
+  "scan_count": 105,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
