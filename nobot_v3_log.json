@@ -405,7 +405,7 @@
   ],
   "daily_loss": 3.0,
   "daily_reset": "2026-05-13",
-  "scan_count": 36,
+  "scan_count": 37,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-13T11:12:10.559568+00:00"
 }
