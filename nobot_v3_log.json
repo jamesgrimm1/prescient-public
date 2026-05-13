@@ -1,5 +1,5 @@
 {
-  "bankroll": 95.39,
+  "bankroll": 94.39,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -188,11 +188,33 @@
       "placed_at": "2026-05-13T01:47:10.020469+00:00",
       "paper": true,
       "model": "nobot-v3-filtered"
+    },
+    {
+      "id": "NB3-1778637588",
+      "market_id": "2227657",
+      "market_slug": "highest-temperature-in-chicago-on-may-13-2026-62-63f",
+      "market": "Will the highest temperature in Chicago be between 62-63\u00b0F on May 13?",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 1.0,
+      "payout_if_wins": 1.72,
+      "profit_if_wins": 0.72,
+      "category": "weather",
+      "closes_in_days": 0.42,
+      "closes": "2026-05-13T12:00:00+00:00",
+      "resolution_hour": 12,
+      "volume": 3709.5103109999995,
+      "is_dip_market": false,
+      "status": "open",
+      "placed_at": "2026-05-13T01:59:48.546676+00:00",
+      "paper": true,
+      "model": "nobot-v3-filtered"
     }
   ],
   "daily_loss": 1.0,
   "daily_reset": "2026-05-13",
-  "scan_count": 18,
+  "scan_count": 19,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-12T21:05:30.053487+00:00"
 }

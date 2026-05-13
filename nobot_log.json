@@ -1,5 +1,5 @@
 {
-  "bankroll": 1028.34,
+  "bankroll": 1019.92,
   "trades": [
     {
       "id": "NB1776304868",
@@ -14242,11 +14242,51 @@
       "placed_at": "2026-05-13T01:46:55.743998+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778637566",
+      "market_id": "2227657",
+      "market_slug": "highest-temperature-in-chicago-on-may-13-2026-62-63f",
+      "market": "Will the highest temperature in Chicago be between 62-63\u00b0F on May 13?",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 4.22,
+      "payout_if_wins": 7.28,
+      "profit_if_wins": 3.06,
+      "category": "weather",
+      "closes_in_days": 0.42,
+      "closes": "2026-05-13T12:00:00+00:00",
+      "volume": 3709.5103109999995,
+      "status": "open",
+      "placed_at": "2026-05-13T01:59:26.756363+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778637566",
+      "market_id": "2227541",
+      "market_slug": "highest-temperature-in-paris-on-may-13-2026-14c",
+      "market": "Will the highest temperature in Paris be 14\u00b0C on May 13?",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 4.2,
+      "payout_if_wins": 7.5,
+      "profit_if_wins": 3.3,
+      "category": "weather",
+      "closes_in_days": 0.42,
+      "closes": "2026-05-13T12:00:00+00:00",
+      "volume": 3291.808489000001,
+      "status": "open",
+      "placed_at": "2026-05-13T01:59:26.756413+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
   "daily_loss": 8.1,
   "daily_reset": "2026-05-13",
-  "scan_count": 498,
+  "scan_count": 499,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-12T23:49:31.527420+00:00"
 }

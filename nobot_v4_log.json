@@ -1,5 +1,5 @@
 {
-  "bankroll": 594.47,
+  "bankroll": 570.34,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -2899,9 +2899,51 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1778636822"
+    },
+    {
+      "id": "V420260513015936868992",
+      "market_id": "2227657",
+      "market": "Will the highest temperature in Chicago be between 62-63\u00b0F on May 13?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 12.19,
+      "v2_stake": 4.89,
+      "potential_profit": 8.83,
+      "potential_payout": 21.02,
+      "closes": "2026-05-13T12:00:00+00:00",
+      "closes_in_days": 0.42,
+      "volume": 3709.5103109999995,
+      "status": "open",
+      "placed_at": "2026-05-13T01:59:36.869010+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778637576"
+    },
+    {
+      "id": "V420260513015936872925",
+      "market_id": "2227541",
+      "market": "Will the highest temperature in Paris be 14\u00b0C on May 13?",
+      "category": "weather",
+      "position": "NO",
+      "entry_no_price": 56,
+      "entry_yes_price": 44,
+      "stake": 11.94,
+      "v2_stake": 4.87,
+      "potential_profit": 9.38,
+      "potential_payout": 21.32,
+      "closes": "2026-05-13T12:00:00+00:00",
+      "closes_in_days": 0.42,
+      "volume": 3291.808489000001,
+      "status": "open",
+      "placed_at": "2026-05-13T01:59:36.872936+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778637576"
     }
   ],
-  "scan_count": 100,
+  "scan_count": 101,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
