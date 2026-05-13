@@ -1,5 +1,5 @@
 {
-  "bankroll": 415.15,
+  "bankroll": 406.85,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -799,11 +799,47 @@
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
       "paper_bankroll_at_placement": 423.62
+    },
+    {
+      "id": "V2_1778701099",
+      "tier": 1,
+      "market_id": "2159865",
+      "market_slug": "will-trump-say-friend-of-mine-during-events-with-xi-jinping",
+      "market": "Will Trump say \"Friend of mine\" during events with Xi Jinping?",
+      "position": "NO",
+      "entry_price": 26.0,
+      "stake": 8.3,
+      "potential_return": 31.92,
+      "potential_profit": 23.62,
+      "confidence": 72.0,
+      "true_prob": 55.81,
+      "market_prob": 74.0,
+      "side_win_probability": 44.19,
+      "edge_pct": 18.19,
+      "category": "politics",
+      "closes_in_days": 1.18,
+      "closes": "2026-05-15T00:00:00+00:00",
+      "research_summary": "Trump has already used 'Friend of mine' about Xi multiple times in the last 24 hours per CNN, BBC, NBC. He is currently in China with 1.2 days of summit events remaining. His habitual use of this phrase makes repetition near-certain during formal bilateral events.",
+      "key_factors": [
+        "Already documented using phrase about Xi multiple times May 13",
+        "1.2 days of summit events remaining",
+        "Resolution criteria specificity unclear"
+      ],
+      "bear_case": "Resolution may require the phrase specifically during formal bilateral events, not press scrums or arrival statements. If resolution criteria are strict and the existing quotes don't count, there's a gap. Also, politics category has negative P&L historically.",
+      "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
+      "openai_used": true,
+      "red_team_veto": false,
+      "status": "open",
+      "placed_at": "2026-05-13T19:38:19.145901+00:00",
+      "paper": true,
+      "live_trading_disabled": true,
+      "model": "claude-opus-4-6+gpt-4.1-mini",
+      "paper_bankroll_at_placement": 415.15
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-13",
-  "scan_count": 242,
+  "scan_count": 243,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",

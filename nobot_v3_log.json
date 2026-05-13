@@ -1,5 +1,5 @@
 {
-  "bankroll": 88.0,
+  "bankroll": 91.63,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -165,10 +165,13 @@
       "resolution_hour": 12,
       "volume": 6352.2080190000015,
       "is_dip_market": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-13T01:32:10.245005+00:00",
       "paper": true,
-      "model": "nobot-v3-filtered"
+      "model": "nobot-v3-filtered",
+      "won": false,
+      "resolved_at": "2026-05-13T19:30:07.105174+00:00",
+      "realized_pnl": -1.0
     },
     {
       "id": "NB3-1778636830",
@@ -187,10 +190,13 @@
       "resolution_hour": 12,
       "volume": 3769.875095000002,
       "is_dip_market": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-13T01:47:10.020469+00:00",
       "paper": true,
-      "model": "nobot-v3-filtered"
+      "model": "nobot-v3-filtered",
+      "won": true,
+      "resolved_at": "2026-05-13T19:30:07.206661+00:00",
+      "realized_pnl": 0.67
     },
     {
       "id": "NB3-1778637588",
@@ -231,10 +237,13 @@
       "resolution_hour": 12,
       "volume": 4887.418036000001,
       "is_dip_market": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-13T04:44:05.276929+00:00",
       "paper": true,
-      "model": "nobot-v3-filtered"
+      "model": "nobot-v3-filtered",
+      "won": true,
+      "resolved_at": "2026-05-13T19:30:07.558022+00:00",
+      "realized_pnl": 0.96
     },
     {
       "id": "NB3-1778647445",
@@ -253,10 +262,13 @@
       "resolution_hour": 12,
       "volume": 3807.3009349999998,
       "is_dip_market": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-13T04:44:05.276960+00:00",
       "paper": true,
-      "model": "nobot-v3-filtered"
+      "model": "nobot-v3-filtered",
+      "won": false,
+      "resolved_at": "2026-05-13T19:30:07.829580+00:00",
+      "realized_pnl": -1.0
     },
     {
       "id": "NB3-1778647445",
@@ -391,9 +403,9 @@
       "model": "nobot-v3-filtered"
     }
   ],
-  "daily_loss": 1.0,
+  "daily_loss": 3.0,
   "daily_reset": "2026-05-13",
-  "scan_count": 33,
+  "scan_count": 34,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-13T11:12:10.559568+00:00"
 }
