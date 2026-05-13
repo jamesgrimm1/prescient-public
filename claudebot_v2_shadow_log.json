@@ -3495,14 +3495,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260513230237536384",
+      "market_id": "2242168",
+      "market_slug": "bitcoin-above-80k-on-may-19",
+      "market": "Will the price of Bitcoin be above $80,000 on May 19?",
+      "category": "crypto",
+      "position": "YES",
+      "entry_price": 42.5,
+      "market_yes_price": 42.5,
+      "market_no_price": 57.5,
+      "final_yes_probability": 69.8,
+      "preferred_edge": 4.5,
+      "confidence": 40.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 23.53,
+      "closes": "2026-05-19T16:00:00+00:00",
+      "closes_in_days": 5.71,
+      "created_at": "2026-05-13T23:02:37.536397+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 140,
+    "total_shadow": 141,
     "would_have_won": 13,
     "would_have_lost": 21,
     "missed_profit": 86.81,
     "correct_rejections": 210.0
   },
-  "last_updated": "2026-05-13T21:23:52.406341+00:00"
+  "last_updated": "2026-05-13T23:02:37.536402+00:00"
 }
