@@ -1,5 +1,5 @@
 {
-  "bankroll": 91.0,
+  "bankroll": 89.0,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -323,11 +323,55 @@
       "placed_at": "2026-05-13T08:26:37.904474+00:00",
       "paper": true,
       "model": "nobot-v3-filtered"
+    },
+    {
+      "id": "NB3-1778679133",
+      "market_id": "1194334",
+      "market_slug": "will-switzerland-advance-through-the-second-eurovision-semi-final",
+      "market": "Will Switzerland advance through the second Eurovision Semi-Final?",
+      "position": "NO",
+      "entry_no_price": 57,
+      "entry_yes_price": 43,
+      "stake": 1.0,
+      "payout_if_wins": 1.75,
+      "profit_if_wins": 0.75,
+      "category": "other",
+      "closes_in_days": 0.44,
+      "closes": "2026-05-14T00:00:00+00:00",
+      "resolution_hour": 0,
+      "volume": 79195.859539,
+      "is_dip_market": false,
+      "status": "open",
+      "placed_at": "2026-05-13T13:32:13.232302+00:00",
+      "paper": true,
+      "model": "nobot-v3-filtered"
+    },
+    {
+      "id": "NB3-1778679133",
+      "market_id": "2204606",
+      "market_slug": "will-eaglerocks-market-cap-be-between-2pt0b-and-2pt5b-at-market-close-on-ipo-day",
+      "market": "Will EagleRock's market cap be between $2.0B and $2.5B at market close on IPO day?",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 1.0,
+      "payout_if_wins": 1.72,
+      "profit_if_wins": 0.72,
+      "category": "other",
+      "closes_in_days": 0.44,
+      "closes": "2026-05-14T00:00:00+00:00",
+      "resolution_hour": 0,
+      "volume": 7172.610537,
+      "is_dip_market": false,
+      "status": "open",
+      "placed_at": "2026-05-13T13:32:13.232331+00:00",
+      "paper": true,
+      "model": "nobot-v3-filtered"
     }
   ],
   "daily_loss": 1.0,
   "daily_reset": "2026-05-13",
-  "scan_count": 26,
+  "scan_count": 27,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-13T11:12:10.559568+00:00"
 }
