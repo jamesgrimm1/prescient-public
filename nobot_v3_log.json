@@ -1,5 +1,5 @@
 {
-  "bankroll": 89.0,
+  "bankroll": 88.0,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -367,11 +367,33 @@
       "placed_at": "2026-05-13T13:32:13.232331+00:00",
       "paper": true,
       "model": "nobot-v3-filtered"
+    },
+    {
+      "id": "NB3-1778692023",
+      "market_id": "1370442",
+      "market_slug": "will-uk-gdp-growth-in-q1-2026-be-between-0pt6-and-0pt9",
+      "market": "Will UK GDP growth in Q1 2026 be between 0.6% and 0.9%?",
+      "position": "NO",
+      "entry_no_price": 50,
+      "entry_yes_price": 50,
+      "stake": 1.0,
+      "payout_if_wins": 2.0,
+      "profit_if_wins": 1.0,
+      "category": "economics",
+      "closes_in_days": 0.29,
+      "closes": "2026-05-14T00:00:00+00:00",
+      "resolution_hour": 0,
+      "volume": 8183.565348000003,
+      "is_dip_market": false,
+      "status": "open",
+      "placed_at": "2026-05-13T17:07:03.624147+00:00",
+      "paper": true,
+      "model": "nobot-v3-filtered"
     }
   ],
   "daily_loss": 1.0,
   "daily_reset": "2026-05-13",
-  "scan_count": 31,
+  "scan_count": 32,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-13T11:12:10.559568+00:00"
 }

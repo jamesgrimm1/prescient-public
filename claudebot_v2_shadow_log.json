@@ -3327,14 +3327,38 @@
       "status": "open_shadow",
       "openai_used": true,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260513171442602562",
+      "market_id": "2246398",
+      "market_slug": "will-israel-announce-the-ceasefire-has-been-extended-by-may-14",
+      "market": "Will Israel announce the ceasefire has been extended by May 14?",
+      "category": "geopolitics",
+      "position": "NO",
+      "entry_price": 84.5,
+      "market_yes_price": 15.5,
+      "market_no_price": 84.5,
+      "final_yes_probability": 64.9,
+      "preferred_edge": 3.5,
+      "confidence": 55.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 11.83,
+      "closes": "2026-05-17T00:00:00+00:00",
+      "closes_in_days": 3.28,
+      "created_at": "2026-05-13T17:14:42.602588+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 133,
+    "total_shadow": 134,
     "would_have_won": 13,
     "would_have_lost": 21,
     "missed_profit": 86.81,
     "correct_rejections": 210.0
   },
-  "last_updated": "2026-05-13T15:08:30.839429+00:00"
+  "last_updated": "2026-05-13T17:14:42.602594+00:00"
 }
