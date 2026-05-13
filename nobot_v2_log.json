@@ -1,5 +1,5 @@
 {
-  "bankroll": 1146.05,
+  "bankroll": 1139.0,
   "trades": [
     {
       "id": "NB1776304868",
@@ -14596,11 +14596,31 @@
       "placed_at": "2026-05-13T13:47:08.042954+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778681008",
+      "market_id": "1194334",
+      "market_slug": "will-switzerland-advance-through-the-second-eurovision-semi-final",
+      "market": "Will Switzerland advance through the second Eurovision Semi-Final?",
+      "position": "NO",
+      "entry_no_price": 57,
+      "entry_yes_price": 43,
+      "stake": 7.05,
+      "payout_if_wins": 12.37,
+      "profit_if_wins": 5.32,
+      "category": "other",
+      "closes_in_days": 0.41,
+      "closes": "2026-05-14T00:00:00+00:00",
+      "volume": 79195.859539,
+      "status": "open",
+      "placed_at": "2026-05-13T14:03:28.062295+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 17.29,
   "daily_reset": "2026-05-13",
-  "scan_count": 507,
+  "scan_count": 508,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-13T13:46:58.139477+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
