@@ -1,5 +1,5 @@
 {
-  "bankroll": 1170.72,
+  "bankroll": 1161.61,
   "trades": [
     {
       "id": "NB1776304868",
@@ -14200,10 +14200,13 @@
       "closes_in_days": 0.15,
       "closes": "2026-05-12T12:00:00+00:00",
       "volume": 3477.0324059999994,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T08:23:00.672465+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "resolved_at": "2026-05-13T11:25:03.866817+00:00",
+      "realized_pnl": -2.32
     },
     {
       "id": "NB1778574180",
@@ -14493,11 +14496,51 @@
       "placed_at": "2026-05-13T08:32:29.181440+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778671511",
+      "market_id": "2240442",
+      "market_slug": "amzn-close-above-270-on-may-13-2026",
+      "market": "Will Amazon (AMZN) close above $270 on May 13?",
+      "position": "NO",
+      "entry_no_price": 53,
+      "entry_yes_price": 47,
+      "stake": 5.44,
+      "payout_if_wins": 10.26,
+      "profit_if_wins": 4.82,
+      "category": "other",
+      "closes_in_days": 0.36,
+      "closes": "2026-05-13T20:00:00+00:00",
+      "volume": 8295.471106,
+      "status": "open",
+      "placed_at": "2026-05-13T11:25:11.590463+00:00",
+      "paper": true,
+      "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778671511",
+      "market_id": "2240409",
+      "market_slug": "wti-closes-above-102-on-may-13-2026",
+      "market": "WTI Crude Oil (WTI) closes above $102 on May 13?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 3.67,
+      "payout_if_wins": 7.65,
+      "profit_if_wins": 3.98,
+      "category": "other",
+      "closes_in_days": 0.4,
+      "closes": "2026-05-13T21:00:00+00:00",
+      "volume": 5508.064966000001,
+      "status": "open",
+      "placed_at": "2026-05-13T11:25:11.595714+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
-  "daily_loss": 14.97,
+  "daily_loss": 17.29,
   "daily_reset": "2026-05-13",
-  "scan_count": 505,
+  "scan_count": 506,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-12T23:49:39.822389+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"

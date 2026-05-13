@@ -1,5 +1,5 @@
 {
-  "bankroll": 1010.59,
+  "bankroll": 1005.34,
   "trades": [
     {
       "id": "NB1776304868",
@@ -14118,10 +14118,13 @@
       "closes_in_days": 0.15,
       "closes": "2026-05-12T12:00:00+00:00",
       "volume": 3477.0324059999994,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T08:22:50.861599+00:00",
       "paper": true,
-      "model": "nobot-mechanical"
+      "model": "nobot-mechanical",
+      "won": false,
+      "resolved_at": "2026-05-13T11:24:53.240790+00:00",
+      "realized_pnl": -2.04
     },
     {
       "id": "NB1778574170",
@@ -14411,11 +14414,51 @@
       "placed_at": "2026-05-13T08:32:20.858499+00:00",
       "paper": true,
       "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778671502",
+      "market_id": "2240442",
+      "market_slug": "amzn-close-above-270-on-may-13-2026",
+      "market": "Will Amazon (AMZN) close above $270 on May 13?",
+      "position": "NO",
+      "entry_no_price": 53,
+      "entry_yes_price": 47,
+      "stake": 3.13,
+      "payout_if_wins": 5.91,
+      "profit_if_wins": 2.78,
+      "category": "other",
+      "closes_in_days": 0.36,
+      "closes": "2026-05-13T20:00:00+00:00",
+      "volume": 8295.471106,
+      "status": "open",
+      "placed_at": "2026-05-13T11:25:02.828129+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
+    },
+    {
+      "id": "NB1778671502",
+      "market_id": "2240409",
+      "market_slug": "wti-closes-above-102-on-may-13-2026",
+      "market": "WTI Crude Oil (WTI) closes above $102 on May 13?",
+      "position": "NO",
+      "entry_no_price": 48,
+      "entry_yes_price": 52,
+      "stake": 2.12,
+      "payout_if_wins": 4.42,
+      "profit_if_wins": 2.3,
+      "category": "other",
+      "closes_in_days": 0.4,
+      "closes": "2026-05-13T21:00:00+00:00",
+      "volume": 5508.064966000001,
+      "status": "open",
+      "placed_at": "2026-05-13T11:25:02.828181+00:00",
+      "paper": true,
+      "model": "nobot-mechanical"
     }
   ],
-  "daily_loss": 11.12,
+  "daily_loss": 13.16,
   "daily_reset": "2026-05-13",
-  "scan_count": 501,
+  "scan_count": 502,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-12T23:49:31.527420+00:00"
 }
