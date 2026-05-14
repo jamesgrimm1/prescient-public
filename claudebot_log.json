@@ -1410,11 +1410,14 @@
       "bear_case": "Song/performance may be genuinely among the weakest; $10K volume suggests informed Eurovision prediction community has priced in rehearsal quality and betting odds I cannot verify",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T15:45:26.328808+00:00",
       "paper": true,
       "model": "claude-opus-4-6",
-      "paper_bankroll_at_placement": 2161.61
+      "paper_bankroll_at_placement": 2161.61,
+      "won": false,
+      "resolved_at": "2026-05-14T22:00:08.113058+00:00",
+      "realized_pnl": -190.03
     },
     {
       "id": "T1778759170",
@@ -1452,9 +1455,9 @@
       "realized_pnl": -140.44
     }
   ],
-  "daily_loss": 140.44,
+  "daily_loss": 330.47,
   "daily_reset": "2026-05-14",
-  "scan_count": 561,
+  "scan_count": 562,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-14",
   "last_tier2_scan": "2026-05-03",
