@@ -1442,16 +1442,19 @@
       "bear_case": "Price IS above $90 now; crypto could bounce off $90 psychological support; resolution methodology unclear \u2014 if any-time-during-day, YES almost certain",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-14T11:46:10.823452+00:00",
       "paper": true,
       "model": "claude-opus-4-6",
-      "paper_bankroll_at_placement": 1971.58
+      "paper_bankroll_at_placement": 1971.58,
+      "won": false,
+      "resolved_at": "2026-05-14T18:28:19.312969+00:00",
+      "realized_pnl": -140.44
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 140.44,
   "daily_reset": "2026-05-14",
-  "scan_count": 559,
+  "scan_count": 560,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-14",
   "last_tier2_scan": "2026-05-03",

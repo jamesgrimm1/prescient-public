@@ -264,9 +264,13 @@
       "closes": "2026-05-14T16:00:00+00:00",
       "closes_in_days": 6.16,
       "created_at": "2026-05-08T12:10:29.882184+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T18:31:16.230522+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2148783_NO",
@@ -1288,9 +1292,13 @@
       "closes": "2026-05-14T16:00:00+00:00",
       "closes_in_days": 4.18,
       "created_at": "2026-05-10T11:47:22.301476+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T18:31:19.106573+00:00"
     },
     {
       "shadow_id": "SH20260510114722303088",
@@ -1640,9 +1648,13 @@
       "closes": "2026-05-14T16:00:00+00:00",
       "closes_in_days": 3.72,
       "created_at": "2026-05-10T22:43:47.199736+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T18:31:20.285854+00:00"
     },
     {
       "shadow_id": "SH20260510224347201506",
@@ -1792,9 +1804,13 @@
       "closes": "2026-05-14T16:00:00+00:00",
       "closes_in_days": 3.58,
       "created_at": "2026-05-11T02:05:58.809671+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": true,
+      "hypothetical_pnl": 4.18,
+      "resolved_at": "2026-05-14T18:31:20.571260+00:00"
     },
     {
       "shadow_id": "SH20260511060520673722",
@@ -2028,9 +2044,13 @@
       "closes": "2026-05-14T16:00:00+00:00",
       "closes_in_days": 3.16,
       "created_at": "2026-05-11T12:19:11.977576+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": true,
+      "hypothetical_pnl": 1.17,
+      "resolved_at": "2026-05-14T18:31:21.168866+00:00"
     },
     {
       "shadow_id": "SH20260511121911980017",
@@ -2740,9 +2760,13 @@
       "closes": "2026-05-14T16:00:00+00:00",
       "closes_in_days": 1.75,
       "created_at": "2026-05-12T22:07:36.413756+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T18:31:24.086753+00:00"
     },
     {
       "shadow_id": "SH20260512220736418719",
@@ -3852,9 +3876,13 @@
       "closes": "2026-05-14T16:00:00+00:00",
       "closes_in_days": 0.18,
       "created_at": "2026-05-14T11:50:14.151055+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T18:31:29.397896+00:00"
     },
     {
       "shadow_id": "SH20260514132952671166",
@@ -3951,14 +3979,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260514183403915272",
+      "market_id": "2223082",
+      "market_slug": "bitcoin-above-80k-on-may-17",
+      "market": "Will the price of Bitcoin be above $80,000 on May 17?",
+      "category": "crypto",
+      "position": "YES",
+      "entry_price": 80.5,
+      "market_yes_price": 80.5,
+      "market_no_price": 19.5,
+      "final_yes_probability": 60.8,
+      "preferred_edge": 2.5,
+      "confidence": 72.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 12.42,
+      "closes": "2026-05-17T16:00:00+00:00",
+      "closes_in_days": 2.89,
+      "created_at": "2026-05-14T18:34:03.915289+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 158,
-    "would_have_won": 13,
-    "would_have_lost": 27,
-    "missed_profit": 86.81,
-    "correct_rejections": 270.0
+    "total_shadow": 159,
+    "would_have_won": 15,
+    "would_have_lost": 32,
+    "missed_profit": 92.16,
+    "correct_rejections": 320.0
   },
-  "last_updated": "2026-05-14T16:09:55.134341+00:00"
+  "last_updated": "2026-05-14T18:34:03.915295+00:00"
 }
