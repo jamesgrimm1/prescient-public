@@ -1,5 +1,5 @@
 {
-  "bankroll": 1971.58,
+  "bankroll": 1831.14,
   "trades": [
     {
       "id": "T1775098669",
@@ -1415,11 +1415,43 @@
       "paper": true,
       "model": "claude-opus-4-6",
       "paper_bankroll_at_placement": 2161.61
+    },
+    {
+      "id": "T1778759170",
+      "tier": 1,
+      "market_id": "2182452",
+      "market_slug": "solana-above-90-on-may-14",
+      "market": "Will the price of Solana be above $90 on May 14?",
+      "position": "NO",
+      "entry_price": 27,
+      "stake": 140.44,
+      "potential_return": 520.15,
+      "potential_profit": 379.71,
+      "confidence": 76,
+      "true_prob": 57,
+      "market_prob": 73,
+      "category": "crypto",
+      "closes_in_days": 0.2,
+      "closes": "2026-05-14T16:00:00+00:00",
+      "research_summary": "Live SOL price $90.69 with -4.07% 24h decline. Only $0.69 buffer above $90 strike. Research brief showed $92.40-$92.67 earlier, meaning ~$2 drop in short period \u2014 accelerating decline. With ~12 hours remaining and crypto volatility, 0.77% move below threshold is well within normal range.",
+      "key_factors": [
+        "Price barely above threshold ($90.69 vs $90.00 = 0.77% margin)",
+        "Strong bearish momentum: -4.07% in 24 hours with accelerating decline",
+        "Crypto daily vol ~3-5% means 0.77% down move is <0.3 sigma \u2014 highly plausible"
+      ],
+      "bear_case": "Price IS above $90 now; crypto could bounce off $90 psychological support; resolution methodology unclear \u2014 if any-time-during-day, YES almost certain",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-14T11:46:10.823452+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6",
+      "paper_bankroll_at_placement": 1971.58
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-14",
-  "scan_count": 555,
+  "scan_count": 556,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-14",
   "last_tier2_scan": "2026-05-03",

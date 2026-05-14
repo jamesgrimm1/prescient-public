@@ -3831,14 +3831,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260514115014151029",
+      "market_id": "2182452",
+      "market_slug": "solana-above-90-on-may-14",
+      "market": "Will the price of Solana be above $90 on May 14?",
+      "category": "crypto",
+      "position": "NO",
+      "entry_price": 27.0,
+      "market_yes_price": 73.0,
+      "market_no_price": 27.0,
+      "final_yes_probability": 60.5,
+      "preferred_edge": 12.5,
+      "confidence": 55.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_RESOLUTION_RISK_HIGH",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 37.04,
+      "closes": "2026-05-14T16:00:00+00:00",
+      "closes_in_days": 0.18,
+      "created_at": "2026-05-14T11:50:14.151055+00:00",
+      "status": "open_shadow",
+      "openai_used": true,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 153,
+    "total_shadow": 154,
     "would_have_won": 13,
     "would_have_lost": 27,
     "missed_profit": 86.81,
     "correct_rejections": 270.0
   },
-  "last_updated": "2026-05-14T09:33:13.168169+00:00"
+  "last_updated": "2026-05-14T11:50:14.151061+00:00"
 }
