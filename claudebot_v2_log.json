@@ -1,5 +1,5 @@
 {
-  "bankroll": 398.71,
+  "bankroll": 390.74,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -875,11 +875,47 @@
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
       "paper_bankroll_at_placement": 406.85
+    },
+    {
+      "id": "V2_1778729594",
+      "tier": 1,
+      "market_id": "2159871",
+      "market_slug": "will-trump-say-taiwan-or-tibet-during-events-with-xi-jinping",
+      "market": "Will Trump say \"Taiwan\" or \"Tibet\" during events with Xi Jinping?",
+      "position": "YES",
+      "entry_price": 46.5,
+      "stake": 7.97,
+      "potential_return": 17.14,
+      "potential_profit": 9.17,
+      "confidence": 60.0,
+      "true_prob": 63.44,
+      "market_prob": 46.5,
+      "side_win_probability": 63.44,
+      "edge_pct": 16.94,
+      "category": "politics",
+      "closes_in_days": 0.85,
+      "closes": "2026-05-15T00:00:00+00:00",
+      "research_summary": "Taiwan is confirmed agenda topic for the summit. Trump is verbally undisciplined and Taiwan is central to US-China relations. Hard to imagine a full summit without Trump saying 'Taiwan' at least once publicly. Market at 46.5\u00a2 underprices this by ~23pts.",
+      "key_factors": [
+        "Taiwan confirmed as summit agenda item",
+        "Trump's verbal patterns \u2014 rarely self-censors",
+        "Resolution requires public utterance, not just discussion"
+      ],
+      "bear_case": "Resolution depends on PUBLIC events \u2014 Trump may discuss Taiwan privately only. Xi's hosts may structure events to avoid contentious public statements. 'Tibet' very unlikely to come up.",
+      "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
+      "openai_used": true,
+      "red_team_veto": false,
+      "status": "open",
+      "placed_at": "2026-05-14T03:33:14.196433+00:00",
+      "paper": true,
+      "live_trading_disabled": true,
+      "model": "claude-opus-4-6+gpt-4.1-mini",
+      "paper_bankroll_at_placement": 398.71
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-14",
-  "scan_count": 247,
+  "scan_count": 248,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",
