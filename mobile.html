@@ -798,8 +798,8 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
   <!-- ── NoBot V3 view ── -->
   <div id="view-nb3" style="display:none">
     <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-      <span class="pill pill-gold">V3 — Weather Only · Bigger Stakes</span>
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">Weather markets only · Stakes 3× V1 · $25 cap · 83%+ WR historical</span>
+      <span class="pill pill-gold">V3 — Audit-Filtered · Flat $10/trade</span>
+      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--text2)">Multi-category · NO≥50¢ · Hours¬{1,19,20} · $1,000 bankroll</span>
     </div>
     <div class="hero-strip">
       <div class="hero-card accent-gold">
@@ -1024,7 +1024,7 @@ tbody td.mono   { font-family: 'DM Mono', monospace; font-size: 11px; }
     </div>
     <div class="card" style="margin-bottom:16px">
       <div class="card-header">
-        <span class="card-title">NoBot V3 — Weather Only — 12 month projections</span>
+        <span class="card-title">NoBot V3 — 12 month projections</span>
         <span class="pill pill-gold" id="proj-nb3-badge">—</span>
       </div>
       <div id="proj-nb3-table"></div>
@@ -1608,7 +1608,7 @@ function renderProjections(cbData, nbData, nb2Data, nb3Data) {
   var cbStart  = cbData  ? cbData.bankroll  : START;
   var nbStart  = nbData  ? nbData.bankroll  : START;
   var nb2Start = nb2Data ? nb2Data.bankroll : START;
-  var nb3Start = nb3Data ? nb3Data.bankroll : START;
+  var nb3Start = 1000;
 
   projTable('proj-cb-badge',  'proj-cb-table',  'proj-cb-wr',  'proj-cb-sub',  cbClosed,  50000, cbStart);
   projTable('proj-nb-badge',  'proj-nb-table',  'proj-nb-wr',  'proj-nb-sub',  nbClosed,  18981, nbStart);

@@ -1451,11 +1451,11 @@
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-14",
-  "scan_count": 557,
+  "scan_count": 558,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-14",
   "last_tier2_scan": "2026-05-03",
   "last_tier3_scan": "2026-W16",
   "last_reassessment": "2026-05-13T13:47:58.030772+00:00",
-  "last_reflection_utc": "2026-05-12T11:11:44.867762+00:00"
+  "last_reflection_utc": "2026-05-14T14:52:51.798574+00:00"
 }
