@@ -1,5 +1,5 @@
 {
-  "bankroll": 91.81,
+  "bankroll": 90.81,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -523,11 +523,33 @@
       "placed_at": "2026-05-14T03:27:45.733831+00:00",
       "paper": true,
       "model": "nobot-v3-filtered"
+    },
+    {
+      "id": "NB3-1778733002",
+      "market_id": "2234984",
+      "market_slug": "will-cerebras-market-cap-be-between-60b-and-70b-at-market-close-on-ipo-day",
+      "market": "Will Cerebras' market cap be between $60B and $70B at market close on IPO day?",
+      "position": "NO",
+      "entry_no_price": 59,
+      "entry_yes_price": 41,
+      "stake": 1.0,
+      "payout_if_wins": 1.69,
+      "profit_if_wins": 0.69,
+      "category": "other",
+      "closes_in_days": 0.48,
+      "closes": "2026-05-14T16:00:00+00:00",
+      "resolution_hour": 16,
+      "volume": 8757.542662000005,
+      "is_dip_market": false,
+      "status": "open",
+      "placed_at": "2026-05-14T04:30:02.587654+00:00",
+      "paper": true,
+      "model": "nobot-v3-filtered"
     }
   ],
   "daily_loss": 1.0,
   "daily_reset": "2026-05-14",
-  "scan_count": 43,
+  "scan_count": 44,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-13T23:49:38.610102+00:00"
 }
