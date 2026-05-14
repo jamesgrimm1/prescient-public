@@ -3855,14 +3855,38 @@
       "status": "open_shadow",
       "openai_used": true,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260514132952671166",
+      "market_id": "2245204",
+      "market_slug": "atp-bonzi-grieksp-2026-05-14",
+      "market": "Bordeaux: Benjamin Bonzi vs Tallon Griekspoor",
+      "category": "other",
+      "position": "YES",
+      "entry_price": 42.0,
+      "market_yes_price": 42.0,
+      "market_no_price": 58.0,
+      "final_yes_probability": 69.2,
+      "preferred_edge": 0.0,
+      "confidence": 25.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 23.81,
+      "closes": "2026-05-21T08:00:00+00:00",
+      "closes_in_days": 6.77,
+      "created_at": "2026-05-14T13:29:52.671184+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 154,
+    "total_shadow": 155,
     "would_have_won": 13,
     "would_have_lost": 27,
     "missed_profit": 86.81,
     "correct_rejections": 270.0
   },
-  "last_updated": "2026-05-14T11:50:14.151061+00:00"
+  "last_updated": "2026-05-14T13:29:52.671190+00:00"
 }
