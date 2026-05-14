@@ -4003,14 +4003,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260514235931187247",
+      "market_id": "2190022",
+      "market_slug": "xrp-above-1pt5-on-may-15",
+      "market": "Will the price of XRP be above $1.50 on May 15?",
+      "category": "crypto",
+      "position": "YES",
+      "entry_price": 37.0,
+      "market_yes_price": 37.0,
+      "market_no_price": 63.0,
+      "final_yes_probability": 69.8,
+      "preferred_edge": 5.0,
+      "confidence": 55.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 27.03,
+      "closes": "2026-05-15T16:00:00+00:00",
+      "closes_in_days": 0.67,
+      "created_at": "2026-05-14T23:59:31.187266+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 159,
+    "total_shadow": 160,
     "would_have_won": 15,
     "would_have_lost": 32,
     "missed_profit": 92.16,
     "correct_rejections": 320.0
   },
-  "last_updated": "2026-05-14T23:00:49.273249+00:00"
+  "last_updated": "2026-05-14T23:59:31.187273+00:00"
 }
