@@ -1,5 +1,5 @@
 {
-  "bankroll": 953.52,
+  "bankroll": 989.14,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -622,10 +622,13 @@
       "resolution_hour": 12,
       "volume": 4193.958227000001,
       "is_dip_market": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-14T09:26:21.069888+00:00",
       "paper": true,
-      "model": "nobot-v3-filtered"
+      "model": "nobot-v3-filtered",
+      "won": true,
+      "resolved_at": "2026-05-14T21:54:05.443150+00:00",
+      "realized_pnl": 6.39
     },
     {
       "id": "NB3-1778750781",
@@ -644,10 +647,13 @@
       "resolution_hour": 12,
       "volume": 3830.6493009999995,
       "is_dip_market": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-14T09:26:21.069921+00:00",
       "paper": true,
-      "model": "nobot-v3-filtered"
+      "model": "nobot-v3-filtered",
+      "won": true,
+      "resolved_at": "2026-05-14T21:54:05.570023+00:00",
+      "realized_pnl": 9.23
     },
     {
       "id": "NB3-1778750781",
@@ -702,7 +708,7 @@
   ],
   "daily_loss": 20.0,
   "daily_reset": "2026-05-14",
-  "scan_count": 59,
+  "scan_count": 60,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-14T12:06:54.954705+00:00"
 }
