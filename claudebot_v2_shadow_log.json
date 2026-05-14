@@ -872,9 +872,13 @@
       "closes": "2026-05-14T00:00:00+00:00",
       "closes_in_days": 4.7,
       "created_at": "2026-05-09T07:13:12.585026+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T02:04:25.107356+00:00"
     },
     {
       "shadow_id": "SH20260509180737058969",
@@ -1108,9 +1112,13 @@
       "closes": "2026-05-14T00:00:00+00:00",
       "closes_in_days": 4.06,
       "created_at": "2026-05-09T22:37:02.185265+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T02:04:25.497474+00:00"
     },
     {
       "shadow_id": "SH20260510104058786102",
@@ -1528,9 +1536,13 @@
       "closes": "2026-05-14T00:00:00+00:00",
       "closes_in_days": 3.14,
       "created_at": "2026-05-10T20:44:12.006655+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T02:04:27.149646+00:00"
     },
     {
       "shadow_id": "SH20260510224343894672",
@@ -1832,9 +1844,13 @@
       "closes": "2026-05-14T00:00:00+00:00",
       "closes_in_days": 2.75,
       "created_at": "2026-05-11T06:05:20.676012+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T02:04:27.969493+00:00"
     },
     {
       "shadow_id": "SH20260511060523773061",
@@ -2892,9 +2908,13 @@
       "closes": "2026-05-14T00:00:00+00:00",
       "closes_in_days": 0.92,
       "created_at": "2026-05-13T02:05:10.503613+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T02:04:32.390479+00:00"
     },
     {
       "shadow_id": "SH20260513020510507076",
@@ -2988,9 +3008,13 @@
       "closes": "2026-05-14T00:00:00+00:00",
       "closes_in_days": 0.76,
       "created_at": "2026-05-13T05:54:17.160682+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-14T02:04:32.905678+00:00"
     },
     {
       "shadow_id": "SH20260513055433551964",
@@ -3591,14 +3615,62 @@
       "status": "open_shadow",
       "openai_used": true,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260514020758921692",
+      "market_id": "2168921",
+      "market_slug": "will-any-of-trumps-sons-attend-trumps-xi-summit-971",
+      "market": "Will any of Trump's sons attend Trump's Xi summit?",
+      "category": "politics",
+      "position": "YES",
+      "entry_price": 96.95,
+      "market_yes_price": 96.95,
+      "market_no_price": 3.049999999999997,
+      "final_yes_probability": 84.6,
+      "preferred_edge": 2.05,
+      "confidence": 97.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 10.31,
+      "closes": "2026-05-17T00:00:00+00:00",
+      "closes_in_days": 2.91,
+      "created_at": "2026-05-14T02:07:58.921716+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260514020801703472",
+      "market_id": "2231951",
+      "market_slug": "2026-pga-championship-top10-tommy-fleetwood",
+      "market": "Will Tommy Fleetwood finish in the Top 10 at the 2026 PGA Championship?",
+      "category": "other",
+      "position": "YES",
+      "entry_price": 53.5,
+      "market_yes_price": 53.5,
+      "market_no_price": 46.5,
+      "final_yes_probability": 63.44,
+      "preferred_edge": 9.94,
+      "confidence": 35.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_CONF_TOO_LOW",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 18.69,
+      "closes": "2026-05-17T00:00:00+00:00",
+      "closes_in_days": 2.91,
+      "created_at": "2026-05-14T02:08:01.703499+00:00",
+      "status": "open_shadow",
+      "openai_used": true,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 144,
+    "total_shadow": 146,
     "would_have_won": 13,
-    "would_have_lost": 21,
+    "would_have_lost": 27,
     "missed_profit": 86.81,
-    "correct_rejections": 210.0
+    "correct_rejections": 270.0
   },
-  "last_updated": "2026-05-13T23:58:03.047998+00:00"
+  "last_updated": "2026-05-14T02:08:01.703506+00:00"
 }
