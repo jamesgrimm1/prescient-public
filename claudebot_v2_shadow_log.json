@@ -3927,14 +3927,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260514160955134315",
+      "market_id": "2231914",
+      "market_slug": "2026-pga-championship-top10-ludvig-aberg",
+      "market": "Will Ludvig Aberg finish in the Top 10 at the 2026 PGA Championship?",
+      "category": "other",
+      "position": "NO",
+      "entry_price": 62.0,
+      "market_yes_price": 38.0,
+      "market_no_price": 62.0,
+      "final_yes_probability": 69.2,
+      "preferred_edge": 6.0,
+      "confidence": 45.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 16.13,
+      "closes": "2026-05-17T00:00:00+00:00",
+      "closes_in_days": 2.33,
+      "created_at": "2026-05-14T16:09:55.134334+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 157,
+    "total_shadow": 158,
     "would_have_won": 13,
     "would_have_lost": 27,
     "missed_profit": 86.81,
     "correct_rejections": 270.0
   },
-  "last_updated": "2026-05-14T14:52:50.567431+00:00"
+  "last_updated": "2026-05-14T16:09:55.134341+00:00"
 }
