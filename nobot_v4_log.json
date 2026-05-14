@@ -1,5 +1,5 @@
 {
-  "bankroll": 444.91,
+  "bankroll": 431.06,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -3325,9 +3325,30 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1778729257"
+    },
+    {
+      "id": "V420260514061431038659",
+      "market_id": "2234984",
+      "market": "Will Cerebras' market cap be between $60B and $70B at market close on IPO day?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 13.85,
+      "v2_stake": 7.26,
+      "potential_profit": 9.23,
+      "potential_payout": 23.08,
+      "closes": "2026-05-14T16:00:00+00:00",
+      "closes_in_days": 0.41,
+      "volume": 9057.542662000005,
+      "status": "open",
+      "placed_at": "2026-05-14T06:14:31.038673+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1778739271"
     }
   ],
-  "scan_count": 114,
+  "scan_count": 115,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }

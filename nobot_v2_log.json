@@ -1,5 +1,5 @@
 {
-  "bankroll": 1171.75,
+  "bankroll": 1159.04,
   "trades": [
     {
       "id": "NB1776304868",
@@ -14775,11 +14775,51 @@
       "placed_at": "2026-05-14T03:27:37.280937+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778739271",
+      "market_id": "2182421",
+      "market_slug": "bitcoin-above-80k-on-may-14",
+      "market": "Will the price of Bitcoin be above $80,000 on May 14?",
+      "position": "NO",
+      "entry_no_price": 54,
+      "entry_yes_price": 46,
+      "stake": 5.45,
+      "payout_if_wins": 10.09,
+      "profit_if_wins": 4.64,
+      "category": "crypto",
+      "closes_in_days": 0.41,
+      "closes": "2026-05-14T16:00:00+00:00",
+      "volume": 80141.84070299994,
+      "status": "open",
+      "placed_at": "2026-05-14T06:14:31.037865+00:00",
+      "paper": true,
+      "model": "nobot-v2"
+    },
+    {
+      "id": "NB1778739271",
+      "market_id": "2234984",
+      "market_slug": "will-cerebras-market-cap-be-between-60b-and-70b-at-market-close-on-ipo-day",
+      "market": "Will Cerebras' market cap be between $60B and $70B at market close on IPO day?",
+      "position": "NO",
+      "entry_no_price": 60,
+      "entry_yes_price": 40,
+      "stake": 7.26,
+      "payout_if_wins": 12.1,
+      "profit_if_wins": 4.84,
+      "category": "other",
+      "closes_in_days": 0.41,
+      "closes": "2026-05-14T16:00:00+00:00",
+      "volume": 9057.542662000005,
+      "status": "open",
+      "placed_at": "2026-05-14T06:14:31.037922+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 8.53,
   "daily_reset": "2026-05-14",
-  "scan_count": 516,
+  "scan_count": 517,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-14T02:01:36.721363+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
