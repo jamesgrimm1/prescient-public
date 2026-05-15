@@ -4295,14 +4295,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260515205259851186",
+      "market_id": "2231952",
+      "market_slug": "2026-pga-championship-top10-rickie-fowler",
+      "market": "Will Rickie Fowler finish in the Top 10 at the 2026 PGA Championship?",
+      "category": "other",
+      "position": "YES",
+      "entry_price": 6.5,
+      "market_yes_price": 6.5,
+      "market_no_price": 93.5,
+      "final_yes_probability": 69.2,
+      "preferred_edge": 3.5,
+      "confidence": 30.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 153.85,
+      "closes": "2026-05-17T00:00:00+00:00",
+      "closes_in_days": 1.13,
+      "created_at": "2026-05-15T20:52:59.851204+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 167,
+    "total_shadow": 168,
     "would_have_won": 19,
     "would_have_lost": 53,
     "missed_profit": 112.28,
     "correct_rejections": 530.0
   },
-  "last_updated": "2026-05-15T19:17:58.795025+00:00"
+  "last_updated": "2026-05-15T20:52:59.851210+00:00"
 }
