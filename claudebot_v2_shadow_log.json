@@ -4179,14 +4179,38 @@
       "status": "open_shadow",
       "openai_used": true,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260515145021708521",
+      "market_id": "2231646",
+      "market_slug": "solana-above-50-on-may-18",
+      "market": "Will the price of Solana be above $50 on May 18?",
+      "category": "crypto",
+      "position": "NO",
+      "entry_price": 14.5,
+      "market_yes_price": 85.5,
+      "market_no_price": 14.5,
+      "final_yes_probability": 76.81,
+      "preferred_edge": 8.69,
+      "confidence": 88.0,
+      "decision": "WATCHLIST",
+      "decision_reason": "WATCH_EDGE_NEAR_THRESHOLD",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 68.97,
+      "closes": "2026-05-18T16:00:00+00:00",
+      "closes_in_days": 3.05,
+      "created_at": "2026-05-15T14:50:21.708544+00:00",
+      "status": "open_shadow",
+      "openai_used": true,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 163,
+    "total_shadow": 164,
     "would_have_won": 18,
     "would_have_lost": 49,
     "missed_profit": 96.64,
     "correct_rejections": 490.0
   },
-  "last_updated": "2026-05-15T13:28:56.171292+00:00"
+  "last_updated": "2026-05-15T14:50:21.708551+00:00"
 }
