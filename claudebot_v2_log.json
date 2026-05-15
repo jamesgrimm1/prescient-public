@@ -536,12 +536,15 @@
       "decision_reason": "TRADE_EDGE_AND_CONF_PASS",
       "openai_used": true,
       "red_team_veto": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-10T15:48:29.369516+00:00",
       "paper": true,
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
-      "paper_bankroll_at_placement": 516.19
+      "paper_bankroll_at_placement": 516.19,
+      "won": false,
+      "resolved_at": "2026-05-15T23:44:54.246630+00:00",
+      "realized_pnl": -36.13
     },
     {
       "id": "V2_1778428109",
@@ -1007,9 +1010,9 @@
       "realized_pnl": 13.88
     }
   ],
-  "daily_loss": 15.78,
+  "daily_loss": 51.91,
   "daily_reset": "2026-05-15",
-  "scan_count": 272,
+  "scan_count": 273,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",

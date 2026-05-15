@@ -3515,7 +3515,7 @@
       "resolved_at": "2026-05-14T14:50:17.530099+00:00"
     }
   ],
-  "scan_count": 138,
+  "scan_count": 139,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }

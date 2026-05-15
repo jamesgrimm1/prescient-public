@@ -1,5 +1,5 @@
 {
-  "bankroll": 1885.77,
+  "bankroll": 2437.16,
   "trades": [
     {
       "id": "T1775098669",
@@ -1484,16 +1484,19 @@
       "bear_case": "Strong weekly momentum (7% rise) could persist; unexpected supply disruption or geopolitical escalation could spike crude; elevated volatility means fat-tail moves more probable than normal; market participants may have access to intraday flow information",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-15T08:44:50.760073+00:00",
       "paper": true,
       "model": "claude-opus-4-6",
-      "paper_bankroll_at_placement": 2095.3
+      "paper_bankroll_at_placement": 2095.3,
+      "won": true,
+      "resolved_at": "2026-05-15T23:44:04.886787+00:00",
+      "realized_pnl": 341.86
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-15",
-  "scan_count": 577,
+  "scan_count": 578,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-14",
   "last_tier2_scan": "2026-05-03",
