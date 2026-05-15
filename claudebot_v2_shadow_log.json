@@ -4127,14 +4127,38 @@
       "status": "open_shadow",
       "openai_used": true,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260515060101642711",
+      "market_id": "2251413",
+      "market_slug": "bitcoin-above-74k-on-may-20",
+      "market": "Will the price of Bitcoin be above $74,000 on May 20?",
+      "category": "crypto",
+      "position": "NO",
+      "entry_price": 3.700000000000003,
+      "market_yes_price": 96.3,
+      "market_no_price": 3.700000000000003,
+      "final_yes_probability": 88.3,
+      "preferred_edge": 3.3,
+      "confidence": 65.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 270.27,
+      "closes": "2026-05-20T16:00:00+00:00",
+      "closes_in_days": 5.42,
+      "created_at": "2026-05-15T06:01:01.642729+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 161,
+    "total_shadow": 162,
     "would_have_won": 18,
     "would_have_lost": 48,
     "missed_profit": 96.64,
     "correct_rejections": 480.0
   },
-  "last_updated": "2026-05-15T03:25:32.226557+00:00"
+  "last_updated": "2026-05-15T06:01:01.642735+00:00"
 }
