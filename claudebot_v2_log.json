@@ -1,5 +1,5 @@
 {
-  "bankroll": 385.63,
+  "bankroll": 446.87,
   "trades": [
     {
       "id": "V2_1777561582",
@@ -765,12 +765,15 @@
       "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
       "openai_used": true,
       "red_team_veto": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-12T18:36:20.855414+00:00",
       "paper": true,
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
-      "paper_bankroll_at_placement": 432.27
+      "paper_bankroll_at_placement": 432.27,
+      "won": true,
+      "resolved_at": "2026-05-15T08:44:53.401269+00:00",
+      "realized_pnl": 20.67
     },
     {
       "id": "V2_1778630089",
@@ -838,12 +841,15 @@
       "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
       "openai_used": true,
       "red_team_veto": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-13T19:38:19.145901+00:00",
       "paper": true,
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
-      "paper_bankroll_at_placement": 415.15
+      "paper_bankroll_at_placement": 415.15,
+      "won": true,
+      "resolved_at": "2026-05-15T08:44:54.800238+00:00",
+      "realized_pnl": 23.62
     },
     {
       "id": "V2_1778716685",
@@ -911,12 +917,15 @@
       "decision_reason": "SMALL_TRADE_EDGE_PASS_CONF_LOWER",
       "openai_used": true,
       "red_team_veto": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-14T03:33:14.196433+00:00",
       "paper": true,
       "live_trading_disabled": true,
       "model": "claude-opus-4-6+gpt-4.1-mini",
-      "paper_bankroll_at_placement": 398.71
+      "paper_bankroll_at_placement": 398.71,
+      "won": false,
+      "resolved_at": "2026-05-15T08:44:56.257954+00:00",
+      "realized_pnl": -7.97
     },
     {
       "id": "V2_1778759419",
@@ -992,9 +1001,9 @@
       "paper_bankroll_at_placement": 382.93
     }
   ],
-  "daily_loss": 0.0,
+  "daily_loss": 7.97,
   "daily_reset": "2026-05-15",
-  "scan_count": 262,
+  "scan_count": 263,
   "started": "2026-04-29T00:00:00+00:00",
   "version": "V2-2026-04-29",
   "note": "ClaudeBot V2 \u2014 aggressive companion to V1. Same Opus brain. T1-only, min_edge 10%, max_positions 12, no per-trade stake cap, all categories allowed, 0.5h min hold, 60min scan interval. Runs in parallel with V1 (claudebot_log.json) \u2014 separate bankroll, separate trade history.",

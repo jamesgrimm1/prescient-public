@@ -1,5 +1,5 @@
 {
-  "bankroll": 2095.3,
+  "bankroll": 1885.77,
   "trades": [
     {
       "id": "T1775098669",
@@ -1456,11 +1456,44 @@
       "won": false,
       "resolved_at": "2026-05-14T18:28:19.312969+00:00",
       "realized_pnl": -140.44
+    },
+    {
+      "id": "T1778834690",
+      "tier": 1,
+      "market_id": "2203271",
+      "market_slug": "will-wti-reach-105-by-may-11-2026",
+      "market": "Will WTI Crude Oil (WTI) hit (HIGH) $105 Week of May 11 2026?",
+      "position": "NO",
+      "entry_price": 38,
+      "stake": 209.53,
+      "potential_return": 551.39,
+      "potential_profit": 341.86,
+      "confidence": 80,
+      "true_prob": 30,
+      "market_prob": 62,
+      "category": "commodities",
+      "closes_in_days": 0.5,
+      "closes": "2026-05-15T21:00:00+00:00",
+      "research_summary": "WTI at $102.40 needs $2.60 (2.5%) move to touch $105 with only ~12 hours of trading remaining Friday. Statistical modeling using elevated weekly vol (3.5% daily) and reflection principle for intraday highs gives ~30% probability. Market at 62% YES is significantly overpriced. No scheduled economic catalysts before today's close \u2014 all calendar events are May 18-19.",
+      "key_factors": [
+        "WTI at $102.40 needs 2.5% move to $105 \u2014 exceeds typical daily high range even in volatile conditions",
+        "Reflection principle with elevated vol gives ~30% intraday touch probability, well below 62% market price",
+        "No economic calendar events or known catalysts before today's trading close",
+        "NO trades historically outperform YES trades (62% WR vs 42% WR); 12-24hr hold is sweet spot"
+      ],
+      "bear_case": "Strong weekly momentum (7% rise) could persist; unexpected supply disruption or geopolitical escalation could spike crude; elevated volatility means fat-tail moves more probable than normal; market participants may have access to intraday flow information",
+      "kelly_tier": "half-Kelly (10.0%)",
+      "news_triggered": false,
+      "status": "open",
+      "placed_at": "2026-05-15T08:44:50.760073+00:00",
+      "paper": true,
+      "model": "claude-opus-4-6",
+      "paper_bankroll_at_placement": 2095.3
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-15",
-  "scan_count": 567,
+  "scan_count": 568,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-14",
   "last_tier2_scan": "2026-05-03",

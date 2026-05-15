@@ -3168,9 +3168,13 @@
       "closes": "2026-05-15T04:00:00+00:00",
       "closes_in_days": 1.81,
       "created_at": "2026-05-13T08:40:14.597439+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T08:45:10.149981+00:00"
     },
     {
       "shadow_id": "SH20260513084014602191",
@@ -4151,14 +4155,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260515084816097831",
+      "market_id": "2203271",
+      "market_slug": "will-wti-reach-105-by-may-11-2026",
+      "market": "Will WTI Crude Oil (WTI) hit (HIGH) $105 Week of May 11 2026?",
+      "category": "commodities",
+      "position": "NO",
+      "entry_price": 38.0,
+      "market_yes_price": 62.0,
+      "market_no_price": 38.0,
+      "final_yes_probability": 60.43,
+      "preferred_edge": 1.57,
+      "confidence": 30.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_RESOLUTION_RISK_HIGH",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 26.32,
+      "closes": "2026-05-15T21:00:00+00:00",
+      "closes_in_days": 0.51,
+      "created_at": "2026-05-15T08:48:16.097855+00:00",
+      "status": "open_shadow",
+      "openai_used": true,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 162,
+    "total_shadow": 163,
     "would_have_won": 18,
-    "would_have_lost": 48,
+    "would_have_lost": 49,
     "missed_profit": 96.64,
-    "correct_rejections": 480.0
+    "correct_rejections": 490.0
   },
-  "last_updated": "2026-05-15T06:01:01.642735+00:00"
+  "last_updated": "2026-05-15T08:48:16.097862+00:00"
 }
