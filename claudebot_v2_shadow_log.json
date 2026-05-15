@@ -188,9 +188,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 6.7,
       "created_at": "2026-05-08T07:12:34.397491+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "NO",
+      "would_have_won": true,
+      "hypothetical_pnl": 2.55,
+      "resolved_at": "2026-05-15T02:03:45.732540+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2159398_YES",
@@ -492,9 +496,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 6.16,
       "created_at": "2026-05-08T20:10:21.987462+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:46.953626+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2166353_NO",
@@ -516,9 +524,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 6.16,
       "created_at": "2026-05-08T20:10:21.987530+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "NO",
+      "would_have_won": true,
+      "hypothetical_pnl": 1.43,
+      "resolved_at": "2026-05-15T02:03:47.001192+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2148552_YES",
@@ -616,9 +628,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 6.09,
       "created_at": "2026-05-08T21:54:38.622437+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:47.346948+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2154430_NO",
@@ -696,9 +712,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 6.01,
       "created_at": "2026-05-08T23:49:52.468696+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:47.396195+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_2148696_YES",
@@ -776,9 +796,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 5.79,
       "created_at": "2026-05-09T05:05:09.095816+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "source": "audit_backfill"
+      "source": "audit_backfill",
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:47.536209+00:00"
     },
     {
       "shadow_id": "SH_BACKFILL_1390408_NO",
@@ -1092,9 +1116,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 5.1,
       "created_at": "2026-05-09T21:38:37.363851+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:48.154273+00:00"
     },
     {
       "shadow_id": "SH20260509223702185244",
@@ -1520,9 +1548,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 4.22,
       "created_at": "2026-05-10T18:50:11.982202+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:49.560459+00:00"
     },
     {
       "shadow_id": "SH20260510204412006640",
@@ -1888,9 +1920,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 3.75,
       "created_at": "2026-05-11T06:05:23.773083+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:50.245804+00:00"
     },
     {
       "shadow_id": "SH20260511060523775363",
@@ -2072,9 +2108,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 3.49,
       "created_at": "2026-05-11T12:19:11.980032+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": true,
+      "hypothetical_pnl": 0.5,
+      "resolved_at": "2026-05-15T02:03:50.647839+00:00"
     },
     {
       "shadow_id": "SH20260511121914526575",
@@ -2096,9 +2136,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 3.49,
       "created_at": "2026-05-11T12:19:14.526600+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:50.780385+00:00"
     },
     {
       "shadow_id": "SH20260511154256549594",
@@ -2176,9 +2220,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 3.35,
       "created_at": "2026-05-11T15:43:01.125472+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:50.843656+00:00"
     },
     {
       "shadow_id": "SH20260511154301128025",
@@ -2396,9 +2444,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 2.65,
       "created_at": "2026-05-12T08:29:55.771851+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:51.616672+00:00"
     },
     {
       "shadow_id": "SH20260512082958475157",
@@ -2492,9 +2544,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 2.49,
       "created_at": "2026-05-12T12:14:39.479046+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:52.138634+00:00"
     },
     {
       "shadow_id": "SH20260512121439482043",
@@ -2960,9 +3016,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 1.92,
       "created_at": "2026-05-13T02:05:10.507094+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:54.380437+00:00"
     },
     {
       "shadow_id": "SH20260513020510510491",
@@ -3420,9 +3480,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 1.18,
       "created_at": "2026-05-13T19:38:10.682412+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:56.666907+00:00"
     },
     {
       "shadow_id": "SH20260513193813355732",
@@ -3492,9 +3556,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 1.11,
       "created_at": "2026-05-13T21:23:46.632508+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:57.134873+00:00"
     },
     {
       "shadow_id": "SH20260513212349219643",
@@ -3588,9 +3656,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 1.0,
       "created_at": "2026-05-13T23:57:57.468293+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": true,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:57.761898+00:00"
     },
     {
       "shadow_id": "SH20260513235757472408",
@@ -3756,9 +3828,13 @@
       "closes": "2026-05-15T00:00:00+00:00",
       "closes_in_days": 0.74,
       "created_at": "2026-05-14T06:21:41.391757+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T02:03:58.354143+00:00"
     },
     {
       "shadow_id": "SH20260514062154438424",
@@ -4027,14 +4103,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260515020644898018",
+      "market_id": "2169753",
+      "market_slug": "will-trump-announce-ai-export-control-relief-224-899-648",
+      "market": "Will Trump announce AI export restrictions relief for China?",
+      "category": "politics",
+      "position": "NO",
+      "entry_price": 25.5,
+      "market_yes_price": 74.5,
+      "market_no_price": 25.5,
+      "final_yes_probability": 48.6,
+      "preferred_edge": 25.9,
+      "confidence": 52.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_CONF_TOO_LOW",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 39.22,
+      "closes": "2026-05-22T00:00:00+00:00",
+      "closes_in_days": 6.91,
+      "created_at": "2026-05-15T02:06:44.898045+00:00",
+      "status": "open_shadow",
+      "openai_used": true,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 160,
-    "would_have_won": 15,
-    "would_have_lost": 32,
-    "missed_profit": 92.16,
-    "correct_rejections": 320.0
+    "total_shadow": 161,
+    "would_have_won": 18,
+    "would_have_lost": 48,
+    "missed_profit": 96.64,
+    "correct_rejections": 480.0
   },
-  "last_updated": "2026-05-14T23:59:31.187273+00:00"
+  "last_updated": "2026-05-15T02:06:44.898051+00:00"
 }

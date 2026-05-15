@@ -1,5 +1,5 @@
 {
-  "bankroll": 1831.14,
+  "bankroll": 2095.3,
   "trades": [
     {
       "id": "T1775098669",
@@ -1342,11 +1342,14 @@
       "bear_case": "Trump could stage a dramatic announcement marketing an interim framework as a 'permanent peace deal' for political purposes, similar to North Korea summits",
       "kelly_tier": "half-Kelly (10.0%)",
       "news_triggered": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-08T20:06:57.137287+00:00",
       "paper": true,
       "model": "claude-opus-4-6",
-      "paper_bankroll_at_placement": 2192.5
+      "paper_bankroll_at_placement": 2192.5,
+      "won": true,
+      "resolved_at": "2026-05-15T02:00:33.722959+00:00",
+      "realized_pnl": 44.91
     },
     {
       "id": "T1778422743",
@@ -1455,9 +1458,9 @@
       "realized_pnl": -140.44
     }
   ],
-  "daily_loss": 330.47,
-  "daily_reset": "2026-05-14",
-  "scan_count": 564,
+  "daily_loss": 0.0,
+  "daily_reset": "2026-05-15",
+  "scan_count": 565,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-14",
   "last_tier2_scan": "2026-05-03",

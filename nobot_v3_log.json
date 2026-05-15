@@ -440,10 +440,13 @@
       "resolution_hour": 12,
       "volume": 6095.397958000003,
       "is_dip_market": false,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-14T00:17:50.462760+00:00",
       "paper": true,
-      "model": "nobot-v3-filtered"
+      "model": "nobot-v3-filtered",
+      "won": false,
+      "resolved_at": "2026-05-15T02:00:17.067189+00:00",
+      "realized_pnl": -10.0
     },
     {
       "id": "NB3-1778717870",
@@ -718,9 +721,9 @@
       "realized_pnl": 8.18
     }
   ],
-  "daily_loss": 10.0,
+  "daily_loss": 20.0,
   "daily_reset": "2026-05-15",
-  "scan_count": 64,
+  "scan_count": 65,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-15T00:11:44.547386+00:00"
 }
