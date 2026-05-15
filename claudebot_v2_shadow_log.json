@@ -1948,9 +1948,13 @@
       "closes": "2026-05-15T16:00:00+00:00",
       "closes_in_days": 4.42,
       "created_at": "2026-05-11T06:05:23.775377+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": true,
+      "hypothetical_pnl": 15.64,
+      "resolved_at": "2026-05-15T19:16:03.782526+00:00"
     },
     {
       "shadow_id": "SH20260511090717630458",
@@ -2248,9 +2252,13 @@
       "closes": "2026-05-15T16:00:00+00:00",
       "closes_in_days": 4.01,
       "created_at": "2026-05-11T15:43:01.128040+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T19:16:03.982722+00:00"
     },
     {
       "shadow_id": "SH20260511193349297536",
@@ -3044,9 +3052,13 @@
       "closes": "2026-05-15T16:00:00+00:00",
       "closes_in_days": 2.58,
       "created_at": "2026-05-13T02:05:10.510507+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T19:16:07.187022+00:00"
     },
     {
       "shadow_id": "SH20260513020510513879",
@@ -3784,9 +3796,13 @@
       "closes": "2026-05-15T16:00:00+00:00",
       "closes_in_days": 1.52,
       "created_at": "2026-05-14T03:33:14.187235+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T19:16:10.260461+00:00"
     },
     {
       "shadow_id": "SH20260514033314192003",
@@ -4104,9 +4120,13 @@
       "closes": "2026-05-15T16:00:00+00:00",
       "closes_in_days": 0.67,
       "created_at": "2026-05-14T23:59:31.187266+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-15T19:16:11.551483+00:00"
     },
     {
       "shadow_id": "SH20260515020644898018",
@@ -4251,14 +4271,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260515191758794968",
+      "market_id": "1390379",
+      "market_slug": "will-israel-be-in-the-top-5-at-eurovision-2026",
+      "market": "Will Israel be in the top 5 at Eurovision 2026?",
+      "category": "geopolitics",
+      "position": "NO",
+      "entry_price": 34.5,
+      "market_yes_price": 65.5,
+      "market_no_price": 34.5,
+      "final_yes_probability": 62.0,
+      "preferred_edge": 3.5,
+      "confidence": 55.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 28.99,
+      "closes": "2026-05-16T00:00:00+00:00",
+      "closes_in_days": 0.2,
+      "created_at": "2026-05-15T19:17:58.795016+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 166,
-    "would_have_won": 18,
-    "would_have_lost": 49,
-    "missed_profit": 96.64,
-    "correct_rejections": 490.0
+    "total_shadow": 167,
+    "would_have_won": 19,
+    "would_have_lost": 53,
+    "missed_profit": 112.28,
+    "correct_rejections": 530.0
   },
-  "last_updated": "2026-05-15T17:29:04.429266+00:00"
+  "last_updated": "2026-05-15T19:17:58.795025+00:00"
 }
