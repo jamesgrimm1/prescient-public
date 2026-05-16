@@ -727,9 +727,9 @@
       "realized_pnl": 8.18
     }
   ],
-  "daily_loss": 30.0,
-  "daily_reset": "2026-05-15",
-  "scan_count": 90,
+  "daily_loss": 0.0,
+  "daily_reset": "2026-05-16",
+  "scan_count": 91,
   "started": "2026-05-12T00:00:00+00:00",
-  "last_summary_sent": "2026-05-15T12:25:59.046976+00:00"
+  "last_summary_sent": "2026-05-16T01:25:51.471087+00:00"
 }
