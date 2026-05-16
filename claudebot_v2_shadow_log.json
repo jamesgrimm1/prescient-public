@@ -4451,14 +4451,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260516141001732089",
+      "market_id": "2080210",
+      "market_slug": "ufc-arn-mel4-2026-05-16-go-the-distance",
+      "market": "Fight to Go the Distance?",
+      "category": "other",
+      "position": "NO",
+      "entry_price": 43.0,
+      "market_yes_price": 57.0,
+      "market_no_price": 43.0,
+      "final_yes_probability": 49.7,
+      "preferred_edge": 4.0,
+      "confidence": 20.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 23.26,
+      "closes": "2026-05-17T03:59:59.999000+00:00",
+      "closes_in_days": 0.58,
+      "created_at": "2026-05-16T14:10:01.732106+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 170,
+    "total_shadow": 171,
     "would_have_won": 26,
     "would_have_lost": 67,
     "missed_profit": 174.76,
     "correct_rejections": 670.0
   },
-  "last_updated": "2026-05-16T12:59:50.856758+00:00"
+  "last_updated": "2026-05-16T14:10:01.732112+00:00"
 }
