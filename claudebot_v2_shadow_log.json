@@ -2764,9 +2764,13 @@
       "closes": "2026-05-16T16:00:00+00:00",
       "closes_in_days": 3.89,
       "created_at": "2026-05-12T18:36:20.849376+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": true,
+      "hypothetical_pnl": 33.48,
+      "resolved_at": "2026-05-16T18:48:27.261274+00:00"
     },
     {
       "shadow_id": "SH20260512183620852517",
@@ -2944,9 +2948,13 @@
       "closes": "2026-05-16T16:00:00+00:00",
       "closes_in_days": 3.75,
       "created_at": "2026-05-12T22:07:36.426734+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-16T18:48:27.682046+00:00"
     },
     {
       "shadow_id": "SH20260512220736430017",
@@ -4499,14 +4507,38 @@
       "status": "open_shadow",
       "openai_used": true,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260516185132578860",
+      "market_id": "1970636",
+      "market_slug": "will-ashley-barrett-die-in-the-boys-season-5",
+      "market": "Will Ashley Barrett die in \"The Boys: Season 5\"?",
+      "category": "other",
+      "position": "YES",
+      "entry_price": 20.5,
+      "market_yes_price": 20.5,
+      "market_no_price": 79.5,
+      "final_yes_probability": 69.2,
+      "preferred_edge": 7.5,
+      "confidence": 35.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_RESOLUTION_RISK_HIGH",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 48.78,
+      "closes": "2026-05-20T00:00:00+00:00",
+      "closes_in_days": 3.22,
+      "created_at": "2026-05-16T18:51:32.578878+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 172,
-    "would_have_won": 26,
-    "would_have_lost": 67,
-    "missed_profit": 174.76,
-    "correct_rejections": 670.0
+    "total_shadow": 173,
+    "would_have_won": 27,
+    "would_have_lost": 68,
+    "missed_profit": 208.24,
+    "correct_rejections": 680.0
   },
-  "last_updated": "2026-05-16T17:47:47.964352+00:00"
+  "last_updated": "2026-05-16T18:51:32.578884+00:00"
 }
