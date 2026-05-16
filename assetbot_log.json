@@ -106,10 +106,10 @@
       "realized_pnl": 1.42
     }
   ],
-  "scan_count": 318,
+  "scan_count": 319,
   "started": "2026-04-27T14:51:44.970255+00:00",
   "price_snapshot": {
-    "date": "2026-05-15",
+    "date": "2026-05-16",
     "AMZN": 264.14,
     "TSLA": 422.24,
     "NVDA": 225.32,
