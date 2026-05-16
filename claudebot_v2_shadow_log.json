@@ -4475,14 +4475,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260516164802664180",
+      "market_id": "2257475",
+      "market_slug": "cricipl-kol-guj-2026-05-16",
+      "market": "Indian Premier League: Kolkata Knight Riders vs Gujarat Titans",
+      "category": "other",
+      "position": "NO",
+      "entry_price": 10.5,
+      "market_yes_price": 89.5,
+      "market_no_price": 10.5,
+      "final_yes_probability": 49.34,
+      "preferred_edge": 40.16,
+      "confidence": 40.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_REDTEAM_VETO",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 95.24,
+      "closes": "2026-05-23T10:00:00+00:00",
+      "closes_in_days": 6.72,
+      "created_at": "2026-05-16T16:48:02.664208+00:00",
+      "status": "open_shadow",
+      "openai_used": true,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 171,
+    "total_shadow": 172,
     "would_have_won": 26,
     "would_have_lost": 67,
     "missed_profit": 174.76,
     "correct_rejections": 670.0
   },
-  "last_updated": "2026-05-16T15:49:15.917294+00:00"
+  "last_updated": "2026-05-16T16:48:02.664215+00:00"
 }
