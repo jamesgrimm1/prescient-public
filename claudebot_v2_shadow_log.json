@@ -4655,14 +4655,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260517235218285126",
+      "market_id": "2269337",
+      "market_slug": "bitcoin-above-70k-on-may-22-2026",
+      "market": "Will the price of Bitcoin be above $70,000 on May 22?",
+      "category": "crypto",
+      "position": "YES",
+      "entry_price": 96.7,
+      "market_yes_price": 96.7,
+      "market_no_price": 3.299999999999997,
+      "final_yes_probability": 88.3,
+      "preferred_edge": 0.3,
+      "confidence": 75.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 10.34,
+      "closes": "2026-05-22T16:00:00+00:00",
+      "closes_in_days": 4.67,
+      "created_at": "2026-05-17T23:52:18.285143+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 177,
+    "total_shadow": 178,
     "would_have_won": 30,
     "would_have_lost": 72,
     "missed_profit": 260.98,
     "correct_rejections": 720.0
   },
-  "last_updated": "2026-05-17T22:48:04.871058+00:00"
+  "last_updated": "2026-05-17T23:52:18.285148+00:00"
 }
