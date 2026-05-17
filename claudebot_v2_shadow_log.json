@@ -4631,14 +4631,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260517224804871022",
+      "market_id": "2231510",
+      "market_slug": "ethereum-above-2200-on-may-18",
+      "market": "Will the price of Ethereum be above $2,200 on May 18?",
+      "category": "crypto",
+      "position": "YES",
+      "entry_price": 36.5,
+      "market_yes_price": 36.5,
+      "market_no_price": 63.5,
+      "final_yes_probability": 69.8,
+      "preferred_edge": 0.5,
+      "confidence": 58.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 27.4,
+      "closes": "2026-05-18T16:00:00+00:00",
+      "closes_in_days": 0.72,
+      "created_at": "2026-05-17T22:48:04.871051+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 176,
+    "total_shadow": 177,
     "would_have_won": 30,
     "would_have_lost": 72,
     "missed_profit": 260.98,
     "correct_rejections": 720.0
   },
-  "last_updated": "2026-05-17T21:45:27.702917+00:00"
+  "last_updated": "2026-05-17T22:48:04.871058+00:00"
 }
