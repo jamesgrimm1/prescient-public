@@ -1496,11 +1496,11 @@
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-17",
-  "scan_count": 597,
+  "scan_count": 598,
   "started": "2026-04-02T00:00:00+00:00",
   "last_daily_summary": "2026-05-16",
   "last_tier2_scan": "2026-05-03",
   "last_tier3_scan": "2026-W16",
   "last_reassessment": "2026-05-16T14:06:04.704917+00:00",
-  "last_reflection_utc": "2026-05-14T14:52:51.798574+00:00"
+  "last_reflection_utc": "2026-05-17T03:46:22.238584+00:00"
 }
