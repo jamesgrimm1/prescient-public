@@ -2304,9 +2304,13 @@
       "closes": "2026-05-17T16:00:00+00:00",
       "closes_in_days": 5.85,
       "created_at": "2026-05-11T19:33:49.297571+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": true,
+      "hypothetical_pnl": 1.49,
+      "resolved_at": "2026-05-17T18:55:11.094700+00:00"
     },
     {
       "shadow_id": "SH20260511211653718385",
@@ -2356,9 +2360,13 @@
       "closes": "2026-05-17T16:00:00+00:00",
       "closes_in_days": 5.78,
       "created_at": "2026-05-11T21:16:53.721247+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "YES",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-17T18:55:11.147839+00:00"
     },
     {
       "shadow_id": "SH20260511225147919619",
@@ -3436,9 +3444,13 @@
       "closes": "2026-05-17T16:00:00+00:00",
       "closes_in_days": 4.08,
       "created_at": "2026-05-13T14:08:22.736051+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": true,
+      "hypothetical_pnl": 28.46,
+      "resolved_at": "2026-05-17T18:55:14.279639+00:00"
     },
     {
       "shadow_id": "SH20260513140822740103",
@@ -4180,9 +4192,13 @@
       "closes": "2026-05-17T16:00:00+00:00",
       "closes_in_days": 2.89,
       "created_at": "2026-05-14T18:34:03.915289+00:00",
-      "status": "open_shadow",
+      "status": "closed_shadow",
       "openai_used": false,
-      "v4_bankroll_at_placement": null
+      "v4_bankroll_at_placement": null,
+      "winner": "NO",
+      "would_have_won": false,
+      "hypothetical_pnl": -10.0,
+      "resolved_at": "2026-05-17T18:55:16.257552+00:00"
     },
     {
       "shadow_id": "SH20260514235931187247",
@@ -4591,14 +4607,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260517185756702352",
+      "market_id": "2269315",
+      "market_slug": "ethereum-above-2300-on-may-22-2026",
+      "market": "Will the price of Ethereum be above $2,300 on May 22?",
+      "category": "crypto",
+      "position": "YES",
+      "entry_price": 15.5,
+      "market_yes_price": 15.5,
+      "market_no_price": 84.5,
+      "final_yes_probability": 69.8,
+      "preferred_edge": 6.5,
+      "confidence": 40.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 64.52,
+      "closes": "2026-05-22T16:00:00+00:00",
+      "closes_in_days": 4.88,
+      "created_at": "2026-05-17T18:57:56.702373+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 175,
-    "would_have_won": 28,
-    "would_have_lost": 70,
-    "missed_profit": 231.03,
-    "correct_rejections": 700.0
+    "total_shadow": 176,
+    "would_have_won": 30,
+    "would_have_lost": 72,
+    "missed_profit": 260.98,
+    "correct_rejections": 720.0
   },
-  "last_updated": "2026-05-17T17:49:00.577623+00:00"
+  "last_updated": "2026-05-17T18:57:56.702380+00:00"
 }
