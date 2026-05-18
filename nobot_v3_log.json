@@ -1,5 +1,5 @@
 {
-  "bankroll": 1013.48,
+  "bankroll": 983.32,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -747,11 +747,33 @@
       "placed_at": "2026-05-18T17:24:29.770934+00:00",
       "paper": true,
       "model": "nobot-v3-filtered"
+    },
+    {
+      "id": "NB3-1779132202",
+      "market_id": "1663772",
+      "market_slug": "will-rob-adkerson-be-the-republican-nominee-for-ga-11",
+      "market": "Will Rob Adkerson be the Republican nominee for GA-11?",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 30.16,
+      "payout_if_wins": 52.0,
+      "profit_if_wins": 21.84,
+      "category": "other",
+      "closes_in_days": 0.19,
+      "closes": "2026-05-19T00:00:00+00:00",
+      "resolution_hour": 0,
+      "volume": 5596.890670999999,
+      "is_dip_market": false,
+      "status": "open",
+      "placed_at": "2026-05-18T19:23:22.169570+00:00",
+      "paper": true,
+      "model": "nobot-v3-filtered"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-18",
-  "scan_count": 173,
+  "scan_count": 174,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-18T16:54:02.684531+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "bankroll": 424.88,
+  "bankroll": 411.81,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -3534,9 +3534,30 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1779125053"
+    },
+    {
+      "id": "V420260518192305376417",
+      "market_id": "1663772",
+      "market": "Will Rob Adkerson be the Republican nominee for GA-11?",
+      "category": "other",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 13.07,
+      "v2_stake": 7.51,
+      "potential_profit": 9.46,
+      "potential_payout": 22.53,
+      "closes": "2026-05-19T00:00:00+00:00",
+      "closes_in_days": 0.19,
+      "volume": 5596.890670999999,
+      "status": "open",
+      "placed_at": "2026-05-18T19:23:05.376432+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1779132185"
     }
   ],
-  "scan_count": 184,
+  "scan_count": 185,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }

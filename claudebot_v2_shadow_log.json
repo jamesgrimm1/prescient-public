@@ -4703,14 +4703,38 @@
       "status": "open_shadow",
       "openai_used": true,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260518192923409857",
+      "market_id": "2271721",
+      "market_slug": "will-meta-reach-640-by-may-18-2026",
+      "market": "Will Meta Platforms, Inc. (META) hit (HIGH) $640 Week of May 18 2026?",
+      "category": "stocks",
+      "position": "NO",
+      "entry_price": 79.5,
+      "market_yes_price": 20.5,
+      "market_no_price": 79.5,
+      "final_yes_probability": 64.9,
+      "preferred_edge": 3.5,
+      "confidence": 55.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_EDGE_TOO_SMALL",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 12.58,
+      "closes": "2026-05-22T20:00:00+00:00",
+      "closes_in_days": 4.02,
+      "created_at": "2026-05-18T19:29:23.409874+00:00",
+      "status": "open_shadow",
+      "openai_used": false,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 179,
+    "total_shadow": 180,
     "would_have_won": 30,
     "would_have_lost": 72,
     "missed_profit": 260.98,
     "correct_rejections": 720.0
   },
-  "last_updated": "2026-05-18T17:28:59.919506+00:00"
+  "last_updated": "2026-05-18T19:29:23.409880+00:00"
 }

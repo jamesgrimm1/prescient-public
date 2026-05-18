@@ -1,5 +1,5 @@
 {
-  "bankroll": 1220.48,
+  "bankroll": 1212.97,
   "trades": [
     {
       "id": "NB1776304868",
@@ -15094,11 +15094,31 @@
       "placed_at": "2026-05-18T17:24:13.592909+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1779132185",
+      "market_id": "1663772",
+      "market_slug": "will-rob-adkerson-be-the-republican-nominee-for-ga-11",
+      "market": "Will Rob Adkerson be the Republican nominee for GA-11?",
+      "position": "NO",
+      "entry_no_price": 58,
+      "entry_yes_price": 42,
+      "stake": 7.51,
+      "payout_if_wins": 12.95,
+      "profit_if_wins": 5.44,
+      "category": "other",
+      "closes_in_days": 0.19,
+      "closes": "2026-05-19T00:00:00+00:00",
+      "volume": 5596.890670999999,
+      "status": "open",
+      "placed_at": "2026-05-18T19:23:05.375603+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-18",
-  "scan_count": 586,
+  "scan_count": 587,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-18T10:56:15.282584+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
