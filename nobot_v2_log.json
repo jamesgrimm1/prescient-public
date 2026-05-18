@@ -233,10 +233,14 @@
       "closes": "2026-04-22T00:00:00+00:00",
       "volume": 5187.055388,
       "exit_target": 90,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-04-16T02:01:08.863614+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "realized_pnl": -6.06,
+      "resolved_at": "2026-05-18T05:11:08.040007+00:00",
+      "force_closed": true
     },
     {
       "id": "NB1776304868",
@@ -446,10 +450,14 @@
       "closes": "2026-04-24T00:00:00+00:00",
       "volume": 3550.2799999999997,
       "exit_target": 90,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-04-16T04:45:43.894281+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "realized_pnl": -4.02,
+      "resolved_at": "2026-05-18T05:11:08.040007+00:00",
+      "force_closed": true
     },
     {
       "id": "NB1776314743",
@@ -2747,10 +2755,14 @@
       "closes": "2026-04-20T00:00:00+00:00",
       "volume": 3840.0,
       "exit_target": 90,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-04-19T20:28:10.697133+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "realized_pnl": -2.68,
+      "resolved_at": "2026-05-18T05:11:08.040007+00:00",
+      "force_closed": true
     },
     {
       "id": "NB1776630490",
@@ -13010,10 +13022,14 @@
       "closes_in_days": 0.1,
       "closes": "2026-05-10T00:00:00+00:00",
       "volume": 3926.3678000000004,
-      "status": "open",
+      "status": "closed",
       "placed_at": "2026-05-09T21:33:48.556002+00:00",
       "paper": true,
-      "model": "nobot-v2"
+      "model": "nobot-v2",
+      "won": false,
+      "realized_pnl": -3.63,
+      "resolved_at": "2026-05-18T05:11:08.040007+00:00",
+      "force_closed": true
     },
     {
       "id": "NB1778377821",
@@ -15042,7 +15058,7 @@
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-18",
-  "scan_count": 579,
+  "scan_count": 580,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-17T20:51:36.492367+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"
