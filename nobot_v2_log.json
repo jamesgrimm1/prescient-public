@@ -1,5 +1,5 @@
 {
-  "bankroll": 1212.97,
+  "bankroll": 1200.39,
   "trades": [
     {
       "id": "NB1776304868",
@@ -15114,11 +15114,31 @@
       "placed_at": "2026-05-18T19:23:05.375603+00:00",
       "paper": true,
       "model": "nobot-v2"
+    },
+    {
+      "id": "NB1779138086",
+      "market_id": "679720",
+      "market_slug": "will-barry-moore-be-the-republican-nominee-for-senate-in-alabama",
+      "market": "Will Barry Moore be the Republican nominee for Senate in Alabama?",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 12.58,
+      "payout_if_wins": 20.29,
+      "profit_if_wins": 7.71,
+      "category": "politics",
+      "closes_in_days": 0.12,
+      "closes": "2026-05-19T00:00:00+00:00",
+      "volume": 37548.888407,
+      "status": "open",
+      "placed_at": "2026-05-18T21:01:26.828280+00:00",
+      "paper": true,
+      "model": "nobot-v2"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-18",
-  "scan_count": 587,
+  "scan_count": 588,
   "started": "2026-04-16T00:00:00+00:00",
   "last_summary_sent": "2026-05-18T10:56:15.282584+00:00",
   "v2_note": "V2 capped multipliers: 100k+=1.0x, 50-100k=1.5x, 10-50k=2.5x, 5-10k=1.5x, <5k=1.0x"

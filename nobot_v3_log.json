@@ -1,5 +1,5 @@
 {
-  "bankroll": 983.32,
+  "bankroll": 950.97,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -769,11 +769,33 @@
       "placed_at": "2026-05-18T19:23:22.169570+00:00",
       "paper": true,
       "model": "nobot-v3-filtered"
+    },
+    {
+      "id": "NB3-1779138096",
+      "market_id": "679720",
+      "market_slug": "will-barry-moore-be-the-republican-nominee-for-senate-in-alabama",
+      "market": "Will Barry Moore be the Republican nominee for Senate in Alabama?",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 32.35,
+      "payout_if_wins": 52.18,
+      "profit_if_wins": 19.83,
+      "category": "politics",
+      "closes_in_days": 0.12,
+      "closes": "2026-05-19T00:00:00+00:00",
+      "resolution_hour": 0,
+      "volume": 37548.888407,
+      "is_dip_market": false,
+      "status": "open",
+      "placed_at": "2026-05-18T21:01:36.290895+00:00",
+      "paper": true,
+      "model": "nobot-v3-filtered"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-18",
-  "scan_count": 175,
+  "scan_count": 176,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-18T16:54:02.684531+00:00"
 }

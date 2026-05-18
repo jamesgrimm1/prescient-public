@@ -1,5 +1,5 @@
 {
-  "bankroll": 411.81,
+  "bankroll": 390.45,
   "trades": [
     {
       "id": "V420260505164628289223",
@@ -3555,9 +3555,30 @@
       "paper": true,
       "model": "nobot-v4",
       "v2_trade_id": "NB1779132185"
+    },
+    {
+      "id": "V420260518210126829067",
+      "market_id": "679720",
+      "market": "Will Barry Moore be the Republican nominee for Senate in Alabama?",
+      "category": "politics",
+      "position": "NO",
+      "entry_no_price": 62,
+      "entry_yes_price": 38,
+      "stake": 21.36,
+      "v2_stake": 12.58,
+      "potential_profit": 13.09,
+      "potential_payout": 34.45,
+      "closes": "2026-05-19T00:00:00+00:00",
+      "closes_in_days": 0.12,
+      "volume": 37548.888407,
+      "status": "open",
+      "placed_at": "2026-05-18T21:01:26.829081+00:00",
+      "paper": true,
+      "model": "nobot-v4",
+      "v2_trade_id": "NB1779138086"
     }
   ],
-  "scan_count": 185,
+  "scan_count": 186,
   "started": "2026-05-05T16:02:55.879682+00:00",
   "note": "NoBot V4 \u2014 filtered + 5x Kelly + vol-cap sizing. Signals from NoBot V2. Blocks NO<50c and crypto<55c."
 }
