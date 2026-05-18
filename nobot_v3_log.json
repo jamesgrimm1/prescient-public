@@ -1,5 +1,5 @@
 {
-  "bankroll": 1042.44,
+  "bankroll": 1013.48,
   "trades": [
     {
       "id": "NB3-1778575739",
@@ -725,11 +725,33 @@
       "won": true,
       "resolved_at": "2026-05-14T16:07:01.050992+00:00",
       "realized_pnl": 8.18
+    },
+    {
+      "id": "NB3-1779125069",
+      "market_id": "2289401",
+      "market_slug": "will-bitcoin-dip-to-76k-on-may-18",
+      "market": "Will Bitcoin dip to $76,000 on May 18?",
+      "position": "NO",
+      "entry_no_price": 55,
+      "entry_yes_price": 45,
+      "stake": 28.96,
+      "payout_if_wins": 52.65,
+      "profit_if_wins": 23.69,
+      "category": "crypto",
+      "closes_in_days": 0.44,
+      "closes": "2026-05-19T04:00:00+00:00",
+      "resolution_hour": 4,
+      "volume": 54351.51481000002,
+      "is_dip_market": true,
+      "status": "open",
+      "placed_at": "2026-05-18T17:24:29.770934+00:00",
+      "paper": true,
+      "model": "nobot-v3-filtered"
     }
   ],
   "daily_loss": 0.0,
   "daily_reset": "2026-05-18",
-  "scan_count": 171,
+  "scan_count": 172,
   "started": "2026-05-12T00:00:00+00:00",
   "last_summary_sent": "2026-05-18T16:54:02.684531+00:00"
 }

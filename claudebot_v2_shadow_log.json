@@ -4679,14 +4679,38 @@
       "status": "open_shadow",
       "openai_used": false,
       "v4_bankroll_at_placement": null
+    },
+    {
+      "shadow_id": "SH20260518172859919474",
+      "market_id": "2292019",
+      "market_slug": "wti-closes-above-103-on-may-19-2026",
+      "market": "WTI Crude Oil (WTI) closes above $103 on May 19?",
+      "category": "commodities",
+      "position": "NO",
+      "entry_price": 33.0,
+      "market_yes_price": 67.0,
+      "market_no_price": 33.0,
+      "final_yes_probability": 47.62,
+      "preferred_edge": 19.38,
+      "confidence": 35.0,
+      "decision": "SHADOW_REJECT",
+      "decision_reason": "NO_TRADE_CONF_TOO_LOW",
+      "hypothetical_stake": 10.0,
+      "hypothetical_payout": 30.3,
+      "closes": "2026-05-19T21:00:00+00:00",
+      "closes_in_days": 1.15,
+      "created_at": "2026-05-18T17:28:59.919499+00:00",
+      "status": "open_shadow",
+      "openai_used": true,
+      "v4_bankroll_at_placement": null
     }
   ],
   "stats": {
-    "total_shadow": 178,
+    "total_shadow": 179,
     "would_have_won": 30,
     "would_have_lost": 72,
     "missed_profit": 260.98,
     "correct_rejections": 720.0
   },
-  "last_updated": "2026-05-18T16:54:34.147683+00:00"
+  "last_updated": "2026-05-18T17:28:59.919506+00:00"
 }
